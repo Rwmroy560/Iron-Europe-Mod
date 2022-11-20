@@ -1,0 +1,16 @@
+title = c_berg
+max_settlements = 4
+b_werth = temple
+b_berg = castle
+b_dusseldorf = city
+culture = german
+religion = catholic
+936.1.1 = {
+  capital = b_berg
+}
+1174.1.1 = {
+  b_werth = castle
+}
+1700.1.1 = {
+  b_elberfeld = temple
+}

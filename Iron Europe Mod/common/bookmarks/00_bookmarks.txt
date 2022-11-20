@@ -1,0 +1,153 @@
+bm_1979_07_16 = {
+  name = BM_1979_07_16
+  desc = BM_1979_07_16_DESC
+  date = 1979.7.16
+  selectable_character = {
+    id = 110860115
+    age = 42
+    name = "Saddam Hussein"
+    title = k_iraq
+    title_name = Iraq
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = shiite
+      culture = levantine_arabic
+      government = feudal_government
+      dynasty = 100000448
+    }
+  }
+  selectable_character = {
+    id = 116554139
+    age = 76
+    name = "Ruhollah Khomeini"
+    title = k_persia
+    title_name = Iran
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = shiite
+      culture = persian
+      government = feudal_government
+      dynasty = 100000372
+    }
+  }
+}
+bm_1991_12_26 = {
+  name = BM_1991_12_26
+  desc = BM_1991_12_26_DESC
+  date = 1991.12.26
+  selectable_character = {
+    id = 113809472
+    age = 48
+    name = "Lech Walesa"
+    title = k_poland
+    title_name = Poland
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = catholic
+      culture = polish
+      government = feudal_government
+      dynasty = 100000661
+    }
+  }
+  selectable_character = {
+    id = 112548625
+    age = 47
+    name = "Dzhokhar Dudayev"
+    title = c_alania
+    title_name = Chechnya
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = sunni
+      culture = alan
+      government = muslim_government
+      dynasty = 100000671
+    }
+  }
+  selectable_character = {
+    id = 117670861
+    age = 51
+    name = "Nursultan Nazarbayev"
+    title = k_cuman
+    title_name = Kazakhstan
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = sunni
+      culture = cuman
+      government = muslim_government
+      dynasty = 100000379
+    }
+  }
+}
+bm_2017_07_01 = {
+  name = BM_2017_07_01
+  desc = BM_2017_07_01_DESC
+  date = 2017.7.1
+  era = yes
+  custom_start = yes
+  selectable_character = {
+    id = 118727187
+    age = 64
+    name = "Vladimir Putin"
+    title = e_russia
+    title_name = Russia
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = orthodox
+      culture = russian
+      government = feudal_government
+      dynasty = 100000216
+    }
+  }
+  selectable_character = {
+    id = 115472325
+    age = 39
+    name = "Volodymyr Zelensky"
+    title = k_ruthenia
+    title_name = Ukraine
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = orthodox
+      culture = ukrainian
+      government = feudal_government
+      dynasty = 100000472
+    }
+  }
+  selectable_character = {
+    id = 119892444
+    age = 45
+    name = "Abu Bakr al-Baghdadi"
+    title = d_sunni
+    title_name = "The Sunni Caliphate"
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = sunni
+      culture = levantine_arabic
+      government = muslim_government
+      dynasty = 100000289
+    }
+  }
+  selectable_character = {
+    id = 112840430
+    age = 47
+    name = "Nicola Sturgeon"
+    title = k_scotland
+    title_name = Scotland
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = reformed
+      culture = scottish
+      government = feudal_government
+      dynasty = 100000678
+      female = yes
+    }
+  }
+}

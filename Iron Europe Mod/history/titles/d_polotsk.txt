@@ -1,0 +1,155 @@
+769.1.1 = {
+  holder = 194133
+}
+860.1.1 = {
+  holder = 6859
+}
+936.1.1 = {
+  holder = 260714
+  liege = k_ruthenia
+}
+989.1.2 = {
+  liege = 0
+  holder = 616
+}
+1001.1.2 = {
+  holder = 125000
+}
+1003.1.2 = {
+  holder = 642
+}
+1044.1.2 = {
+  holder = 650
+}
+1101.4.14 = {
+  holder = 676
+}
+1127.1.2 = {
+  holder = 680
+}
+1128.1.2 = {
+  holder = 676
+}
+1129.1.2 = {
+  holder = 222525
+}
+1132.1.2 = {
+  holder = 222554
+}
+1144.1.2 = {
+  holder = 125003
+}
+1151.1.2 = {
+  holder = 222795
+}
+1159.1.2 = {
+  holder = 125003
+}
+1162.1.2 = {
+  holder = 222552
+}
+1180.1.2 = {
+  holder = 222562
+}
+1185.1.2 = {
+  holder = 222550
+}
+1215.1.2 = {
+  holder = 222560
+}
+1221.1.2 = {
+  holder = 125136
+}
+1232.1.2 = {
+  holder = 125010
+}
+1241.1.2 = {
+  holder = 125306
+  liege = k_lithuania
+}
+1264.1.2 = {
+  holder = 125014
+}
+1280.1.2 = {
+  holder = 125015
+}
+1282.1.2 = {
+  holder = 125312
+}
+1299.1.2 = {
+  holder = 472351
+}
+1334.1.1 = {
+  holder = 473504
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_belarus
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113601952
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 115858305
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 118817247
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 118135513
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 110965032
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 110365238
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 113439253
+  liege = e_russia
+}
+1918.11.11 = {
+  holder = 112199446
+  liege = k_belarus
+}
+1933.11.11 = {
+  holder = 114940468
+  liege = k_belarus
+}
+1948.11.11 = {
+  holder = 119239663
+  liege = k_belarus
+}
+1963.11.11 = {
+  holder = 113815650
+  liege = k_belarus
+}
+1978.11.11 = {
+  holder = 110116871
+  liege = k_belarus
+}
+1993.11.11 = {
+  holder = 115081628
+  liege = k_belarus
+}
+2008.11.11 = {
+  holder = 114116595
+  liege = k_belarus
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

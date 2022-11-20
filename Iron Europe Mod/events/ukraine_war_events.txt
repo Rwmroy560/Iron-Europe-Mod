@@ -1,0 +1,465 @@
+namespace = ukr_war
+#Hire Azov Fighters
+character_event = {
+	id = ukr_war.1
+	desc = "EVTDESCukr_war.1"
+	picture = GFX_roy_soldiers
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTAukr_war.1" 
+	}
+
+	option = { 
+		name = "EVTBukr_war.1" 
+		add_character_modifier = { modifier = nazi_allegations years = 10 }
+		capital_scope = {
+			holder_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							is_occupied = no
+						}
+					}
+					spawn_unit = {
+						owner = THIS
+						province = PREV
+						leader = none
+						troops = {
+							heavy_infantry = { 6000 8500 }
+							light_cavalry = { 150 150 }
+						}
+						attrition = 1.0
+						maintenance_multiplier = 0.1
+						merge = yes
+						disband_on_peace = yes
+					}
+				}
+			}
+		}
+	}
+}
+#Free money and weapons from America
+character_event = {
+	id = ukr_war.2
+	desc = "EVTDESCukr_war.2"
+	picture = GFX_roy_nato
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+	trigger = {
+		war = yes	
+		has_landed_title =  k_ruthenia
+		any_enemy = { has_landed_title = e_russia  }
+		higher_tier_than = BARON
+		capital_scope = { is_occupied = no }
+		is_primary_war_defender = yes
+	
+	}
+
+	option = { 
+		name = "EVTAukr_war.2" 
+		wealth = 800
+		capital_scope = {
+			holder_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							is_occupied = no
+						}
+					}
+					spawn_unit = {
+						owner = THIS
+						province = PREV
+						leader = none
+						troops = {
+							heavy_infantry = { 1500 2500 }
+						}
+						attrition = 1.0
+						maintenance_multiplier = 0.1
+						merge = yes
+						disband_on_peace = yes
+					}
+				}
+			}
+		}
+	}
+}
+#Event to call Europe to war...
+narrative_event = {
+	id = ukr_war.3
+	title = ukr_war.3
+	desc = "EVTDESCukr_war.3"
+	picture = "GFX_roy_nato"
+	border = GFX_event_narrative_frame_religion	
+	is_triggered_only = yes
+
+	trigger = {
+
+	}
+
+
+	option = {
+		name = "EVTOPTAukr_war.3"
+		ai_chance = { factor = 25 }
+		any_independent_ruler = {
+			limit = {
+			capital_scope = { region = world_europe_east } 
+			NOT = { has_landed_title = k_belarus }
+			}
+			join_defender_wars = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTBukr_war.3"
+		ai_chance = { factor = 25 }
+		any_independent_ruler = {
+			limit = {
+			capital_scope = { region = world_europe_south }
+			}
+		join_defender_wars = ROOT
+			}
+		}
+	
+	option = {
+		name = "EVTOPTCukr_war.3"
+		ai_chance = { factor = 50 }
+		any_independent_ruler = {
+			limit = {
+			NOT = { has_landed_title = k_belarus }
+			capital_scope = { region = world_europe_west }
+				}
+			join_defender_wars = ROOT
+			}
+		}
+	option = {
+		name = "EVTOPTDukr_war.3"
+		ai_chance = { factor = 0 }
+		}
+	}
+#Hire Wagner Fighters
+character_event = {
+	id = ukr_war.4
+	desc = "EVTDESCukr_war.4"
+	picture = GFX_roy_soldiers
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTAukr_war.4" 
+	}
+
+	option = { 
+		name = "EVTBukr_war.4" 
+		ai_chance = { factor = 100 }
+		add_character_modifier = { modifier = nazi_allegations years = 10 }
+		capital_scope = {
+			holder_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							is_occupied = no
+						}
+					}
+					spawn_unit = {
+						owner = THIS
+						province = PREV
+						leader = none
+						troops = {
+							heavy_infantry = { 10000 15500 }
+							heavy_cavalry = { 4950 5550 }
+						}
+						attrition = 1.0
+						maintenance_multiplier = 0.1
+						merge = yes
+						disband_on_peace = no
+					}
+				}
+			}
+		}
+	}
+}
+#Assad ask Russia for help
+character_event = {
+	id = ukr_war.5
+	desc = "EVTDESCukr_war.5"
+	picture = GFX_roy_russians
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTAukr_war.5" 
+		clear_event_target = good_russia
+	}
+
+	option = { 
+		name = "EVTBukr_war.5" 
+		ai_chance = { factor = 100 }
+		event_target:good_russia = { 
+			make_tributary = {
+				who = ROOT
+				tributary_type = puppet
+				}
+			}
+		prestige = -200
+		add_character_modifier = { modifier = russia_help years = 10 }
+		capital_scope = {
+			holder_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							is_occupied = no
+						}
+					}
+					spawn_unit = {
+						owner = THIS
+						province = PREV
+						leader = none
+						troops = {
+							heavy_infantry = { 7000 8700 }
+							light_cavalry = { 1050 1500 }
+						}
+						attrition = 1.0
+						maintenance_multiplier = 0.1
+						merge = yes
+						disband_on_peace = yes
+					}
+				}
+			}
+		}
+		clear_event_target = good_russia
+	}
+}
+#Iraq ask America for help
+character_event = {
+	id = ukr_war.6
+	desc = "EVTDESCukr_war.6"
+	picture = GFX_roy_soldiers
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTAukr_war.5" 
+	}
+
+	option = { 
+		name = "EVTBukr_war.5" 
+		ai_chance = { factor = 100 }
+		add_character_modifier = { modifier = america_help years = 10 }
+		capital_scope = {
+			holder_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							is_occupied = no
+						}
+					}
+					spawn_unit = {
+						owner = THIS
+						province = PREV
+						leader = none
+						troops = {
+							heavy_infantry = { 9000 10700 }
+							light_cavalry = { 3050 5500 }
+						}
+						attrition = 1.0
+						maintenance_multiplier = 0.1
+						merge = yes
+						disband_on_peace = yes
+					}
+				}
+			}
+		}
+	}
+}
+#Establish NATO
+character_event = {
+	id = ukr_war.7
+	desc = "EVTDESCukr_war.7"
+	picture = GFX_roy_nato
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTBukr_war.7" 
+		ai_chance = { factor = 100 }
+		ROOT = { 
+			make_tributary = {
+				who = event_target:nato_dude1
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude2
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude3
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude4
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude5
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude6
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude7
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude8
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude9
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude10
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude11
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude12
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude13
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude14
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude15
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude16
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude17
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude18
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude19
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude20
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude21
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude22
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude23
+				tributary_type = nato
+				}
+			}
+		prestige = 200
+		add_character_modifier = { modifier = nato_setup years = 10 }
+		clear_event_target = nato_dude1
+		clear_event_target = nato_dude2
+		clear_event_target = nato_dude3
+		clear_event_target = nato_dude4
+		clear_event_target = nato_dude5
+		clear_event_target = nato_dude6
+		clear_event_target = nato_dude7
+		clear_event_target = nato_dude8
+		clear_event_target = nato_dude9
+		clear_event_target = nato_dude10
+		clear_event_target = nato_dude11
+		clear_event_target = nato_dude12
+		clear_event_target = nato_dude13
+		clear_event_target = nato_dude14
+		clear_event_target = nato_dude15
+		clear_event_target = nato_dude16
+		clear_event_target = nato_dude17
+		clear_event_target = nato_dude18
+		clear_event_target = nato_dude19
+		clear_event_target = nato_dude20
+		clear_event_target = nato_dude21
+		clear_event_target = nato_dude22
+		clear_event_target = nato_dude23
+	}
+}
+#Establish Union State with Belarus
+character_event = {
+	id = ukr_war.8
+	desc = "EVTDESCukr_war.8"
+	picture = GFX_roy_russians
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTBukr_war.8" 
+		ai_chance = { factor = 100 }
+		ROOT = { 
+			make_tributary = {
+				who = event_target:bela_union
+				tributary_type = dependant
+				}
+		prestige = 200
+		add_character_modifier = { modifier = union_setup years = 10 }
+		clear_event_target = bela_union
+		}
+	}
+}
+character_event = {
+	id = ukr_war.9
+	desc = "EVTDESCukr_war.9"
+	picture = GFX_roy_nato
+	border = GFX_event_normal_frame_war
+	is_triggered_only = yes
+
+
+	trigger = {
+	is_primary_war_defender = yes
+	is_tributary = { type = nato }
+	}
+
+	option = {
+		name = "EVTBukr_war.9" 
+		any_independent_ruler = {
+			limit = {
+			is_tributary = { type = nato }
+			}
+		join_defender_wars = ROOT
+		}
+	}
+}

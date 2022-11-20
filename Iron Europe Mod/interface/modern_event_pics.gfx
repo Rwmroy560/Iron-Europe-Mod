@@ -1,0 +1,41 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_roy_draft"
+		texturefile = "gfx\\event_pictures\roy_draft.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_genocide"
+		texturefile = "gfx\\event_pictures\roy_genocide.dds"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_roy_soldiers"
+		texturefile = "gfx\\event_pictures\roy_soldiers.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_nato"
+		texturefile = "gfx\\event_pictures\roy_nato.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_russians"
+		texturefile = "gfx\\event_pictures\roy_russians.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_raventower"
+		texturefile = "gfx\\event_pictures\roy_raventower.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_ruler"
+		texturefile = "gfx\\event_pictures\roy_ruler.dds"
+		allwaystransparent = yes
+	}
+
+
+}

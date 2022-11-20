@@ -1,0 +1,13 @@
+title = c_dunois
+max_settlements = 4
+b_chateaudun = castle
+b_freteval = city
+b_tiron = temple
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = frankish
+}
+1700.1.1 = {
+  b_cloyes = castle
+}

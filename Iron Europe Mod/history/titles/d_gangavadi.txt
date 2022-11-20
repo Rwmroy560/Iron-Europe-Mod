@@ -1,0 +1,192 @@
+350.1.1 = {
+  holder = 74676
+}
+370.1.1 = {
+  holder = 74677
+}
+390.1.1 = {
+  holder = 74678
+}
+410.1.1 = {
+  holder = 74679
+}
+430.1.1 = {
+  holder = 74680
+}
+469.1.1 = {
+  holder = 74682
+}
+529.1.1 = {
+  holder = 74683
+}
+579.1.1 = {
+  holder = 74684
+}
+604.1.1 = {
+  holder = 74685
+}
+629.1.1 = {
+  holder = 74686
+}
+654.1.1 = {
+  holder = 74687
+}
+679.1.1 = {
+  holder = 74688
+}
+726.1.1 = {
+  holder = 74689
+}
+768.1.1 = {
+  liege = k_maharastra
+}
+788.1.1 = {
+  holder = 74690
+}
+816.1.1 = {
+  holder = 74691
+}
+843.1.1 = {
+  holder = 74692
+}
+870.1.1 = {
+  holder = 74693
+}
+907.1.1 = {
+  holder = 74694
+}
+921.1.1 = {
+  holder = 74695
+}
+933.1.1 = {
+  holder = 74696
+}
+938.1.1 = {
+  holder = 74697
+}
+961.1.1 = {
+  holder = 74698
+}
+968.1.1 = {
+  holder = 74699
+}
+975.1.1 = {
+  holder = 74700
+}
+986.1.1 = {
+  holder = 74701
+}
+999.1.1 = {
+  holder = 74702
+}
+1000.1.1 = {
+  holder = 0
+}
+1053.1.1 = {
+  holder = 74443
+  liege = k_maharastra
+}
+1076.1.1 = {
+  holder = 74573
+}
+1098.1.1 = {
+  holder = 74575
+}
+1102.1.1 = {
+  holder = 74576
+}
+1108.1.1 = {
+  holder = 74577
+}
+1120.1.1 = {
+  holder = 74578
+  liege = k_karnata
+}
+1141.1.1 = {
+  holder = 74579
+}
+1173.1.1 = {
+  holder = 74580
+}
+1220.1.1 = {
+  holder = 74581
+}
+1235.1.1 = {
+  holder = 74583
+}
+1254.1.1 = {
+  holder = 74584
+}
+1291.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 118447234
+  liege = k_karnata
+}
+1830.6.9 = {
+  holder = 117409958
+  liege = k_karnata
+}
+1845.6.9 = {
+  holder = 116875622
+  liege = k_karnata
+}
+1860.6.9 = {
+  holder = 118525819
+  liege = k_karnata
+}
+1875.6.9 = {
+  holder = 117607362
+  liege = k_karnata
+}
+1890.6.9 = {
+  holder = 110143824
+  liege = k_karnata
+}
+1905.6.9 = {
+  holder = 116404889
+  liege = k_karnata
+}
+1920.6.9 = {
+  holder = 113541113
+  liege = k_karnata
+}
+1935.6.9 = {
+  holder = 110651107
+  liege = k_karnata
+}
+1947.8.15 = {
+  holder = 114672295
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 118621664
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 114030868
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 115037094
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 111872768
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

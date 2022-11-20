@@ -1,0 +1,170 @@
+741.1.1 = {
+  liege = 0
+  holder = 187000
+}
+782.1.1 = {
+  holder = 146176
+}
+801.1.1 = {
+  holder = 146177
+}
+809.1.1 = {
+  holder = 187001
+}
+830.1.1 = {
+  liege = k_moravia
+  de_jure_liege = k_moravia
+}
+846.8.15 = {
+  holder = 187002
+}
+863.1.1 = {
+  holder = 187004
+}
+871.12.1 = {
+  holder = 187007
+}
+907.7.4 = {
+  holder = 0
+  de_jure_liege = k_bohemia
+}
+936.1.1 = {
+  holder = 508
+}
+1019.1.1 = {
+  liege = e_hre
+  holder = 518
+}
+1033.1.1 = {
+  holder = 0
+}
+1189.3.25 = {
+  holder = 212057
+}
+1191.9.9 = {
+  holder = 212875
+}
+1192.1.9 = {
+  holder = 212855
+}
+1198.9.1 = {
+  liege = k_bohemia
+  holder = 212856
+}
+1222.8.12 = {
+  holder = 212855
+}
+1224.1.1 = {
+  holder = 96043
+}
+1227.1.1 = {
+  holder = 96044
+}
+1239.10.16 = {
+  holder = 96000
+}
+1246.1.1 = {
+  holder = 96047
+}
+1247.1.3 = {
+  holder = 96001
+}
+1278.8.26 = {
+  holder = 96002
+}
+1305.6.21 = {
+  holder = 96003
+}
+1306.8.4 = {
+  holder = 462720
+}
+1306.12.1 = {
+  holder = 462024
+}
+1307.7.4 = {
+  holder = 462720
+}
+1310.1.1 = {
+  holder = 462610
+}
+1333.1.1 = {
+  holder = 462614
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113334365
+  liege = e_carpathia
+}
+1830.6.9 = {
+  holder = 118486239
+  liege = e_carpathia
+}
+1845.6.9 = {
+  holder = 116880623
+  liege = e_carpathia
+}
+1860.6.9 = {
+  holder = 116584642
+  liege = e_carpathia
+}
+1875.6.9 = {
+  holder = 118315336
+  liege = e_carpathia
+}
+1890.6.9 = {
+  holder = 117775731
+  liege = e_carpathia
+}
+1905.6.9 = {
+  holder = 110976748
+  liege = e_carpathia
+}
+1918.10.28 = {
+  holder = 112512643
+  liege = k_bohemia
+}
+1933.10.28 = {
+  holder = 115256698
+  liege = k_bohemia
+}
+1939.3.15 = {
+  holder = 111899752
+  liege = e_germany
+}
+1945.5.8 = {
+  holder = 118480262
+  liege = k_bohemia
+}
+1960.5.8 = {
+  holder = 119750323
+  liege = k_bohemia
+}
+1975.5.8 = {
+  holder = 110279603
+  liege = k_bohemia
+}
+1990.5.8 = {
+  holder = 117285785
+  liege = k_bohemia
+}
+2005.5.8 = {
+  holder = 119838730
+  liege = k_bohemia
+}
+2020.5.8 = {
+  holder = 112026440
+  liege = k_bohemia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

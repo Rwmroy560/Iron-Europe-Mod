@@ -1,0 +1,38 @@
+781.1.1 = {
+  de_jure_liege = k_germany
+}
+936.1.1 = {
+  holder = 260573
+  liege = k_germany
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 115180905
+}
+1829.4.27 = {
+  holder = 116840843
+}
+1835.8.5 = {
+  holder = 112679925
+}
+1844.2.8 = {
+  holder = 117505743
+}
+1850.11.10 = {
+  holder = 119936061
+}
+1857.7.18 = {
+  holder = 115626271
+}
+1871.1.18 = {
+  holder = 0
+}

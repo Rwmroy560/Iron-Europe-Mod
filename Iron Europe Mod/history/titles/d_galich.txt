@@ -1,0 +1,169 @@
+769.1.1 = {
+  holder = 256048
+}
+867.1.1 = {
+  holder = 256049
+}
+920.1.1 = {
+  holder = 0
+}
+936.1.1 = {
+  holder = 260696
+  liege = k_pechenegs
+  historical_nomad = yes
+}
+1124.3.19 = {
+  holder = 222512
+  historical_nomad = no
+}
+1129.1.2 = {
+  holder = 222502
+}
+1153.1.2 = {
+  holder = 222500
+}
+1187.10.1 = {
+  holder = 222506
+}
+1189.1.2 = {
+  holder = 222504
+}
+1199.1.2 = {
+  holder = 222520
+  liege = "k_galicia-volhynia"
+}
+1205.6.19 = {
+  holder = 125114
+}
+1206.1.2 = {
+  holder = 222635
+}
+1208.1.2 = {
+  holder = 222637
+}
+1210.1.2 = {
+  holder = 222587
+}
+1210.3.2 = {
+  holder = 222635
+}
+1211.1.2 = {
+  holder = 125114
+}
+1213.1.2 = {
+  holder = 98028
+}
+1221.1.2 = {
+  holder = 222589
+}
+1228.1.2 = {
+  holder = 98029
+}
+1229.1.2 = {
+  holder = 125114
+}
+1231.1.2 = {
+  holder = 98029
+}
+1233.1.2 = {
+  holder = 125114
+}
+1235.1.2 = {
+  holder = 222654
+}
+1238.1.2 = {
+  holder = 125114
+}
+1264.1.2 = {
+  holder = 125116
+}
+1301.1.2 = {
+  holder = 471511
+}
+1308.4.24 = {
+  holder = 471512
+}
+1323.1.2 = {
+  holder = 472516
+}
+1324.1.2 = {
+  holder = 125118
+}
+1325.1.2 = {
+  holder = 472900
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_ruthenia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 112669004
+  liege = e_carpathia
+}
+1830.6.9 = {
+  holder = 116811745
+  liege = e_carpathia
+}
+1845.6.9 = {
+  holder = 116376115
+  liege = e_carpathia
+}
+1860.6.9 = {
+  holder = 112086676
+  liege = e_carpathia
+}
+1875.6.9 = {
+  holder = 119685197
+  liege = e_carpathia
+}
+1890.6.9 = {
+  holder = 112018801
+  liege = e_carpathia
+}
+1905.6.9 = {
+  holder = 118203558
+  liege = e_carpathia
+}
+1918.11.11 = {
+  holder = 117530184
+  liege = k_poland
+}
+1933.11.11 = {
+  holder = 114869832
+  liege = k_poland
+}
+1945.5.8 = {
+  holder = 114869833
+  liege = k_ruthenia
+}
+1948.11.11 = {
+  holder = 114337204
+  liege = k_ruthenia
+}
+1963.11.11 = {
+  holder = 114853422
+  liege = k_ruthenia
+}
+1978.11.11 = {
+  holder = 119353546
+  liege = k_ruthenia
+}
+1993.11.11 = {
+  holder = 118476081
+  liege = k_ruthenia
+}
+2008.11.11 = {
+  holder = 119334809
+  liege = k_ruthenia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

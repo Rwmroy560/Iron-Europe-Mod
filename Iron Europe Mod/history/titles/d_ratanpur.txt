@@ -1,0 +1,142 @@
+760.1.1 = {
+  holder = 191295
+}
+810.1.1 = {
+  holder = 191296
+}
+840.1.1 = {
+  holder = 191297
+}
+870.1.1 = {
+  holder = 175130
+}
+895.1.1 = {
+  holder = 0
+}
+1000.1.1 = {
+  holder = 191345
+  liege = k_gondwana
+}
+1030.1.1 = {
+  holder = 191346
+}
+1050.1.1 = {
+  holder = 191347
+}
+1070.1.1 = {
+  holder = 191348
+}
+1100.1.1 = {
+  holder = 191349
+  liege = 0
+}
+1130.1.1 = {
+  holder = 191350
+}
+1150.1.1 = {
+  holder = 191351
+}
+1170.1.1 = {
+  holder = 191352
+}
+1190.1.1 = {
+  holder = 191353
+}
+1198.1.1 = {
+  holder = 191354
+}
+1225.1.1 = {
+  holder = 191355
+}
+1250.1.1 = {
+  holder = 191356
+}
+1280.1.1 = {
+  holder = 191357
+}
+1300.1.1 = {
+  holder = 191358
+}
+1340.1.1 = {
+  holder = 191359
+}
+1380.1.1 = {
+  holder = 191360
+}
+1426.1.1 = {
+  holder = 191361
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 116653331
+  liege = e_deccan
+}
+1818.6.3 = {
+  holder = 112755276
+  liege = k_gondwana
+}
+1833.6.3 = {
+  holder = 116057679
+  liege = k_gondwana
+}
+1848.6.3 = {
+  holder = 115104935
+  liege = k_gondwana
+}
+1863.6.3 = {
+  holder = 119413272
+  liege = k_gondwana
+}
+1878.6.3 = {
+  holder = 117162806
+  liege = k_gondwana
+}
+1893.6.3 = {
+  holder = 112610228
+  liege = k_gondwana
+}
+1908.6.3 = {
+  holder = 116844391
+  liege = k_gondwana
+}
+1923.6.3 = {
+  holder = 114660257
+  liege = k_gondwana
+}
+1938.6.3 = {
+  holder = 117527970
+  liege = k_gondwana
+}
+1947.8.15 = {
+  holder = 110498877
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 115981362
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 116141126
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 119634615
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 119005052
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,115 @@
+748.1.1 = {
+  holder = 146011
+}
+787.1.1 = {
+  holder = 146012
+}
+806.1.1 = {
+  holder = 146013
+}
+843.1.1 = {
+  liege = k_bulgaria
+}
+852.1.1 = {
+  holder = 70382
+}
+860.1.1 = {
+  holder = 168078
+}
+936.1.1 = {
+  liege = e_bulgaria
+  holder = 260678
+}
+1066.1.1 = {
+  liege = e_byzantium
+  vice_royalty = yes
+  holder = 20484
+}
+1078.1.1 = {
+  holder = 20481
+}
+1107.1.1 = {
+  holder = 42014
+}
+1108.1.1 = {
+  holder = 34441
+}
+1143.1.1 = {
+  holder = 34442
+}
+1168.1.1 = {
+  holder = 34281
+}
+1203.1.1 = {
+  holder = 34282
+}
+1204.5.16 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_serbia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 119647207
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 119564740
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 119832488
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 115754569
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 112752779
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 116671160
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 118932244
+  liege = e_arabia
+}
+1913.5.30 = {
+  holder = 116349918
+  liege = k_serbia
+}
+1928.5.30 = {
+  holder = 117173202
+  liege = k_serbia
+}
+1943.5.30 = {
+  holder = 111257400
+  liege = k_serbia
+}
+1958.5.30 = {
+  holder = 111170374
+  liege = k_serbia
+}
+1973.5.30 = {
+  holder = 113236618
+  liege = k_serbia
+}
+1988.5.30 = {
+  holder = 110541827
+  liege = k_serbia
+}
+1991.9.8 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,16 @@
+title = c_trent
+max_settlements = 3
+b_trento = temple
+b_rovereto = castle
+b_riva = city
+culture = lombard
+religion = catholic
+905.1.1 = {
+  culture = italian
+}
+1700.1.1 = {
+  capital = b_rovereto
+}
+1700.1.1 = {
+  culture = german
+}

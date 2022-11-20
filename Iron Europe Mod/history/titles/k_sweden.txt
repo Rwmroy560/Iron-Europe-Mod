@@ -1,0 +1,153 @@
+970.1.1 = {
+  holder = 100504
+  law = succ_feudal_elective
+  law = cognatic_succession
+  law = investiture_law_1
+}
+995.1.2 = {
+  holder = 100506
+}
+1022.1.7 = {
+  holder = 100508
+}
+1050.1.16 = {
+  holder = 100509
+}
+1060.8.2 = {
+  holder = 100522
+}
+1066.9.25 = {
+  holder = 100525
+}
+1067.12.20 = {
+  holder = 100523
+}
+1070.12.1 = {
+  holder = 100526
+}
+1080.12.1 = {
+  holder = 100524
+}
+1100.1.8 = {
+  holder = 100550
+}
+1118.6.6 = {
+  holder = 100551
+}
+1125.6.6 = {
+  holder = 100552
+}
+1126.6.6 = {
+  holder = 101531
+}
+1134.6.4 = {
+  holder = 200600
+}
+1156.12.25 = {
+  holder = 200490
+}
+1160.6.6 = {
+  holder = 100553
+}
+1161.6.6 = {
+  holder = 200602
+}
+1167.4.12 = {
+  holder = 200608
+}
+1173.1.1 = {
+  holder = 200500
+}
+1195.1.1 = {
+  holder = 200604
+}
+1208.1.31 = {
+  holder = 200504
+}
+1216.4.10 = {
+  holder = 200609
+}
+1222.3.10 = {
+  holder = 200507
+}
+1229.11.29 = {
+  holder = 200508
+}
+1234.6.6 = {
+  holder = 200507
+}
+1250.2.2 = {
+  holder = 450506
+}
+1275.7.22 = {
+  holder = 450502
+}
+1290.12.18 = {
+  holder = 450504
+}
+1319.7.8 = {
+  holder = 450500
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1654.6.6 = {
+  holder = 111246851
+}
+1660.2.13 = {
+  holder = 112294496
+}
+1697.4.5 = {
+  holder = 118349060
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1718.12.5 = {
+  holder = 117460056
+}
+1720.3.24 = {
+  holder = 112435030
+}
+1751.3.25 = {
+  holder = 118366554
+}
+1771.2.12 = {
+  holder = 113050828
+}
+1792.3.29 = {
+  holder = 110253715
+}
+1809.6.6 = {
+  holder = 116230028
+}
+1818.2.5 = {
+  holder = 119577459
+}
+1844.3.8 = {
+  holder = 119954374
+}
+1859.7.8 = {
+  holder = 118888073
+}
+1872.9.18 = {
+  holder = 110926023
+}
+1907.12.8 = {
+  holder = 110571454
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = vassal_wars_law_2
+}
+1950.10.29 = {
+  holder = 118326121
+}
+1973.9.15 = {
+  holder = 110534405
+}

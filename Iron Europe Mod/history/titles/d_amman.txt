@@ -1,0 +1,105 @@
+661.2.28 = {
+  liege = e_arabia
+}
+764.1.1 = {
+  holder = 188626
+}
+770.1.1 = {
+  holder = 0
+}
+886.1.1 = {
+  holder = 74040
+}
+899.1.1 = {
+  holder = 260974
+  liege = 0
+}
+936.1.1 = {
+  holder = 260976
+}
+1066.1.1 = {
+  holder = 20900
+  liege = e_arabia
+}
+1126.1.1 = {
+  holder = 144146
+}
+1139.1.1 = {
+  holder = 144147
+}
+1149.1.1 = {
+  holder = 144148
+}
+1151.1.1 = {
+  holder = 144149
+}
+1152.1.1 = {
+  holder = 144150
+}
+1161.1.1 = {
+  holder = 144152
+}
+1180.1.1 = {
+  holder = 144154
+}
+1209.1.1 = {
+  holder = 34471
+}
+1219.1.1 = {
+  holder = 34473
+}
+1220.1.1 = {
+  holder = 34474
+}
+1229.1.1 = {
+  holder = 34476
+}
+1236.1.1 = {
+  holder = 34477
+}
+1253.1.1 = {
+  holder = 34479
+}
+1270.1.1 = {
+  holder = 34481
+}
+1292.1.1 = {
+  holder = 34482
+}
+1310.1.1 = {
+  holder = 34483
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1899.11.23 = {
+  holder = 118588833
+  liege = e_britannia
+}
+1910.12.22 = {
+  holder = 118043581
+  liege = e_britannia
+}
+1925.12.22 = {
+  holder = 110888902
+  liege = e_britannia
+}
+1940.12.22 = {
+  holder = 117952391
+  liege = e_britannia
+}
+1955.12.22 = {
+  holder = 114249212
+  liege = e_britannia
+}
+1961.6.19 = {
+  holder = 0
+  liege = 0
+}

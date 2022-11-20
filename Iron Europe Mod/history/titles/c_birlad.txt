@@ -1,0 +1,132 @@
+632.1.1 = {
+  liege = d_bessarabia
+  holder = 159117
+}
+665.1.1 = {
+  holder = 159127
+}
+680.1.1 = {
+  holder = 159118
+}
+700.1.1 = {
+  holder = 159120
+}
+721.1.1 = {
+  holder = 145953
+}
+755.1.1 = {
+  holder = 145954
+}
+765.1.1 = {
+  holder = 159121
+}
+768.1.1 = {
+  holder = 159122
+}
+777.1.1 = {
+  holder = 145955
+}
+852.1.1 = {
+  liege = d_transylvania
+  holder = 168069
+}
+867.1.1 = {
+  holder = 168287
+}
+936.1.1 = {
+  liege = d_moldau
+  holder = 260692
+}
+1066.1.1 = {
+  liege = k_pechenegs
+  holder = 256066
+  historical_nomad = yes
+}
+1091.1.1 = {
+  holder = 34811
+}
+1115.1.1 = {
+  holder = 34812
+}
+1150.1.1 = {
+  holder = 34813
+}
+1171.1.1 = {
+  liege = d_moldau
+  holder = 34826
+  historical_nomad = no
+}
+1187.1.1 = {
+  holder = 228030
+}
+1203.1.1 = {
+  holder = 34827
+}
+1225.1.1 = {
+  holder = 34828
+}
+1238.1.1 = {
+  liege = e_golden_horde
+  holder = 125516
+}
+1265.1.2 = {
+  holder = 125517
+}
+1270.1.2 = {
+  holder = 125518
+}
+1299.1.2 = {
+  holder = 34830
+}
+1320.1.1 = {
+  liege = d_wallachia
+  holder = 475550
+}
+1450.1.1 = {
+  liege = 0
+  holder = 106555746
+}
+1815.6.9 = {
+  holder = 112042100
+  liege = e_carpathia
+}
+1830.6.9 = {
+  holder = 115664242
+}
+1845.6.9 = {
+  holder = 117417925
+}
+1860.6.9 = {
+  holder = 117166682
+}
+1875.6.9 = {
+  holder = 118935663
+}
+1890.6.9 = {
+  holder = 116090820
+}
+1905.6.9 = {
+  holder = 118977498
+}
+1918.11.11 = {
+  holder = 112856004
+  liege = k_dacia
+}
+1933.11.11 = {
+  holder = 110040706
+}
+1948.11.11 = {
+  holder = 113012337
+}
+1963.11.11 = {
+  holder = 113744196
+}
+1978.11.11 = {
+  holder = 110473832
+}
+1993.11.11 = {
+  holder = 118513836
+}
+2008.11.11 = {
+  holder = 117325232
+}

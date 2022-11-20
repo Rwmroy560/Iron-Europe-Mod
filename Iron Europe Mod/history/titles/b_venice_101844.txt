@@ -1,0 +1,8 @@
+1971.10.12 = {
+  holding_dynasty = 101844
+  liege = d_venice
+  holder = 111819005
+}
+1986.10.12 = {
+  holder = 0
+}

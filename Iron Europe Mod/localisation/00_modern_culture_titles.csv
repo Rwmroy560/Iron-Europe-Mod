@@ -1,0 +1,727 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+tribal_emperor;President;;;x
+emperor_frankish;President;;;x
+emperor_female_frankish;President;;;x
+king_frankish;Prime Minister;;;x
+king_female_frankish;Prime Minister;;;x
+king_turkish;President;;;x
+emperor_turkish;President;;;x
+kingdom_of_turkish;Republic of;;;;;;;;;x
+empire_of_turkish;Federation of;;;x
+
+
+emperor_german;Chancellor;;;x
+emperor_female_german;Chancellor;;;x
+emperor_female_frankish;Chancellor;;;x
+king_frankish;Prime Minister;;;x
+king_female_frankish;Prime Minister;;;x
+
+king_levantine_arabic;President;;;x
+king_female_levantine_arabic;President;;;x
+emperor_levantine_arabic;President;;;x
+emperor_female_levantine_arabic;President;;;x
+
+
+#Russian
+tribal_duke_russian;Governer-General;;;x
+tribal_duke_female_russian;Governer-General;;;x
+duke_russian;Governer-General;;;x
+duke_female_russian;Governer-General;;;x
+duke_title_ruler_consort_russian;Minister;;;x
+duke_title_ruler_consort_female_russian;Mistress;;;x
+emperor_russian;President;;;x
+emperor_female_russian;President;;;x
+emperor_title_ruler_consort_female_russian;First Lady;;;x
+emperor_title_ruler_consort_russian;Mister;;;x
+king_russian;Prime Minister;;;x
+king_title_ruler_consort_female_russian;First Lady;;;x
+king_title_ruler_consort_russian;Mister;;;x
+king_female_russian;Prime Minister;;;x
+title_prince_russian;Minister;;;;;;;;;;;;;x
+title_prince_female_russian;Lady;;;;;;;;;;;;;x
+count_russian;Mayor;;;;;;;;;;;;;x
+count_female_russian;Mayor;;;x
+count_title_ruler_consort_russian;Mister;;;x
+count_title_ruler_consort_female_russian;Miss;;;x
+
+
+city_count_russian;Mayor;;;;;;;;;x
+city_count_female_russian;Lady;;;;
+city_king_russian;President;;;;;;;;;x
+city_king_female_russian;President;;;;;;;;;x
+city_duke_female_russian;Lady;;;;;;;;;x
+city_duke_russian;Lord;;;;;;;;;x
+
+county_of_russian;Province of;;;;;;;;;x
+barony_of_russian;Headquarters of;;;x
+duchy_of_russian;Region of;;;;;;;;;x
+kingdom_of_russian;Republic of;;;;;;;;;x
+empire_of_russian;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+#Kazakh
+tribal_king_cuman;Prime Minister;;;x
+tribal_king_female_cuman;Prime Minister;;;x
+tribal_duke_cuman;Governer-General;;;x
+tribal_duke_female_cuman;Governer-General;;;x
+duke_cuman;Governer-General;;;x
+duke_female_cuman;Governer-General;;;x
+duke_title_ruler_consort_cuman;Minister;;;x
+duke_title_ruler_consort_female_cuman;Lady;;;x
+emperor_cuman;President;;;x
+emperor_female_cuman;President;;;x
+emperor_title_ruler_consort_female_cuman;First Lady;;;x
+emperor_title_ruler_consort_cuman;Mister;;;x
+king_cuman;Prime Minister;;;x
+king_title_ruler_consort_female_cuman;First Lady;;;x
+king_title_ruler_consort_cuman;Mister;;;x
+king_female_cuman;Prime Minister;;;x
+title_prince_cuman;Minister;;;;;;;;;;;;;x
+title_prince_female_cuman;Lady;;;;;;;;;;;;;x
+count_cuman;Mayor;;;;;;;;;;;;;x
+count_female_cuman;Mayor;;;x
+count_title_ruler_consort_cuman;Mister;;;x
+count_title_ruler_consort_female_cuman;Miss;;;x
+
+
+city_count_cuman;Mayor;;;;;;;;;x
+city_count_female_cuman;Lady;;;;
+city_king_cuman;President;;;;;;;;;x
+city_king_female_cuman;President;;;;;;;;;x
+city_duke_female_cuman;Lady;;;;;;;;;x
+city_duke_cuman;Lord;;;;;;;;;x
+
+county_of_cuman;Province of;;;;;;;;;x
+barony_of_cuman;Headquarters of;;;x
+duchy_of_cuman;Region of;;;;;;;;;x
+kingdom_of_cuman;Republic of;;;;;;;;;x
+empire_of_cuman;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+#Mongol
+tribal_king_mongol;Prime Minister;;;x
+tribal_king_female_mongol;Prime Minister;;;x
+tribal_duke_mongol;Governer-General;;;x
+tribal_duke_female_mongol;Governer-General;;;x
+duke_mongol;Governer-General;;;x
+duke_female_mongol;Governer-General;;;x
+duke_title_ruler_consort_mongol;Minister;;;x
+duke_title_ruler_consort_female_mongol;Lady;;;x
+emperor_mongol;President;;;x
+emperor_female_mongol;President;;;x
+emperor_title_ruler_consort_female_mongol;First Lady;;;x
+emperor_title_ruler_consort_mongol;Mister;;;x
+king_mongol;Prime Minister;;;x
+king_title_ruler_consort_female_mongol;First Lady;;;x
+king_title_ruler_consort_mongol;Mister;;;x
+king_female_mongol;Prime Minister;;;x
+title_prince_mongol;Minister;;;;;;;;;;;;;x
+title_prince_female_mongol;Lady;;;;;;;;;;;;;x
+count_mongol;Mayor;;;;;;;;;;;;;x
+count_female_mongol;Mayor;;;x
+count_title_ruler_consort_mongol;Mister;;;x
+count_title_ruler_consort_female_mongol;Miss;;;x
+
+
+city_count_mongol;Mayor;;;;;;;;;x
+city_count_female_mongol;Lady;;;;
+city_king_mongol;President;;;;;;;;;x
+city_king_female_mongol;President;;;;;;;;;x
+city_duke_female_mongol;Lady;;;;;;;;;x
+city_duke_mongol;Lord;;;;;;;;;x
+
+county_of_mongol;Province of;;;;;;;;;x
+barony_of_mongol;Headquarters of;;;x
+duchy_of_mongol;Region of;;;;;;;;;x
+kingdom_of_mongol;Republic of;;;;;;;;;x
+empire_of_mongol;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+#Uzbek
+tribal_duke_karluk;Governer-General;;;x
+tribal_duke_female_karluk;Governer-General;;;x
+duke_karluk;Governer-General;;;x
+duke_female_karluk;Governer-General;;;x
+duke_title_ruler_consort_karluk;Minister;;;x
+duke_title_ruler_consort_female_karluk;Lady;;;x
+emperor_karluk;President;;;x
+emperor_female_karluk;President;;;x
+emperor_title_ruler_consort_female_karluk;First Lady;;;x
+emperor_title_ruler_consort_karluk;Mister;;;x
+king_karluk;Prime Minister;;;x
+king_title_ruler_consort_female_karluk;First Lady;;;x
+king_title_ruler_consort_karluk;Mister;;;x
+king_female_karluk;Prime Minister;;;x
+title_prince_karluk;Minister;;;;;;;;;;;;;x
+title_prince_female_karluk;Lady;;;;;;;;;;;;;x
+count_karluk;Mayor;;;;;;;;;;;;;x
+count_female_karluk;Mayor;;;x
+count_title_ruler_consort_karluk;Mister;;;x
+count_title_ruler_consort_female_karluk;Miss;;;x
+
+
+city_count_karluk;Mayor;;;;;;;;;x
+city_count_female_karluk;Lady;;;;
+city_king_karluk;President;;;;;;;;;x
+city_king_female_karluk;President;;;;;;;;;x
+city_duke_female_karluk;Lady;;;;;;;;;x
+city_duke_karluk;Lord;;;;;;;;;x
+
+county_of_karluk;Province of;;;;;;;;;x
+barony_of_karluk;Headquarters of;;;x
+duchy_of_karluk;Region of;;;;;;;;;x
+kingdom_of_karluk;Republic of;;;;;;;;;x
+empire_of_karluk;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+#Ukrainian
+duke_ukrainian;Governer-General;;;x
+duke_female_ukrainian;Governer-General;;;x
+duke_title_ruler_consort_ukrainian;Minister;;;x
+duke_title_ruler_consort_female_ukrainian;Lady;;;x
+emperor_ukrainian;Prime Minister;;;x
+emperor_female_ukrainian;Prime Minister;;;x
+emperor_title_ruler_consort_female_ukrainian;First Lady;;;x
+emperor_title_ruler_consort_ukrainian;Mister;;;x
+king_ukrainian;President;;;x
+king_title_ruler_consort_female_ukrainian;First Lady;;;x
+king_title_ruler_consort_ukrainian;Mister;;;x
+king_female_ukrainian;President;;;x
+title_prince_ukrainian;Minister;;;;;;;;;;;;;x
+title_prince_female_ukrainian;Lady;;;;;;;;;;;;;x
+count_ukrainian;Mayor;;;;;;;;;;;;;x
+count_female_ukrainian;Mayor;;;x
+count_title_ruler_consort_ukrainian;Mister;;;x
+count_title_ruler_consort_female_ukrainian;Miss;;;x
+
+
+city_count_ukrainian;Mayor;;;;;;;;;x
+city_count_female_ukrainian;Lady;;;;
+city_king_ukrainian;President;;;;;;;;;x
+city_king_female_ukrainian;President;;;;;;;;;x
+city_duke_female_ukrainian;Lady;;;;;;;;;x
+city_duke_ukrainian;Lord;;;;;;;;;x
+
+county_of_ukrainian;Province of;;;;;;;;;x
+barony_of_ukrainian;Headquarters of;;;x
+duchy_of_ukrainian;Region of;;;;;;;;;x
+kingdom_of_ukrainian;Republic of;;;;;;;;;x
+empire_of_ukrainian;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+#Belarusian
+duke_belarusian;Governer-General;;;x
+duke_female_belarusian;Governer-General;;;x
+duke_title_ruler_consort_belarusian;Minister;;;x
+duke_title_ruler_consort_female_belarusian;Lady;;;x
+emperor_belarusian;Prime Minister;;;x
+emperor_female_belarusian;Prime Minister;;;x
+emperor_title_ruler_consort_female_belarusian;First Lady;;;x
+emperor_title_ruler_consort_belarusian;Mister;;;x
+king_belarusian;President;;;x
+king_title_ruler_consort_female_belarusian;First Lady;;;x
+king_title_ruler_consort_belarusian;Mister;;;x
+king_female_belarusian;President;;;x
+title_prince_belarusian;Minister;;;;;;;;;;;;;x
+title_prince_female_belarusian;Lady;;;;;;;;;;;;;x
+count_belarusian;Mayor;;;;;;;;;;;;;x
+count_female_belarusian;Mayor;;;x
+count_title_ruler_consort_belarusian;Mister;;;x
+count_title_ruler_consort_female_belarusian;Miss;;;x
+
+
+city_count_belarusian;Mayor;;;;;;;;;x
+city_count_female_belarusian;Lady;;;;
+city_king_belarusian;President;;;;;;;;;x
+city_king_female_belarusian;President;;;;;;;;;x
+city_duke_female_belarusian;Lady;;;;;;;;;x
+city_duke_belarusian;Lord;;;;;;;;;x
+
+county_of_belarusian;Province of;;;;;;;;;x
+barony_of_belarusian;Headquarters of;;;x
+duchy_of_belarusian;Region of;;;;;;;;;x
+kingdom_of_belarusian;State of;;;;;;;;;x
+empire_of_belarusian;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+#Indian
+tribal_duke_hindustani;Governer-General;;;x
+tribal_duke_female_hindustani;Governer-General;;;x
+duke_hindustani;Governer-General;;;x
+duke_female_hindustani;Governer-General;;;x
+duke_title_ruler_consort_hindustani;Mr.;;;x
+duke_title_ruler_consort_female_hindustani;Mrs.;;;x
+emperor_hindustani;President;;;x
+emperor_hindustani_hindu;President;;;x
+emperor_female_hindustani;President;;;x
+tribal_emperor_hindustani;President;;;x
+tribal_emperor_female_hindustani;President;;;x
+emperor_title_ruler_consort_female_hindustani;First Lady;;;x
+emperor_title_ruler_consort_hindustani;Mister;;;x
+king_hindustani;Prime Minister;;;x
+king_title_ruler_consort_female_hindustani;First Lady;;;x
+king_title_ruler_consort_hindustani;Mister;;;x
+king_female_hindustani;Prime Minister;;;x
+title_prince_hindustani;Mr.;;;;;;;;;;;;;x
+title_prince_female_hindustani;Ms.;;;;;;;;;;;;;x
+count_hindustani;Mayor;;;;;;;;;;;;;x
+count_female_hindustani;Mayor;;;x
+count_title_ruler_consort_hindustani;Mister;;;x
+count_title_ruler_consort_female_hindustani;Miss;;;x
+
+
+city_count_hindustani;Mayor;;;;;;;;;x
+city_count_female_hindustani;Lady;;;;
+city_king_hindustani;President;;;;;;;;;x
+city_king_female_hindustani;President;;;;;;;;;x
+city_duke_female_hindustani;Lady;;;;;;;;;x
+city_duke_hindustani;Lord;;;;;;;;;x
+
+county_of_hindustani;Region of;;;;;;;;;x
+barony_of_hindustani;Headquarters of;;;x
+duchy_of_hindustani;Province of;;;;;;;;;x
+kingdom_of_hindustani;Republic of;;;;;;;;;x
+empire_of_hindustani;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+tribal_duke_indo_aryan_group;Governer-General;;;x
+tribal_duke_female_indo_aryan_group;Governer-General;;;x
+duke_indo_aryan_group;Governer-General;;;x
+duke_female_indo_aryan_group;Governer-General;;;x
+duke_title_ruler_consort_indo_aryan_group;Mr.;;;x
+duke_title_ruler_consort_female_indo_aryan_group;Mrs.;;;x
+tribal_emperor_indo_aryan_group;President;;;x
+tribal_emperor_female_indo_aryan_group;President;;;x
+emperor_title_ruler_consort_female_indo_aryan_group;First Lady;;;x
+emperor_title_ruler_consort_indo_aryan_group;Mister;;;x
+king_indo_aryan_group;Prime Minister;;;x
+king_title_ruler_consort_female_indo_aryan_group;First Lady;;;x
+king_title_ruler_consort_indo_aryan_group;Mister;;;x
+king_female_indo_aryan_group;Prime Minister;;;x
+title_prince_indo_aryan_group;Mr.;;;;;;;;;;;;;x
+title_prince_female_indo_aryan_group;Ms.;;;;;;;;;;;;;x
+count_indo_aryan_group;Mayor;;;;;;;;;;;;;x
+count_female_indo_aryan_group;Mayor;;;x
+count_title_ruler_consort_indo_aryan_group;Mister;;;x
+count_title_ruler_consort_female_indo_aryan_group;Miss;;;x
+
+
+city_count_indo_aryan_group;Mayor;;;;;;;;;x
+city_count_female_indo_aryan_group;Lady;;;;
+city_king_indo_aryan_group;President;;;;;;;;;x
+city_king_female_indo_aryan_group;President;;;;;;;;;x
+city_duke_female_indo_aryan_group;Lady;;;;;;;;;x
+city_duke_indo_aryan_group;Lord;;;;;;;;;x
+
+county_of_indo_aryan_group;Region of;;;;;;;;;x
+barony_of_indo_aryan_group;Headquarters of;;;x
+duchy_of_indo_aryan_group;Province of;;;;;;;;;x
+kingdom_of_indo_aryan_group;Republic of;;;;;;;;;x
+empire_of_indo_aryan_group;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+#Afghan
+duke_afghan;Governer-General;;;x
+duke_female_afghan;Governer-General;;;x
+duke_title_ruler_consort_afghan;Mr.;;;x
+duke_title_ruler_consort_female_afghan;Mrs.;;;x
+emperor_afghan;Prime Minister;;;x
+emperor_female_afghan;Prime Minister;;;x
+emperor_title_ruler_consort_female_afghan;First Lady;;;x
+emperor_title_ruler_consort_afghan;Mister;;;x
+king_afghan;President;;;x
+tribal_king_afghan;President;;;x
+king_title_ruler_consort_female_afghan;First Lady;;;x
+king_title_ruler_consort_afghan;Mister;;;x
+king_female_afghan;President;;;x
+title_prince_afghan;Mr.;;;;;;;;;;;;;x
+title_prince_female_afghan;Ms.;;;;;;;;;;;;;x
+count_afghan;Mayor;;;;;;;;;;;;;x
+count_female_afghan;Mayor;;;x
+count_title_ruler_consort_afghan;Mister;;;x
+count_title_ruler_consort_female_afghan;Miss;;;x
+
+
+city_count_afghan;Mayor;;;;;;;;;x
+city_count_female_afghan;Lady;;;;
+city_king_afghan;President;;;;;;;;;x
+city_king_female_afghan;President;;;;;;;;;x
+city_duke_female_afghan;Lady;;;;;;;;;x
+city_duke_afghan;Lord;;;;;;;;;x
+
+county_of_afghan;Region of;;;;;;;;;x
+barony_of_afghan;Headquarters of;;;x
+duchy_of_afghan;Province of;;;;;;;;;x
+kingdom_of_afghan;Republic of;;;;;;;;;x
+empire_of_afghan;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+
+#Western
+
+duke;Governer;;;x
+duke_female;Governer;;;x
+duke_title_ruler_consort;Mister;;;x
+duke_title_ruler_consort_female;Lady;;;x
+emperor;Prime Minister;;;x
+emperor_female;Prime Minister;;;x
+emperor_title_ruler_consort_female;First Lady;;;x
+emperor_title_ruler_consort;Mister;;;x
+king;President;;;x
+king_title_ruler_consort_female;First Lady;;;x
+king_title_ruler_consort;Mister;;;x
+king_female;President;;;x
+title_prince;Minister;;;;;;;;;;;;;x
+title_prince_female;Lady;;;;;;;;;;;;;x
+count;Mayor;;;;;;;;;;;;;x
+count_female;Mayor;;;x
+count_title_ruler_consort;Mister;;;x
+count_title_ruler_consort_female;Miss;;;x
+
+
+city_count;Mayor;;;;;;;;;x
+city_count_female;Lady;;;;
+city_king;President;;;;;;;;;x
+city_king_female;President;;;;;;;;;x
+city_duke_female;Lady;;;;;;;;;x
+city_duke;Lord;;;;;;;;;x
+
+county_of;Region of;;;;;;;;;x
+barony_of;House of;;;x
+duchy_of;Province of;;;;;;;;;x
+kingdom_of;State of;;;;;;;;;x
+empire_of;Republic of;;;x
+empire_of_russian;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+#Israeli
+
+duke_israelite;Governer-General;;;x
+duke_female_israelite;Governer-General;;;x
+duke_title_ruler_consort_israelite;Mr.;;;x
+duke_title_ruler_consort_female_israelite;Mrs.;;;x
+emperor_israelite;President;;;x
+emperor_female_israelite;President;;;x
+emperor_title_ruler_consort_female_israelite;First Lady;;;x
+emperor_title_ruler_consort_israelite;Mister;;;x
+king_jewish;Prime Minister;;;x
+king_israelite;Prime Minister;;;x
+king_israelite_jewish;Prime Minister;;;x
+king_ashkenazi;Prime Minister;;;x
+king_ashkenazi_jewish;Prime Minister;;;x
+king_female_ashkenazi;Prime Minister;;;x
+king_title_ruler_consort_female_israelite;First Lady;;;x
+king_title_ruler_consort_israelite;Mister;;;x
+king_female_israelite;Prime Minister;;;x
+title_prince_israelite;Mr.;;;;;;;;;;;;;x
+title_prince_female_israelite;Ms.;;;;;;;;;;;;;x
+count_israelite;Mayor;;;;;;;;;;;;;x
+count_female_israelite;Mayor;;;x
+count_title_ruler_consort_israelite;Mister;;;x
+count_title_ruler_consort_female_israelite;Miss;;;x
+
+
+city_count_israelite;Mayor;;;;;;;;;x
+city_count_female_israelite;Lady;;;;
+city_king_israelite;President;;;;;;;;;x
+city_king_female_israelite;President;;;;;;;;;x
+city_duke_female_israelite;Lady;;;;;;;;;x
+city_duke_israelite;Lord;;;;;;;;;x
+
+county_of_israelite;Region of;;;;;;;;;x
+barony_of_israelite;Headquarters of;;;x
+duchy_of_israelite;Province of;;;;;;;;;x
+kingdom_of_israelite;State of;;;;;;;;;x
+empire_of_israelite;Democratic Republic of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+#African
+tribal_duke_west_african;Governer;;;x
+tribal_duke_female_west_african;Governer;;;x
+duke_title_ruler_consort_west_african;Comrade;;;x
+duke_title_ruler_consort_female_west_african;Comrade;;;x
+emperor_west_african;Prime Minister;;;x
+emperor_female_west_african;Prime Minister;;;x
+emperor_title_ruler_consort_female_west_african;First Lady;;;x
+emperor_title_ruler_consort_west_african;Mister;;;x
+king_west_african;President;;;x
+king_title_ruler_consort_female_west_african;First Lady;;;x
+king_title_ruler_consort_west_african;Mister;;;x
+king_female_west_african;President;;;x
+tribal_emperor_west_african;Prime Minister;;;x
+tribal_emperor_female_west_african;Prime Minister;;;x
+tribal_emperor_title_ruler_consort_female_west_african;First Lady;;;x
+emperor_title_ruler_consort_west_african;Mister;;;x
+tribal_king_west_african;President;;;x
+king_title_ruler_consort_female_west_african;First Lady;;;x
+king_title_ruler_consort_west_african;Mister;;;x
+tribal_king_female_west_african;President;;;x
+
+title_prince_west_african;Comrade;;;;;;;;;;;;;x
+title_prince_female_west_african;Comrade;;;;;;;;;;;;;x
+count_west_african;Mayor;;;;;;;;;;;;;x
+count_female_west_african;Mayor;;;x
+count_title_ruler_consort_west_african;Mister;;;x
+count_title_ruler_consort_female_west_african;Miss;;;x
+
+
+city_count_west_african;Mayor;;;;;;;;;x
+city_count_female_west_african;Lady;;;;
+city_king_west_african;President;;;;;;;;;x
+city_king_female_west_african;President;;;;;;;;;x
+city_duke_female_west_african;Lady;;;;;;;;;x
+city_duke_west_african;Lord;;;;;;;;;x
+
+county_of_west_african;Region of;;;;;;;;;x
+barony_of_west_african;Headquarters of;;;x
+duchy_of_west_african;Province of;;;;;;;;;x
+kingdom_of_west_african;Republic of;;;;;;;;;x
+empire_of_west_african;Democratic Republic of;;;x
+temple_barony_of;Temple of;;;;;x
+
+tribal_duke_east_african;Governer;;;x
+tribal_duke_female_east_african;Governer;;;x
+duke_title_ruler_consort_east_african;Comrade;;;x
+duke_title_ruler_consort_female_east_african;Comrade;;;x
+emperor_east_african;Prime Minister;;;x
+emperor_female_east_african;Prime Minister;;;x
+emperor_title_ruler_consort_female_east_african;First Lady;;;x
+emperor_title_ruler_consort_east_african;Mister;;;x
+king_east_african;President;;;x
+king_title_ruler_consort_female_east_african;First Lady;;;x
+king_title_ruler_consort_east_african;Mister;;;x
+king_female_east_african;President;;;x
+title_prince_east_african;Comrade;;;;;;;;;;;;;x
+title_prince_female_east_african;Comrade;;;;;;;;;;;;;x
+count_east_african;Mayor;;;;;;;;;;;;;x
+count_female_east_african;Mayor;;;x
+count_title_ruler_consort_east_african;Mister;;;x
+count_title_ruler_consort_female_east_african;Miss;;;x
+
+
+city_count_east_african;Mayor;;;;;;;;;x
+city_count_female_east_african;Lady;;;;
+city_king_east_african;President;;;;;;;;;x
+city_king_female_east_african;President;;;;;;;;;x
+city_duke_female_east_african;Lady;;;;;;;;;x
+city_duke_east_african;Lord;;;;;;;;;x
+
+county_of_east_african;Region of;;;;;;;;;x
+barony_of_east_african;Headquarters of;;;x
+duchy_of_east_african;Province of;;;;;;;;;x
+kingdom_of_east_african;Republic of;;;;;;;;;x
+empire_of_east_african;Democratic Republic of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+
+tribal_duke_central_african;Governer;;;x
+tribal_duke_female_central_african;Governer;;;x
+duke_title_ruler_consort_central_african;Comrade;;;x
+duke_title_ruler_consort_female_central_african;Comrade;;;x
+tribal_emperor_central_african;Prime Minister;;;x
+tribal_emperor_female_central_african;Prime Minister;;;x
+tribal_emperor_title_ruler_consort_female_central_african;First Lady;;;x
+tribal_emperor_title_ruler_consort_central_african;Mister;;;x
+tribal_king_central_african;President;;;x
+tribal_king_title_ruler_consort_female_central_african;First Lady;;;x
+tribal_king_title_ruler_consort_central_african;Mister;;;x
+king_female_central_african;President;;;x
+emperor_central_african;Prime Minister;;;x
+emperor_female_central_african;Prime Minister;;;x
+emperor_title_ruler_consort_female_central_african;First Lady;;;x
+emperor_title_ruler_consort_central_african;Mister;;;x
+king_central_african;President;;;x
+king_title_ruler_consort_female_central_african;First Lady;;;x
+king_title_ruler_consort_central_african;Mister;;;x
+king_female_central_african;President;;;x
+title_prince_central_african;Comrade;;;;;;;;;;;;;x
+title_prince_female_central_african;Comrade;;;;;;;;;;;;;x
+count_central_african;Mayor;;;;;;;;;;;;;x
+count_female_central_african;Mayor;;;x
+count_title_ruler_consort_central_african;Mister;;;x
+count_title_ruler_consort_female_central_african;Miss;;;x
+
+
+city_count_central_african;Mayor;;;;;;;;;x
+city_count_female_central_african;Lady;;;;
+city_king_central_african;President;;;;;;;;;x
+city_king_female_central_african;President;;;;;;;;;x
+city_duke_female_central_african;Lady;;;;;;;;;x
+city_duke_central_african;Lord;;;;;;;;;x
+
+county_of_central_african;Region of;;;;;;;;;x
+barony_of_central_african;Headquarters of;;;x
+duchy_of_central_african;Province of;;;;;;;;;x
+kingdom_of_central_african;Republic of;;;;;;;;;x
+empire_of_central_african;Democratic Republic of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+
+
+emperor_han;President;;;;;;;;;;;;;x
+emperor_title_ruler_consort_han;Mr. Admiral;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_han;Mrs. Admiral;;;;;;;;;;;;;x
+
+king_han;Premier;;;;;;;;;;;;;x
+king_title_ruler_consort_han;Minister;;;;;;;;;;;;x
+king_title_ruler_consort_female_han;Mrs.;;;;;;;;;;;;;x
+title_prince_han;Cadet;;;;;;;;;;;;;x
+title_prince_female_han;Cadet;;;;;;;;;;;;;x
+duke_han;Commander;;;;;;;;;;;;;x
+duke_title_ruler_consort_han;Mr. Commander;;;;;;;;;;;;x
+duke_title_ruler_consort_female_han;Mrs. Commander;;;;;;;;;;;;;x
+count_han;Lieutenant;;;;;;;;;;;;;x
+count_title_ruler_consort_han;Mr. Lieutenant;;;;;;;;;;;;x
+count_title_ruler_consort_female_han;Mrs. Lieutenant;;;;;;;;;;;;;x
+baron_han;Officer;;;;;;;;;;;;;x
+baron_title_ruler_consort_han;Mr. Officer;;;;;;;;;;;;x
+baron_title_ruler_consort_female_han;Mrs. Officer;;;;;;;;;;;;;x
+
+family_palace_han;Corporate Palace;;;;;;;;;;;;;x
+family_palace_baron_han;CEO;;;;;;;;;;;;;x
+family_palace_baron_female_han_;CEO;;;;;;;;;;;;;x
+family_palace_baron_foa_han_;Sir;;;;;;;;;;;;;x
+family_palace_baron_foa_han_female_han;Ma;;;;;;;;;;;;;;x
+family_palace_barony_of_han;Chair of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed_han;Chair of;;;;;;;;;;;;;x
+
+city_emperor_han;Federal President;Président;Präsident;;Presidente;;;;;;;;;x
+city_emperor_female_han;Federal President;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+city_emperor_foa_han;Mister President;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+city_emperor_foa_han_female_han;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+city_emperor_title_ruler_consort_han;First Man;Epoux;;;;;;;;;;;x
+city_emperor_title_ruler_consort_han_female_han;First Lady;Première dame;;;;;;;;;;;;x
+city_empire_of;Federation of;Federation of;Federation of;;Federation of;;;;;;;;;x
+city_empire;Federation;Federation;Federation;;Federation;;;;;;;;;x
+city_empires;Federations;Federations;Federations;;Federations;;;;;;;;;x
+city_king;President;Président;Präsident;;Presidente;;;;;;;;;x
+city_king_female_han;President;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+city_king_foa_han;Mister President;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+city_king_foa_han_female_han;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+city_king_title_ruler_consort_han;First Man;Epoux;;;;;;;;;;;x
+city_king_title_ruler_consort_han_female_han;First Lady;Première dame;;;;;;;;;;;;x
+city_kingdom_of_han;Republic of;République de;Republik;;Republica de;;;;;;;;;x
+city_kingdom_han;Republic;République;Republik;;República;;;;;;;;;x
+city_kingdoms_han;Republics;Républiques;Republiken;;Repúblicas;;;;;;;;;x
+city_duke_han;Governor-General;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+city_duke_female_han;Governor-General;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+city_duke_foa_han;Mister Governor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_duke_foa_han_female_han;Madam Governor;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+city_duke_title_ruler_consort_han;Governor's Spouse;Epoux;;;;;;;;;;;x
+city_duke_title_ruler_consort_han_female_han;Governor's Spouse;Dame;;;;;;;;;;;;x
+city_count_han;Governor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_count_female_han;Governor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_count_foa_han;Mister Governor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_count_foa_han_female_han;Madam Governor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+city_count_title_ruler_consort_han;Governor's Spouse;Epoux;;;;;;;;;;;x
+city_count_title_ruler_consort_han_female_han;Governor's Spouse;Dame;;;;;;;;;;;;x
+city_baron;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_baron_female_han;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_baron_foa_han;Mister Mayor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_baron_foa_han_female_han;Madam Mayor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+city_baron_title_ruler_consort_han;Mayor's Spouse;Epoux;;;;;;;;;;;x
+city_baron_title_ruler_consort_han_female_han;Mayor's Spouse;Dame;;;;;;;;;;;;x
+
+family_palace_khurmazta;Corporation;;;;;;;;;;;;;x
+family_palace_baron_khurmazta;CEO;;;;;;;;;;;;;x
+family_palace_baron_female_khurmazta;CEO;;;;;;;;;;;;;x
+family_palace_baron_foa_khurmazta;Sir;;;;;;;;;;;;;x
+family_palace_baron_foa_female_khurmazta;Ma;;;;;;;;;;;;;;x
+family_palace_barony_of_khurmazta;Chair of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed_khurmazta;Chair of;;;;;;;;;;;;;x
+
+
+city_emperor_han;First Chairman;;;;;;;;;;;;;x
+city_emperor_female_han;First Chairwoman;;;;;;;;;;;;;x
+city_emperor_foa_han;Comrade Chairman;;;;;;;;;;;;;x
+city_emperor_foa_female_han;Comrade Chairwoman;;;;;;;;;;;;;x
+city_empire_of_han;People's Union of;;;;;;;;;;;;;x
+city_empire_han;Union;;;;;;;;;;;;;x
+city_empires_han;Unions;;;;;;;;;;;;;x
+city_king_han;Chairman;;;;;;;;;;;;;x
+city_king_female_han;Chairwoman;;;;;;;;;;;;;x
+city_king_foa_han;Comrade Chairman;;;;;;;;;;;;;x
+city_king_foa_female_han;Comrade Chairwoman;;;;;;;;;;;;;x
+city_kingdom_of_han;People's Republic of;;;;;;;;;;;;;x
+city_kingdom_han;Republic;;;;;;;;;;;;;x
+city_kingdoms_han;Republics;;;;;;;;;;;;;x
+temple_emperor_han;Secretary-General;;;;;;;;;;;;;x
+temple_emperor_female_han;Secretary-General;;;;;;;;;;;;;x
+temple_emperor_foa_han;Comrade Secretary;;;;;;;;;;;;;x
+temple_emperor_foa_female_han;Comrade Secretary;;;;;;;;;;;;;x
+temple_empire_of_han;People's Union of;;;;;;;;;;;;;x
+temple_empire_han;Union;;;;;;;;;;;;;x
+temple_empires_han;Unions;;;;;;;;;;;;;x
+temple_king_han;Secretary;;;;;;;;;;;;;x
+temple_king_female_han;Secretary;;;;;;;;;;;;;x
+temple_king_foa_han;Comrade Secretary;;;;;;;;;;;;;x
+temple_king_foa_female_han;Comrade Secretary;;;;;;;;;;;;;x
+temple_kingdom_of_han;People's State of;;;;;;;;;;;;;x
+temple_kingdom_han;State;;;;;;;;;;;;;x
+temple_kingdoms_han;States;;;;;;;;;;;;;x
+family_palace_han;Bureau;;;;;;;;;;;;;x
+family_palace_baron_han;Director;;;;;;;;;;;;;x
+family_palace_baron_female_han;Director;;;;;;;;;;;;;x
+family_palace_baron_foa_han;Comrade Director;;;;;;;;;;;;;x
+family_palace_baron_foa_female_han;Comrade Director;;;;;;;;;;;;;;x
+family_palace_barony_of_han;Headquarters of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed_han;Chair of;;;;;;;;;;;;;x
+
+
+family_palace_alan;Corporate Palace;;;;;;;;;;;;;x
+family_palace_baron_alan;CEO;;;;;;;;;;;;;x
+family_palace_baron_female_alan_;CEO;;;;;;;;;;;;;x
+family_palace_baron_foa_alan_;Sir;;;;;;;;;;;;;x
+family_palace_baron_foa_alan_female_alan;Madam;;;;;;;;;;;;;;x
+family_palace_barony_of_alan;Chair of;Quartier général de;;;;;;;;;;;;x
+family_palace_baron_deed_alan;Chair of;;;;;;;;;;;;;x
+
+city_emperor_alan;Federal President;Président;Präsident;;Presidente;;;;;;;;;x
+city_emperor_female_alan;Federal President;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+city_emperor_foa_alan;Mister President;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+city_emperor_foa_alan_female_alan;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+city_emperor_title_ruler_consort_alan;First Man;Epoux;;;;;;;;;;;x
+city_emperor_title_ruler_consort_alan_female_alan;First Lady;Première dame;;;;;;;;;;;;x
+city_empire_of;Federation of;Federation of;Federation of;;Federation of;;;;;;;;;x
+city_empire;Federation;Federation;Federation;;Federation;;;;;;;;;x
+city_empires;Federations;Federations;Federations;;Federations;;;;;;;;;x
+city_king;President;Président;Präsident;;Presidente;;;;;;;;;x
+city_king_female_alan;President;Présidente;Präsident;Präsidentin;;Presidenta;;;;;;;;x
+city_king_foa_alan;Mister President;Monsieur le président;Herr Präsident;;Señor Presidente;;;;;;;;;x
+city_king_foa_alan_female_alan;Madam President;Madame la présidente;Frau Präsidentin;;Señora Presidenta;;;;;;;;;x
+city_king_title_ruler_consort_alan;First Man;Epoux;;;;;;;;;;;x
+city_king_title_ruler_consort_alan_female_alan;First Lady;Première dame;;;;;;;;;;;;x
+city_kingdom_of_alan;Republic of;République de;Republik;;Republica de;;;;;;;;;x
+city_kingdom_alan;Republic;République;Republik;;República;;;;;;;;;x
+city_kingdoms_alan;Republics;Républiques;Republiken;;Repúblicas;;;;;;;;;x
+city_duke_alan;President;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+city_duke_female_alan;President;Gouverneur-Général;Generalgouverneur;;Gobernador-General;;;;;;;;;x
+city_duke_foa_alan;Mister President;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_duke_foa_alan_female_alan;Madam President;Madame le gouverneur;Frau Gouverneur;;Señora Gobernador;;;;;;;;;x
+city_duke_title_ruler_consort_alan;First Man;Epoux;;;;;;;;;;;x
+city_duke_title_ruler_consort_alan_female_alan;First Lady;Dame;;;;;;;;;;;;x
+city_count_alan;Governor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_count_female_alan;Governor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_count_foa_alan;Mister Governor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_count_foa_alan_female_alan;Madam Governor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+city_count_title_ruler_consort_alan;Governor's Spouse;Epoux;;;;;;;;;;;x
+city_count_title_ruler_consort_alan_female_alan;Governor's Spouse;Dame;;;;;;;;;;;;x
+city_baron;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_baron_female_alan;Mayor;Gouverneur;Gouverneur;;Gobernador;;;;;;;;;x
+city_baron_foa_alan;Mister Mayor;Monsieur le gouverneur;Herr Gouverneur;;Señor Gobernador;;;;;;;;;x
+city_baron_foa_alan_female_alan;Madam Mayor;Madame le gouverneur;Frau Gouverneur;Señora Gobernador;;;;;;;;;;x
+city_baron_title_ruler_consort_alan;Mayor's Spouse;Epoux;;;;;;;;;;;x
+city_baron_title_ruler_consort_alan_female_alan;Mayor's Spouse;Dame;;;;;;;;;;;;x
+
+city_king_alan_muslim;President;Wali Malik;Wali-Malik;;Wali-Malik;;;;;;;;;x
+city_duke_alan_muslim;President;Wali Émir;Wali-Emir;;Emir-Valí;;;;;;;;;x
+city_count_alan_muslim;Governor;Wali;Wali;;Valí;;;;;;;;;x
+

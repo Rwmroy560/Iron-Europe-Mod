@@ -1,0 +1,216 @@
+550.1.1 = {
+  holder = 191605
+  liege = k_rajputana
+}
+580.1.1 = {
+  holder = 191607
+}
+600.1.1 = {
+  holder = 191608
+}
+625.1.1 = {
+  holder = 191609
+}
+650.1.1 = {
+  holder = 191610
+}
+690.1.1 = {
+  holder = 191611
+}
+720.1.1 = {
+  holder = 188000
+}
+730.1.1 = {
+  holder = 191613
+}
+750.1.1 = {
+  holder = 191615
+  liege = k_malwa
+}
+775.1.1 = {
+  holder = 191616
+}
+790.1.1 = {
+  holder = 191617
+}
+815.1.1 = {
+  liege = k_kosala
+}
+830.1.1 = {
+  holder = 191620
+}
+850.1.1 = {
+  holder = 191621
+}
+936.1.1 = {
+  holder = 261129
+}
+950.1.1 = {
+  holder = 188116
+  liege = 0
+}
+970.1.1 = {
+  holder = 191702
+}
+980.1.1 = {
+  holder = 191703
+}
+993.1.1 = {
+  holder = 191704
+}
+1000.1.1 = {
+  holder = 191705
+}
+1010.1.1 = {
+  holder = 191706
+}
+1015.1.1 = {
+  holder = 191708
+}
+1020.1.1 = {
+  holder = 191707
+}
+1050.1.1 = {
+  holder = 191709
+}
+1060.1.1 = {
+  holder = 191710
+}
+1070.1.1 = {
+  holder = 191711
+}
+1088.1.1 = {
+  holder = 191712
+}
+1110.1.1 = {
+  holder = 191713
+}
+1116.1.1 = {
+  liege = k_gujarat
+}
+1118.1.1 = {
+  holder = 191714
+}
+1132.1.1 = {
+  holder = 191715
+}
+1143.1.1 = {
+  holder = 191722
+}
+1144.1.1 = {
+  holder = 191723
+}
+1145.1.1 = {
+  holder = 191715
+}
+1147.1.1 = {
+  holder = 191716
+}
+1149.1.1 = {
+  holder = 191725
+}
+1153.1.1 = {
+  holder = 191732
+}
+1155.1.1 = {
+  holder = 191733
+}
+1157.1.1 = {
+  holder = 191725
+}
+1164.1.1 = {
+  holder = 191728
+}
+1177.1.1 = {
+  holder = 191742
+}
+1192.1.1 = {
+  holder = 191743
+  liege = 0
+}
+1205.1.1 = {
+  holder = 191745
+}
+1259.1.1 = {
+  holder = 191748
+}
+1282.1.1 = {
+  holder = 191751
+}
+1296.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 111288066
+  liege = e_deccan
+}
+1818.6.3 = {
+  holder = 117160548
+  liege = k_rajputana
+}
+1833.6.3 = {
+  holder = 114589579
+  liege = k_rajputana
+}
+1848.6.3 = {
+  holder = 116230725
+  liege = k_rajputana
+}
+1863.6.3 = {
+  holder = 110681951
+  liege = k_rajputana
+}
+1878.6.3 = {
+  holder = 110576084
+  liege = k_rajputana
+}
+1893.6.3 = {
+  holder = 115753340
+  liege = k_rajputana
+}
+1908.6.3 = {
+  holder = 117189461
+  liege = k_rajputana
+}
+1923.6.3 = {
+  holder = 110077046
+  liege = k_rajputana
+}
+1938.6.3 = {
+  holder = 119388616
+  liege = k_rajputana
+}
+1947.8.15 = {
+  holder = 118117214
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 118009512
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 113040085
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 111830072
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 115313769
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

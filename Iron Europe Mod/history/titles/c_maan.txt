@@ -1,0 +1,100 @@
+690.1.1 = {
+  liege = d_arabia_petrae
+  holder = 146054
+}
+710.1.1 = {
+  holder = 146055
+}
+726.1.1 = {
+  holder = 146056
+}
+744.1.1 = {
+  holder = 146057
+}
+750.1.1 = {
+  liege = d_damascus
+}
+752.1.1 = {
+  holder = 146058
+}
+756.1.1 = {
+  holder = 146059
+}
+866.1.1 = {
+  liege = d_arabia_petrae
+  holder = 34016
+}
+869.1.1 = {
+  liege = 0
+}
+936.1.1 = {
+  holder = 260950
+  liege = d_arabia_petrae
+}
+1066.1.1 = {
+  liege = d_damascus
+  holder = 20785
+}
+1089.1.1 = {
+  holder = 93352
+}
+1120.1.1 = {
+  holder = 93353
+}
+1160.1.1 = {
+  holder = 93354
+}
+1187.10.2 = {
+  liege = d_oultrejourdain
+}
+1200.1.1 = {
+  holder = 93355
+}
+1240.1.1 = {
+  holder = 93356
+}
+1280.1.1 = {
+  holder = 93357
+}
+1320.1.1 = {
+  holder = 93358
+}
+1450.1.1 = {
+  liege = 0
+  holder = 105891538
+}
+1815.6.9 = {
+  holder = 119147982
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 110028019
+}
+1845.6.9 = {
+  holder = 117825869
+}
+1860.6.9 = {
+  holder = 113733695
+}
+1875.6.9 = {
+  holder = 115554337
+}
+1890.6.9 = {
+  holder = 119820087
+}
+1905.6.9 = {
+  holder = 115108055
+}
+1918.11.11 = {
+  liege = d_oultrejourdain
+  holder = 119871369
+}
+1951.7.20 = {
+  holder = 116960304
+}
+1952.8.11 = {
+  holder = 114901437
+}
+1999.2.7 = {
+  holder = 118965076
+}

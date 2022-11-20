@@ -1,0 +1,216 @@
+383.1.1 = {
+  liege = d_northumberland
+  holder = 159038
+}
+420.1.1 = {
+  holder = 252235
+}
+445.1.1 = {
+  holder = 252236
+}
+475.1.1 = {
+  holder = 252237
+}
+490.1.1 = {
+  holder = 252238
+}
+510.1.1 = {
+  holder = 252239
+}
+547.1.1 = {
+  holder = 205202
+  liege = d_northumberland
+  name = BERNICIA
+  adjective = BERNICIA_ADJ
+}
+559.1.1 = {
+  holder = 205203
+}
+560.1.1 = {
+  holder = 205204
+}
+568.1.1 = {
+  holder = 205205
+}
+572.1.1 = {
+  holder = 205206
+}
+579.1.1 = {
+  holder = 205207
+}
+585.1.1 = {
+  holder = 205208
+}
+592.1.1 = {
+  holder = 205209
+}
+616.1.1 = {
+  holder = 205198
+}
+633.10.12 = {
+  holder = 205211
+}
+634.1.1 = {
+  holder = 205212
+}
+642.8.5 = {
+  holder = 205213
+}
+654.1.1 = {
+  reset_name = yes
+  reset_adjective = yes
+  set_global_flag = bernicia_renamed
+}
+670.2.15 = {
+  holder = 252179
+}
+685.5.20 = {
+  holder = 252182
+}
+704.12.14 = {
+  holder = 205240
+}
+705.3.1 = {
+  holder = 252185
+}
+716.1.1 = {
+  holder = 205221
+}
+718.1.1 = {
+  holder = 252184
+}
+729.5.29 = {
+  holder = 205222
+}
+737.1.1 = {
+  holder = 205224
+}
+758.1.1 = {
+  holder = 205225
+}
+759.7.24 = {
+  holder = 205243
+}
+765.1.1 = {
+  holder = 205237
+}
+774.1.1 = {
+  holder = 205244
+}
+779.1.1 = {
+  holder = 194104
+}
+788.9.23 = {
+  holder = 205238
+}
+790.1.1 = {
+  holder = 205244
+}
+796.5.14 = {
+  holder = 205246
+}
+806.1.1 = {
+  holder = 252188
+}
+810.1.1 = {
+  holder = 205247
+}
+841.1.1 = {
+  holder = 205255
+}
+844.1.1 = {
+  holder = 252189
+}
+848.1.1 = {
+  holder = 205253
+}
+862.1.1 = {
+  holder = 163103
+}
+875.1.1 = {
+  holder = 0
+}
+927.1.1 = {
+  holder = 33350
+  liege = k_england
+}
+1055.1.1 = {
+  holder = 124
+}
+1066.1.1 = {
+  liege = k_england
+  holder = 5660
+}
+1072.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 118985384
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 111109144
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 111658685
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 113175298
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 117213409
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 119104669
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 119098089
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 110052469
+  liege = e_britannia
+}
+1935.6.9 = {
+  holder = 110210266
+  liege = e_britannia
+}
+1950.6.9 = {
+  holder = 110523767
+  liege = e_britannia
+}
+1965.6.9 = {
+  holder = 116108514
+  liege = e_britannia
+}
+1980.6.9 = {
+  holder = 116164303
+  liege = e_britannia
+}
+1995.6.9 = {
+  holder = 113387989
+  liege = e_britannia
+}
+2010.6.9 = {
+  holder = 117401761
+  liege = e_britannia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

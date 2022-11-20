@@ -1,0 +1,143 @@
+891.1.1 = {
+  holder = 167806
+}
+952.1.1 = {
+  liege = k_germany
+  holder = 1292
+}
+955.1.1 = {
+  holder = 1294
+}
+976.1.1 = {
+  holder = 7972
+}
+978.1.1 = {
+  holder = 1308
+}
+985.1.1 = {
+  holder = 7972
+}
+989.1.1 = {
+  holder = 1294
+}
+995.1.1 = {
+  holder = 1296
+}
+1002.1.1 = {
+  holder = 1308
+}
+1004.1.1 = {
+  holder = 1320
+}
+1024.7.13 = {
+  liege = e_hre
+}
+1036.1.1 = {
+  holder = 1322
+}
+1039.1.1 = {
+  holder = 1314
+}
+1047.1.1 = {
+  holder = 7941
+}
+1056.1.1 = {
+  holder = 7942
+}
+1066.1.1 = {
+  holder = 1610
+  law = succ_seniority
+  law = agnatic_succession
+}
+1073.1.1 = {
+  holder = 10087
+}
+1078.1.1 = {
+  holder = 70623
+}
+1090.5.12 = {
+  holder = 0
+}
+1305.1.1 = {
+  liege = 0
+  holder = 412070
+  law = succ_feudal_elective
+}
+1311.10.28 = {
+  holder = 412072
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_venice
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113078514
+  liege = e_carpathia
+}
+1830.6.9 = {
+  holder = 110603523
+  liege = e_carpathia
+}
+1845.6.9 = {
+  holder = 114702751
+  liege = e_carpathia
+}
+1860.6.9 = {
+  holder = 118013140
+  liege = e_carpathia
+}
+1866.10.12 = {
+  holder = 111194337
+  liege = e_italy
+}
+1876.3.17 = {
+  holder = 114456671
+  liege = e_italy
+}
+1891.3.17 = {
+  holder = 116640667
+  liege = e_italy
+}
+1906.3.17 = {
+  holder = 114954431
+  liege = e_italy
+}
+1921.3.17 = {
+  holder = 111381452
+  liege = e_italy
+}
+1936.3.17 = {
+  holder = 117388785
+  liege = e_italy
+}
+1951.3.17 = {
+  holder = 117578504
+  liege = e_italy
+}
+1966.3.17 = {
+  holder = 117929573
+  liege = e_italy
+}
+1981.3.17 = {
+  holder = 112801269
+  liege = e_italy
+}
+1996.3.17 = {
+  holder = 116155957
+  liege = e_italy
+}
+2011.3.17 = {
+  holder = 117813331
+  liege = e_italy
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

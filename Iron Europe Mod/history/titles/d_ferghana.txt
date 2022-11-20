@@ -1,0 +1,61 @@
+718.1.1 = {
+  holder = 248312
+}
+751.1.1 = {
+  holder = 248313
+}
+769.1.1 = {
+  holder = 188640
+}
+782.1.1 = {
+  holder = 248314
+}
+819.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Kyrgyzstan
+  adjective = Kyrgyz
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1918.11.11 = {
+  holder = 113558252
+  liege = e_russia
+}
+1938.8.8 = {
+  holder = 111069983
+}
+1950.6.26 = {
+  holder = 115365608
+}
+1969.10.24 = {
+  holder = 113168885
+}
+1988.12.10 = {
+  holder = 111218831
+}
+1990.10.27 = {
+  holder = 118570156
+}
+1991.12.26 = {
+  liege = 0
+}
+2005.3.25 = {
+  holder = 111477330
+}
+2010.4.7 = {
+  holder = 116403724
+}
+2011.12.1 = {
+  holder = 119057293
+}
+2017.11.24 = {
+  holder = 118969212
+}

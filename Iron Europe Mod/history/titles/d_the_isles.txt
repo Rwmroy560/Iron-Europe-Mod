@@ -1,0 +1,116 @@
+431.1.1 = {
+  holder = 159935
+}
+481.1.1 = {
+  holder = 159936
+}
+501.1.1 = {
+  holder = 159937
+}
+549.1.1 = {
+  holder = 159938
+}
+577.1.1 = {
+  holder = 159939
+}
+598.1.1 = {
+  holder = 159940
+}
+634.1.1 = {
+  holder = 159941
+}
+650.1.1 = {
+  holder = 159942
+}
+681.1.1 = {
+  holder = 159943
+}
+691.1.1 = {
+  holder = 159934
+}
+720.1.1 = {
+  holder = 159029
+}
+730.1.1 = {
+  holder = 159028
+}
+800.1.1 = {
+  holder = 159026
+}
+825.1.1 = {
+  holder = 159027
+}
+836.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_england
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 111397051
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 119662371
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 113259615
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 115706511
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 112607602
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 118089078
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 113613090
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 117622735
+  liege = e_britannia
+}
+1935.6.9 = {
+  holder = 117139048
+  liege = e_britannia
+}
+1950.6.9 = {
+  holder = 111729321
+  liege = e_britannia
+}
+1965.6.9 = {
+  holder = 115578667
+  liege = e_britannia
+}
+1980.6.9 = {
+  holder = 115766863
+  liege = e_britannia
+}
+1995.6.9 = {
+  holder = 114680316
+  liege = e_britannia
+}
+2010.6.9 = {
+  holder = 110534710
+  liege = e_britannia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,13 @@
+title = c_zurichgau
+max_settlements = 4
+b_winterthur = castle
+b_zurich = city
+b_kappel = temple
+culture = german
+religion = catholic
+1291.7.15 = {
+  capital = b_zurich
+}
+1700.1.1 = {
+  b_swiss_baden = castle
+}

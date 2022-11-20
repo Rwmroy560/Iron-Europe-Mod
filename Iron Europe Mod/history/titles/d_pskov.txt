@@ -1,0 +1,91 @@
+100.1.1 = {
+  effect = {
+    set_coa = c_pskov
+  }
+}
+769.1.1 = {
+  holder = 0
+}
+860.1.1 = {
+  holder = 6835
+}
+912.1.2 = {
+  holder = 0
+}
+936.1.1 = {
+  holder = 260717
+  liege = k_ruthenia
+}
+937.1.1 = {
+  liege = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 115505923
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 113120698
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 115696728
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 115555693
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 110323886
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 116306447
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 114758408
+  liege = e_russia
+}
+1920.6.9 = {
+  holder = 111148394
+  liege = e_russia
+}
+1935.6.9 = {
+  holder = 112490642
+  liege = e_russia
+}
+1950.6.9 = {
+  holder = 114982919
+  liege = e_russia
+}
+1965.6.9 = {
+  holder = 113338043
+  liege = e_russia
+}
+1980.6.9 = {
+  holder = 114446776
+  liege = e_russia
+}
+1995.6.9 = {
+  holder = 111424085
+  liege = e_russia
+}
+2010.6.9 = {
+  holder = 117027474
+  liege = e_russia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

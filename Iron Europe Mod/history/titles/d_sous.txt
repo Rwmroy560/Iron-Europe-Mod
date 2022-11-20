@@ -1,0 +1,70 @@
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 115907305
+  liege = k_mauretania
+}
+1830.6.9 = {
+  holder = 119218983
+  liege = k_mauretania
+}
+1845.6.9 = {
+  holder = 111788249
+  liege = k_mauretania
+}
+1860.6.9 = {
+  holder = 116361353
+  liege = k_mauretania
+}
+1875.6.9 = {
+  holder = 111919559
+  liege = k_mauretania
+}
+1890.6.9 = {
+  holder = 110879161
+  liege = k_mauretania
+}
+1905.6.9 = {
+  holder = 117752890
+  liege = k_mauretania
+}
+1912.3.30 = {
+  holder = 118182650
+  liege = e_france
+}
+1927.3.30 = {
+  holder = 113470442
+  liege = e_france
+}
+1942.3.30 = {
+  holder = 110508060
+  liege = e_france
+}
+1956.10.29 = {
+  holder = 114420339
+  liege = k_mauretania
+}
+1971.10.29 = {
+  holder = 118374143
+  liege = k_mauretania
+}
+1986.10.29 = {
+  holder = 118584968
+  liege = k_mauretania
+}
+2001.10.29 = {
+  holder = 118560431
+  liege = k_mauretania
+}
+2016.10.29 = {
+  holder = 116256057
+  liege = k_mauretania
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

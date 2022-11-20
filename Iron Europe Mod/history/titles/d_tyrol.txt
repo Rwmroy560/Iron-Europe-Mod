@@ -1,0 +1,25 @@
+1220.1.1 = {
+  liege = e_hre
+  holder = 212382
+}
+1253.7.22 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1938.3.12 = {
+  holder = 117386901
+  liege = e_germany
+}
+1945.5.8 = {
+  holder = 0
+  liege = 0
+}

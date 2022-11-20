@@ -1,0 +1,111 @@
+20.1.1 = {
+  active = no
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1689.2.13 = {
+  holder = 113183721
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_0
+  law = imperial_administration
+  law = vice_royalty_0
+  law = ze_administration_laws_2
+  law = succ_primogeniture
+}
+1702.3.8 = {
+  holder = 115017738
+}
+1714.8.1 = {
+  holder = 118909314
+}
+1727.6.11 = {
+  holder = 110303763
+}
+1760.10.25 = {
+  holder = 115180271
+}
+1820.1.29 = {
+  holder = 112234221
+}
+1830.6.26 = {
+  holder = 113735472
+}
+1837.6.20 = {
+  holder = 119532987
+}
+1901.1.22 = {
+  holder = 112274579
+}
+1910.5.6 = {
+  holder = 113854106
+}
+1936.1.20 = {
+  holder = 115164102
+}
+1936.12.11 = {
+  holder = 110548993
+}
+1947.8.15 = {
+  holder = 114800375
+}
+1964.6.9 = {
+  holder = 116382703
+}
+1966.1.24 = {
+  holder = 115151336
+}
+1977.3.24 = {
+  holder = 113451434
+}
+1979.7.28 = {
+  holder = 110195908
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_1
+  law = vassal_wars_law_2
+}
+1980.1.14 = {
+  holder = 115151336
+}
+1984.10.31 = {
+  holder = 116133355
+}
+1989.12.2 = {
+  holder = 114428596
+}
+1990.11.10 = {
+  holder = 114936233
+}
+1991.6.21 = {
+  holder = 111903597
+}
+1996.5.16 = {
+  holder = 114784629
+}
+1996.6.1 = {
+  holder = 112272064
+}
+1997.4.21 = {
+  holder = 119707649
+}
+1998.3.19 = {
+  holder = 114784629
+}
+2004.5.22 = {
+  holder = 110989276
+}
+2014.5.26 = {
+  holder = 111744420
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_1
+  law = agnatic_succession
+  law = succ_feudal_elective
+}

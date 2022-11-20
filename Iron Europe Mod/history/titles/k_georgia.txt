@@ -1,0 +1,152 @@
+809.1.1 = {
+  holder = 41540
+}
+826.1.29 = {
+  holder = 41541
+}
+876.1.1 = {
+  holder = 41542
+}
+881.1.1 = {
+  holder = 70461
+}
+891.1.1 = {
+  holder = 41543
+}
+923.1.1 = {
+  holder = 161200
+}
+937.1.1 = {
+  holder = 41544
+}
+958.1.1 = {
+  holder = 41545
+}
+986.1.1 = {
+  holder = 161203
+}
+1000.1.1 = {
+  holder = 41546
+}
+1008.1.1 = {
+  holder = 41547
+}
+1014.5.7 = {
+  holder = 9950
+}
+1027.8.16 = {
+  holder = 9952
+}
+1072.11.24 = {
+  holder = 9954
+}
+1089.1.1 = {
+  holder = 216517
+}
+1125.1.24 = {
+  holder = 216516
+}
+1154.1.1 = {
+  holder = 144010
+}
+1155.1.1 = {
+  holder = 216516
+}
+1156.1.1 = {
+  holder = 216515
+}
+1184.4.6 = {
+  holder = 466517
+}
+1212.1.8 = {
+  holder = 466515
+}
+1223.1.1 = {
+  holder = 466518
+}
+1245.1.1 = {
+  holder = 466519
+}
+1259.1.1 = {
+  holder = 466514
+}
+1270.1.1 = {
+  holder = 466501
+}
+1289.3.12 = {
+  holder = 144009
+}
+1292.1.1 = {
+  holder = 466511
+}
+1299.1.1 = {
+  holder = 466500
+}
+1302.1.1 = {
+  holder = 145081
+}
+1308.1.1 = {
+  holder = 466511
+}
+1311.1.1 = {
+  holder = 466512
+}
+1313.1.1 = {
+  holder = 466500
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = e_persia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1918.11.11 = {
+  holder = 112335632
+}
+1921.3.17 = {
+  liege = e_russia
+}
+1925.9.19 = {
+  holder = 118258442
+}
+1936.4.24 = {
+  holder = 113734371
+}
+1953.6.16 = {
+  holder = 119845439
+}
+1960.3.23 = {
+  holder = 117526387
+}
+1965.11.14 = {
+  holder = 117428175
+}
+1971.3.25 = {
+  holder = 110715281
+}
+1976.7.18 = {
+  holder = 115011080
+}
+1983.6.20 = {
+  holder = 117864351
+}
+1991.12.26 = {
+  holder = 111724716
+  liege = 0
+}
+2003.11.23 = {
+  holder = 117129599
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_0
+  law = high_court_law_1
+  law = vassal_wars_law_2
+}
+2013.11.17 = {
+  holder = 115998566
+}

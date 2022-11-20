@@ -1,0 +1,111 @@
+740.1.1 = {
+  liege = k_france
+  holder = 91487
+}
+862.1.1 = {
+  liege = k_france
+  holder = 90109
+}
+879.1.1 = {
+  holder = 90108
+}
+918.9.10 = {
+  holder = 358
+}
+958.1.1 = {
+  holder = 360
+}
+962.11.1 = {
+  holder = 361
+}
+987.3.10 = {
+  holder = 362
+}
+1035.5.30 = {
+  holder = 364
+}
+1067.9.1 = {
+  holder = 106643
+}
+1070.7.17 = {
+  holder = 366
+}
+1071.2.22 = {
+  holder = 368
+}
+1093.10.13 = {
+  holder = 10076
+}
+1111.10.5 = {
+  holder = 31125
+}
+1119.6.17 = {
+  holder = 31158
+}
+1127.3.2 = {
+  holder = 31155
+}
+1128.7.28 = {
+  holder = 212590
+}
+1168.1.4 = {
+  holder = 212591
+}
+1191.6.1 = {
+  holder = 212589
+}
+1194.11.15 = {
+  holder = 205520
+}
+1195.12.17 = {
+  holder = 205523
+}
+1204.5.16 = {
+  holder = 94021
+}
+1244.12.5 = {
+  holder = 94024
+}
+1251.6.6 = {
+  holder = 455769
+}
+1305.3.7 = {
+  holder = 455768
+}
+1322.9.17 = {
+  holder = 455710
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_frisia
+  name = Belgium
+  adjective = Belgian
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1831.7.21 = {
+  holder = 110561709
+}
+1865.12.10 = {
+  holder = 113693302
+}
+1909.12.17 = {
+  holder = 112167493
+}
+1934.2.17 = {
+  holder = 110616118
+}
+1951.7.17 = {
+  holder = 115558687
+}
+1993.7.31 = {
+  holder = 119662881
+}
+2013.7.21 = {
+  holder = 117488702
+}

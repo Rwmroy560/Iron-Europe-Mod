@@ -1,0 +1,13 @@
+title = c_macon
+max_settlements = 4
+b_macon = castle
+b_cluny = temple
+b_beaujeu = city
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = frankish
+}
+1700.1.1 = {
+  b_fuisse = castle
+}

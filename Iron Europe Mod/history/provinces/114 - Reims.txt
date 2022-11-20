@@ -1,0 +1,17 @@
+title = c_reims
+max_settlements = 5
+b_reims = temple
+b_chatillon = castle
+b_rethel = city
+b_chalons = castle
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = frankish
+}
+1700.1.1 = {
+  b_attigny = city
+}
+1700.1.1 = {
+  capital = b_chatillon
+}

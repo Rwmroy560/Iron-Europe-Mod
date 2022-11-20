@@ -1,0 +1,111 @@
+711.1.1 = {
+  liege = e_arabia
+}
+768.1.1 = {
+  holder = 188533
+  liege = 0
+}
+854.1.1 = {
+  holder = 175050
+}
+861.1.1 = {
+  liege = 0
+}
+884.1.1 = {
+  holder = 261106
+}
+913.1.1 = {
+  holder = 261107
+}
+1011.1.1 = {
+  holder = 188349
+}
+1026.1.1 = {
+  holder = 188350
+}
+1053.1.1 = {
+  holder = 188351
+}
+1068.1.1 = {
+  holder = 188352
+}
+1092.1.1 = {
+  holder = 188353
+}
+1102.1.1 = {
+  holder = 188354
+}
+1107.1.1 = {
+  holder = 188357
+}
+1140.1.1 = {
+  holder = 188358
+}
+1180.1.1 = {
+  holder = 188359
+}
+1182.1.1 = {
+  holder = 144141
+}
+1186.1.1 = {
+  holder = 144142
+  liege = e_rajastan
+}
+1203.1.1 = {
+  holder = 170300
+}
+1210.1.1 = {
+  liege = 0
+}
+1228.5.30 = {
+  holder = 188363
+  liege = e_rajastan
+}
+1242.1.1 = {
+  holder = 188364
+}
+1256.1.1 = {
+  holder = 188365
+}
+1259.1.1 = {
+  holder = 188366
+}
+1273.1.1 = {
+  holder = 188367
+}
+1283.1.1 = {
+  holder = 188368
+}
+1300.1.1 = {
+  holder = 188369
+}
+1315.1.1 = {
+  holder = 188370
+}
+1333.1.1 = {
+  holder = 188371
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = e_india
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114241054
+}
+1823.7.21 = {
+  holder = 111358589
+}
+1838.6.22 = {
+  holder = 111415114
+}
+1843.3.1 = {
+  holder = 0
+}

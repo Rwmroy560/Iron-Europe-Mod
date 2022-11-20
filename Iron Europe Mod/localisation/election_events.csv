@@ -1,0 +1,106 @@
+#tributary stuff
+dependant;Dependant State;;;x
+TRIBUTARY_DEPENDANT;Autonomous State;;;x
+TRIBUTARY_DEPENDANT_PLURAL;Autonomous States;;;x
+
+colony;Colony;;;x
+TRIBUTARY_COLONY;Colony;;;x
+TRIBUTARY_COLONY_PLURAL;Colonies;;;x
+SUZERAIN_PATRON_NAME;Patron;;;x
+TRIBUTARY_COLONY_TRIBUTE;Colony;;;x
+
+puppet;puppet;;;x
+TRIBUTARY_PUPPET;Puppet State;;;x
+TRIBUTARY_PUPPET_PLURAL;Puppet States;;;x
+
+nato;NATO;;;x
+TRIBUTARY_NATO;NATO Member State;;;x
+TRIBUTARY_NATO_PLURAL;NATO Member States;;;x
+
+#buildings
+ca_officer_academy;Officer Academy;x
+ca_officer_academy_desc;An Officer Academy provides you with a steady stream of competent personelle.;x
+
+demo_elective;Democratic Tradition;;;x
+
+#cbs
+WAR_NAME_POWERFUL_VASSAL_TAKEOVER;$SECOND_ADJ$ Civil War;;;;;;;;;;;;x
+powerful_vassal_takeover_war_desc;This country is going down the wrong path. I must seize power and correct things!;;;;;;;;;;;;x
+
+CB_NAME_FUCK_YOU_DEMOCRACY;Install Democracy!;;;;;;;;;;;;;x
+WAR_NAME_FUCK_YOU_DEMOCRACY;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$ Intervention;;;;;;;;;;;;;x
+fuck_you_democracy_desc;The people of this state do not have a democratic tradition. Time to change that.;;;;;;;;;;;;;x
+
+CB_NAME_FUCK_YOU_COLONIZE;Special Military Operation;;;x
+WAR_NAME_FUCK_YOU_COLONIZE;$ORDER$ $FIRST_ADJ$ Special Military Operation;;;x
+colony_war_desc;Our great country must be returned to its historical borders. We have exhausted all other means of solving this issue so we must make war!;;;x
+
+reclaim_war;Reclaim Territory;;;x
+reclaim_war_desc;The so-called 'Islamic State' occupies your sovereign territory. You may fight to reclaim as much of it as you can. Be warned, if you fail they will take even more of your territory.;;;x
+CB_NAME_RECLAIM;Anti-Terrorist Operation;;;x
+WAR_NAME_RECLAIM;$ORDER$ $FIRST_ADJ$ Anti-Terrorist Operation;;;x
+
+taliban_takeover;Taliban Takeover;;;x
+taliban_takeover_desc;The Islamic Emirate of Afghanistan is currently under occupation by an infidel-installed, illegitimate regime. Inshallah, you will finally remove them from your land!;;;x
+CB_NAME_TALIBAN;Take Over Afghanistan;;;x
+WAR_NAME_TALIBAN;War For Afghanistan;;;x
+
+#modifiers
+change_character;Play as [Root.GetTitledName];;;;;;;;;;;;x
+change_character_desc;Switch your character to this one.;;;;;;;;;;;;x
+political_instab;Political Instability;;;x
+political_instab_desc;The political environment here is full of uncertainty. Revolution could erupt at any moment...;;;x
+immigrant1;Influx of Immigrants;;;x
+immigrant1_desc;This province is undergoing an immigration wave due to decolonization.;;;x
+demanding_indep;Demanding Independence;;;x
+stepping_down;Stepping Down;;;x
+conceded_power;Conceded Power;;;x
+refused_concede;Refused to Concede;;;x
+rigged_elections;Demanding Democracy;;;x
+rigged_elections_desc;The people of this realm want to have a say in deciding who rules them.;;;x
+succ_primogeniture;Autocracy;;;x
+succ_primogeniture_full;Autocracy;;;x
+succ_primogeniture_full;Autocracy;;;x
+succ_seniority;Senior Autocracy;;;x
+succ_seniority_full;Senior Autocracy;;;x
+succ_feudal_elective;Democracy;;;x
+succ_feudal_elective_full;Democracy;;;x
+succ_feudal_elective_desc;Succession is determined by vote from all adults in the realm, including unlanded lowborns and bastards but excluding slaves. The ruler is decided by the will of the people;;;x
+succ_ultimogeniture;Junior Autocracy;;;x
+succ_ultimogeniture_full;Junior Autocracy;;;x
+succ_gavelkind;Partition;;;x
+succ_gavelkind_full;Partition;;;x
+
+#events
+EVTDESCelection_events.3;Democracy is a long standing tradition, ensuring all citizens the right to participate in the political process. The people of [Root.PrimaryTitle.GetName] expect you to uphold this tradition...;;;x
+EVTOPTAelection_events.3;I do not care what they think.;;;x
+EVTOPTCelection_events.3;We must respect the democratic tradition...;;;x
+
+EVTDESCelection_events.3;Tension is stirring in your realm. The people are rioting and protesting and demanding an immediate transition to Democracy. You decide to...;;;x
+EVTOPTAelection_events.3;Ignore the protests;;;x
+EVTOPTCelection_events.3;Bow to the people's demands;;;x
+
+EVTDESCelection_events.5;The natives of [From.PrimaryTitle.GetName] are growing discontent. They claim to suffer under your colonial government and demand to be given either freedom or more rights.;;;x
+EVTOPTAelection_events.5;They will get nothing.;;;x
+EVTOPTBelection_events.5;I understand. Let them be free.;;;x
+stepd1;Start the process of granting independence to your colony as a republic.;;;x
+EVTOPTCelection_events.5;Grant them autonomy.;;;x
+stepd2;Make this colony an Autonomous Region of your State. This may upset some of your citizens.;;;x
+
+EVTDESCelection_events.6;The time has come for [FromFrom.GetTitledName] to step down and abdicate to their successor. This will mark the independence of your colony.;;;x
+EVTOPTAelection_events.6;Good luck to them.;;;x
+
+EVTDESCconvert1;[target_loser.GetTitledName] is defeated and [target_loser.GetHerHis] armies have surrendered and laid down their arms. With democracy established in the realm, what should be done with their leader [target_loser.GetTitledName]?;;;x
+EVTOPTAconvert1;Clap [target_loser.GetHerHim] in irons;;;x
+dconv1;Arrest [target_loser.GetFirstName] and decide what to do with [target_loser.GetHerHim] later.;;;x
+EVTOPTBconvert1;Demand reparations.;;;x
+dconv2;Demand a large sum of gold for your troubles.;;;x
+EVTOPTCconvert1;You will swear fealty to me;;;x
+dconv3;Make [target_loser.GetTitledName] your vassal.;;;x
+EVTOPTDconvert1;Demand tribute;;;x 
+dconv4;Make [target_loser.GetTitledName] pay tribute to you.;;;x
+EVTOPTEconvert1;Replace [target_loser.GetHerHim] with [target_depose.GetTitledName];;;x
+dconv5;Depose [target_loser.GetTitledName] and install a puppet.;;;x
+
+EVTDESCconvert2;[target_loser.GetTitledName] has been subjugated and [target_loser.GetTitledName]'s armies have surrendered and laid down their arms. [target_loser.GetTitledName] will be replaced with a loyal man. Loyal to you, of course...;;;x
+EVTOPTEconvert2;Perfect!;;;x

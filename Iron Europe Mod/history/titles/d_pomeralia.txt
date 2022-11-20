@@ -1,0 +1,126 @@
+936.1.1 = {
+  holder = 260571
+}
+1155.1.1 = {
+  liege = k_poland
+  holder = 221760
+}
+1187.1.29 = {
+  holder = 221750
+}
+1207.2.7 = {
+  holder = 221755
+}
+1210.1.1 = {
+  liege = k_denmark
+}
+1212.1.1 = {
+  liege = k_poland
+}
+1219.5.1 = {
+  holder = 221751
+}
+1223.12.28 = {
+  holder = 30450
+}
+1227.1.1 = {
+  holder = 30452
+}
+1233.5.4 = {
+  holder = 30451
+}
+1266.1.10 = {
+  holder = 30453
+}
+1270.1.1 = {
+  holder = 30459
+}
+1271.1.1 = {
+  holder = 30458
+}
+1294.12.25 = {
+  holder = 125977
+}
+1296.2.8 = {
+  holder = 471510
+}
+1308.11.13 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1806.8.6 = {
+  de_jure_liege = k_poland
+}
+1815.6.9 = {
+  holder = 115028710
+  liege = k_pomerania
+}
+1830.6.9 = {
+  holder = 111702139
+  liege = k_pomerania
+}
+1845.6.9 = {
+  holder = 110916733
+  liege = k_pomerania
+}
+1860.6.9 = {
+  holder = 111496112
+  liege = k_pomerania
+}
+1871.1.18 = {
+  holder = 114848893
+  liege = e_germany
+}
+1886.1.18 = {
+  holder = 111500995
+  liege = e_germany
+}
+1901.1.18 = {
+  holder = 116808515
+  liege = e_germany
+}
+1916.1.18 = {
+  holder = 110223762
+  liege = e_germany
+}
+1931.1.18 = {
+  holder = 110144331
+  liege = e_germany
+}
+1945.5.8 = {
+  holder = 118635346
+  liege = k_poland
+}
+1960.5.8 = {
+  holder = 119680161
+  liege = k_poland
+}
+1975.5.8 = {
+  holder = 116449008
+  liege = k_poland
+}
+1990.5.8 = {
+  holder = 111855564
+  liege = k_poland
+}
+2005.5.8 = {
+  holder = 119831822
+  liege = k_poland
+}
+2020.5.8 = {
+  holder = 119187886
+  liege = k_poland
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

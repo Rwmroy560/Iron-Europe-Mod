@@ -1,0 +1,57 @@
+804.1.1 = {
+  liege = k_bulgaria
+  holder = 146153
+}
+860.1.1 = {
+  holder = 168290
+}
+895.1.1 = {
+  liege = k_magyar
+  holder = 0
+}
+936.1.1 = {
+  liege = k_hungary
+  holder = 260658
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 115132030
+  liege = e_carpathia
+}
+1830.6.9 = {
+  holder = 116078059
+  liege = e_carpathia
+}
+1845.6.9 = {
+  holder = 113718198
+  liege = e_carpathia
+}
+1860.6.9 = {
+  holder = 111539277
+  liege = e_carpathia
+}
+1875.6.9 = {
+  holder = 112624030
+  liege = e_carpathia
+}
+1890.6.9 = {
+  holder = 112225180
+  liege = e_carpathia
+}
+1905.6.9 = {
+  holder = 116379519
+  liege = e_carpathia
+}
+1918.11.11 = {
+  holder = 0
+  liege = 0
+}

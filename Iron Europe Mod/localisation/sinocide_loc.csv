@@ -1,0 +1,58 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+sinocide_stop_genocide;Stop Genocide;;;;x
+sinocide_stop_genocide_desc;There is an ongoing genocide in your nation. You may put it to an end.;;;x
+sinocide_religion;Religious Purge;;;;;;;;;;;;;x
+sinocide_religion_desc;Everyone not of the faith in this province is being put to the sword.;;;;;;;;;;;;;x
+sinocide_race;Racial Genocide;;;;;;;;;;;;;x
+sinocide_race_desc;Everyone in this province is being put to the sword.;;;;;;;;;;;;;x
+sinocide_war;Warcrime;;;;;;;;;;;;;x
+sinocide_war_desc;This province is being plundered and the population slaughtered.;;;;;;;;;;;;;x
+sinocide_war_crime;War Criminal;;;;;;;;;;;;;x
+sinocide_war_crime_desc;You have issued orders to slaughter the people of an enemy.;;;;;;;;;;;;;x
+sinocide_laws;Racial Laws;;;;;;;;;;;;;x
+sinocide_laws_desc;Who are allowed to hold government positions in the Realm.;;;;;;;;;;;;;x
+sinocide_laws_0;Free Holder;;;;;;;;;;;;;x
+sinocide_laws_0_option;Free;;;;;;;;;;;;;x
+sinocide_laws_0_desc;Jobs are freely held;;;;;;;;;;;;;x
+sinocide_laws_1;Racial Supremacism;;;;;;;;;;;;;x
+sinocide_laws_1_option;Racial;;;;;;;;;;;;;x
+sinocide_laws_1_desc;Jobs are only held by allowed Races.;;;;;;;;;;;;;x
+sinocide_religion_realm;Religious Purge;;;;;;;;;;;;;x
+sinocide_religion_realm_desc;Commit genocide and destroy a foreign religion in your realm.;;;;;;;;;;;;;x
+sinocide_race_realm;Racial Genocide;;;;;;;;;;;;;x
+sinocide_race_realm_desc;Commit genocide and destroy a foreign race in your realm.;;;;;;;;;;;;;x
+sinocide_warcrime;Genocide Province;;;;;;;;;;;;;x
+sinocide_warcrime_desc;You are at war and can slaughter the location population and steal it from your enemies.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.0;You have called up a Religious Purge, now which religion do you wish to remove from your realm?;;;;;;;;;;;;;x
+EVTOPTAsinocide_events.0;[sinocide_rel_target1.Religion.GetName] and it's Heathens.;;;;;;;;;;;;;x
+EVTOPTBsinocide_events.0;[sinocide_rel_target2.Religion.GetName] and it's Heathens.;;;;;;;;;;;;;x
+EVTOPTCsinocide_events.0;[sinocide_rel_target3.Religion.GetName] and it's Heathens.;;;;;;;;;;;;;x
+EVTOPTDsinocide_events.0;Actually, nevermind.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.1;You have called up a Racial Genocide, now which peoples do you wish to remove from your realm?;;;;;;;;;;;;;x
+EVTOPTAsinocide_events.1;[sinocide_rac_target1.Culture.GetName], All of them!;;;;;;;;;;;;;x
+EVTOPTBsinocide_events.1;[sinocide_rac_target2.Culture.GetName], Every one!!!;;;;;;;;;;;;;x
+EVTOPTCsinocide_events.1;[sinocide_rac_target3.Culture.GetName], Slaughter them all!;;;;;;;;;;;;;x
+EVTOPTDsinocide_events.1;Actually, nevermind.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.10;The Crown has called a general slaughter against a people and demands you execute any of thepeoples in your Realm.;;;;;;;;;;;;;x
+EVTOPTAsinocide_events.10;Very well.;;;;;;;;;;;;;x
+EVTOPTBsinocide_events.10;This is ridiculous! I refuse.;;;;;;;;;;;;;x
+EVTOPTCsinocide_events.10;This is ridiculous! I'll send them away.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.101;You have completed a Religious Purge in a province in your realm, slaughtering a great many of your people.;;;;;;;;;;;;;x
+EVTOPTAsinocide_events.101;Excellent.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.201;You have completed a Racial Genocide in a province in your realm, slaughtering a great many of your people.;;;;;;;;;;;;;x
+EVTOPTAsinocide_events.201;Excellent.;;;;;;;;;;;;;x
+EVTDESCsinocide_maintenance.0;You have an ongoing genocide in your realm, and you can stop it.;;;;;;;;;;;;;x
+EVTOPTBsinocide_maintenance.1;Unfortunately, this is necessary;;;x
+EVTOPTAsinocide_maintenance.0;This is horrific, end it immediately!;;;;;;;;;;;;;x
+EVTOPTBsinocide_maintenance.0;What's done is done...;;;;;;;;;;;;;x
+EVTDESCsinocide_maintenance.1;You have an ongoing genocide of your people in your realm, and you can stop it.;;;;;;;;;;;;;x
+EVTOPTAsinocide_maintenance.1;This is horrific, end it immediately!;;;;;;;;;;;;;x
+EVTDESCsinocide_maintenance.2;You have an ongoing genocide in your realm, and you can stop it.;;;;;;;;;;;;;x
+EVTOPTAsinocide_maintenance.2;This is horrific, end it immediately!;;;;;;;;;;;;;x
+EVTDESCsinocide_maintenance.3;You Racial Supremacism active in your realm with characters in council in the realm.;;;;;;;;;;;;;x
+EVTOPTAsinocide_maintenance.3;Fix it.;;;;;;;;;;;;;x
+EVTDESCsinocide_warcrime_events.0;You have called up a Genocide of an enemy province, slaughtering the locals and stealing it to your realm. Are you sure?;;;;;;;;;;;;;x
+EVTOPTAsinocide_warcrime_events.0;Absolutely.;;;;;;;;;;;;;x
+EVTOPTBsinocide_warcrime_events.0;On second thought...;;;;;;;;;;;;;x
+EVTDESCsinocide_warcrime_maintain.1;You have genocided an enemy province and refilled it with your own people, absorbing it into your own realm.;;;;;;;;;;;;;x
+EVTOPTAsinocide_warcrime_maintain.1;Excellent.;;;;;;;;;;;;;x

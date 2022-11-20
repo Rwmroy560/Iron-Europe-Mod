@@ -1,0 +1,170 @@
+330.1.1 = {
+  liege = d_dyrrachion
+}
+759.1.1 = {
+  holder = 145817
+}
+865.1.1 = {
+  holder = 145124
+}
+936.1.1 = {
+  holder = 262230
+  liege = d_dyrrachion
+}
+1005.1.1 = {
+  liege = e_byzantium
+}
+1018.2.1 = {
+  liege = d_dyrrachion
+}
+1060.1.1 = {
+  holder = 20488
+}
+1070.1.1 = {
+  holder = 90035
+}
+1081.10.18 = {
+  holder = 42014
+}
+1108.1.1 = {
+  holder = 34441
+}
+1143.1.1 = {
+  holder = 34442
+}
+1168.1.1 = {
+  holder = 34281
+}
+1187.1.1 = {
+  holder = 215008
+}
+1200.1.1 = {
+  holder = 232538
+}
+1204.5.16 = {
+  holder = 167602
+}
+1215.1.1 = {
+  liege = d_epirus
+  holder = 232540
+}
+1234.1.1 = {
+  holder = 34448
+}
+1256.1.1 = {
+  liege = e_byzantium
+}
+1257.1.1 = {
+  liege = k_sicily
+}
+1259.1.1 = {
+  liege = e_byzantium
+}
+1262.1.1 = {
+  holder = 34449
+}
+1272.2.12 = {
+  liege = k_sicily
+  holder = 34461
+}
+1279.8.1 = {
+  holder = 34462
+}
+1282.8.30 = {
+  liege = k_naples
+  holder = 34602
+}
+1293.9.16 = {
+  holder = 32791
+}
+1307.1.1 = {
+  liege = d_achaia
+  holder = 461712
+}
+1313.1.1 = {
+  holder = 31344
+}
+1316.8.2 = {
+  holder = 31343
+}
+1318.1.1 = {
+  holder = 455910
+}
+1320.1.1 = {
+  holder = 455650
+}
+1322.1.1 = {
+  holder = 461721
+}
+1332.1.1 = {
+  holder = 461721
+}
+1336.1.2 = {
+  liege = d_dyrrachion
+  holder = 248843
+}
+1450.1.1 = {
+  liege = 0
+  holder = 109857674
+}
+1815.6.9 = {
+  holder = 113020049
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 119606809
+}
+1845.6.9 = {
+  holder = 115349573
+}
+1860.6.9 = {
+  holder = 119350395
+}
+1875.6.9 = {
+  holder = 114602609
+}
+1890.6.9 = {
+  holder = 110428273
+}
+1905.6.9 = {
+  holder = 110208732
+}
+1913.5.30 = {
+  liege = d_dyrrachion
+  holder = 111857394
+}
+1914.1.22 = {
+  holder = 115172024
+}
+1914.3.7 = {
+  holder = 111222912
+}
+1925.2.1 = {
+  holder = 117753078
+}
+1939.4.12 = {
+  holder = 116440423
+  liege = e_italy
+}
+1945.5.8 = {
+  liege = d_dyrrachion
+  holder = 110697190
+}
+1985.4.11 = {
+  holder = 112326528
+}
+1992.4.9 = {
+  holder = 115351092
+}
+1997.7.24 = {
+  holder = 116301375
+}
+2002.7.24 = {
+  holder = 114707179
+}
+2007.7.24 = {
+  holder = 113753226
+}
+2012.7.24 = {
+  holder = 118865755
+}

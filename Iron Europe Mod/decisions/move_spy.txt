@@ -1,0 +1,127 @@
+targetted_decisions = {
+	bring_spy_to_court = {
+		only_playable = yes
+		filter = all
+		ai_target_filter = dynasty
+
+		from_potential = {
+			ai = no
+			is_playable = yes
+		}
+		potential = {
+			has_character_modifier = society_member
+			is_landed = no
+			prisoner = no
+			FROM = {  
+				NOT = {
+					is_liege_of = ROOT 
+				}
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			ROOT = { move_character = FROM }
+		}
+		revoke_allowed = {
+			always = no #Not used in vanilla
+		}
+		ai_will_do = {
+			always = no
+		}
+	}
+	prepare_move_spy = {
+		only_playable = yes
+		filter = court
+		ai_target_filter = dynasty
+
+		from_potential = {
+			ai = no
+			is_playable = yes
+		}
+		potential = {
+			has_character_modifier = society_member
+			is_landed = no
+			prisoner = no
+			NOR = {
+				has_character_flag = ready_move
+				has_flag = ready_move
+			}
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			set_character_flag = ready_move
+		}
+		revoke_allowed = {
+			always = no #Not used in vanilla
+		}
+		ai_will_do = {
+			always = no
+		}
+	}
+	send_spy_to_court = {
+		filter = all
+		from_potential = {
+			is_landed = yes
+			any_courtier = { has_character_flag = ready_move }
+		}
+		
+		potential = {
+			prisoner = no
+			is_landed = yes		
+		}
+		
+		allow = {
+			is_within_diplo_range = FROM
+			prisoner = no
+		}
+		
+		effect = {		
+			FROM = { 
+				character_event = {
+					id = roy_spy.1
+				}
+			}
+		}		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	recruit_member = {
+		filter = realm
+		ai_target_filter = court
+
+		from_potential = {
+			higher_tier_than = BARON
+			prisoner = no
+			age = 14
+			capital_scope = { has_building = ca_intel_building }
+			NOT = { trait = incapable }
+		}
+		potential = {
+			is_alive = yes
+			age = 16
+			OR = {
+				father = { character = FROM }
+				mother = { character = FROM }
+				any_dynasty_member = { character = FROM }
+				any_friend = { character = FROM }
+				any_spouse = { character = FROM }
+				any_lover = { character = FROM }
+			}
+		}
+		allow = {
+			prisoner = no
+			NOT = { has_character_modifier = society_member }
+		}
+		effect = {
+			add_character_modifier = { modifier = society_member duration = 1095 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,87 @@
+20.1.1 = {
+  historical_nomad = no
+}
+837.1.1 = {
+  holder = 180262
+}
+936.1.1 = {
+  holder = 260700
+}
+1030.1.1 = {
+  holder = 90142
+}
+1060.1.1 = {
+  holder = 806
+}
+1110.1.1 = {
+  holder = 90143
+}
+1120.1.1 = {
+  holder = 125401
+}
+1146.1.1 = {
+  holder = 125402
+}
+1183.1.1 = {
+  holder = 228030
+}
+1203.1.1 = {
+  holder = 125403
+}
+1223.1.1 = {
+  holder = 125404
+}
+1238.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Kazakhstan
+  adjective = Kazakh
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 112146469
+}
+1821.2.15 = {
+  holder = 118219368
+}
+1824.1.1 = {
+  holder = 0
+}
+1918.11.11 = {
+  holder = 114675035
+  liege = e_russia
+}
+1925.1.7 = {
+  holder = 114465002
+}
+1936.7.13 = {
+  holder = 119418544
+}
+1953.3.8 = {
+  holder = 119754687
+}
+1961.12.1 = {
+  holder = 115967132
+}
+1977.9.16 = {
+  holder = 113441726
+}
+1990.2.22 = {
+  holder = 117670861
+  law = army_professionalism_law_1
+  law = high_court_law_2
+  law = tax_peasants_law_feudal_1
+  law = vassal_wars_law_2
+}
+1991.12.26 = {
+  liege = 0
+}

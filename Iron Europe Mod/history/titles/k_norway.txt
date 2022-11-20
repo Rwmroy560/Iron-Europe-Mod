@@ -1,0 +1,170 @@
+872.1.1 = {
+  holder = 144000
+}
+931.1.1 = {
+  holder = 102507
+}
+934.1.1 = {
+  holder = 144001
+}
+961.1.1 = {
+  holder = 102508
+}
+970.1.1 = {
+  holder = 101502
+}
+986.1.1 = {
+  holder = 101505
+}
+995.1.1 = {
+  holder = 144004
+}
+1000.1.1 = {
+  holder = 101505
+}
+1015.1.1 = {
+  holder = 102527
+}
+1028.1.1 = {
+  holder = 101510
+}
+1030.1.1 = {
+  holder = 101514
+}
+1035.1.1 = {
+  holder = 102529
+}
+1047.10.25 = {
+  holder = 102531
+  law = succ_feudal_elective
+  law = investiture_law_1
+}
+1066.9.26 = {
+  holder = 102532
+}
+1069.4.28 = {
+  holder = 102534
+}
+1093.1.1 = {
+  holder = 102577
+}
+1094.6.6 = {
+  holder = 202511
+}
+1103.1.25 = {
+  holder = 222598
+}
+1115.12.22 = {
+  holder = 222597
+}
+1123.8.29 = {
+  holder = 222595
+}
+1130.3.26 = {
+  holder = 222599
+}
+1135.1.7 = {
+  holder = 202510
+}
+1136.12.14 = {
+  holder = 202501
+}
+1155.6.10 = {
+  holder = 202514
+}
+1157.8.21 = {
+  holder = 202512
+}
+1161.1.5 = {
+  holder = 202507
+}
+1162.7.7 = {
+  holder = 202051
+}
+1184.6.15 = {
+  holder = 202500
+}
+1202.3.9 = {
+  holder = 202502
+}
+1204.1.1 = {
+  holder = 202508
+}
+1204.8.11 = {
+  holder = 202032
+}
+1217.4.23 = {
+  holder = 202509
+}
+1263.12.15 = {
+  holder = 6905
+}
+1280.5.9 = {
+  holder = 6906
+}
+1299.7.15 = {
+  holder = 452510
+}
+1319.5.8 = {
+  holder = 450500
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1670.2.9 = {
+  holder = 111053329
+}
+1699.8.25 = {
+  holder = 117690146
+}
+1700.1.1 = {
+  name = Norway
+  adjective = Norwegian
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+  law = succ_primogeniture
+}
+1730.10.12 = {
+  holder = 113504511
+}
+1746.8.6 = {
+  holder = 113654434
+}
+1766.1.14 = {
+  holder = 110839913
+}
+1808.3.13 = {
+  holder = 113948260
+}
+1814.5.17 = {
+  holder = 116230028
+}
+1818.2.5 = {
+  holder = 119577459
+}
+1844.3.8 = {
+  holder = 119954374
+}
+1859.7.8 = {
+  holder = 118888073
+}
+1872.9.18 = {
+  holder = 110926023
+}
+1905.6.7 = {
+  holder = 119376587
+}
+1957.9.21 = {
+  holder = 119360175
+}
+1991.1.17 = {
+  holder = 119191912
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = vassal_wars_law_2
+}

@@ -1,0 +1,12 @@
+RETTYPE_CUL_AMERICAN = {
+  first_type = 1
+  first_amount = 200
+  potential = {
+    is_nomadic = no
+    culture = american
+  }
+  modifier = {
+    heavy_infantry_offensive = 0.4
+    heavy_infantry_morale = 0.2
+  }
+}

@@ -1,0 +1,114 @@
+1187.1.1 = {
+  liege = e_hre
+  holder = 223597
+  law = succ_primogeniture
+  law = agnatic_succession
+}
+1193.12.15 = {
+  holder = 223596
+}
+1212.11.1 = {
+  holder = 70658
+}
+1215.1.1 = {
+  holder = 70661
+}
+1264.2.17 = {
+  holder = 70669
+  liege = 0
+}
+1293.2.20 = {
+  holder = 70674
+}
+1308.1.31 = {
+  holder = 70686
+}
+1308.10.1 = {
+  holder = 70689
+}
+1310.1.1 = {
+  liege = k_papal_state
+  law = succ_catholic_bishopric
+}
+1317.1.1 = {
+  liege = 0
+  holder = 70700
+  law = succ_primogeniture
+}
+1335.12.31 = {
+  holder = 70709
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 111037218
+  liege = k_papal_state
+}
+1830.6.9 = {
+  holder = 114688620
+  liege = k_papal_state
+}
+1845.6.9 = {
+  holder = 116682730
+  liege = k_papal_state
+}
+1859.11.10 = {
+  holder = 111590401
+  liege = k_italy
+}
+1861.3.17 = {
+  holder = 118398036
+  liege = e_italy
+}
+1876.3.17 = {
+  holder = 113164785
+  liege = e_italy
+}
+1891.3.17 = {
+  holder = 118911004
+  liege = e_italy
+}
+1906.3.17 = {
+  holder = 110888945
+  liege = e_italy
+}
+1921.3.17 = {
+  holder = 118976609
+  liege = e_italy
+}
+1936.3.17 = {
+  holder = 112497799
+  liege = e_italy
+}
+1951.3.17 = {
+  holder = 111844462
+  liege = e_italy
+}
+1966.3.17 = {
+  holder = 115197941
+  liege = e_italy
+}
+1981.3.17 = {
+  holder = 118828338
+  liege = e_italy
+}
+1996.3.17 = {
+  holder = 114126033
+  liege = e_italy
+}
+2011.3.17 = {
+  holder = 119925746
+  liege = e_italy
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

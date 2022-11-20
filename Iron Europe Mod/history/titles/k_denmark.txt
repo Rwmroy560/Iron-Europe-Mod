@@ -1,0 +1,177 @@
+100.1.1 = {
+  effect = {
+    disable_prepared_invasion = norse_pagan
+    disable_prepared_invasion = norse_pagan_reformed
+  }
+}
+793.1.1 = {
+  effect = {
+    if = {
+      limit = {
+        NOT = {
+          has_alternate_start_parameter = {
+            key = religion_names
+            value = random
+          }
+        }
+      }
+      enable_prepared_invasion = norse_pagan
+    }
+    if = {
+      limit = {
+        NOT = {
+          has_dlc = "Holy Fury"
+        }
+      }
+      enable_prepared_invasion = norse_pagan_reformed
+    }
+  }
+}
+917.1.1 = {
+  law = succ_feudal_elective
+  law = investiture_law_1
+  holder = 101549
+}
+934.1.1 = {
+  holder = 101500
+}
+958.1.1 = {
+  holder = 101502
+}
+986.1.1 = {
+  holder = 101505
+}
+1014.2.3 = {
+  holder = 101507
+}
+1018.1.1 = {
+  holder = 101510
+}
+1035.11.12 = {
+  holder = 101511
+}
+1042.6.8 = {
+  holder = 102529
+}
+1047.10.25 = {
+  holder = 101515
+}
+1074.4.28 = {
+  holder = 101517
+}
+1080.4.17 = {
+  holder = 101519
+}
+1086.7.10 = {
+  holder = 101520
+}
+1095.8.18 = {
+  holder = 101521
+}
+1103.7.10 = {
+  holder = 101530
+}
+1134.6.25 = {
+  holder = 201517
+}
+1137.7.18 = {
+  holder = 201514
+}
+1146.8.27 = {
+  holder = 201508
+}
+1157.8.9 = {
+  holder = 201518
+}
+1157.10.23 = {
+  holder = 201510
+}
+1182.5.12 = {
+  holder = 201500
+}
+1202.11.12 = {
+  holder = 201501
+}
+1241.3.28 = {
+  holder = 451510
+}
+1250.8.9 = {
+  holder = 451524
+}
+1252.6.29 = {
+  holder = 451513
+}
+1259.5.29 = {
+  holder = 451514
+}
+1286.11.22 = {
+  holder = 451515
+}
+1319.11.13 = {
+  holder = 451520
+}
+1326.6.7 = {
+  holder = 451530
+}
+1329.2.23 = {
+  holder = 451520
+}
+1332.8.2 = {
+  holder = 451500
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1670.2.9 = {
+  holder = 111053329
+}
+1699.8.25 = {
+  holder = 117690146
+}
+1700.1.1 = {
+  name = Denmark
+  adjective = Danish
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1730.10.12 = {
+  holder = 113504511
+}
+1746.8.6 = {
+  holder = 113654434
+}
+1766.1.14 = {
+  holder = 110839913
+}
+1808.3.13 = {
+  holder = 113948260
+}
+1839.12.3 = {
+  holder = 119114789
+}
+1848.1.20 = {
+  holder = 117624072
+}
+1863.11.15 = {
+  holder = 119068381
+}
+1906.1.29 = {
+  holder = 118008489
+}
+1912.5.14 = {
+  holder = 113194354
+}
+1947.4.20 = {
+  holder = 111075456
+}
+1972.1.14 = {
+  holder = 119281019
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = vassal_wars_law_2
+}

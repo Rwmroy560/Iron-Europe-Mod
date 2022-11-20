@@ -1,0 +1,113 @@
+750.1.1 = {
+  holder = 194150
+}
+799.1.1 = {
+  holder = 194151
+}
+822.1.1 = {
+  holder = 159711
+}
+855.1.1 = {
+  holder = 159714
+}
+860.1.1 = {
+  holder = 6852
+}
+936.1.1 = {
+  holder = 260771
+}
+987.1.2 = {
+  holder = 0
+}
+1218.2.2 = {
+  holder = 125174
+}
+1238.3.4 = {
+  liege = e_golden_horde
+  holder = 125175
+}
+1249.1.2 = {
+  holder = 125176
+}
+1257.1.2 = {
+  holder = 125177
+}
+1261.1.2 = {
+  holder = 472794
+}
+1299.9.19 = {
+  holder = 472792
+}
+1321.1.2 = {
+  holder = 472790
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114041843
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 110367256
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 115297206
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 112890655
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 119941216
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 113699315
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 117603896
+  liege = e_russia
+}
+1920.6.9 = {
+  holder = 111954938
+  liege = e_russia
+}
+1935.6.9 = {
+  holder = 112891626
+  liege = e_russia
+}
+1950.6.9 = {
+  holder = 119881738
+  liege = e_russia
+}
+1965.6.9 = {
+  holder = 118669603
+  liege = e_russia
+}
+1980.6.9 = {
+  holder = 115913524
+  liege = e_russia
+}
+1995.6.9 = {
+  holder = 118369845
+  liege = e_russia
+}
+2010.6.9 = {
+  holder = 116429565
+  liege = e_russia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,13 @@
+title = c_saumur
+max_settlements = 4
+b_saumur = castle
+b_cholet = city
+b_fontevraud-l_abbaye = temple
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = frankish
+}
+1700.1.1 = {
+  b_doue_la_fontaine = castle
+}

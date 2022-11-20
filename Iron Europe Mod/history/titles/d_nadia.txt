@@ -1,0 +1,105 @@
+823.1.1 = {
+  holder = 190097
+  liege = k_bengal
+}
+852.1.1 = {
+  holder = 190098
+}
+879.1.1 = {
+  holder = 190099
+}
+1020.1.1 = {
+  holder = 154000
+  liege = k_bengal
+}
+1071.1.1 = {
+  holder = 154001
+}
+1097.1.1 = {
+  holder = 154002
+}
+1132.1.1 = {
+  liege = 0
+}
+1159.1.1 = {
+  holder = 154004
+}
+1179.1.1 = {
+  holder = 154005
+}
+1206.1.1 = {
+  holder = 154006
+}
+1225.1.1 = {
+  holder = 154007
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114574066
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 110730079
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 110513779
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 116275087
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 116003695
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 116567825
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 115894529
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 112575020
+  liege = e_britannia
+}
+1935.6.9 = {
+  holder = 115771105
+  liege = e_britannia
+}
+1947.8.15 = {
+  holder = 115854941
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 119980234
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 113757573
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 112328475
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 118800464
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,74 @@
+e_united_states = {
+  color = {
+    30
+    120
+    220
+  }
+  color2 = {
+    255
+    255
+    0
+  }
+  short_name = yes
+  landless = yes
+  culture = american
+  religion = protestant
+}
+e_canada = {
+  color = {
+    240
+    120
+    70
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  landless = yes
+  culture = canadian
+  religion = protestant
+}
+e_brazil = {
+  color = {
+    255
+    240
+    200
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  landless = yes
+  culture = brazilian
+  religion = catholic
+}
+k_belarus = {
+  color = {
+    75
+    125
+    6
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  culture = belarusian
+  religion = orthodox
+}
+k_taliban = {
+        color = {
+          155
+          110
+          30
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+  culture = afghan
+  religion = sunni
+}

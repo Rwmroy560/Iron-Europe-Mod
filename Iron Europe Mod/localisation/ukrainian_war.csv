@@ -1,0 +1,69 @@
+ukrainian;Ukrainian;;;;;;;;;;;;;x
+join_any_war;Join [Root.GetFirstName]'s war;;;;;;;;;;;;;x
+join_any_war_named;Join War;;;;;;;;;;;;;x
+join_any_war_desc;Join [Root.GetTitledFirstName]'s war.;;;;;;;;;;;;;x
+k_taliban;Islamic Emirate;;;x
+taliban_help;Summoned Mujahideen;;;x
+unleash_mujahideen;Call Upon the Mujahideen;;;x
+unleash_mujahideen_desc;Command the fighters resting about Afghanistan to pick up arms to defend the Islamic Emirate.;;;x
+establish_union_state;Establish Union State with Belarus;;;x
+establish_union_state_desc;Unite Russia and Belarus into a Union State of the Russian Federation.;;;x
+union_setup;Head of Union State;;;x
+nato_setup;Head of NATO;;;x
+nazi_allegations;Nazi Allegations;;;x
+russia_help;Recieved Russian Assistance;;;x
+america_help;Recieved American Assistance;;;x
+ask_russia_help;Ask for Russian Assistance;;;x
+ask_russia_help_desc;You may ask your time-tested ally Russia for assistance in your wars.;;;x
+ask_america_help;Ask for American Assistance;;;x
+ask_america_help_desc;You may ask your time-tested ally America for assistance in your wars.;;;x
+establish_nato;Establish NATO;;;x
+establish_nato_desc;Become the head of the North Atlantic Treaty Organization;;;x
+imprison_fake;Order False Imprisonment;;;x
+imprison_fake_desc;Have your intelligence service arrest this person on trumped up charges.;;;x
+sneak_poison;Have [Root.GetFirstName] Poisoned;;;x
+sneak_poison_desc;Have your intelligence service secretly poison this person, assuring them a slow but inevitable death.;;;x
+odd_feeling;Feeling off...;;;x
+
+torture_events_desc.1;Your Intelligence service has informed you that they have [From.GetFirstName] surrounded and are ready to make an arrest. They await your signal.;;;x
+roy_fsb_events.001.1;I change my mind.;;;x
+roy_fsb_events.001.2;Off to prison with them!;;;x
+
+torture_events_desc.2;The head of your Intelligence service has informed you that they have arranged for [From.GetTitledName] to be secretly poisoned. They only await your command to go through with the plot.;;;x
+roy_fsb_events.002.1;Give the signal.;;;x
+
+EVTDESCukr_war.1;The Azov Regiment,a Neo-Nazi militia based in Ukraine, has taken up arms and are available to fight for you. Employing them may lead people to believe you share their widely reviled beliefs, though...;;;x
+EVTAukr_war.1;I change my mind.;;;x
+EVTBukr_war.1;Slava Ukraini!;;;x
+
+EVTDESCukr_war.2;The American government has just approved an aid package for Ukraine, supplying you with more money and enough weapons to equip thousands of men.;;x
+EVTAukr_war.2;Thanks, Uncle Sam!;;;x
+
+ukr_war.3;Invasion of Ukraine;;x
+EVTDESCukr_war.3;In violation of International Law, the President of the Russian Federation has launched what it calls a "Special Military Operation" on the territory of Ukraine! Ukraine recognizes no Russian claim on our territory so wemust fight them back!  While Ukraine is not a member of NATO, some European states may still wish to get involved and defend democracy from Russia. You may call on your European allies to aid in your defense.;;;x
+EVTOPTAukr_war.3;The Baltic States will help us.;;x
+EVTOPTBukr_war.3;I will call upon the Mediterranean!;;;x
+EVTOPTCukr_war.3;We need the power of the West!;;;x
+EVTOPTDukr_war.3;We can handle this ourselves.;;;x
+
+EVTDESCukr_war.4;The Wagner Battalion, infamous for their deeds on the battlefields across the Middle East and Africa, are available for service to fight for you in Ukraine.;;;x
+EVTAukr_war.4;Send them back.;;;x
+EVTBukr_war.4;Tell them to be ready for combat.;;;x
+
+EVTDESCukr_war.5;Your country is at war. Though the 'International Community' has mostly forsaken you, Russia remains a staunch ally of your cause. Would you call upon them for help?;;;x
+EVTAukr_war.5;We can do this alone.;;;x
+EVTBukr_war.5;We need their strength...;;;x
+
+EVTDESCukr_war.6;The scourge known as the 'Islamic State' is occupying your country's territory and wreaking havoc! You can turn to America again to help stabilize your embattled country.;;;x
+
+EVTDESCukr_war.7;The North Atlantic Treaty Organization is dedicated to peace and the defensive of its member states of the European continent. As its head you are expected to uphold Democracy.;;;x
+EVTBukr_war.7;Peace, Prosperity, Democracy!;;;x
+
+EVTDESCukr_war.8;Belarus was once an integral part of the Soviet Union. Unfortunate events have ripped the State apart but with the help of the Belarusian leader you can restore the empire to its former glory.;;;x
+EVTBukr_war.8;Glory to Russia!;;;x
+
+EVTDESCukr_war.9;You are under attack! According to article 5 of the NATO charter, our allies are now obligated to rise to defend our nation!...;;;x
+EVTAukr_war.9;Let's go!;;;x
+
+EVTDESCukr_war.10;Your Mujahideen fighters have long awaited this day! They have emerged from their hiding spots, armed and ready to take action against the Emirate's enemies!;;;x
+EVTAukr_war.10;Inshallah, we will succeed!;;;x

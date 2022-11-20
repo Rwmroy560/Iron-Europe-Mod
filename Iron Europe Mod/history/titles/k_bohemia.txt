@@ -1,0 +1,102 @@
+200.1.1 = {
+  de_jure_liege = e_wendish_empire
+}
+1002.1.1 = {
+  de_jure_liege = e_hre
+}
+1045.1.1 = {
+  liege = e_hre
+  law = agnatic_succession
+  law = succ_seniority
+  law = centralization_2
+}
+1198.9.1 = {
+  law = succ_primogeniture
+  holder = 212855
+}
+1212.1.1 = {
+  law = succ_feudal_elective
+}
+1230.12.15 = {
+  holder = 96000
+}
+1253.9.23 = {
+  holder = 96001
+}
+1278.8.26 = {
+  holder = 96002
+}
+1305.6.21 = {
+  holder = 96003
+}
+1306.8.4 = {
+  holder = 462720
+}
+1306.12.1 = {
+  holder = 462024
+}
+1307.7.4 = {
+  holder = 462720
+}
+1310.1.1 = {
+  holder = 462610
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1806.8.6 = {
+  de_jure_liege = e_carpathia
+}
+1918.10.28 = {
+  holder = 110952178
+  name = Czechoslovakia
+  adjective = Czechoslovak
+}
+1935.12.18 = {
+  holder = 113037933
+}
+1938.10.5 = {
+  holder = 110504302
+}
+1939.3.15 = {
+  holder = 0
+}
+1945.5.8 = {
+  holder = 115709940
+}
+1953.3.14 = {
+  holder = 119549844
+}
+1968.1.5 = {
+  holder = 118690962
+}
+1969.4.17 = {
+  holder = 116141755
+}
+1987.12.17 = {
+  holder = 115127644
+}
+1989.11.24 = {
+  holder = 112422791
+}
+1989.12.10 = {
+  holder = 116189297
+}
+1993.1.1 = {
+  reset_name = yes
+  reset_adjective = yes
+}
+2003.3.7 = {
+  holder = 115276940
+}
+2013.3.8 = {
+  holder = 112393560
+}

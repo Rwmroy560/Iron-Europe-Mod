@@ -1,0 +1,164 @@
+711.1.1 = {
+  de_jure_liege = k_aquitaine
+}
+801.1.1 = {
+  holder = 70140
+  liege = k_aquitaine
+  de_jure_liege = k_aquitaine
+}
+820.1.1 = {
+  holder = 200141
+}
+826.1.1 = {
+  holder = 163063
+}
+832.1.1 = {
+  holder = 167791
+}
+835.1.1 = {
+  holder = 163063
+}
+844.5.1 = {
+  holder = 73785
+}
+848.1.1 = {
+  holder = 73784
+}
+850.1.1 = {
+  holder = 200142
+}
+851.1.1 = {
+  holder = 200144
+}
+852.1.1 = {
+  holder = 200145
+}
+857.1.1 = {
+  holder = 200148
+}
+865.1.1 = {
+  holder = 127019
+}
+878.1.1 = {
+  holder = 70150
+}
+884.12.12 = {
+  liege = k_france
+}
+888.1.13 = {
+  liege = 0
+  law = agnatic_succession
+  law = succ_primogeniture
+}
+898.8.11 = {
+  holder = 70152
+}
+911.1.1 = {
+  holder = 110536
+}
+954.10.15 = {
+  holder = 110538
+}
+993.9.30 = {
+  holder = 110540
+}
+1017.2.25 = {
+  holder = 110530
+}
+1035.5.26 = {
+  holder = 110520
+}
+1035.10.18 = {
+  de_jure_liege = k_aragon
+}
+1076.5.26 = {
+  holder = 110522
+}
+1082.12.6 = {
+  holder = 110525
+}
+1097.6.20 = {
+  holder = 210508
+}
+1131.7.19 = {
+  holder = 210506
+}
+1137.8.11 = {
+  liege = k_aragon
+}
+1162.8.6 = {
+  holder = 210500
+}
+1164.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114973781
+  liege = e_spain
+}
+1830.6.9 = {
+  holder = 112109466
+  liege = e_spain
+}
+1845.6.9 = {
+  holder = 118268445
+  liege = e_spain
+}
+1860.6.9 = {
+  holder = 114804067
+  liege = e_spain
+}
+1875.6.9 = {
+  holder = 116274183
+  liege = e_spain
+}
+1890.6.9 = {
+  holder = 115008391
+  liege = e_spain
+}
+1905.6.9 = {
+  holder = 117635636
+  liege = e_spain
+}
+1920.6.9 = {
+  holder = 113822594
+  liege = e_spain
+}
+1935.6.9 = {
+  holder = 117270294
+  liege = e_spain
+}
+1950.6.9 = {
+  holder = 113742424
+  liege = e_spain
+}
+1965.6.9 = {
+  holder = 112533112
+  liege = e_spain
+}
+1980.6.9 = {
+  holder = 119329027
+  liege = e_spain
+}
+1995.6.9 = {
+  holder = 111737008
+  liege = e_spain
+}
+2010.6.9 = {
+  holder = 113085671
+  liege = e_spain
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

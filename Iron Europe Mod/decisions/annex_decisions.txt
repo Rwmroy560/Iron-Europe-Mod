@@ -1,0 +1,108 @@
+targetted_decisions = {
+	attempt_annex_dec = {
+		filter = all
+
+		from_potential = {
+			ai = no
+			war = no
+			age = 16
+			higher_tier_than = COUNT
+			any_courtier = { has_job_title = job_chancellor }
+		}
+		potential = {
+			OR = {
+				independent = yes
+				is_tributary = { suzerain = FROM }
+			}
+			FROM = { NOT = { is_vassal_or_below = ROOT } }
+			FROM = { NOT = { is_liege_or_above = ROOT } }
+			war = no
+		FROM = {
+			any_realm_province = {
+				any_neighbor_province = {
+					OR = {
+						AND = {
+							has_owner = yes
+							owner = {
+								OR = {
+									character = ROOT
+									is_liege_or_above = ROOT
+								}
+							}
+						}
+						AND = {
+							is_land = no
+							any_neighbor_province = {
+								OR = {
+									AND = {
+										has_owner = yes
+										owner = {
+											OR = {
+												character = ROOT
+												is_liege_or_above = ROOT
+											}
+										}
+									}
+									AND = {
+										is_land = no
+										any_neighbor_province = {
+											owner = {
+												OR = {
+													character = ROOT
+													is_liege_or_above = ROOT
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+		allow = {
+			opinion = { who = FROM value = 30 }
+			OR = {
+			is_allied_with = FROM
+			has_non_aggression_pact_with = FROM
+			}
+			prisoner = no
+			ROOT = { is_within_diplo_range = FROM }
+			FROM = { wealth = 100 }
+			ROOT = { 
+				OR = {
+				religion_group = FROM
+				culture_group = FROM 
+				}
+			}
+			FROM = { 	
+				NOT = { has_character_modifier = annex_attempt }
+			}
+		}
+		effect = {
+			FROM = {
+			any_courtier = { 
+				limit = { has_job_title = job_chancellor }
+				save_event_target_as = target_negotiator
+			}	
+			hidden_tooltip = {
+				add_character_modifier = {
+					name = annex_attempt
+					duration = 90
+					hidden = yes
+					}
+				character_event = { id = royannex.7 }
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

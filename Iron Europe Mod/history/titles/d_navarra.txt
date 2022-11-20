@@ -1,0 +1,77 @@
+925.12.11 = {
+  holder = 70128
+  liege = k_navarra
+}
+931.5.29 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 112697832
+  liege = e_spain
+}
+1830.6.9 = {
+  holder = 119625805
+  liege = e_spain
+}
+1845.6.9 = {
+  holder = 113327062
+  liege = e_spain
+}
+1860.6.9 = {
+  holder = 114298313
+  liege = e_spain
+}
+1875.6.9 = {
+  holder = 111896710
+  liege = e_spain
+}
+1890.6.9 = {
+  holder = 115684314
+  liege = e_spain
+}
+1905.6.9 = {
+  holder = 112138333
+  liege = e_spain
+}
+1920.6.9 = {
+  holder = 111012578
+  liege = e_spain
+}
+1935.6.9 = {
+  holder = 114497768
+  liege = e_spain
+}
+1950.6.9 = {
+  holder = 110449541
+  liege = e_spain
+}
+1965.6.9 = {
+  holder = 113465208
+  liege = e_spain
+}
+1980.6.9 = {
+  holder = 117265256
+  liege = e_spain
+}
+1995.6.9 = {
+  holder = 110215737
+  liege = e_spain
+}
+2010.6.9 = {
+  holder = 110280296
+  liege = e_spain
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

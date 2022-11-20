@@ -1,0 +1,15 @@
+850.1.1 = {
+  liege = k_egypt
+}
+1600.1.1 = {
+  liege = e_arabia
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1922.11.1 = {
+  liege = k_egypt
+}

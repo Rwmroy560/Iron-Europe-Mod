@@ -1,0 +1,75 @@
+936.1.1 = {
+  holder = 261071
+  liege = k_cuman
+  historical_nomad = yes
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 116453712
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 110404620
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 116113396
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 117773779
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 115269027
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 113184793
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 117978361
+  liege = e_russia
+}
+1918.11.11 = {
+  holder = 116594595
+  liege = k_cuman
+}
+1933.11.11 = {
+  holder = 116906564
+  liege = k_cuman
+}
+1948.11.11 = {
+  holder = 119254284
+  liege = k_cuman
+}
+1963.11.11 = {
+  holder = 118750468
+  liege = k_cuman
+}
+1978.11.11 = {
+  holder = 111621215
+  liege = k_cuman
+}
+1993.11.11 = {
+  holder = 116180663
+  liege = k_cuman
+}
+2008.11.11 = {
+  holder = 111990967
+  liege = k_cuman
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

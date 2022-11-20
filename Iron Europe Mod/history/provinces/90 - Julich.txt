@@ -1,0 +1,13 @@
+title = c_julich
+max_settlements = 4
+b_julich = castle
+b_aachen = city
+b_prum = temple
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = german
+}
+1700.1.1 = {
+  b_geldern = castle
+}

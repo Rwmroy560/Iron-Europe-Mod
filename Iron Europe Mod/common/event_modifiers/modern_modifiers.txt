@@ -1,0 +1,94 @@
+conceded_power = {
+	vassal_opinion = 5
+	global_revolt_risk = -0.02
+	icon = 29
+}
+rigged_elections = {
+	global_revolt_risk = 0.15
+	vassal_opinion = -15
+	icon = 36
+}
+tributary_timer = {
+	icon = 4
+}
+demanding_indep = {
+	local_revolt_risk = 0.30
+	monthly_character_prestige =  -0.25
+	icon = 36
+}
+stepping_down = {
+	global_revolt_risk = -0.10
+	vassal_opinion = 10
+	monthly_character_prestige =  2
+	icon = 29
+}
+drafted_peasants = {
+	icon = 36
+	general_opinion = -3
+	monthly_character_prestige =  -0.25
+}
+war_draft= {
+	icon = 36
+	local_revolt_risk = 0.05
+	levy_reinforce_rate = -0.50
+	local_tax_modifier = -0.15
+}
+immigrant1 = {
+	icon = 36
+	local_revolt_risk = 0.10
+	monthly_character_prestige =  -1
+}
+political_instab = {
+	icon = 29
+	local_revolt_risk = 0.08
+	supply_limit = -0.25
+	siege_defence = -0.2
+	local_tax_modifier = -0.10
+}
+nazi_allegations = {
+	icon = 36
+	monthly_character_prestige =  -0.50
+	vassal_opinion = 5
+}
+russia_help = {
+	icon = 125
+	monthly_character_prestige =  -0.50
+	vassal_opinion = 5
+}
+america_help = {
+	icon = 111
+	monthly_character_prestige =  -0.50
+	vassal_opinion = 5
+}
+nato_setup = {
+	icon = 9
+}
+union_setup = {
+	icon = 9
+	monthly_character_prestige =  1.50
+	vassal_opinion = 10
+}
+odd_feeling = {
+	icon = 42
+	health_penalty = -5
+}
+imprisonfake_attempt = {
+	icon = 38
+}
+poison_attempt= {
+	icon = 38
+}
+unstable_afgh = { 
+	icon = 106
+}
+taliban_buggin = {
+	levy_reinforce_rate = -0.75
+	siege_defence = -0.25
+	icon = 106
+}
+taliban_help = {
+	icon = 36
+}
+annex_attempt = {
+	icon = 18
+}

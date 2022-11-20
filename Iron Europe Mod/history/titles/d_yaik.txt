@@ -1,0 +1,111 @@
+1066.1.1 = {
+  liege = k_cuman
+  holder = 34963
+}
+1095.1.1 = {
+  holder = 34964
+}
+1130.1.1 = {
+  holder = 34965
+}
+1160.1.1 = {
+  holder = 34966
+}
+1190.1.1 = {
+  holder = 34967
+}
+1218.1.1 = {
+  holder = 0
+}
+1221.1.1 = {
+  liege = e_mongol_empire
+  holder = 34852
+}
+1225.1.1 = {
+  holder = 125502
+}
+1227.1.2 = {
+  holder = 34911
+}
+1227.12.2 = {
+  liege = e_golden_horde
+}
+1260.1.1 = {
+  holder = 34905
+}
+1300.1.1 = {
+  holder = 34968
+}
+1320.1.1 = {
+  holder = 34969
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 117294257
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 114090258
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 119319511
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 117014519
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 115175918
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 111132640
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 113400597
+  liege = e_russia
+}
+1918.11.11 = {
+  holder = 114739018
+  liege = k_cuman
+}
+1933.11.11 = {
+  holder = 115512463
+  liege = k_cuman
+}
+1948.11.11 = {
+  holder = 115967324
+  liege = k_cuman
+}
+1963.11.11 = {
+  holder = 115065803
+  liege = k_cuman
+}
+1978.11.11 = {
+  holder = 112873983
+  liege = k_cuman
+}
+1993.11.11 = {
+  holder = 110536782
+  liege = k_cuman
+}
+2008.11.11 = {
+  holder = 111812441
+  liege = k_cuman
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,52 @@
+769.1.1 = {
+  holder = 194170
+  liege = k_france
+}
+788.1.2 = {
+  holder = 0
+}
+1190.8.21 = {
+  liege = e_hre
+  holder = 206852
+}
+1235.9.5 = {
+  holder = 487057
+}
+1248.2.1 = {
+  holder = 487056
+}
+1261.2.28 = {
+  holder = 33188
+}
+1267.1.1 = {
+  holder = 487040
+}
+1294.5.2 = {
+  holder = 487042
+}
+1312.10.27 = {
+  holder = 487044
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_frisia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 111449661
+  liege = k_frisia
+}
+1830.6.9 = {
+  holder = 115349704
+  liege = k_frisia
+}
+1831.7.21 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,89 @@
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Finland
+  adjective = Finnish
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1809.9.17 = {
+  liege = e_russia
+}
+1815.6.9 = {
+  holder = 119038642
+}
+1822.1.16 = {
+  holder = 115505722
+}
+1832.8.1 = {
+  holder = 112269364
+}
+1849.6.11 = {
+  holder = 110898967
+}
+1860.8.17 = {
+  holder = 110196108
+}
+1868.8.29 = {
+  holder = 119494415
+}
+1878.12.30 = {
+  holder = 110793499
+}
+1891.8.6 = {
+  holder = 112713887
+}
+1898.8.15 = {
+  holder = 119038411
+}
+1907.10.17 = {
+  holder = 117724894
+}
+1917.12.6 = {
+  holder = 115195301
+}
+1918.11.11 = {
+  liege = 0
+}
+1925.3.2 = {
+  holder = 116959430
+}
+1931.3.2 = {
+  holder = 112894416
+}
+1937.3.1 = {
+  holder = 112004470
+}
+1940.12.19 = {
+  holder = 111313570
+}
+1944.8.4 = {
+  holder = 110464628
+}
+1946.3.11 = {
+  holder = 115707417
+}
+1956.3.1 = {
+  holder = 111393391
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_1
+  law = succ_feudal_elective
+}
+1982.1.27 = {
+  holder = 115442692
+}
+1994.3.1 = {
+  holder = 118320149
+}
+2000.3.1 = {
+  holder = 117335251
+}
+2012.3.1 = {
+  holder = 119941792
+}

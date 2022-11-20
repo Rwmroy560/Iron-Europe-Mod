@@ -1,0 +1,79 @@
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_syria
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113091410
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 113000468
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 110073960
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 111982474
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 114968237
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 112445827
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 112907417
+  liege = e_arabia
+}
+1918.11.11 = {
+  holder = 116057870
+  liege = e_france
+}
+1933.11.11 = {
+  holder = 118611212
+  liege = e_france
+}
+1946.4.17 = {
+  holder = 113908505
+  liege = k_syria
+}
+1961.4.17 = {
+  holder = 113607814
+  liege = k_syria
+}
+1976.4.17 = {
+  holder = 116804519
+  liege = k_syria
+}
+1991.4.17 = {
+  holder = 112733468
+  liege = k_syria
+}
+2006.4.17 = {
+  holder = 114290615
+  liege = k_syria
+}
+2014.6.29 = {
+  holder = 0
+  liege = 0
+}
+2017.10.17 = {
+  holder = 119055233
+  liege = k_syria
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

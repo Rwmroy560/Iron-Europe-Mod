@@ -1,0 +1,57 @@
+100.1.1 = {
+  pentarch = b_hagiasophia
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = e_arabia
+  name = Turkey
+  adjective = Turkish
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1922.11.1 = {
+  holder = 119197028
+}
+1938.11.10 = {
+  holder = 116962729
+}
+1950.5.22 = {
+  holder = 115525442
+}
+1961.10.10 = {
+  holder = 117928718
+}
+1966.3.28 = {
+  holder = 111943601
+}
+1973.4.6 = {
+  holder = 116766309
+}
+1980.9.12 = {
+  holder = 115284689
+}
+1989.11.9 = {
+  holder = 117486417
+}
+1993.4.17 = {
+  holder = 112168794
+}
+2000.5.16 = {
+  holder = 110767032
+}
+2007.8.28 = {
+  holder = 115904112
+}
+2014.8.28 = {
+  holder = 110605799
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_1
+  law = vassal_wars_law_2
+}

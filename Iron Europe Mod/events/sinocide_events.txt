@@ -1,0 +1,1176 @@
+namespace = sinocide_events
+character_event = {
+	id = sinocide_events.0
+	desc = EVTDESCsinocide_events.0
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	immediate = {
+		random_realm_province = {
+			limit = {
+				NOR = {
+					religion = ROOT
+					has_province_modifier = sinocide_religion
+					religion = event_target:sinocide_rel_target1
+					religion = event_target:sinocide_rel_target2
+					religion = event_target:sinocide_rel_target3
+					has_province_flag = sinocide_rel_target1
+					has_province_flag = sinocide_rel_target2
+					has_province_flag = sinocide_rel_target3
+				}
+			}
+			set_province_flag = sinocide_rel_target1
+			save_event_target_as = sinocide_rel_target1
+		}
+		random_realm_province = {
+			limit = {
+				NOR = {
+					religion = ROOT
+					has_province_modifier = sinocide_religion
+					religion = event_target:sinocide_rel_target1
+					religion = event_target:sinocide_rel_target2
+					religion = event_target:sinocide_rel_target3
+					has_province_flag = sinocide_rel_target1
+					has_province_flag = sinocide_rel_target2
+					has_province_flag = sinocide_rel_target3
+				}
+			}
+			set_province_flag = sinocide_rel_target2
+			save_event_target_as = sinocide_rel_target2
+		}
+		random_realm_province = {
+			limit = {
+				NOR = {
+					religion = ROOT
+					has_province_modifier = sinocide_religion
+					religion = event_target:sinocide_rel_target1
+					religion = event_target:sinocide_rel_target2
+					religion = event_target:sinocide_rel_target3
+					has_province_flag = sinocide_rel_target1
+					has_province_flag = sinocide_rel_target2
+					has_province_flag = sinocide_rel_target3
+				}
+			}
+			set_province_flag = sinocide_rel_target3
+			save_event_target_as = sinocide_rel_target3
+		}
+	}
+	option = {
+		name = EVTOPTAsinocide_events.0
+		trigger = {
+			any_realm_province = {
+				has_province_flag = sinocide_rel_target1
+			}
+		}
+		any_realm_province = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target1
+				}
+				add_province_modifier = { modifier = sinocide_religion duration = -1 }
+			}
+		}
+		any_courtier = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target1
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target1
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				any_demesne_title = {
+					IF = {
+						limit = {
+							NOR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						grant_title_no_opinion = ROOT
+					}
+					IF = {
+						limit = {
+							OR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						destroy_landed_title = THIS
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_independent_ruler = {
+			IF = {
+				limit = {
+					religion = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target1
+				}
+				ROOT = {
+					primary_title = {
+						add_pressed_claim = PREV
+					}
+				}
+				opinion = { modifier = opinion_dishonorable who = ROOT }
+				opinion = { modifier = evil_murderer who = ROOT years = 100 }
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rel_target1
+							has_province_flag = sinocide_rel_target2
+							has_province_flag = sinocide_rel_target3
+						}
+					}
+					clr_province_flag = sinocide_rel_target1
+					clr_province_flag = sinocide_rel_target2
+					clr_province_flag = sinocide_rel_target3
+				}
+			}
+			clear_event_target = sinocide_rel_target2
+			clear_event_target = sinocide_rel_target3
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					religion = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					NOT = { religion = event_target:sinocide_rel_target1 }
+					any_courtier = { religion = event_target:sinocide_rel_target1 }
+				}
+				character_event = { id = sinocide_events.10 }
+			}
+		}
+		add_trait = cruel
+	}
+	option = {
+		name = EVTOPTBsinocide_events.0
+		trigger = {
+			any_realm_province = {
+				has_province_flag = sinocide_rel_target2
+			}
+		}
+		any_realm_province = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target2
+				}
+				add_province_modifier = { modifier = sinocide_religion duration = -1 }
+			}
+		}
+		any_courtier = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target2
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target2
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				any_demesne_title = {
+					IF = {
+						limit = {
+							NOR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						grant_title_no_opinion = ROOT
+					}
+					IF = {
+						limit = {
+							OR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						destroy_landed_title = THIS
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_independent_ruler = {
+			IF = {
+				limit = {
+					religion = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target2
+				}
+				ROOT = {
+					primary_title = {
+						add_pressed_claim = PREV
+					}
+				}
+				opinion = { modifier = opinion_dishonorable who = ROOT }
+				opinion = { modifier = evil_murderer who = ROOT years = 100 }
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rel_target1
+							has_province_flag = sinocide_rel_target2
+							has_province_flag = sinocide_rel_target3
+						}
+					}
+					clr_province_flag = sinocide_rel_target1
+					clr_province_flag = sinocide_rel_target2
+					clr_province_flag = sinocide_rel_target3
+				}
+			}
+			clear_event_target = sinocide_rel_target1
+			clear_event_target = sinocide_rel_target3
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					religion = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					NOT = { religion = event_target:sinocide_rel_target2 }
+					any_courtier = { religion = event_target:sinocide_rel_target2 }
+				}
+				character_event = { id = sinocide_events.10 }
+			}
+		}
+		add_trait = cruel
+	}
+	option = {
+		name = EVTOPTCsinocide_events.0
+		trigger = {
+			any_realm_province = {
+				has_province_flag = sinocide_rel_target3
+			}
+		}
+		any_realm_province = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target3
+				}
+				add_province_modifier = { modifier = sinocide_religion duration = -1 }
+			}
+		}
+		any_courtier = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target3
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target3
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				any_demesne_title = {
+					IF = {
+						limit = {
+							NOR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						grant_title_no_opinion = ROOT
+					}
+					IF = {
+						limit = {
+							OR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						destroy_landed_title = THIS
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_independent_ruler = {
+			IF = {
+				limit = {
+					religion = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					religion = event_target:sinocide_rel_target3
+				}
+				ROOT = {
+					primary_title = {
+						add_pressed_claim = PREV
+					}
+				}
+				opinion = { modifier = opinion_dishonorable who = ROOT }
+				opinion = { modifier = evil_murderer who = ROOT years = 100 }
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rel_target1
+							has_province_flag = sinocide_rel_target2
+							has_province_flag = sinocide_rel_target3
+						}
+					}
+					clr_province_flag = sinocide_rel_target1
+					clr_province_flag = sinocide_rel_target2
+					clr_province_flag = sinocide_rel_target3
+				}
+			}
+			clear_event_target = sinocide_rel_target1
+			clear_event_target = sinocide_rel_target2
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					religion = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					NOT = { religion = event_target:sinocide_rel_target3 }
+					any_courtier = { religion = event_target:sinocide_rel_target3 }
+				}
+				character_event = { id = sinocide_events.10 }
+			}
+		}
+		add_trait = cruel
+	}
+	option = {
+		name = EVTOPTDsinocide_events.0
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rel_target1
+							has_province_flag = sinocide_rel_target2
+							has_province_flag = sinocide_rel_target3
+						}
+					}
+					clr_province_flag = sinocide_rel_target1
+					clr_province_flag = sinocide_rel_target2
+					clr_province_flag = sinocide_rel_target3
+				}
+			}
+			clear_event_target = sinocide_rel_target1
+			clear_event_target = sinocide_rel_target2
+			clear_event_target = sinocide_rel_target3
+		}
+	}
+}
+character_event = {
+	id = sinocide_events.1
+	desc = EVTDESCsinocide_events.1
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	immediate = {
+		random_realm_province = {
+			limit = {
+				NOR = {
+					culture = ROOT
+					has_province_modifier = sinocide_race
+					culture = event_target:sinocide_rac_target1
+					culture = event_target:sinocide_rac_target2
+					culture = event_target:sinocide_rac_target3
+					has_province_flag = sinocide_rac_target1
+					has_province_flag = sinocide_rac_target2
+					has_province_flag = sinocide_rac_target3
+				}
+			}
+			set_province_flag = sinocide_rac_target1
+			save_event_target_as = sinocide_rac_target1
+		}
+		random_realm_province = {
+			limit = {
+				NOR = {
+					culture = ROOT
+					has_province_modifier = sinocide_race
+					culture = event_target:sinocide_rac_target1
+					culture = event_target:sinocide_rac_target2
+					culture = event_target:sinocide_rac_target3
+					has_province_flag = sinocide_rac_target1
+					has_province_flag = sinocide_rac_target2
+					has_province_flag = sinocide_rac_target3
+				}
+			}
+			set_province_flag = sinocide_rac_target2
+			save_event_target_as = sinocide_rac_target2
+		}
+		random_realm_province = {
+			limit = {
+				NOR = {
+					culture = ROOT
+					has_province_modifier = sinocide_race
+					culture = event_target:sinocide_rac_target1
+					culture = event_target:sinocide_rac_target2
+					culture = event_target:sinocide_rac_target3
+					has_province_flag = sinocide_rac_target1
+					has_province_flag = sinocide_rac_target2
+					has_province_flag = sinocide_rac_target3
+				}
+			}
+			set_province_flag = sinocide_rac_target3
+			save_event_target_as = sinocide_rac_target3
+		}
+	}
+	option = {
+		name = EVTOPTAsinocide_events.1
+		trigger = {
+			any_realm_province = {
+				has_province_flag = sinocide_rac_target1
+			}
+		}
+		any_realm_province = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target1
+				}
+				add_province_modifier = { modifier = sinocide_race duration = -1 }
+			}
+		}
+		any_courtier = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target1
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target1
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				any_demesne_title = {
+					IF = {
+						limit = {
+							NOR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						grant_title_no_opinion = ROOT
+					}
+					IF = {
+						limit = {
+							OR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						destroy_landed_title = THIS
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_independent_ruler = {
+			IF = {
+				limit = {
+					culture = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target1
+				}
+				ROOT = {
+					primary_title = {
+						add_pressed_claim = PREV
+					}
+				}
+				opinion = { modifier = opinion_dishonorable who = ROOT }
+				opinion = { modifier = evil_murderer who = ROOT years = 100 }
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rac_target1
+							has_province_flag = sinocide_rac_target2
+							has_province_flag = sinocide_rac_target3
+						}
+					}
+					clr_province_flag = sinocide_rac_target1
+					clr_province_flag = sinocide_rac_target2
+					clr_province_flag = sinocide_rac_target3
+				}
+			}
+			clear_event_target = sinocide_rac_target2
+			clear_event_target = sinocide_rac_target3
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					culture = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					NOT = { culture = event_target:sinocide_rac_target1 }
+					any_courtier = { culture = event_target:sinocide_rac_target1 }
+				}
+				character_event = { id = sinocide_events.10 }
+			}
+		}
+		add_trait = cruel
+	}
+	option = {
+		name = EVTOPTBsinocide_events.1
+		trigger = {
+			any_realm_province = {
+				has_province_flag = sinocide_rac_target2
+			}
+		}
+		any_realm_province = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target2
+				}
+				add_province_modifier = { modifier = sinocide_race duration = -1 }
+			}
+		}
+		any_courtier = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target2
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target2
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				any_demesne_title = {
+					IF = {
+						limit = {
+							NOR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						grant_title_no_opinion = ROOT
+					}
+					IF = {
+						limit = {
+							OR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						destroy_landed_title = THIS
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_independent_ruler = {
+			IF = {
+				limit = {
+					culture = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target2
+				}
+				ROOT = {
+					primary_title = {
+						add_pressed_claim = PREV
+					}
+				}
+				opinion = { modifier = opinion_dishonorable who = ROOT }
+				opinion = { modifier = evil_murderer who = ROOT years = 100 }
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rac_target1
+							has_province_flag = sinocide_rac_target2
+							has_province_flag = sinocide_rac_target3
+						}
+					}
+					clr_province_flag = sinocide_rac_target1
+					clr_province_flag = sinocide_rac_target2
+					clr_province_flag = sinocide_rac_target3
+				}
+			}
+			clear_event_target = sinocide_rac_target1
+			clear_event_target = sinocide_rac_target3
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					culture = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					NOT = { culture = event_target:sinocide_rac_target2 }
+					any_courtier = { culture = event_target:sinocide_rac_target2 }
+				}
+				character_event = { id = sinocide_events.10 }
+			}
+		}
+		add_trait = cruel
+	}
+	option = {
+		name = EVTOPTCsinocide_events.1
+		trigger = {
+			any_realm_province = {
+				has_province_flag = sinocide_rac_target3
+			}
+		}
+		any_realm_province = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target3
+				}
+				add_province_modifier = { modifier = sinocide_race duration = -1 }
+			}
+		}
+		any_courtier = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target3
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target3
+					NOR = {
+						any_spouse = {
+							character = ROOT
+						}
+						father = {
+							character = ROOT
+						}
+						mother = {
+							character = ROOT
+						}
+						any_child = {
+							character = ROOT
+						}
+						any_dynasty_member = {
+							character = ROOT
+						}
+					}
+				}
+				any_demesne_title = {
+					IF = {
+						limit = {
+							NOR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						grant_title_no_opinion = ROOT
+					}
+					IF = {
+						limit = {
+							OR = {
+								temporary = yes
+								is_landless_type_title = yes
+								holding_type = family_palace
+							}
+						}
+						destroy_landed_title = THIS
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = ROOT
+				}
+			}
+		}
+		any_independent_ruler = {
+			IF = {
+				limit = {
+					culture = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					culture = event_target:sinocide_rac_target3
+				}
+				ROOT = {
+					primary_title = {
+						add_pressed_claim = PREV
+					}
+				}
+				opinion = { modifier = opinion_dishonorable who = ROOT }
+				opinion = { modifier = evil_murderer who = ROOT years = 100 }
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rac_target1
+							has_province_flag = sinocide_rac_target2
+							has_province_flag = sinocide_rac_target3
+						}
+					}
+					clr_province_flag = sinocide_rac_target1
+					clr_province_flag = sinocide_rac_target2
+					clr_province_flag = sinocide_rac_target3
+				}
+			}
+			clear_event_target = sinocide_rac_target1
+			clear_event_target = sinocide_rac_target2
+		}
+		any_realm_lord = {
+			IF = {
+				limit = {
+					culture = ROOT
+					trait = cruel
+				}
+				opinion = { modifier = opinion_grateful who = ROOT years = 5 }
+			}
+			IF = {
+				limit = {
+					NOT = { culture = event_target:sinocide_rac_target3 }
+					any_courtier = { culture = event_target:sinocide_rac_target3 }
+				}
+				character_event = { id = sinocide_events.10 }
+			}
+		}
+		add_trait = cruel
+	}
+	option = {
+		name = EVTOPTDsinocide_events.1
+		hidden_tooltip = {
+			any_realm_province = {
+				IF = {
+					limit = {
+						OR = {
+							has_province_flag = sinocide_rac_target1
+							has_province_flag = sinocide_rac_target2
+							has_province_flag = sinocide_rac_target3
+						}
+					}
+					clr_province_flag = sinocide_rac_target1
+					clr_province_flag = sinocide_rac_target2
+					clr_province_flag = sinocide_rac_target3
+				}
+			}
+			clear_event_target = sinocide_rac_target1
+			clear_event_target = sinocide_rac_target2
+			clear_event_target = sinocide_rac_target3
+		}
+	}
+}
+character_event = {
+	id = sinocide_events.10
+	desc = EVTDESCsinocide_events.10
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsinocide_events.10
+		any_courtier = {
+			IF = {
+				limit = {
+					OR = {
+						culture = event_target:sinocide_rac_target1
+						culture = event_target:sinocide_rac_target2
+						culture = event_target:sinocide_rac_target3
+						religion = event_target:sinocide_rel_target1
+						religion = event_target:sinocide_rel_target2
+						religion = event_target:sinocide_rel_target3
+					}
+				}
+				death = {
+					death_reason = death_execution
+					killer = FROM
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBsinocide_events.10
+	}
+	option = {
+		name = EVTOPTCsinocide_events.10
+		any_courtier = {
+			IF = {
+				limit = {
+					OR = {
+						culture = event_target:sinocide_rac_target1
+						culture = event_target:sinocide_rac_target2
+						culture = event_target:sinocide_rac_target3
+						religion = event_target:sinocide_rel_target1
+						religion = event_target:sinocide_rel_target2
+						religion = event_target:sinocide_rel_target3
+					}
+				}
+				banish = yes
+			}
+		}
+	}
+}
+character_event = {
+	id = sinocide_events.101
+	desc = EVTDESCsinocide_events.101
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	trigger = {
+		any_realm_province = {
+			has_province_modifier = sinocide_religion
+		}
+		higher_real_tier_than = DUKE
+		independent = yes
+	}
+
+	immediate = {
+		random_realm_province = {
+			limit = {
+				has_province_modifier = sinocide_religion
+			}
+			religion = ROOT
+			remove_province_modifier = sinocide_religion
+		}
+	}
+
+	option = {
+		name = EVTOPTAsinocide_events.101
+		hidden_effect = {
+			random = {
+				chance = 20
+				character_event = { id = sinocide_events.101 }
+			}
+		}
+	}
+}
+character_event = {
+	id = sinocide_events.201
+	desc = EVTDESCsinocide_events.201
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	trigger = {
+		any_realm_province = {
+			has_province_modifier = sinocide_race
+		}
+		higher_real_tier_than = DUKE
+		independent = yes
+	}
+
+	immediate = {
+		random_realm_province = {
+			limit = {
+				has_province_modifier = sinocide_race
+			}
+			culture = ROOT
+			remove_province_modifier = sinocide_race
+		}
+	}
+
+	option = {
+		name = EVTOPTAsinocide_events.201
+		hidden_effect = {
+			random = {
+				chance = 20
+				character_event = { id = sinocide_events.201 }
+			}
+		}
+	}
+}

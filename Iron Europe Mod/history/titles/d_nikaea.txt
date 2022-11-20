@@ -1,0 +1,145 @@
+330.1.1 = {
+  liege = e_byzantium
+  vice_royalty = yes
+}
+758.1.1 = {
+  holder = 145826
+}
+855.1.1 = {
+  holder = 145191
+}
+936.1.1 = {
+  holder = 145223
+}
+1060.1.1 = {
+  holder = 1746
+}
+1071.8.26 = {
+  holder = 1740
+}
+1078.3.31 = {
+  liege = k_rum
+  vice_royalty = no
+  holder = 41701
+}
+1097.7.19 = {
+  liege = e_byzantium
+  vice_royalty = yes
+  holder = 1742
+}
+1118.8.15 = {
+  holder = 1762
+}
+1143.10.1 = {
+  holder = 215504
+}
+1160.1.1 = {
+  holder = 215670
+}
+1190.1.2 = {
+  holder = 215674
+}
+1204.5.16 = {
+  liege = e_nicaea
+  vice_royalty = no
+}
+1222.8.2 = {
+  holder = 125741
+}
+1254.11.3 = {
+  holder = 125742
+}
+1258.8.18 = {
+  holder = 125743
+}
+1261.7.25 = {
+  liege = e_byzantium
+  vice_royalty = yes
+  holder = 465527
+}
+1282.12.11 = {
+  holder = 465521
+}
+1310.1.1 = {
+  liege = k_ottoman
+  vice_royalty = no
+  holder = 71841
+}
+1332.1.1 = {
+  holder = 476500
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_anatolia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 116104236
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 112856884
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 118738879
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 113071920
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 115754376
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 110437041
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 116363749
+  liege = e_arabia
+}
+1920.6.9 = {
+  holder = 115606855
+  liege = e_arabia
+}
+1922.11.1 = {
+  holder = 115559989
+  liege = k_anatolia
+}
+1937.11.1 = {
+  holder = 118234333
+  liege = k_anatolia
+}
+1952.11.1 = {
+  holder = 118694244
+  liege = k_anatolia
+}
+1967.11.1 = {
+  holder = 119453159
+  liege = k_anatolia
+}
+1982.11.1 = {
+  holder = 110447096
+  liege = k_anatolia
+}
+1997.11.1 = {
+  holder = 111562350
+  liege = k_anatolia
+}
+2012.11.1 = {
+  holder = 113202311
+  liege = k_anatolia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

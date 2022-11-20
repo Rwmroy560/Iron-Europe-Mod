@@ -1,0 +1,243 @@
+namespace = election_events
+character_event = {
+	id = election_events.1
+	desc = EVTDESCelection_events.3
+	picture = GFX_evt_riots_byzantine
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { is_tributary = yes }
+		NOT = { has_character_modifier = conceded_power }
+		NOT = { has_character_modifier = rigged_elections }
+		higher_tier_than = COUNT
+		NOT = { 
+		has_landed_title = k_taliban
+		has_landed_title = k_papal_state
+		has_law = succ_feudal_elective
+		has_law = succ_open_elective 
+		has_law = succ_patrician_elective
+		}
+	}
+
+	option = {
+		name = EVTOPTAelection_events.3
+		ai_chance = { 
+			factor = 35 
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+		}
+		ROOT = {
+			add_character_modifier = { modifier = rigged_elections years = 10 }	
+			}
+		if = { limit = { ai = no }
+		any_independent_ruler = {
+			limit = {
+			capital_scope = { region = world_europe }
+				}
+			character_event = { id = election_events.1 }
+				}
+			}
+		}
+
+	option = {
+		name = EVTOPTCelection_events.3
+		ai_chance = { 
+			factor = 80 
+			modifier = {
+				factor = 100
+				trait = peasant_leader
+			}
+			modifier = {
+				factor = 100
+			capital_scope = {
+				region = world_europe_west
+				}
+			}
+			modifier = {
+				factor = 100
+			capital_scope = {
+				region = world_europe_north
+				}
+			}
+		}
+		ROOT = { add_character_modifier = { modifier = conceded_power years = 5 } }
+		ROOT = {
+			primary_title = {
+			succession = {
+    				base_type = feudal_elective
+				voting_rules = demo_elective
+				}
+			}
+		}
+		if = { limit = { ai = no }
+		any_independent_ruler = {
+			limit = {
+			capital_scope = { region = world_europe }
+				}
+			character_event = { id = election_events.1 }
+				}
+			}
+		}
+	}
+character_event = {
+	id = election_events.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { is_tributary = yes }
+		NOT = { has_character_modifier = conceded_power }
+		NOT = { has_character_modifier = rigged_elections }
+		higher_tier_than = COUNT
+		OR = { 
+			capital_scope = {
+				region = world_europe
+				}
+			capital_scope = {
+				region = world_india
+				}
+			capital_scope = {
+				region = world_africa
+				}
+			capital_scope = {
+				region = world_middle_east_jerusalem
+				}
+			} 
+
+		NOT = { 
+		has_landed_title = k_papal_state
+		has_law = succ_feudal_elective
+		has_law = succ_open_elective 
+		has_law = succ_patrician_elective
+		}
+	}
+
+	immediate = {
+		ROOT = { character_event = { id = election_events.3 } }
+	}
+}
+character_event = {
+	id = election_events.3
+	desc = EVTDESCelection_events.3
+	picture = GFX_evt_riots_byzantine
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAelection_events.3
+		ai_chance = { 
+			factor = 35 
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+			modifier = {
+				factor = 2
+				trait = ambitious
+			}
+		}
+		ROOT = {
+			add_character_modifier = { modifier = rigged_elections years = 10 }	
+			}
+		}
+
+	option = {
+		name = EVTOPTCelection_events.3
+		ai_chance = { 
+			factor = 80 
+			modifier = {
+				factor = 100
+				trait = peasant_leader
+			}
+			modifier = {
+				factor = 100
+			capital_scope = {
+				region = world_europe_west
+				}
+			}
+			modifier = {
+				factor = 100
+			capital_scope = {
+				region = world_europe_north
+				}
+			}
+		}
+		ROOT = { add_character_modifier = { modifier = conceded_power years = 5 } }
+		ROOT = {
+			primary_title = {
+			succession = {
+    				base_type = feudal_elective
+				voting_rules = demo_elective
+				}
+			}
+		}
+	}
+}
+
+character_event = {
+	id = election_events.4
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+	is_tributary = yes
+
+	is_tributary = { type = colony }
+	NOT = {
+		prestige = 1000
+		}
+	}
+
+	immediate = {
+		 suzerain = { character_event = { id = election_events.5 } }
+	}
+}
+character_event = {
+	id = election_events.5
+	desc = EVTDESCelection_events.5
+	picture = GFX_evt_riots_byzantine
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAelection_events.5
+		ai_chance = { factor = 50 }
+		FROM = {
+			any_realm_province = { add_province_modifier = { modifier = demanding_indep years = 5 } }	
+			}
+		}
+
+	option = {
+		name = EVTOPTBelection_events.5
+		ai_chance = { factor = 0 }
+		custom_tooltip = { text = stepd1 }
+		FROM = {
+			any_suzerain = { remove_tributary = PREV }
+			}
+		FROM = {
+			any_realm_province = { add_province_modifier = { modifier = political_instab years = 5 } }	
+			}
+		FROM = {
+			primary_title = {
+			succession = {
+    				base_type = feudal_elective
+				voting_rules = feudal_elective
+					}
+				}	
+			}
+		}
+	option = {
+		name = EVTOPTCelection_events.5
+		ai_chance = { factor = 50 }
+		custom_tooltip = { text = stepd2 }
+		FROM = {
+			any_suzerain = { remove_tributary = PREV }
+			}
+		ROOT = { make_tributary = { who = FROM tributary_type = dependant } }
+		ROOT = { any_demense_province = { add_province_modifier = { modifier = immigrant1 years = 10 } } }
+		}
+	}

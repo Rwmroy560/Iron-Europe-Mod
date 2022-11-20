@@ -1,0 +1,169 @@
+750.1.1 = {
+  holder = 194136
+}
+799.1.1 = {
+  holder = 194137
+}
+822.1.1 = {
+  holder = 194138
+}
+936.1.1 = {
+  holder = 260770
+}
+977.1.2 = {
+  holder = 608
+}
+989.1.2 = {
+  holder = 125017
+}
+1008.1.2 = {
+  holder = 610
+}
+1019.1.2 = {
+  holder = 612
+}
+1036.1.2 = {
+  holder = 628
+}
+1054.2.20 = {
+  holder = 638
+}
+1057.1.2 = {
+  holder = 670
+}
+1064.1.2 = {
+  holder = 626
+}
+1073.1.2 = {
+  holder = 660
+}
+1076.12.27 = {
+  holder = 684
+}
+1086.12.5 = {
+  holder = 668
+}
+1099.1.2 = {
+  holder = 222544
+}
+1118.1.2 = {
+  holder = 125098
+}
+1119.1.2 = {
+  holder = 125106
+}
+1135.1.2 = {
+  holder = 222525
+}
+1142.1.2 = {
+  holder = 125107
+}
+1149.1.2 = {
+  holder = 125113
+}
+1154.1.2 = {
+  holder = 222592
+}
+1158.1.2 = {
+  holder = 222522
+}
+1170.8.19 = {
+  holder = 222520
+}
+1187.1.2 = {
+  holder = 222524
+}
+1188.1.2 = {
+  holder = 222520
+}
+1199.1.2 = {
+  liege = "k_galicia-volhynia"
+}
+1205.6.19 = {
+  holder = 125114
+}
+1206.1.2 = {
+  holder = 222638
+}
+1208.1.2 = {
+  holder = 125130
+}
+1215.1.2 = {
+  holder = 125114
+}
+1231.1.2 = {
+  holder = 125127
+}
+1260.1.1 = {
+  liege = e_golden_horde
+}
+1264.1.2 = {
+  holder = 125116
+}
+1301.1.2 = {
+  holder = 471511
+}
+1308.4.24 = {
+  holder = 471512
+}
+1323.1.2 = {
+  holder = 472900
+}
+1325.1.2 = {
+  holder = 473510
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_belarus
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 116974733
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 111655037
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 118746039
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 119391439
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 113731720
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 113195263
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 119276076
+  liege = e_russia
+}
+1918.11.11 = {
+  holder = 119276077
+  liege = k_poland
+}
+1920.6.9 = {
+  holder = 111085516
+  liege = k_poland
+}
+1935.6.9 = {
+  holder = 113404665
+  liege = k_poland
+}
+1945.5.8 = {
+  holder = 0
+  liege = 0
+}

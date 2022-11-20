@@ -1,0 +1,21 @@
+castle = {
+
+	ca_officer_academy = {
+		desc = ca_officer_academy_desc
+		potential = {	
+			FROM = {	
+				capital_holding = {	
+					title = FROMFROM	
+				}	
+			}	
+		}	
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 195
+		build_time = 765
+		ai_creation_factor = 110
+		commander_limit = 15
+		court_size_modifier = 5
+		levy_reinforce_rate = 0.15
+		garrison_size = 0.15
+	}
+}

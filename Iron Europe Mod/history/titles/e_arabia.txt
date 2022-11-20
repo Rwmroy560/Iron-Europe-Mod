@@ -1,0 +1,189 @@
+661.2.28 = {
+  holder = 163029
+}
+680.5.6 = {
+  holder = 163030
+}
+683.1.1 = {
+  holder = 163031
+}
+684.6.1 = {
+  holder = 163003
+}
+685.5.7 = {
+  holder = 163002
+}
+705.1.1 = {
+  holder = 163032
+}
+715.1.1 = {
+  holder = 163033
+}
+717.10.1 = {
+  holder = 163035
+}
+720.2.10 = {
+  holder = 163036
+}
+724.1.1 = {
+  holder = 163001
+}
+743.2.6 = {
+  holder = 163037
+}
+744.4.15 = {
+  holder = 163038
+}
+744.10.3 = {
+  holder = 163039
+}
+744.11.3 = {
+  holder = 163041
+}
+750.1.1 = {
+  holder = 34001
+}
+754.1.1 = {
+  holder = 34002
+}
+775.1.1 = {
+  holder = 34003
+}
+785.1.1 = {
+  holder = 34004
+}
+786.1.1 = {
+  holder = 34005
+}
+809.1.1 = {
+  holder = 34006
+}
+813.1.1 = {
+  holder = 34007
+}
+833.8.9 = {
+  holder = 34008
+}
+842.1.5 = {
+  holder = 34009
+}
+847.1.1 = {
+  holder = 34010
+}
+861.12.1 = {
+  holder = 34012
+}
+862.6.7 = {
+  holder = 34013
+}
+866.1.1 = {
+  holder = 34014
+}
+869.1.1 = {
+  holder = 34015
+}
+870.6.1 = {
+  holder = 34016
+}
+892.10.1 = {
+  holder = 34018
+}
+902.1.1 = {
+  holder = 34019
+}
+908.1.1 = {
+  holder = 34021
+}
+932.1.1 = {
+  holder = 34020
+}
+934.1.1 = {
+  holder = 34022
+}
+940.1.1 = {
+  holder = 34023
+}
+944.1.1 = {
+  holder = 34024
+}
+946.1.1 = {
+  holder = 34025
+}
+974.1.1 = {
+  holder = 3080
+}
+978.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1600.1.1 = {
+  name = "Ottoman Empire"
+  adjective = Ottoman
+}
+1695.2.6 = {
+  holder = 118800693
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_0
+  law = imperial_administration
+  law = vice_royalty_0
+  law = ze_administration_laws_2
+}
+1703.8.22 = {
+  holder = 113345509
+}
+1730.10.2 = {
+  holder = 117114039
+}
+1754.12.13 = {
+  holder = 111323040
+}
+1757.10.30 = {
+  holder = 117114172
+}
+1774.1.21 = {
+  holder = 117982097
+}
+1789.4.7 = {
+  holder = 114046243
+}
+1807.5.29 = {
+  holder = 115295770
+}
+1808.7.28 = {
+  holder = 115113295
+}
+1839.7.1 = {
+  holder = 117786057
+}
+1861.6.25 = {
+  holder = 116452616
+}
+1876.5.30 = {
+  holder = 115119746
+}
+1876.8.31 = {
+  holder = 115282302
+}
+1909.4.27 = {
+  holder = 113784512
+}
+1918.7.3 = {
+  holder = 115408999
+}
+1922.11.1 = {
+  holder = 0
+  reset_name = yes
+  reset_adjective = yes
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_2
+  law = agnatic_succession
+}

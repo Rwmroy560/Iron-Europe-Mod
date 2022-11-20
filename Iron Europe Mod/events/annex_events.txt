@@ -1,0 +1,181 @@
+namespace = royannex
+########################
+# Trade Deals
+########################
+character_event = {
+	id = royannex.7
+	desc = EVTDESCroyannex.7
+	picture = GFX_roy_council
+	
+	is_triggered_only = yes
+	
+
+		option = {
+		name = EVTOPTAroyannex.7
+		custom_tooltip = { text = annex1 } 
+		hidden_tooltip = {
+		random_list = {
+			2 = { 
+			modifier = {
+				factor = 2
+				ROOT = { relative_power = { who = FROM power >= 4 } }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { opinion = { who = ROOT value =  40 } }
+			}	
+			modifier = {
+				factor = 2
+				FROM = { is_ friend = ROOT }
+			}
+			modifier = {
+				factor = 2
+				ROOT = { culture = FROM }
+			}
+			modifier = {
+				factor = 2
+				ROOT = { religion = FROM }
+			}
+			modifier = {
+				factor = 1.25
+				event_target:target_negotiator  = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.25
+				event_target:target_negotiator = { diplomacy = 12 }
+			}
+			modifier = {
+				factor = 1.35
+				event_target:target_negotiator = { diplomacy = 15 }
+			}
+			modifier = {
+				factor = 1.75
+				event_target:target_negotiator = { diplomacy = 18 }
+			}				
+			modifier = {
+				factor = 1.75
+				FROM = { primary_title = { claimed_by = ROOT } }
+			}
+			modifier = {
+				factor = 2
+				FROM = { trait = craven }
+			}
+			modifier = {
+				factor = 1.25
+				FROM = { NOT = { trait = proud } }
+			}
+			modifier = {
+				factor = 0.5
+				FROM = { tier = DUKE }
+			}
+			modifier = {
+				factor = 2.25
+				ROOT = { tier = EMPEROR }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { is_adult = no }
+			}
+			modifier = {
+				factor = 1.5
+				AND = {
+					ROOT = { higher_tier_than = DUKE }
+					FROM = { lower_tier_than = DUKE }
+				}
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { NOT = { prestige = 200 } }
+			}
+			character_event = { id = royannex.1 days = 14 }
+			}
+			3 = { 
+			modifier = {
+				factor = 1.25
+				FROM = { NOT = { culture = ROOT } }
+			}
+			modifier = {
+				factor = 1.2
+				FROM = { opinion = { who = ROOT value =  40 } }
+			}	
+			modifier = {
+				factor = 2
+				ROOT = { NOT = { religion = FROM } }
+			}
+			modifier = {
+				factor = 1.25
+				event_target:target_negotiator  = { diplomacy = 10 }
+			}
+			modifier = {
+				factor = 1.25
+				event_target:target_negotiator = { diplomacy = 12 }
+			}
+			modifier = {
+				factor = 1.35
+				event_target:target_negotiator = { diplomacy = 15 }
+			}
+			modifier = {
+				factor = 2.5
+				FROM = { trait = greedy }
+			}
+			character_event = { id = royannex.12 days = 14 }
+			}
+			5 = { 
+			modifier = {
+				factor = 1.25
+				event_target:target_negotiator = { NOT = { diplomacy = 8 } }
+			}
+			modifier = {
+				factor = 1.35
+				event_target:target_negotiator = { NOT = { diplomacy = 6 } }
+			}
+			modifier = {
+				factor = 1.5
+				event_target:target_negotiator = { NOT = { diplomacy = 4 } }
+			}				
+			modifier = {
+				factor = 5
+				event_target:target_negotiator = { NOT = { diplomacy = 2 } }
+			}
+			modifier = {
+				factor = 5
+				FROM = { trait = proud }
+			}
+			modifier = {
+				factor = 2.5
+				FROM = { NOT = { religion = ROOT } }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { NOT = { trait = craven } }
+			}
+			modifier = {
+				factor = 1.5
+				FROM = { NOT = { culture = ROOT } }
+			}
+			modifier = {
+				factor = 5
+				FROM = { trait = greedy }
+			}
+			modifier = {
+				factor = 5
+				FROM = { relative_power = { who = ROOT power >= 1} }
+			}
+			modifier = {
+				factor = 5
+				FROM = { trait = ambitious }
+			}
+			modifier = {
+				factor = 5
+				FROM = { has_regent = yes }
+			}
+			character_event = { id = royannex.2 days = 14 } 
+				}
+			}
+		}
+	}
+		option = {
+		name = EVTOPTBroyannex.7
+		clear_event_target = target_negotiator
+	}
+}

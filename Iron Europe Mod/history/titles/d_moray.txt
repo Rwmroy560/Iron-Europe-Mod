@@ -1,0 +1,228 @@
+517.1.1 = {
+  holder = 166543
+  liege = k_scotland
+}
+531.1.1 = {
+  holder = 166544
+}
+552.1.1 = {
+  holder = 166545
+}
+584.1.1 = {
+  holder = 166547
+}
+595.1.1 = {
+  holder = 166549
+}
+616.1.1 = {
+  holder = 166551
+}
+631.1.1 = {
+  holder = 166555
+}
+635.1.1 = {
+  holder = 166556
+}
+641.1.1 = {
+  holder = 166557
+}
+653.1.1 = {
+  holder = 166559
+}
+657.1.1 = {
+  holder = 166561
+}
+663.1.1 = {
+  holder = 166562
+}
+672.1.1 = {
+  holder = 166566
+}
+693.1.1 = {
+  holder = 166571
+}
+697.1.1 = {
+  holder = 166573
+}
+706.1.1 = {
+  holder = 166574
+}
+724.1.1 = {
+  holder = 166575
+}
+726.1.1 = {
+  holder = 166576
+}
+728.1.1 = {
+  holder = 166574
+}
+729.1.1 = {
+  holder = 166597
+}
+736.1.1 = {
+  holder = 166598
+}
+750.1.1 = {
+  holder = 166597
+}
+761.1.1 = {
+  holder = 166599
+}
+763.1.1 = {
+  holder = 166603
+}
+770.1.1 = {
+  holder = 166601
+}
+782.1.1 = {
+  holder = 166600
+}
+783.1.1 = {
+  holder = 166602
+}
+785.1.1 = {
+  holder = 166604
+}
+820.1.1 = {
+  holder = 166605
+}
+834.1.1 = {
+  holder = 166606
+}
+837.1.1 = {
+  holder = 166607
+}
+839.1.1 = {
+  liege = k_scotland
+}
+858.1.2 = {
+  holder = 6024
+}
+936.1.1 = {
+  holder = 974
+}
+1005.7.1 = {
+  holder = 5998
+}
+1020.7.1 = {
+  holder = 83587
+}
+1029.7.1 = {
+  holder = 6002
+}
+1032.7.1 = {
+  holder = 5996
+}
+1040.1.1 = {
+  holder = 6006
+}
+1058.1.2 = {
+  holder = 6008
+}
+1085.1.1 = {
+  holder = 6012
+}
+1130.4.16 = {
+  holder = 202969
+}
+1154.1.13 = {
+  holder = 202971
+}
+1187.7.1 = {
+  holder = 202973
+}
+1213.1.1 = {
+  holder = 202974
+}
+1215.6.15 = {
+  holder = 6900
+}
+1249.7.6 = {
+  holder = 6902
+}
+1286.3.19 = {
+  holder = 6907
+}
+1290.9.1 = {
+  holder = 230524
+}
+1296.1.1 = {
+  holder = 453501
+}
+1329.6.7 = {
+  holder = 453500
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 118997251
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 119359204
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 118992848
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 112104889
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 116467030
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 118463797
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 116351213
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 119345461
+  liege = e_britannia
+}
+1935.6.9 = {
+  holder = 116765345
+  liege = e_britannia
+}
+1950.6.9 = {
+  holder = 111105885
+  liege = e_britannia
+}
+1965.6.9 = {
+  holder = 111179528
+  liege = e_britannia
+}
+1980.6.9 = {
+  holder = 119925083
+  liege = e_britannia
+}
+1995.6.9 = {
+  holder = 111660692
+  liege = e_britannia
+}
+1999.5.7 = {
+  holder = 111686600
+  liege = k_scotland
+}
+2014.5.7 = {
+  holder = 113683468
+  liege = k_scotland
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

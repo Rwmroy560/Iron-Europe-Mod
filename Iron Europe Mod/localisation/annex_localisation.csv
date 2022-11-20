@@ -1,0 +1,28 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+
+#decisions
+attempt_annex_dec;Negotiate Annexation of [Root.PrimaryTitle.GetName];;;x
+attempt_annex_dec_desc;Attempt to negotiate the annexation of this realm into your own.;;;x
+
+#modifiers
+annex_attempt;Attempted Annexation;;;x
+opinion_failed_negotiate;Failed Negotiations;;;x
+
+
+#events
+EVTDESCroyannex.7;You summon your Chancellor [target_negotiator.GetTitledName] to your capital to propose the annexation and absorbtion of [From.PrimaryTitle.GetName] into your realm. In the coming days, [target_negotiator.GetTitledName] and [target_negotiator.GetHerHis] delegates will travel in your stead and hopefully come back with an agreement.;;;x
+EVTOPTAroyannex.7;Good luck, men.;;;x
+annex1;[target_negotiator.GetTitledName] will try to convince [From.GetTitledName] to join your realm.;;;x
+EVTOPTBroyannex.7;Let's not do this today...;;;x
+
+EVTDESCroyannex.1;[target_negotiator.GetTitledName] has returned from [FromFrom.Capital.GetName] with great news. [FromFrom.GetTitledName] has agreed to swear fealty to you and join your realm on rather favorable terms. [FromFrom.GetSheHe] will soon travel to the capital to pay homage to you.;;;x
+EVTOPTAroyannex.1;Well done.;;;x
+
+EVTDESCroyannex.12;[target_negotiator.GetTitledName] has returned from [FromFrom.Capital.GetName] with news that [FromFrom.GetTitledName] will only agree to swear fealty to you if [FromFrom.GetSheHe] is compensated with a rather large sum of gold. [FromFrom.GetSheHeCap] will not accept otherwise.;;;x
+EVTOPTAroyannex.12;That will not do.;;;x
+EVTOPTBroyannex.12;You have a deal!;;;x
+
+EVTDESCroyannex.2;[target_negotiator.GetTitledName] was unable to secure a deal with [FromFrom.GetTitledFirstName]. [FromFrom.GetSheHeCap] rebuffed your offers and neither side seemed able to come to a standing agreement.;;;x
+EVTOPTAroyannex.2;I should've went myself...;;;x
+
+

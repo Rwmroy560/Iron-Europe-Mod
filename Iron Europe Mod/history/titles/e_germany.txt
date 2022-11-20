@@ -1,0 +1,64 @@
+867.1.1 = {
+  active = no
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1600.1.1 = {
+  name = Germany
+  adjective = German
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_0
+}
+1871.1.18 = {
+  holder = 110938263
+}
+1888.3.9 = {
+  holder = 110596375
+}
+1888.6.15 = {
+  holder = 119759724
+}
+1918.11.28 = {
+  holder = 112543892
+}
+1925.2.28 = {
+  holder = 111495689
+}
+1934.8.2 = {
+  holder = 118977433
+}
+1945.4.30 = {
+  holder = 112652929
+}
+1945.5.8 = {
+  holder = 0
+  name = "West Germany"
+  adjective = "West German"
+}
+1990.9.29 = {
+  holder = 117347519
+  name = Germany
+  adjective = German
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_1
+  law = vassal_wars_law_2
+}
+1998.10.27 = {
+  holder = 110602390
+}
+2005.11.22 = {
+  holder = 116594806
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = cognatic_succession
+  law = succ_feudal_elective
+}

@@ -1,0 +1,66 @@
+765.1.1 = {
+  holder = 256012
+}
+867.1.1 = {
+  holder = 256011
+}
+936.1.1 = {
+  holder = 260757
+}
+1066.1.1 = {
+  holder = 256010
+}
+1083.5.29 = {
+  holder = 256009
+}
+1114.11.24 = {
+  holder = 256008
+}
+1147.9.9 = {
+  holder = 256007
+}
+1183.4.4 = {
+  holder = 256005
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113012676
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 111481482
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 116857602
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 114375216
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 110425224
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 115480589
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 118694304
+  liege = e_russia
+}
+1918.11.11 = {
+  holder = 0
+  liege = 0
+}

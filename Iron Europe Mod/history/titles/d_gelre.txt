@@ -1,0 +1,83 @@
+769.1.1 = {
+  name = DUCHY_CHAMAVIA
+  adjective = DUCHY_CHAMAVIA_ADJ
+}
+1046.1.1 = {
+  reset_name = yes
+  reset_adjective = yes
+  set_global_flag = hamaland_renamed
+}
+1337.1.1 = {
+  liege = e_hre
+  holder = 30039
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113403186
+  liege = k_frisia
+}
+1830.6.9 = {
+  holder = 116221855
+  liege = k_frisia
+}
+1845.6.9 = {
+  holder = 118625513
+  liege = k_frisia
+}
+1860.6.9 = {
+  holder = 118098056
+  liege = k_frisia
+}
+1875.6.9 = {
+  holder = 117833260
+  liege = k_frisia
+}
+1890.6.9 = {
+  holder = 110059330
+  liege = k_frisia
+}
+1905.6.9 = {
+  holder = 119299925
+  liege = k_frisia
+}
+1920.6.9 = {
+  holder = 113104417
+  liege = k_frisia
+}
+1935.6.9 = {
+  holder = 119520715
+  liege = k_frisia
+}
+1950.6.9 = {
+  holder = 111062576
+  liege = k_frisia
+}
+1965.6.9 = {
+  holder = 114864293
+  liege = k_frisia
+}
+1980.6.9 = {
+  holder = 115655294
+  liege = k_frisia
+}
+1995.6.9 = {
+  holder = 110377790
+  liege = k_frisia
+}
+2010.6.9 = {
+  holder = 113806577
+  liege = k_frisia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

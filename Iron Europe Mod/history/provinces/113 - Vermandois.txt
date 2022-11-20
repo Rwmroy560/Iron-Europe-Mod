@@ -1,0 +1,16 @@
+title = c_vermandois
+max_settlements = 5
+b_guise = castle
+b_laon = temple
+b_stquentin = city
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = frankish
+}
+1187.1.1 = {
+  b_coucy = castle
+}
+1700.1.1 = {
+  b_montaigu = city
+}

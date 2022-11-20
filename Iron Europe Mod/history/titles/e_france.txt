@@ -1,0 +1,121 @@
+751.11.1 = {
+  holder = 131722
+}
+768.9.24 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = France
+  adjective = French
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_0
+}
+1799.11.10 = {
+  holder = 112514874
+}
+1815.6.9 = {
+  holder = 116547290
+}
+1824.9.16 = {
+  holder = 117762323
+}
+1830.8.9 = {
+  holder = 118542715
+}
+1848.2.24 = {
+  holder = 117951393
+}
+1870.9.4 = {
+  holder = 113250054
+}
+1873.5.24 = {
+  holder = 113668254
+}
+1879.1.30 = {
+  holder = 119869028
+}
+1887.12.3 = {
+  holder = 112168335
+}
+1894.6.27 = {
+  holder = 112329722
+}
+1895.1.17 = {
+  holder = 118630732
+}
+1899.2.18 = {
+  holder = 111601325
+}
+1906.2.18 = {
+  holder = 117476128
+}
+1913.2.18 = {
+  holder = 116681975
+}
+1920.2.18 = {
+  holder = 115286990
+}
+1920.9.23 = {
+  holder = 110090633
+}
+1924.6.13 = {
+  holder = 118878912
+}
+1931.6.13 = {
+  holder = 117968448
+}
+1932.5.10 = {
+  holder = 116530280
+}
+1940.7.11 = {
+  holder = 113410090
+}
+1945.5.8 = {
+  holder = 115783505
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_1
+  law = succ_feudal_elective
+  law = vassal_wars_law_2
+}
+1954.1.16 = {
+  holder = 115784648
+}
+1959.1.8 = {
+  holder = 112843280
+}
+1969.6.20 = {
+  holder = 118644328
+}
+1974.5.27 = {
+  holder = 114107179
+}
+1981.5.21 = {
+  holder = 113733899
+}
+1995.5.17 = {
+  holder = 111980162
+}
+2007.5.16 = {
+  holder = 118867945
+}
+2012.5.15 = {
+  holder = 114587622
+}
+2017.5.14 = {
+  holder = 110355952
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = succ_feudal_elective
+  law = demo_elective
+  law = cognatic_succession
+  law = vassal_wars_law_2
+}

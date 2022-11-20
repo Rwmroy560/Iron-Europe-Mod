@@ -1,0 +1,31 @@
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_arabia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 118080950
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 116527099
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 113567648
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 111489528
+  liege = e_arabia
+}
+1869.1.1 = {
+  holder = 0
+  liege = 0
+}

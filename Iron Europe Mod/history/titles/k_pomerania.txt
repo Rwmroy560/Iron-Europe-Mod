@@ -1,0 +1,50 @@
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1600.1.1 = {
+  name = Prussia
+  adjective = Prussian
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1786.8.17 = {
+  holder = 110294498
+}
+1797.11.16 = {
+  holder = 112588886
+}
+1806.8.6 = {
+  de_jure_liege = e_germany
+}
+1840.6.7 = {
+  holder = 118597135
+}
+1861.1.2 = {
+  holder = 110938263
+}
+1871.1.18 = {
+  holder = 0
+}
+1945.5.8 = {
+  holder = 117897101
+  name = "East Germany"
+  adjective = "East German"
+}
+1950.7.25 = {
+  holder = 111684006
+}
+1971.5.3 = {
+  holder = 111859608
+}
+1989.10.18 = {
+  holder = 111392420
+}
+1990.9.29 = {
+  holder = 0
+}

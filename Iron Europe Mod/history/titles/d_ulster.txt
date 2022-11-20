@@ -1,0 +1,87 @@
+1199.1.1 = {
+  liege = k_england
+  law = succ_tanistry
+  holder = 204022
+}
+1243.1.1 = {
+  holder = 454152
+}
+1271.12.28 = {
+  holder = 454106
+}
+1329.7.29 = {
+  holder = 454613
+}
+1333.6.6 = {
+  holder = 454614
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 117286278
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 117212350
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 112914061
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 119667110
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 119056597
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 112390889
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 113464287
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 117702756
+  liege = e_britannia
+}
+1935.6.9 = {
+  holder = 119909466
+  liege = e_britannia
+}
+1950.6.9 = {
+  holder = 113337576
+  liege = e_britannia
+}
+1965.6.9 = {
+  holder = 116726755
+  liege = e_britannia
+}
+1980.6.9 = {
+  holder = 113695115
+  liege = e_britannia
+}
+1995.6.9 = {
+  holder = 116575189
+  liege = e_britannia
+}
+2010.6.9 = {
+  holder = 112632875
+  liege = e_britannia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

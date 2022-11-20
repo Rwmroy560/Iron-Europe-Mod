@@ -1,0 +1,158 @@
+100.1.1 = {
+  liege = k_france
+}
+697.1.1 = {
+  holder = 131719
+}
+745.1.1 = {
+  holder = 190511
+  liege = k_lotharingia
+}
+769.1.1 = {
+  de_jure_liege = k_lotharingia
+}
+798.1.1 = {
+  holder = 190512
+}
+827.1.1 = {
+  holder = 190513
+}
+840.6.20 = {
+  holder = 90104
+}
+867.1.1 = {
+  de_jure_liege = k_france
+}
+879.1.1 = {
+  holder = 90155
+}
+880.1.1 = {
+  holder = 7994
+}
+921.1.1 = {
+  holder = 7995
+}
+923.1.1 = {
+  holder = 168167
+  liege = k_france
+}
+952.12.17 = {
+  holder = 40322
+}
+956.1.1 = {
+  holder = 91006
+}
+965.1.1 = {
+  holder = 91007
+}
+1002.1.1 = {
+  holder = 272
+}
+1004.1.1 = {
+  holder = 0
+  liege = 0
+}
+1032.1.1 = {
+  liege = k_france
+  holder = 210
+}
+1076.3.21 = {
+  holder = 224
+}
+1079.1.1 = {
+  holder = 225
+}
+1103.3.23 = {
+  holder = 206003
+}
+1143.1.1 = {
+  holder = 206001
+}
+1162.9.27 = {
+  holder = 206000
+}
+1192.1.1 = {
+  holder = 206011
+}
+1218.7.6 = {
+  holder = 7618
+}
+1271.10.27 = {
+  holder = 455535
+}
+1306.3.21 = {
+  holder = 455911
+}
+1315.5.9 = {
+  holder = 455910
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113991449
+  liege = e_france
+}
+1830.6.9 = {
+  holder = 117583050
+  liege = e_france
+}
+1845.6.9 = {
+  holder = 115770935
+  liege = e_france
+}
+1860.6.9 = {
+  holder = 119308647
+  liege = e_france
+}
+1875.6.9 = {
+  holder = 118056149
+  liege = e_france
+}
+1890.6.9 = {
+  holder = 119356085
+  liege = e_france
+}
+1905.6.9 = {
+  holder = 117975999
+  liege = e_france
+}
+1920.6.9 = {
+  holder = 110365667
+  liege = e_france
+}
+1935.6.9 = {
+  holder = 117160604
+  liege = e_france
+}
+1950.6.9 = {
+  holder = 111291721
+  liege = e_france
+}
+1965.6.9 = {
+  holder = 114203225
+  liege = e_france
+}
+1980.6.9 = {
+  holder = 117236397
+  liege = e_france
+}
+1995.6.9 = {
+  holder = 118888066
+  liege = e_france
+}
+2010.6.9 = {
+  holder = 110147370
+  liege = e_france
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

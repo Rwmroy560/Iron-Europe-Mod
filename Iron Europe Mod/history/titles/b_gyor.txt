@@ -1,0 +1,11 @@
+1066.1.1 = {
+  liege = k_hungary
+  holder = 4431
+}
+1111.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  holder = 0
+  liege = c_sopron
+}

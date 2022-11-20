@@ -1,0 +1,66 @@
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113680357
+  liege = k_persia
+}
+1830.6.9 = {
+  holder = 113248671
+  liege = k_persia
+}
+1845.6.9 = {
+  holder = 116325440
+  liege = k_persia
+}
+1860.6.9 = {
+  holder = 114860245
+  liege = k_persia
+}
+1875.6.9 = {
+  holder = 113872796
+  liege = k_persia
+}
+1890.6.9 = {
+  holder = 112938223
+  liege = k_persia
+}
+1905.6.9 = {
+  holder = 111043256
+  liege = k_persia
+}
+1920.6.9 = {
+  holder = 111091911
+  liege = k_persia
+}
+1935.6.9 = {
+  holder = 115376299
+  liege = k_persia
+}
+1950.6.9 = {
+  holder = 116150213
+  liege = k_persia
+}
+1965.6.9 = {
+  holder = 110712529
+  liege = k_persia
+}
+1980.6.9 = {
+  holder = 114877617
+  liege = k_persia
+}
+1995.6.9 = {
+  holder = 115856513
+  liege = k_persia
+}
+2010.6.9 = {
+  holder = 111738890
+  liege = k_persia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

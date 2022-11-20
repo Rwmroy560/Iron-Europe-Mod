@@ -1,0 +1,115 @@
+805.1.1 = {
+  liege = 0
+  holder = 248619
+}
+867.1.1 = {
+  holder = 248620
+}
+940.1.1 = {
+  holder = 93132
+}
+980.1.1 = {
+  holder = 93133
+}
+1011.1.1 = {
+  liege = k_afghanistan
+  holder = 93136
+}
+1066.1.1 = {
+  holder = 93137
+}
+1080.1.1 = {
+  holder = 93138
+}
+1100.1.1 = {
+  holder = 93139
+}
+1118.1.1 = {
+  liege = k_persia
+}
+1140.1.1 = {
+  holder = 93140
+}
+1149.1.1 = {
+  holder = 93141
+}
+1155.1.1 = {
+  holder = 93143
+}
+1161.1.1 = {
+  holder = 144140
+}
+1163.1.1 = {
+  holder = 144141
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_afghanistan
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 117045658
+  liege = k_afghanistan
+}
+1830.6.9 = {
+  holder = 118878853
+  liege = k_afghanistan
+}
+1845.6.9 = {
+  holder = 117840108
+  liege = k_afghanistan
+}
+1860.6.9 = {
+  holder = 111427836
+  liege = k_afghanistan
+}
+1875.6.9 = {
+  holder = 117811667
+  liege = k_afghanistan
+}
+1890.6.9 = {
+  holder = 114519708
+  liege = k_afghanistan
+}
+1905.6.9 = {
+  holder = 113696430
+  liege = k_afghanistan
+}
+1920.6.9 = {
+  holder = 112389126
+  liege = k_afghanistan
+}
+1935.6.9 = {
+  holder = 118750288
+  liege = k_afghanistan
+}
+1950.6.9 = {
+  holder = 118031551
+  liege = k_afghanistan
+}
+1965.6.9 = {
+  holder = 111758996
+  liege = k_afghanistan
+}
+1980.6.9 = {
+  holder = 115073302
+  liege = k_afghanistan
+}
+1995.6.9 = {
+  holder = 119523298
+  liege = k_afghanistan
+}
+2010.6.9 = {
+  holder = 119613116
+  liege = k_afghanistan
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

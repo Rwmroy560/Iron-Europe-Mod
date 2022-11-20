@@ -1,0 +1,53 @@
+namespace = sinocide_warcrime_events
+character_event = {
+	id = sinocide_warcrime_events.0
+	desc = EVTDESCsinocide_warcrime_events.0
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsinocide_warcrime_events.0
+		location = {
+			add_province_modifier = { modifier = sinocide_war duration = -1 }
+		}
+		any_current_enemy = {
+			IF = {
+				limit = {
+					NAND = {
+						culture = ROOT
+						religion = ROOT
+					}
+				}
+				opinion = { modifier = opinion_dishonorable who = ROOT }
+				opinion = { modifier = evil_murderer who = ROOT years = 100 }
+				ROOT = {
+					primary_title = {
+						add_pressed_claim = PREV
+					}
+				}
+			}
+			any_vassal = {
+				IF = {
+					limit = {
+						NAND = {
+							culture = ROOT
+							religion = ROOT
+						}
+					}
+					opinion = { modifier = opinion_dishonorable who = ROOT }
+					opinion = { modifier = evil_murderer who = ROOT years = 100 }
+				}
+			}
+		}
+		add_character_modifier = {
+			modifier = sinocide_war_crime
+			years = 10
+		}
+		clr_character_flag = sin_war_criminal
+		add_trait = cruel
+	}
+	option = {
+		name = EVTOPTBsinocide_warcrime_events.0
+		clr_character_flag = sin_war_criminal
+	}
+}

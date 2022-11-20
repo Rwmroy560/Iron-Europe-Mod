@@ -1,0 +1,174 @@
+530.1.1 = {
+  holder = 188320
+}
+550.1.1 = {
+  holder = 188321
+}
+570.1.1 = {
+  holder = 188322
+}
+590.1.1 = {
+  holder = 188323
+}
+610.1.1 = {
+  holder = 188324
+}
+630.1.1 = {
+  holder = 188325
+}
+650.1.1 = {
+  holder = 188326
+}
+670.1.1 = {
+  holder = 188327
+}
+690.1.1 = {
+  holder = 188328
+}
+710.1.1 = {
+  holder = 188329
+}
+731.1.1 = {
+  liege = k_rajputana
+  holder = 188330
+}
+750.1.1 = {
+  liege = k_malwa
+}
+806.1.1 = {
+  holder = 188331
+}
+815.1.1 = {
+  liege = k_kosala
+}
+821.1.1 = {
+  holder = 188332
+}
+853.1.1 = {
+  holder = 188333
+}
+908.1.1 = {
+  holder = 188334
+}
+948.1.1 = {
+  liege = 0
+}
+979.1.1 = {
+  holder = 188335
+}
+1044.1.1 = {
+  holder = 188336
+}
+1123.1.1 = {
+  holder = 188337
+}
+1133.1.1 = {
+  holder = 188338
+}
+1143.1.1 = {
+  holder = 188339
+}
+1170.1.1 = {
+  holder = 188340
+}
+1192.1.1 = {
+  liege = k_sindh
+}
+1200.1.1 = {
+  holder = 188341
+}
+1230.1.1 = {
+  holder = 188342
+}
+1260.1.1 = {
+  holder = 188343
+}
+1294.1.1 = {
+  holder = 188344
+}
+1310.1.1 = {
+  holder = 188345
+}
+1320.1.1 = {
+  holder = 188346
+}
+1326.1.1 = {
+  liege = e_rajastan
+}
+1330.1.1 = {
+  holder = 188347
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 119325894
+  liege = e_deccan
+}
+1818.6.3 = {
+  holder = 115286864
+  liege = k_rajputana
+}
+1833.6.3 = {
+  holder = 113480264
+  liege = k_rajputana
+}
+1848.6.3 = {
+  holder = 113077191
+  liege = k_rajputana
+}
+1863.6.3 = {
+  holder = 110202137
+  liege = k_rajputana
+}
+1878.6.3 = {
+  holder = 111970833
+  liege = k_rajputana
+}
+1893.6.3 = {
+  holder = 114228229
+  liege = k_rajputana
+}
+1908.6.3 = {
+  holder = 113356574
+  liege = k_rajputana
+}
+1923.6.3 = {
+  holder = 116571317
+  liege = k_rajputana
+}
+1938.6.3 = {
+  holder = 110798799
+  liege = k_rajputana
+}
+1947.8.15 = {
+  holder = 111397245
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 114961516
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 111953819
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 114771035
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 118355566
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

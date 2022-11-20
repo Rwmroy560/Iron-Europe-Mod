@@ -1,0 +1,116 @@
+725.1.1 = {
+  holder = 191000
+}
+733.8.14 = {
+  liege = e_rajastan
+}
+744.1.1 = {
+  liege = 0
+}
+752.1.1 = {
+  holder = 191002
+}
+762.1.1 = {
+  holder = 191003
+}
+769.1.1 = {
+  holder = 191005
+}
+783.1.1 = {
+  holder = 191007
+}
+790.1.1 = {
+  holder = 0
+}
+815.1.1 = {
+  holder = 188006
+}
+833.1.1 = {
+  holder = 188007
+}
+836.1.1 = {
+  holder = 188008
+}
+885.1.1 = {
+  holder = 188009
+}
+910.1.1 = {
+  holder = 188010
+}
+912.1.1 = {
+  holder = 188011
+}
+944.1.1 = {
+  holder = 188012
+}
+948.1.1 = {
+  holder = 0
+}
+1089.1.1 = {
+  holder = 190216
+}
+1104.1.1 = {
+  holder = 190217
+}
+1114.1.1 = {
+  holder = 190218
+}
+1168.1.1 = {
+  holder = 190219
+}
+1170.1.1 = {
+  holder = 190220
+}
+1193.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = e_india
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1818.6.3 = {
+  holder = 118928576
+  liege = e_britannia
+}
+1828.11.12 = {
+  holder = 111914110
+}
+1847.9.20 = {
+  holder = 116089950
+}
+1861.12.9 = {
+  holder = 117347877
+}
+1870.4.27 = {
+  holder = 114894699
+}
+1884.4.9 = {
+  holder = 115263865
+}
+1900.6.20 = {
+  holder = 119256094
+}
+1910.6.4 = {
+  holder = 115002853
+}
+1923.10.28 = {
+  holder = 111845371
+}
+1934.4.3 = {
+  holder = 115333484
+}
+1942.6.21 = {
+  holder = 114569806
+}
+1947.8.15 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,171 @@
+693.1.1 = {
+  holder = 190335
+  liege = k_lotharingia
+  name = ALEMANNIA
+  adjective = ALEMANNIA_ADJ
+}
+709.1.1 = {
+  holder = 190230
+}
+730.1.1 = {
+  holder = 190232
+}
+745.1.1 = {
+  holder = 190231
+}
+751.1.1 = {
+  holder = 190234
+}
+788.1.1 = {
+  holder = 190238
+}
+794.1.1 = {
+  holder = 190239
+}
+810.1.1 = {
+  holder = 0
+}
+865.1.1 = {
+  reset_name = yes
+  reset_adjective = yes
+  holder = 90105
+  liege = k_germany
+}
+876.8.28 = {
+  liege = 0
+  holder = 0
+}
+909.1.1 = {
+  liege = k_germany
+  holder = 7955
+}
+917.1.21 = {
+  holder = 7956
+}
+926.4.29 = {
+  holder = 7962
+}
+949.12.10 = {
+  holder = 7964
+}
+954.1.1 = {
+  holder = 7957
+}
+973.11.12 = {
+  holder = 7965
+}
+982.1.1 = {
+  holder = 11064
+}
+997.8.20 = {
+  holder = 1384
+}
+1003.5.30 = {
+  holder = 7944
+}
+1012.4.1 = {
+  holder = 10083
+}
+1015.5.13 = {
+  holder = 7943
+}
+1024.7.13 = {
+  liege = e_hre
+}
+1030.9.17 = {
+  holder = 10085
+}
+1045.1.1 = {
+  holder = 20206
+}
+1047.1.1 = {
+  holder = 20261
+}
+1057.1.1 = {
+  holder = 1388
+}
+1079.1.1 = {
+  holder = 7054
+}
+1105.7.21 = {
+  holder = 212495
+}
+1147.1.22 = {
+  holder = 212501
+}
+1152.2.15 = {
+  holder = 7904
+}
+1167.1.1 = {
+  holder = 7905
+}
+1170.1.1 = {
+  holder = 212500
+}
+1191.1.20 = {
+  holder = 212505
+}
+1196.8.15 = {
+  holder = 212506
+}
+1208.6.21 = {
+  holder = 212607
+}
+1212.1.1 = {
+  holder = 212513
+}
+1216.1.1 = {
+  holder = 30759
+}
+1235.1.1 = {
+  holder = 30760
+}
+1254.5.21 = {
+  holder = 30785
+}
+1268.10.29 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = "Württemberg"
+  adjective = "Württembergian"
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1733.10.31 = {
+  holder = 113132032
+}
+1737.3.12 = {
+  holder = 113030408
+}
+1793.10.24 = {
+  holder = 119070084
+}
+1795.5.20 = {
+  holder = 118504447
+}
+1797.12.23 = {
+  holder = 111384648
+}
+1816.10.30 = {
+  holder = 118989559
+}
+1864.6.25 = {
+  holder = 117721552
+}
+1871.1.18 = {
+  liege = e_germany
+}
+1891.10.6 = {
+  holder = 117397835
+}
+1918.11.11 = {
+  holder = 0
+  liege = 0
+}

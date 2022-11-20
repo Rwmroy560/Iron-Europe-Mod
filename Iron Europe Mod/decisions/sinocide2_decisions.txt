@@ -1,0 +1,46 @@
+decisions = {
+	sinocide_warcrime = {
+		potential = {
+			ai = no
+			war = yes
+			independent = yes
+			#higher_real_tier_than = DUKE
+			is_primary_war_attacker = yes
+			NOT = { trait = kind }
+			NOR = {
+				has_character_modifier = sinocide_war_crime
+				has_character_flag = sinocide_war_criminal
+			}
+		}
+		allow = {
+			location = {
+				controlled_by = ROOT
+				NAND = {
+					culture = ROOT
+					religion = ROOT
+				}
+				NOT = { has_province_modifier = sinocide_war }
+				holder_scope = {
+					OR = {
+						war_with = ROOT
+						any_liege = { war_with = ROOT }
+					}
+					OR = {
+						is_primary_war_defender = yes
+						any_liege = { is_primary_war_defender = yes }
+					}
+				}
+			}
+		}
+		effect = {
+			set_character_flag = sin_war_criminal
+			character_event = { id = sinocide_warcrime_events.0 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

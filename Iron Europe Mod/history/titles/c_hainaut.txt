@@ -1,0 +1,117 @@
+769.1.1 = {
+  holder = 194170
+  liege = d_brabant
+}
+817.1.1 = {
+  liege = k_lotharingia
+}
+841.1.1 = {
+  holder = 7815
+}
+892.1.1 = {
+  holder = 7812
+}
+903.1.1 = {
+  liege = d_lower_lorraine
+}
+915.1.1 = {
+  holder = 7811
+}
+932.1.1 = {
+  holder = 7810
+}
+958.1.1 = {
+  holder = 144992
+}
+964.1.1 = {
+  holder = 144991
+}
+973.1.1 = {
+  holder = 7998
+}
+1013.1.1 = {
+  holder = 106642
+}
+1039.1.1 = {
+  holder = 94019
+}
+1051.1.1 = {
+  holder = 106640
+}
+1066.1.1 = {
+  liege = d_lower_lorraine
+}
+1070.7.17 = {
+  liege = d_flanders
+  holder = 366
+}
+1071.2.22 = {
+  liege = d_lower_lorraine
+  holder = 10074
+}
+1098.8.1 = {
+  holder = 94015
+}
+1120.1.1 = {
+  holder = 205521
+}
+1171.11.8 = {
+  holder = 205520
+}
+1190.8.21 = {
+  liege = d_brabant
+}
+1195.12.17 = {
+  holder = 205523
+}
+1204.5.16 = {
+  holder = 94021
+}
+1244.12.5 = {
+  holder = 94024
+}
+1280.10.2 = {
+  holder = 94008
+}
+1299.11.10 = {
+  liege = d_holland
+}
+1304.8.22 = {
+  holder = 462742
+}
+1337.6.7 = {
+  holder = 487011
+}
+1450.1.1 = {
+  liege = 0
+  holder = 108508736
+}
+1815.6.9 = {
+  holder = 111449661
+  liege = k_frisia
+}
+1830.6.9 = {
+  holder = 115349704
+}
+1831.7.21 = {
+  liege = d_flanders
+  holder = 110561709
+}
+1865.12.10 = {
+  holder = 113693302
+}
+1909.12.17 = {
+  holder = 112167493
+}
+1934.2.17 = {
+  holder = 110616118
+}
+1951.7.17 = {
+  holder = 115558687
+}
+1993.7.31 = {
+  holder = 119662881
+}
+2013.7.21 = {
+  holder = 117488702
+}

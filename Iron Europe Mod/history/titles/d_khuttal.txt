@@ -1,0 +1,68 @@
+848.1.1 = {
+  liege = 0
+  holder = 248306
+}
+857.1.1 = {
+  holder = 248307
+}
+873.1.1 = {
+  holder = 248308
+}
+899.1.1 = {
+  holder = 248309
+}
+1030.1.1 = {
+  holder = 248023
+}
+1067.1.1 = {
+  holder = 248024
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Tajikistan
+  adjective = Tajik
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1918.11.11 = {
+  holder = 113904135
+  liege = e_russia
+}
+1925.5.11 = {
+  holder = 112465862
+}
+1930.6.18 = {
+  holder = 115434983
+}
+1940.7.27 = {
+  holder = 112784025
+}
+1954.5.21 = {
+  holder = 112515125
+}
+1967.5.21 = {
+  holder = 112918759
+}
+1982.7.7 = {
+  holder = 119085860
+}
+1989.4.21 = {
+  holder = 115668902
+}
+1990.11.30 = {
+  holder = 116968364
+}
+1991.9.23 = {
+  holder = 116548847
+}
+1991.12.26 = {
+  liege = 0
+}
+1992.11.20 = {
+  holder = 117070967
+}

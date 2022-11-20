@@ -1,0 +1,181 @@
+695.1.1 = {
+  holder = 73901
+}
+711.1.1 = {
+  liege = k_andalusia
+}
+743.1.1 = {
+  holder = 200064
+}
+745.1.1 = {
+  holder = 73903
+}
+789.1.1 = {
+  holder = 73904
+}
+812.1.1 = {
+  holder = 73905
+}
+852.1.1 = {
+  holder = 73906
+}
+858.1.1 = {
+  holder = 73900
+}
+887.1.1 = {
+  holder = 73899
+}
+927.1.1 = {
+  holder = 73916
+}
+943.1.1 = {
+  holder = 73917
+}
+980.1.1 = {
+  holder = 73918
+}
+1006.1.1 = {
+  holder = 73919
+}
+1030.1.1 = {
+  holder = 73920
+}
+1038.1.1 = {
+  holder = 0
+}
+1065.1.1 = {
+  holder = 3910
+  liege = 0
+}
+1078.1.1 = {
+  holder = 0
+}
+1145.1.1 = {
+  holder = 73235
+  liege = 0
+}
+1145.3.1 = {
+  holder = 73236
+}
+1145.6.1 = {
+  holder = 73237
+}
+1145.9.1 = {
+  holder = 73239
+}
+1146.1.1 = {
+  holder = 0
+}
+1147.1.1 = {
+  holder = 73241
+  liege = 0
+}
+1172.3.1 = {
+  holder = 0
+}
+1212.7.16 = {
+  de_jure_liege = k_andalusia
+}
+1228.1.1 = {
+  holder = 73625
+  liege = 0
+}
+1238.1.1 = {
+  holder = 73627
+}
+1238.7.1 = {
+  holder = 73631
+}
+1239.1.1 = {
+  holder = 73622
+}
+1241.1.1 = {
+  holder = 73628
+}
+1260.1.1 = {
+  holder = 73629
+}
+1263.1.1 = {
+  holder = 73630
+}
+1264.1.1 = {
+  holder = 73627
+}
+1266.1.1 = {
+  holder = 457621
+  liege = k_castille
+  de_jure_liege = k_castille
+}
+1283.12.25 = {
+  holder = 457630
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 119998096
+  liege = e_spain
+}
+1830.6.9 = {
+  holder = 116102716
+  liege = e_spain
+}
+1845.6.9 = {
+  holder = 111186523
+  liege = e_spain
+}
+1860.6.9 = {
+  holder = 119505339
+  liege = e_spain
+}
+1875.6.9 = {
+  holder = 116879764
+  liege = e_spain
+}
+1890.6.9 = {
+  holder = 113854956
+  liege = e_spain
+}
+1905.6.9 = {
+  holder = 115516769
+  liege = e_spain
+}
+1920.6.9 = {
+  holder = 114377997
+  liege = e_spain
+}
+1935.6.9 = {
+  holder = 113582906
+  liege = e_spain
+}
+1950.6.9 = {
+  holder = 115044310
+  liege = e_spain
+}
+1965.6.9 = {
+  holder = 119889090
+  liege = e_spain
+}
+1980.6.9 = {
+  holder = 118202743
+  liege = e_spain
+}
+1995.6.9 = {
+  holder = 112639934
+  liege = e_spain
+}
+2010.6.9 = {
+  holder = 116533856
+  liege = e_spain
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

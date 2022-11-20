@@ -1,0 +1,165 @@
+550.1.1 = {
+  holder = 191605
+  liege = k_rajputana
+}
+580.1.1 = {
+  holder = 191607
+}
+600.1.1 = {
+  holder = 191608
+}
+625.1.1 = {
+  holder = 191609
+  liege = k_malwa
+}
+650.1.1 = {
+  holder = 191612
+}
+690.1.1 = {
+  holder = 188000
+}
+730.1.1 = {
+  holder = 188001
+}
+765.1.1 = {
+  holder = 188003
+}
+770.1.1 = {
+  holder = 188004
+}
+780.1.1 = {
+  holder = 188005
+}
+812.1.1 = {
+  liege = k_maharastra
+  holder = 188176
+}
+818.1.1 = {
+  holder = 188177
+}
+843.1.1 = {
+  holder = 188178
+}
+893.1.1 = {
+  holder = 188179
+}
+918.1.1 = {
+  holder = 188180
+}
+936.1.1 = {
+  liege = 0
+}
+948.1.1 = {
+  holder = 188181
+}
+967.1.1 = {
+  liege = k_malwa
+}
+973.1.1 = {
+  holder = 188182
+}
+995.1.1 = {
+  holder = 188183
+}
+1010.1.1 = {
+  holder = 188184
+}
+1055.1.1 = {
+  holder = 188185
+}
+1069.1.1 = {
+  holder = 188186
+}
+1087.1.1 = {
+  holder = 188187
+}
+1094.1.1 = {
+  holder = 188188
+}
+1133.1.1 = {
+  holder = 188189
+}
+1142.1.1 = {
+  holder = 188190
+}
+1143.1.1 = {
+  holder = 188191
+}
+1151.1.1 = {
+  holder = 188088
+}
+1160.1.1 = {
+  holder = 188197
+}
+1193.1.1 = {
+  holder = 188198
+}
+1210.1.1 = {
+  holder = 188199
+}
+1218.1.1 = {
+  holder = 188196
+}
+1239.1.1 = {
+  holder = 188200
+}
+1256.1.1 = {
+  holder = 188201
+}
+1269.1.1 = {
+  holder = 188202
+}
+1274.1.1 = {
+  holder = 188203
+}
+1283.1.1 = {
+  holder = 188204
+}
+1298.1.1 = {
+  holder = 188205
+}
+1305.1.1 = {
+  holder = 191927
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 110021528
+  liege = e_deccan
+}
+1818.6.3 = {
+  holder = 0
+  liege = 0
+}
+1947.8.15 = {
+  holder = 119910688
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 115819112
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 113983632
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 116034503
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 113624998
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

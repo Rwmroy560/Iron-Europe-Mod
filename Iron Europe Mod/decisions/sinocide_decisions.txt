@@ -1,0 +1,83 @@
+decisions = {
+	sinocide_religion_realm = {
+		potential = {
+			ai = no
+			war = no
+			independent = yes
+			higher_real_tier_than = DUKE
+			NOT = { trait = kind }
+		}
+		allow = {
+			any_realm_province = {
+				NOR = {
+					religion = ROOT
+					has_province_modifier = sinocide_religion
+				}
+			}
+		}
+		effect = {
+			character_event = { id = sinocide_events.0 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	sinocide_race_realm = {
+		potential = {
+			ai = no
+			war = no
+			independent = yes
+			higher_real_tier_than = DUKE
+			NOT = { trait = kind }
+		}
+		allow = {
+			any_realm_province = {
+				NOR = {
+					culture = ROOT
+					has_province_modifier = sinocide_race
+				}
+			}
+		}
+		effect = {
+			character_event = { id = sinocide_events.1 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	sinocide_stop_genocide = {
+		potential = {
+			ai = no
+			war = no
+			any_realm_province = {
+				OR = {
+					has_province_modifier = sinocide_race
+					has_province_modifier = sinocide_religion
+				}
+			}
+		}
+		allow = {
+			any_realm_province = {
+				OR = {
+					has_province_modifier = sinocide_race
+					has_province_modifier = sinocide_religion
+				}
+			}
+		}
+		effect = {
+			character_event = { id = sinocide_maintenance.0 }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

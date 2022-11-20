@@ -1,0 +1,29 @@
+title = c_chelminskie
+max_settlements = 4
+b_chelmno = tribal
+b_briesen = temple
+culture = prussian
+religion = baltic_pagan
+1250.1.1 = {
+  religion = catholic
+  b_chelmno = castle
+  b_thorn = city
+}
+1250.1.1 = {
+  culture = german
+}
+1700.1.1 = {
+  b_kulm = castle
+}
+1700.1.1 = {
+  culture = prussian
+}
+1945.5.8 = {
+  culture = polish
+}
+1700.1.1 = {
+  religion = protestant
+}
+1945.5.8 = {
+  religion = catholic
+}

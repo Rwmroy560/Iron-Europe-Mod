@@ -1,0 +1,201 @@
+502.1.1 = {
+  holder = 191645
+  liege = k_gujarat
+}
+525.1.1 = {
+  holder = 191646
+}
+545.1.1 = {
+  holder = 191647
+}
+556.1.1 = {
+  holder = 191648
+}
+571.1.1 = {
+  holder = 191649
+}
+595.1.1 = {
+  holder = 191650
+}
+616.1.1 = {
+  holder = 191651
+}
+623.1.1 = {
+  holder = 191652
+}
+629.1.1 = {
+  holder = 191653
+}
+640.1.1 = {
+  holder = 191654
+}
+651.1.1 = {
+  holder = 191656
+}
+653.1.1 = {
+  holder = 191657
+}
+662.1.1 = {
+  holder = 191659
+}
+691.1.1 = {
+  holder = 191660
+}
+722.1.1 = {
+  holder = 191661
+}
+745.1.1 = {
+  holder = 188063
+  liege = k_malwa
+}
+756.1.1 = {
+  liege = 0
+}
+780.1.1 = {
+  holder = 188064
+  liege = k_malwa
+}
+815.1.1 = {
+  liege = k_kosala
+}
+820.1.1 = {
+  holder = 188066
+}
+825.1.1 = {
+  holder = 188067
+}
+835.1.1 = {
+  holder = 188068
+}
+860.1.1 = {
+  holder = 188070
+}
+890.1.1 = {
+  holder = 188072
+}
+920.1.1 = {
+  holder = 188073
+}
+942.1.1 = {
+  liege = 0
+  holder = 188074
+}
+996.1.1 = {
+  holder = 188075
+}
+1008.1.1 = {
+  holder = 188076
+}
+1010.1.1 = {
+  holder = 188077
+}
+1022.1.1 = {
+  holder = 188081
+}
+1064.1.1 = {
+  holder = 188089
+}
+1094.1.1 = {
+  holder = 188091
+}
+1143.1.1 = {
+  holder = 188088
+}
+1171.1.1 = {
+  holder = 188093
+}
+1177.1.1 = {
+  holder = 188094
+}
+1178.1.1 = {
+  holder = 188095
+}
+1208.1.1 = {
+  holder = 188097
+}
+1224.1.1 = {
+  holder = 188095
+}
+1241.1.1 = {
+  holder = 188096
+}
+1243.1.1 = {
+  holder = 188158
+}
+1262.1.1 = {
+  holder = 188160
+}
+1274.1.1 = {
+  holder = 188161
+}
+1296.1.1 = {
+  holder = 188163
+}
+1304.1.1 = {
+  liege = k_delhi
+  liege = e_rajastan
+  holder = 170246
+}
+1316.1.3 = {
+  holder = 170247
+}
+1316.4.1 = {
+  holder = 170248
+}
+1318.1.1 = {
+  holder = 170250
+}
+1318.6.1 = {
+  holder = 170248
+}
+1320.6.1 = {
+  holder = 170251
+}
+1320.10.1 = {
+  holder = 170257
+}
+1325.2.1 = {
+  holder = 170258
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114305133
+  liege = e_deccan
+}
+1818.6.3 = {
+  holder = 0
+  liege = 0
+}
+1947.8.15 = {
+  holder = 113772156
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 117262266
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 118192272
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 116521927
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 113095716
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,34 @@
+on_bi_yearly_pulse = {
+	events = {
+		sinocide_events.101
+		sinocide_events.201
+		sinocide_warcrime_maintain.0
+		sinocide_maintenance.3
+	}
+}
+on_war_ended_victory = {
+	events = {
+		sinocide_warcrime_maintain.0
+	}
+}
+on_war_ended_whitepeace = {
+	events = {
+		sinocide_warcrime_maintain.2
+	}
+}
+on_war_ended_defeat = {
+	events = {
+		sinocide_warcrime_maintain.2
+	}
+}
+on_new_holder = {
+	events = {
+		sinocide_maintenance.1
+		sinocide_maintenance.2
+	}
+}
+on_new_holder_inheritance = {
+	events = {
+		sinocide_maintenance.0
+	}
+}

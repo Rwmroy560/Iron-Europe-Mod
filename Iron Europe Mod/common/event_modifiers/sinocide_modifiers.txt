@@ -1,0 +1,28 @@
+sinocide_religion = {
+	icon = 29
+	local_revolt_risk = 0.15
+	levy_size = -1
+	garrison_size = -0.45
+	local_tax_modifier = -1
+	supply_limit = -2
+}
+sinocide_race = {
+	icon = 29
+	local_revolt_risk = 0.15
+	levy_size = -1
+	garrison_size = -0.45
+	local_tax_modifier = -1
+	supply_limit = -2
+}
+sinocide_war = {
+	icon = 29
+	local_revolt_risk = 0.15
+	levy_size = -1
+	garrison_size = -0.45
+	local_tax_modifier = -1
+	supply_limit = -2
+}
+sinocide_war_crime = {
+	icon = 29
+	general_opinion = -20
+}

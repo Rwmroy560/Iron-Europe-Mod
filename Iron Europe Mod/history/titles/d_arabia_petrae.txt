@@ -1,0 +1,98 @@
+690.1.1 = {
+  liege = e_arabia
+  holder = 146054
+}
+721.1.1 = {
+  holder = 146055
+}
+749.1.1 = {
+  holder = 146057
+}
+750.1.1 = {
+  holder = 0
+}
+866.1.1 = {
+  holder = 34016
+}
+869.1.1 = {
+  liege = 0
+  holder = 0
+}
+936.1.1 = {
+  holder = 260932
+  liege = k_egypt
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 119147982
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 110028019
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 117825869
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 113733695
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 115554337
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 119820087
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 115108055
+  liege = e_arabia
+}
+1918.11.11 = {
+  holder = 0
+  liege = 0
+}
+1926.1.8 = {
+  holder = 115259493
+  liege = k_arabia
+}
+1941.1.8 = {
+  holder = 118128815
+  liege = k_arabia
+}
+1956.1.8 = {
+  holder = 114255403
+  liege = k_arabia
+}
+1971.1.8 = {
+  holder = 112421271
+  liege = k_arabia
+}
+1986.1.8 = {
+  holder = 113660295
+  liege = k_arabia
+}
+2001.1.8 = {
+  holder = 112112055
+  liege = k_arabia
+}
+2016.1.8 = {
+  holder = 112181568
+  liege = k_arabia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

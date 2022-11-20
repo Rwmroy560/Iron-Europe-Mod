@@ -1,0 +1,71 @@
+namespace = roy_colony_events
+character_event = {
+	id = roy_colony_events.2
+	hide_window = yes
+	is_triggered_only = yes
+
+
+	trigger = {
+	is_tributary = yes
+	is_tributary = { type = colony }
+	NOT = {
+		wealth = 100
+		}
+	}
+
+	immediate = {
+		suzerain = { id = roy_colony_events.3 }
+	}
+}
+character_event = {
+	id = roy_colony_events.3
+	desc = EVTDESCroy_colony_events.3
+	picture = "GFX_evt_castle_construction"
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAroy_colony_events.3
+		FROM = {
+				transfer_scaled_wealth = {
+					from = ROOT
+					to = FROM
+					value = 1.5
+				}	
+			}
+		}
+
+	option = {
+		name = EVTOPTCroy_colony_events.3
+	}
+}
+character_event = {
+	id = roy_colony_events.4
+	hide_window = yes
+	is_triggered_only = yes
+
+
+	trigger = {
+	is_tributary = yes
+	is_tributary = { type = nato }
+	suzerain = {
+		NOT = {
+			has_character_modifier = nato_setup
+			}
+		}
+	}
+
+	immediate = {
+		suzerain = { id = roy_colony_events.5 }
+	}
+}
+character_event = {
+	id = roy_colony_events.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAroy_colony_events.3
+		add_character_modifier = { modifier = nato_setup years = 10 }
+		}
+
+}

@@ -1,0 +1,84 @@
+711.1.1 = {
+  de_jure_liege = k_asturias
+}
+900.1.1 = {
+  holder = 70020
+  liege = k_asturias
+}
+910.1.1 = {
+  de_jure_liege = k_leon
+}
+910.12.20 = {
+  de_jure_liege = k_leon
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 112604315
+  liege = e_spain
+}
+1830.6.9 = {
+  holder = 118115062
+  liege = e_spain
+}
+1845.6.9 = {
+  holder = 112379168
+  liege = e_spain
+}
+1860.6.9 = {
+  holder = 119187234
+  liege = e_spain
+}
+1875.6.9 = {
+  holder = 117742479
+  liege = e_spain
+}
+1890.6.9 = {
+  holder = 119827067
+  liege = e_spain
+}
+1905.6.9 = {
+  holder = 115201310
+  liege = e_spain
+}
+1920.6.9 = {
+  holder = 110439644
+  liege = e_spain
+}
+1935.6.9 = {
+  holder = 118428379
+  liege = e_spain
+}
+1950.6.9 = {
+  holder = 110000014
+  liege = e_spain
+}
+1965.6.9 = {
+  holder = 111541334
+  liege = e_spain
+}
+1980.6.9 = {
+  holder = 112370167
+  liege = e_spain
+}
+1995.6.9 = {
+  holder = 119917646
+  liege = e_spain
+}
+2010.6.9 = {
+  holder = 116430447
+  liege = e_spain
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

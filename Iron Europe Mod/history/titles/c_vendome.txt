@@ -1,0 +1,122 @@
+750.1.1 = {
+  liege = k_france
+  holder = 91478
+}
+853.1.1 = {
+  liege = d_anjou
+  holder = 6440
+  law = succ_primogeniture
+  law = cognatic_succession
+}
+866.7.2 = {
+  holder = 168011
+}
+905.1.1 = {
+  holder = 168012
+  liege = d_valois
+}
+955.1.1 = {
+  holder = 168013
+  liege = d_anjou
+}
+1007.1.9 = {
+  holder = 168014
+}
+1016.1.6 = {
+  liege = d_anjou
+  holder = 40372
+  law = succ_primogeniture
+  law = cognatic_succession
+}
+1023.1.1 = {
+  holder = 91259
+}
+1028.1.1 = {
+  holder = 40374
+}
+1032.1.1 = {
+  holder = 376
+}
+1056.1.1 = {
+  holder = 40374
+}
+1066.1.1 = {
+  holder = 40905
+}
+1085.1.1 = {
+  holder = 91305
+}
+1102.1.1 = {
+  holder = 91308
+}
+1137.1.1 = {
+  holder = 205761
+}
+1180.1.1 = {
+  holder = 205970
+}
+1202.1.1 = {
+  holder = 205977
+}
+1217.1.1 = {
+  holder = 205976
+}
+1230.1.1 = {
+  holder = 91322
+}
+1249.1.1 = {
+  holder = 91323
+}
+1271.1.1 = {
+  holder = 455009
+}
+1315.1.1 = {
+  holder = 455006
+}
+1450.1.1 = {
+  liege = 0
+  holder = 102825671
+}
+1815.6.9 = {
+  holder = 111846724
+  liege = e_france
+}
+1830.6.9 = {
+  holder = 119327928
+}
+1845.6.9 = {
+  holder = 111439888
+}
+1860.6.9 = {
+  holder = 118764315
+}
+1875.6.9 = {
+  holder = 116970153
+}
+1890.6.9 = {
+  holder = 113715253
+}
+1905.6.9 = {
+  holder = 112407623
+}
+1920.6.9 = {
+  holder = 119955148
+}
+1935.6.9 = {
+  holder = 114747168
+}
+1950.6.9 = {
+  holder = 119191634
+}
+1965.6.9 = {
+  holder = 119383661
+}
+1980.6.9 = {
+  holder = 117171814
+}
+1995.6.9 = {
+  holder = 112027480
+}
+2010.6.9 = {
+  holder = 116409083
+}

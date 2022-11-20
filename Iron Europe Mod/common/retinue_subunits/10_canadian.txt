@@ -1,0 +1,15 @@
+RETTYPE_CUL_CANADIAN = {
+  first_type = 6
+  first_amount = 130
+  second_type = 3
+  second_amount = 120
+  special_troops = horse_archers
+  potential = {
+    is_nomadic = no
+    culture = canadian
+  }
+  modifier = {
+    horse_archers_offensive = 0.2
+    horse_archers_morale = 0.12
+  }
+}

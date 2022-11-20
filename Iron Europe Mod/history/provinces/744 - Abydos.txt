@@ -1,0 +1,17 @@
+title = c_abydos
+max_settlements = 4
+b_abydos = castle
+b_alexandriatroas = city
+b_lampsakos = temple
+culture = greek
+religion = orthodox
+terrain = hills
+765.1.1 = {
+  religion = orthodox
+}
+1205.1.1 = {
+  trade_post = b_dandolo
+}
+1700.1.1 = {
+  b_pigai = castle
+}

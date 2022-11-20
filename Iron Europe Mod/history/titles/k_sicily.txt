@@ -1,0 +1,85 @@
+1130.12.25 = {
+  holder = 211502
+  conquest_culture = norman
+  pentarch = b_roma
+  effect = {
+    insert_title_history = d_sicily
+  }
+}
+1154.2.26 = {
+  holder = 211501
+}
+1166.5.7 = {
+  holder = 211500
+}
+1189.11.11 = {
+  holder = 211509
+}
+1194.2.20 = {
+  holder = 211512
+}
+1194.10.1 = {
+  holder = 212507
+  conquest_culture = 0
+}
+1197.9.28 = {
+  holder = 212513
+}
+1250.12.13 = {
+  holder = 30760
+}
+1254.5.21 = {
+  holder = 30785
+}
+1258.1.1 = {
+  holder = 7636
+}
+1266.2.26 = {
+  liege = 0
+  holder = 455406
+}
+1285.1.7 = {
+  holder = 461710
+}
+1302.8.31 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = e_italy
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1734.6.2 = {
+  holder = 117699977
+}
+1759.10.6 = {
+  holder = 115115866
+}
+1806.3.30 = {
+  holder = 118301804
+}
+1808.8.1 = {
+  holder = 114081219
+}
+1815.6.9 = {
+  holder = 115115866
+}
+1825.1.4 = {
+  holder = 118909090
+}
+1830.11.8 = {
+  holder = 117467151
+}
+1859.5.22 = {
+  holder = 114890904
+}
+1861.3.17 = {
+  holder = 0
+}

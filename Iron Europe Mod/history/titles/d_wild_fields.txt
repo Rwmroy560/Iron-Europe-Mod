@@ -1,0 +1,76 @@
+936.1.1 = {
+  historical_nomad = yes
+  holder = 260695
+  liege = k_pechenegs
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_ruthenia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 116060236
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 116409063
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 119444774
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 118184545
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 113936559
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 111244952
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 119199158
+  liege = e_russia
+}
+1918.11.11 = {
+  holder = 113125371
+  liege = k_ruthenia
+}
+1933.11.11 = {
+  holder = 110806662
+  liege = k_ruthenia
+}
+1948.11.11 = {
+  holder = 118031973
+  liege = k_ruthenia
+}
+1963.11.11 = {
+  holder = 111272254
+  liege = k_ruthenia
+}
+1978.11.11 = {
+  holder = 114528225
+  liege = k_ruthenia
+}
+1993.11.11 = {
+  holder = 110234067
+  liege = k_ruthenia
+}
+2008.11.11 = {
+  holder = 115047588
+  liege = k_ruthenia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

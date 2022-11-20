@@ -1,0 +1,16 @@
+title = c_astorga
+max_settlements = 4
+b_ponferrada = castle
+b_bembibre = city
+b_astorga = temple
+culture = suebi
+religion = catholic
+930.1.1 = {
+  culture = visigothic
+}
+1000.1.1 = {
+  culture = castillan
+}
+1700.1.1 = {
+  b_ribadelago = castle
+}

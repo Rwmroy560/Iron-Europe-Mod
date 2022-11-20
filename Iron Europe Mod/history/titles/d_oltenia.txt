@@ -1,0 +1,78 @@
+936.1.1 = {
+  holder = 260685
+  liege = e_bulgaria
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 117214516
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 116442279
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 118856531
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 118237388
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 117229921
+  liege = e_arabia
+}
+1878.7.13 = {
+  holder = 119763349
+  liege = k_dacia
+}
+1893.7.13 = {
+  holder = 117328899
+  liege = k_dacia
+}
+1908.7.13 = {
+  holder = 119141943
+  liege = k_dacia
+}
+1923.7.13 = {
+  holder = 119285828
+  liege = k_dacia
+}
+1938.7.13 = {
+  holder = 118906113
+  liege = k_dacia
+}
+1953.7.13 = {
+  holder = 110240018
+  liege = k_dacia
+}
+1968.7.13 = {
+  holder = 116049555
+  liege = k_dacia
+}
+1983.7.13 = {
+  holder = 116701638
+  liege = k_dacia
+}
+1998.7.13 = {
+  holder = 111061243
+  liege = k_dacia
+}
+2013.7.13 = {
+  holder = 112070989
+  liege = k_dacia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

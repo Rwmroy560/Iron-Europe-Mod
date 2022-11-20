@@ -1,0 +1,161 @@
+767.1.1 = {
+  liege = d_kabylia
+  holder = 210035
+}
+823.1.1 = {
+  liege = d_alger
+  holder = 163097
+}
+866.1.1 = {
+  holder = 163149
+}
+877.1.1 = {
+  liege = d_kabylia
+}
+936.1.1 = {
+  holder = 260862
+  liege = d_tlemcen
+}
+1062.1.1 = {
+  holder = 20834
+  liege = d_kabylia
+}
+1088.1.1 = {
+  holder = 155026
+}
+1109.1.1 = {
+  holder = 155027
+}
+1152.1.1 = {
+  liege = k_mauretania
+  holder = 155091
+}
+1180.1.1 = {
+  holder = 155092
+}
+1185.1.1 = {
+  liege = d_mallorca
+  holder = 32976
+}
+1185.7.1 = {
+  liege = k_mauretania
+  holder = 155092
+}
+1190.1.1 = {
+  holder = 155093
+}
+1223.1.1 = {
+  liege = d_kabylia
+  holder = 32977
+}
+1227.1.1 = {
+  liege = k_mauretania
+  holder = 155094
+}
+1236.1.1 = {
+  liege = k_africa
+}
+1249.1.1 = {
+  holder = 155095
+}
+1263.1.1 = {
+  holder = 155096
+}
+1269.1.1 = {
+  liege = d_tlemcen
+  holder = 155097
+}
+1278.1.1 = {
+  holder = 155098
+}
+1294.1.1 = {
+  holder = 155099
+}
+1295.1.1 = {
+  holder = 155100
+}
+1299.1.1 = {
+  liege = 0
+  holder = 155102
+}
+1302.1.1 = {
+  liege = k_africa
+  holder = 155100
+}
+1310.1.1 = {
+  liege = d_tlemcen
+  holder = 155103
+}
+1450.1.1 = {
+  liege = 0
+  holder = 108923787
+}
+1815.6.9 = {
+  holder = 117707488
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 113799080
+}
+1830.7.5 = {
+  holder = 116724688
+  liege = e_france
+}
+1845.7.5 = {
+  holder = 114263883
+}
+1860.7.5 = {
+  holder = 116490908
+}
+1875.7.5 = {
+  holder = 114407733
+}
+1890.7.5 = {
+  holder = 112606056
+}
+1905.7.5 = {
+  holder = 112747059
+}
+1920.7.5 = {
+  holder = 117240582
+}
+1935.7.5 = {
+  holder = 118105644
+}
+1950.7.5 = {
+  holder = 117667769
+}
+1962.4.8 = {
+  liege = d_alger
+  holder = 115090012
+}
+1962.9.25 = {
+  holder = 114414651
+}
+1963.9.15 = {
+  holder = 114963247
+}
+1965.6.19 = {
+  holder = 117438741
+}
+1978.12.27 = {
+  holder = 112616085
+}
+1979.2.9 = {
+  holder = 119250169
+}
+1992.1.11 = {
+  holder = 119081917
+}
+1992.1.14 = {
+  holder = 111711978
+}
+1992.6.29 = {
+  holder = 115485486
+}
+1994.1.31 = {
+  holder = 116978698
+}
+1999.4.27 = {
+  holder = 117899567
+}

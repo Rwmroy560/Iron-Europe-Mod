@@ -1,0 +1,49 @@
+namespace = roy_spy
+########################
+# Secret Society
+########################
+
+character_event = {
+	id = roy_spy.1
+	desc = EVTDESCroy_spy.1
+	is_triggered_only = yes
+	picture = GFX_evt_whispers
+
+	immediate = { 
+		any_courtier = {
+			limit = { has_character_flag = ready_move }
+			save_event_target_as = ready_move
+		}
+	}
+	option = {
+		name = EVTOPTAroy_spy.1
+				clr_character_flag = ready_move
+				clear_event_target = ready_move
+	}
+
+	option = {
+		name = EVTOPTBroy_spy.1
+		FROM = {
+			event_target:ready_move = {
+				move_character = PREV
+				clear_event_target = ready_move
+			}
+		}
+			clr_character_flag = ready_move
+			clear_event_target = ready_move
+	}
+}
+character_event = {
+	id = roy_spy.2
+	is_triggered_only = yes
+	hide_window = yes
+	trigger = {
+		has_character_flag = ready_move
+	}
+
+
+	option = {
+		clr_character_flag = ready_move
+		clear_event_target = ready_move
+	}
+}

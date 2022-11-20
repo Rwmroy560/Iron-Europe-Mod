@@ -1,0 +1,217 @@
+642.1.1 = {
+  holder = 216024
+}
+660.1.1 = {
+  holder = 216023
+}
+712.1.1 = {
+  holder = 216021
+}
+728.1.1 = {
+  holder = 216020
+}
+740.1.1 = {
+  holder = 216013
+}
+755.1.1 = {
+  liege = e_arabia
+}
+761.1.1 = {
+  holder = 160290
+}
+864.1.1 = {
+  liege = 0
+  holder = 45108
+}
+930.1.1 = {
+  holder = 166989
+}
+935.1.19 = {
+  holder = 166990
+}
+967.12.12 = {
+  liege = 0
+  holder = 166992
+}
+977.1.1 = {
+  liege = k_persia
+  holder = 166993
+}
+997.1.1 = {
+  liege = 0
+  holder = 166993
+}
+1012.1.11 = {
+  holder = 166994
+}
+1031.1.1 = {
+  holder = 166995
+}
+1035.1.1 = {
+  liege = k_afghanistan
+  holder = 166995
+}
+1042.1.1 = {
+  liege = k_persia
+  holder = 166995
+}
+1063.9.4 = {
+  holder = 3040
+}
+1066.1.1 = {
+  liege = k_persia
+}
+1072.11.1 = {
+  holder = 3042
+}
+1092.11.1 = {
+  holder = 144012
+}
+1094.1.1 = {
+  holder = 144013
+}
+1105.3.1 = {
+  holder = 144014
+}
+1118.4.18 = {
+  holder = 144043
+}
+1131.1.1 = {
+  holder = 144048
+}
+1132.1.1 = {
+  holder = 144050
+}
+1133.1.1 = {
+  holder = 144049
+}
+1152.10.2 = {
+  holder = 144053
+}
+1153.1.1 = {
+  holder = 144054
+}
+1157.5.8 = {
+  liege = 0
+}
+1159.1.1 = {
+  holder = 144055
+}
+1175.12.31 = {
+  holder = 144056
+}
+1194.3.1 = {
+  liege = k_persia
+  holder = 230000
+}
+1200.1.1 = {
+  holder = 93052
+}
+1210.1.1 = {
+  holder = 93054
+}
+1221.1.1 = {
+  liege = e_mongol_empire
+  holder = 125520
+}
+1227.12.2 = {
+  liege = "e_il-khanate"
+}
+1232.1.1 = {
+  holder = 478011
+}
+1238.1.1 = {
+  holder = 93169
+}
+1249.1.1 = {
+  holder = 93170
+}
+1267.1.1 = {
+  holder = 93171
+}
+1271.1.1 = {
+  holder = 93172
+}
+1300.1.1 = {
+  holder = 93173
+}
+1310.1.1 = {
+  holder = 93174
+}
+1328.1.1 = {
+  holder = 93175
+}
+1334.1.1 = {
+  holder = 93176
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_persia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 111612049
+  liege = k_persia
+}
+1830.6.9 = {
+  holder = 112578442
+  liege = k_persia
+}
+1845.6.9 = {
+  holder = 118248835
+  liege = k_persia
+}
+1860.6.9 = {
+  holder = 116112010
+  liege = k_persia
+}
+1875.6.9 = {
+  holder = 113773097
+  liege = k_persia
+}
+1890.6.9 = {
+  holder = 110719559
+  liege = k_persia
+}
+1905.6.9 = {
+  holder = 117345219
+  liege = k_persia
+}
+1920.6.9 = {
+  holder = 113152053
+  liege = k_persia
+}
+1935.6.9 = {
+  holder = 115603746
+  liege = k_persia
+}
+1950.6.9 = {
+  holder = 117435092
+  liege = k_persia
+}
+1965.6.9 = {
+  holder = 118768753
+  liege = k_persia
+}
+1980.6.9 = {
+  holder = 113934415
+  liege = k_persia
+}
+1995.6.9 = {
+  holder = 118391640
+  liege = k_persia
+}
+2010.6.9 = {
+  holder = 118333122
+  liege = k_persia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

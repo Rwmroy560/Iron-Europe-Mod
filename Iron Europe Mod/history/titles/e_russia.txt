@@ -1,0 +1,137 @@
+769.1.1 = {
+  holder = 0
+}
+1016.1.2 = {
+  holder = 612
+  law = agnatic_succession
+  law = succ_seniority
+}
+1018.1.2 = {
+  holder = 610
+}
+1019.1.2 = {
+  holder = 612
+}
+1054.2.20 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1600.1.1 = {
+  name = Russia
+  adjective = Russian
+}
+1645.6.12 = {
+  holder = 117006618
+}
+1676.1.29 = {
+  holder = 115666420
+}
+1682.5.7 = {
+  holder = 113275941
+}
+1682.6.2 = {
+  holder = 111419230
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_0
+}
+1725.2.8 = {
+  holder = 119403481
+}
+1727.5.17 = {
+  holder = 115249652
+}
+1730.1.30 = {
+  holder = 110351535
+}
+1740.10.28 = {
+  holder = 110454940
+}
+1741.12.6 = {
+  holder = 116794672
+}
+1762.1.5 = {
+  holder = 110178948
+}
+1762.7.9 = {
+  holder = 116172213
+}
+1796.11.17 = {
+  holder = 117999659
+}
+1801.3.23 = {
+  holder = 114648494
+}
+1825.12.1 = {
+  holder = 110451204
+}
+1855.3.2 = {
+  holder = 110579319
+}
+1881.3.13 = {
+  holder = 117041180
+}
+1894.11.1 = {
+  holder = 118369436
+}
+1917.3.15 = {
+  holder = 111186660
+}
+1918.6.12 = {
+  holder = 115913757
+}
+1918.11.11 = {
+  name = "Soviet Union"
+  adjective = Soviet
+  law = army_professionalism_law_1
+  law = high_court_law_2
+  law = tax_peasants_law_feudal_2
+}
+1924.1.21 = {
+  holder = 114033062
+}
+1953.3.5 = {
+  holder = 119770731
+}
+1955.2.8 = {
+  holder = 113786135
+}
+1964.10.14 = {
+  holder = 112279404
+}
+1982.10.12 = {
+  holder = 111317820
+}
+1984.2.9 = {
+  holder = 115093204
+}
+1985.3.10 = {
+  holder = 116711834
+}
+1991.12.25 = {
+  holder = 115210752
+}
+1991.12.26 = {
+  name = "Russian Federation"
+  adjective = Russian
+}
+1999.12.31 = {
+  holder = 118727187
+}
+2008.5.7 = {
+  holder = 116000540
+}
+2012.5.7 = {
+  holder = 118727187
+  law = army_professionalism_law_1
+  law = high_court_law_2
+  law = tax_peasants_law_feudal_1
+  law = vassal_wars_law_2
+}

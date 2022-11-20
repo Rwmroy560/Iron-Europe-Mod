@@ -1,0 +1,125 @@
+630.1.1 = {
+  liege = e_arabia
+}
+768.1.1 = {
+  holder = 188748
+  liege = 0
+}
+780.1.1 = {
+  holder = 0
+}
+847.1.1 = {
+  liege = 0
+  holder = 188735
+}
+881.1.1 = {
+  holder = 159399
+}
+911.1.1 = {
+  holder = 159400
+}
+922.1.1 = {
+  holder = 159401
+}
+934.1.1 = {
+  holder = 159402
+}
+937.1.1 = {
+  holder = 159403
+}
+968.1.1 = {
+  holder = 159405
+}
+998.1.1 = {
+  holder = 159409
+}
+1010.1.1 = {
+  holder = 159410
+}
+1063.1.1 = {
+  holder = 45035
+}
+1067.5.9 = {
+  holder = 45036
+}
+1074.4.10 = {
+  holder = 220820
+}
+1138.3.12 = {
+  holder = 0
+}
+1173.1.1 = {
+  holder = 32914
+  liege = k_egypt
+}
+1176.1.1 = {
+  holder = 32916
+}
+1197.1.1 = {
+  holder = 144092
+}
+1202.1.1 = {
+  holder = 144093
+}
+1203.1.1 = {
+  holder = 32929
+}
+1229.1.1 = {
+  liege = 0
+  holder = 144094
+}
+1250.1.1 = {
+  holder = 144095
+}
+1295.1.1 = {
+  holder = 144096
+}
+1296.1.1 = {
+  holder = 144097
+}
+1322.1.1 = {
+  holder = 144098
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1600.1.1 = {
+  name = Yemen
+  adjective = Yemeni
+}
+1700.1.1 = {
+  de_jure_liege = k_arabia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1967.11.30 = {
+  holder = 111263096
+  name = "South Yemen"
+  adjective = "South Yemeni"
+}
+1969.6.23 = {
+  holder = 114343223
+}
+1978.6.26 = {
+  holder = 112428948
+}
+1978.12.27 = {
+  holder = 115660793
+}
+1980.4.26 = {
+  holder = 112428948
+}
+1986.1.24 = {
+  holder = 113766188
+}
+1990.5.22 = {
+  holder = 116719948
+  name = Yemen
+  adjective = Yemeni
+}
+2012.2.27 = {
+  holder = 112811300
+}

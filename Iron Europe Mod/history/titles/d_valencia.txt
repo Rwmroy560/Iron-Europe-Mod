@@ -1,0 +1,127 @@
+867.1.1 = {
+  holder = 73910
+  liege = k_andalusia
+}
+909.1.1 = {
+  holder = 73911
+}
+920.1.1 = {
+  holder = 0
+}
+1021.1.1 = {
+  holder = 45025
+  liege = 0
+}
+1061.1.1 = {
+  holder = 45026
+}
+1065.1.1 = {
+  holder = 0
+}
+1076.1.1 = {
+  holder = 3928
+}
+1077.1.1 = {
+  holder = 3935
+}
+1082.1.1 = {
+  holder = 0
+}
+1086.1.1 = {
+  holder = 3926
+}
+1092.10.28 = {
+  holder = 73199
+}
+1099.1.1 = {
+  holder = 0
+}
+1145.1.1 = {
+  holder = 73210
+  liege = 0
+}
+1145.7.1 = {
+  holder = 73201
+}
+1146.1.1 = {
+  holder = 73181
+}
+1146.7.1 = {
+  holder = 73201
+}
+1147.1.1 = {
+  holder = 0
+}
+1212.7.16 = {
+  de_jure_liege = k_aragon
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 112098848
+  liege = e_spain
+}
+1830.6.9 = {
+  holder = 114088184
+  liege = e_spain
+}
+1845.6.9 = {
+  holder = 114736610
+  liege = e_spain
+}
+1860.6.9 = {
+  holder = 119452135
+  liege = e_spain
+}
+1875.6.9 = {
+  holder = 112018522
+  liege = e_spain
+}
+1890.6.9 = {
+  holder = 112230156
+  liege = e_spain
+}
+1905.6.9 = {
+  holder = 116376566
+  liege = e_spain
+}
+1920.6.9 = {
+  holder = 113505569
+  liege = e_spain
+}
+1935.6.9 = {
+  holder = 116302390
+  liege = e_spain
+}
+1950.6.9 = {
+  holder = 112812750
+  liege = e_spain
+}
+1965.6.9 = {
+  holder = 115550422
+  liege = e_spain
+}
+1980.6.9 = {
+  holder = 112159251
+  liege = e_spain
+}
+1995.6.9 = {
+  holder = 119246066
+  liege = e_spain
+}
+2010.6.9 = {
+  holder = 118195273
+  liege = e_spain
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

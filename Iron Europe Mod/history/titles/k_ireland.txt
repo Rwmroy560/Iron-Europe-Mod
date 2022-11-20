@@ -1,0 +1,89 @@
+100.1.1 = {
+  pentarch = b_roma
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Ireland
+  adjective = Irish
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1921.12.6 = {
+  holder = 113387594
+}
+1922.1.9 = {
+  holder = 116528876
+}
+1922.8.22 = {
+  holder = 114632861
+}
+1932.3.9 = {
+  holder = 113387594
+}
+1948.2.18 = {
+  holder = 114051565
+}
+1951.6.13 = {
+  holder = 113387594
+}
+1954.6.2 = {
+  holder = 114051565
+}
+1957.3.20 = {
+  holder = 113387594
+}
+1959.6.23 = {
+  holder = 117198657
+}
+1966.11.10 = {
+  holder = 117469038
+}
+1973.3.14 = {
+  holder = 118913847
+}
+1977.7.5 = {
+  holder = 117469038
+}
+1979.12.11 = {
+  holder = 115115615
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = vassal_wars_law_2
+}
+1981.6.30 = {
+  holder = 112137882
+}
+1982.3.9 = {
+  holder = 115115615
+}
+1982.12.14 = {
+  holder = 112137882
+}
+1987.3.10 = {
+  holder = 115115615
+}
+1992.2.11 = {
+  holder = 119395704
+}
+1994.12.15 = {
+  holder = 115015373
+}
+1997.6.26 = {
+  holder = 116252289
+}
+2008.5.7 = {
+  holder = 119854109
+}
+2011.3.9 = {
+  holder = 112789335
+}
+2017.6.14 = {
+  holder = 114140979
+}

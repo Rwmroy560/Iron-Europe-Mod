@@ -1,0 +1,176 @@
+654.1.1 = {
+  liege = k_khazaria
+  holder = 74004
+}
+662.1.1 = {
+  holder = 74005
+}
+704.1.1 = {
+  holder = 146195
+}
+743.1.1 = {
+  holder = 146196
+}
+774.1.1 = {
+  holder = 146197
+}
+797.1.1 = {
+  holder = 146198
+}
+800.1.1 = {
+  holder = 146199
+}
+805.1.1 = {
+  holder = 74013
+}
+810.1.1 = {
+  holder = 74014
+}
+825.1.1 = {
+  holder = 74015
+}
+830.1.1 = {
+  holder = 74016
+}
+864.1.1 = {
+  holder = 74025
+}
+886.1.1 = {
+  holder = 74025
+}
+888.1.1 = {
+  holder = 74026
+}
+899.1.1 = {
+  holder = 146187
+}
+916.1.1 = {
+  holder = 146188
+}
+920.1.1 = {
+  holder = 146189
+}
+928.1.1 = {
+  holder = 146190
+}
+936.1.1 = {
+  holder = 260702
+  historical_nomad = yes
+  liege = k_khazaria
+}
+945.1.1 = {
+  holder = 146191
+}
+969.1.1 = {
+  holder = 146193
+}
+993.1.1 = {
+  holder = 146194
+}
+1016.1.1 = {
+  liege = 0
+  holder = 0
+  historical_nomad = no
+}
+1066.1.1 = {
+  liege = k_cuman
+  holder = 20655
+}
+1089.1.1 = {
+  holder = 228059
+}
+1110.1.1 = {
+  holder = 479240
+}
+1150.1.1 = {
+  holder = 34882
+}
+1180.1.1 = {
+  holder = 34883
+}
+1210.1.1 = {
+  holder = 34884
+}
+1238.1.1 = {
+  liege = e_golden_horde
+  holder = 34885
+}
+1270.1.1 = {
+  holder = 34886
+}
+1300.1.1 = {
+  holder = 34887
+}
+1315.1.1 = {
+  holder = 34888
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114944187
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 112474592
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 113751784
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 110946784
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 111608563
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 110203270
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 119857922
+  liege = e_russia
+}
+1920.6.9 = {
+  holder = 110410834
+  liege = e_russia
+}
+1935.6.9 = {
+  holder = 119539863
+  liege = e_russia
+}
+1950.6.9 = {
+  holder = 112757093
+  liege = e_russia
+}
+1965.6.9 = {
+  holder = 114298282
+  liege = e_russia
+}
+1980.6.9 = {
+  holder = 112112157
+  liege = e_russia
+}
+1995.6.9 = {
+  holder = 111751311
+  liege = e_russia
+}
+2010.6.9 = {
+  holder = 116447663
+  liege = e_russia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

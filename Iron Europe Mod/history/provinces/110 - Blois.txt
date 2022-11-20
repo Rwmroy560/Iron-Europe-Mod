@@ -1,0 +1,13 @@
+title = c_blois
+max_settlements = 4
+b_blois = castle
+b_staignan = temple
+b_beaugency = city
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = frankish
+}
+1700.1.1 = {
+  b_chaumontsurloire = castle
+}

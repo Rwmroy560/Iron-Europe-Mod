@@ -1,0 +1,2792 @@
+100000000 = {
+  name = Akayev
+  culture = kirghiz
+}
+100000001 = {
+  name = Bakiyev
+  culture = kirghiz
+}
+100000002 = {
+  name = Otunbayeva
+  culture = kirghiz
+}
+100000003 = {
+  name = Atambayev
+  culture = kirghiz
+}
+100000004 = {
+  name = Jeenbekov
+  culture = kirghiz
+}
+100000005 = {
+  name = Mahkamov
+  culture = persian
+}
+100000006 = {
+  name = Nabiyev
+  culture = persian
+}
+100000007 = {
+  name = Rahmon
+  culture = persian
+}
+100000008 = {
+  name = Qing
+  culture = han
+}
+100000009 = {
+  name = "Yat-sen"
+  culture = han
+}
+100000010 = {
+  name = Yuan
+  culture = han
+}
+100000011 = {
+  name = Li
+  culture = han
+}
+100000012 = {
+  name = Tan
+  culture = han
+}
+100000013 = {
+  name = Chiang
+  culture = han
+}
+100000014 = {
+  name = Mao
+  culture = han
+}
+100000015 = {
+  name = Hua
+  culture = han
+}
+100000016 = {
+  name = Deng
+  culture = han
+}
+100000017 = {
+  name = Jiang
+  culture = han
+}
+100000018 = {
+  name = Hu
+  culture = han
+}
+100000019 = {
+  name = Xi
+  culture = han
+}
+100000020 = {
+  name = Wangchuck
+  culture = nepali
+}
+100000021 = {
+  name = Shah
+  culture = nepali
+}
+100000022 = {
+  name = Yadav
+  culture = nepali
+}
+100000023 = {
+  name = Bhandari
+  culture = nepali
+}
+100000024 = {
+  name = Gyatso
+  culture = bodpa
+}
+100000025 = {
+  name = Stuart
+  culture = english
+}
+100000026 = {
+  name = Windsor
+  culture = english
+}
+100000027 = {
+  name = Michael
+  culture = welsh
+}
+100000028 = {
+  name = Morgan
+  culture = welsh
+}
+100000029 = {
+  name = Jones
+  culture = welsh
+}
+100000030 = {
+  name = "de Valera"
+  culture = irish
+}
+100000031 = {
+  name = Collins
+  culture = irish
+}
+100000032 = {
+  name = Cosgrave
+  culture = irish
+}
+100000033 = {
+  name = Costello
+  culture = irish
+}
+100000034 = {
+  name = Lemass
+  culture = irish
+}
+100000035 = {
+  name = Lynch
+  culture = irish
+}
+100000036 = {
+  name = Haughey
+  culture = irish
+}
+100000037 = {
+  name = FitzGerald
+  culture = irish
+}
+100000038 = {
+  name = Reynolds
+  culture = irish
+}
+100000039 = {
+  name = Bruton
+  culture = irish
+}
+100000040 = {
+  name = Ahern
+  culture = irish
+}
+100000041 = {
+  name = Cowen
+  culture = irish
+}
+100000042 = {
+  name = Kenny
+  culture = irish
+}
+100000043 = {
+  name = Varadkar
+  culture = irish
+}
+100000044 = {
+  name = "Björnsson"
+  culture = norwegian
+}
+100000045 = {
+  name = "Ásgeirsson"
+  culture = norwegian
+}
+100000046 = {
+  name = "Eldjárn"
+  culture = norwegian
+}
+100000047 = {
+  name = "Finnbogadóttir"
+  culture = norwegian
+}
+100000048 = {
+  name = "Grímsson"
+  culture = norwegian
+}
+100000049 = {
+  name = "Jóhannesson"
+  culture = norwegian
+}
+100000050 = {
+  name = "Bragança"
+  culture = portuguese
+}
+100000051 = {
+  name = Braga
+  culture = portuguese
+}
+100000052 = {
+  name = "de Arriaga"
+  culture = portuguese
+}
+100000053 = {
+  name = Machado
+  culture = portuguese
+}
+100000054 = {
+  name = Pais
+  culture = portuguese
+}
+100000055 = {
+  name = "do Canto e Castro"
+  culture = portuguese
+}
+100000056 = {
+  name = "de Almeida"
+  culture = portuguese
+}
+100000057 = {
+  name = Gomes
+  culture = portuguese
+}
+100000058 = {
+  name = Cabecadas
+  culture = portuguese
+}
+100000059 = {
+  name = "da Costa"
+  culture = portuguese
+}
+100000060 = {
+  name = Carmona
+  culture = portuguese
+}
+100000061 = {
+  name = Salazar
+  culture = portuguese
+}
+100000062 = {
+  name = Lopes
+  culture = portuguese
+}
+100000063 = {
+  name = Tomas
+  culture = portuguese
+}
+100000064 = {
+  name = "de Spinola"
+  culture = portuguese
+}
+100000065 = {
+  name = Eanes
+  culture = portuguese
+}
+100000066 = {
+  name = Soares
+  culture = portuguese
+}
+100000067 = {
+  name = Sampaio
+  culture = portuguese
+}
+100000068 = {
+  name = Silva
+  culture = portuguese
+}
+100000069 = {
+  name = "de Sousa"
+  culture = portuguese
+}
+100000070 = {
+  name = Habsburg
+  culture = german
+}
+100000071 = {
+  name = Bourbon
+  culture = frankish
+}
+100000072 = {
+  name = Bonaparte
+  culture = frankish
+}
+100000073 = {
+  name = Savoia
+  culture = italian
+}
+100000074 = {
+  name = Figueras
+  culture = catalan
+}
+100000075 = {
+  name = "Pi i Margall"
+  culture = catalan
+}
+100000076 = {
+  name = "Salmerón y Alonso"
+  culture = castillan
+}
+100000077 = {
+  name = "Castelar y Ripoll"
+  culture = castillan
+}
+100000078 = {
+  name = Serrano
+  culture = castillan
+}
+100000079 = {
+  name = "Alcalá-Zamora"
+  culture = castillan
+}
+100000080 = {
+  name = Franco
+  culture = castillan
+}
+100000081 = {
+  name = "Orléans"
+  culture = frankish
+}
+100000082 = {
+  name = Thiers
+  culture = frankish
+}
+100000083 = {
+  name = "de Mac-Mahon"
+  culture = frankish
+}
+100000084 = {
+  name = "Grévy"
+  culture = frankish
+}
+100000085 = {
+  name = Carnot
+  culture = frankish
+}
+100000086 = {
+  name = "Casimir-Perier"
+  culture = frankish
+}
+100000087 = {
+  name = Faure
+  culture = frankish
+}
+100000088 = {
+  name = Loubet
+  culture = frankish
+}
+100000089 = {
+  name = "Fallières"
+  culture = frankish
+}
+100000090 = {
+  name = "Poincaré"
+  culture = frankish
+}
+100000091 = {
+  name = Deschanel
+  culture = frankish
+}
+100000092 = {
+  name = Millerand
+  culture = frankish
+}
+100000093 = {
+  name = Doumergue
+  culture = frankish
+}
+100000094 = {
+  name = Doumer
+  culture = frankish
+}
+100000095 = {
+  name = Lebrun
+  culture = frankish
+}
+100000096 = {
+  name = "Pétain"
+  culture = frankish
+}
+100000097 = {
+  name = Auriol
+  culture = frankish
+}
+100000098 = {
+  name = Coty
+  culture = frankish
+}
+100000099 = {
+  name = "de Gaulle"
+  culture = frankish
+}
+100000100 = {
+  name = Pompidou
+  culture = frankish
+}
+100000101 = {
+  name = "d'Estaing"
+  culture = frankish
+}
+100000102 = {
+  name = Mitterrand
+  culture = frankish
+}
+100000103 = {
+  name = Chirac
+  culture = frankish
+}
+100000104 = {
+  name = Sarkozy
+  culture = frankish
+}
+100000105 = {
+  name = Hollande
+  culture = frankish
+}
+100000106 = {
+  name = Macron
+  culture = frankish
+}
+100000107 = {
+  name = Aldobrandini
+  culture = italian
+}
+100000108 = {
+  name = "de' Medici"
+  culture = italian
+}
+100000109 = {
+  name = Borghese
+  culture = italian
+}
+100000110 = {
+  name = Ludovisi
+  culture = italian
+}
+100000111 = {
+  name = Barberini
+  culture = italian
+}
+100000112 = {
+  name = Pamphili
+  culture = italian
+}
+100000113 = {
+  name = Chigi
+  culture = italian
+}
+100000114 = {
+  name = Rospigliosi
+  culture = italian
+}
+100000115 = {
+  name = Altieri
+  culture = italian
+}
+100000116 = {
+  name = Odescalchi
+  culture = italian
+}
+100000117 = {
+  name = Ottoboni
+  culture = italian
+}
+100000118 = {
+  name = Pignatelli
+  culture = italian
+}
+100000119 = {
+  name = Albani
+  culture = italian
+}
+100000120 = {
+  name = "di Conti"
+  culture = italian
+}
+100000121 = {
+  name = Orsini
+  culture = italian
+}
+100000122 = {
+  name = Corsini
+  culture = italian
+}
+100000123 = {
+  name = Lambertini
+  culture = italian
+}
+100000124 = {
+  name = "della Torre di Rezzonico"
+  culture = italian
+}
+100000125 = {
+  name = Ganganelli
+  culture = italian
+}
+100000126 = {
+  name = Braschi
+  culture = italian
+}
+100000127 = {
+  name = Chiaramonti
+  culture = italian
+}
+100000128 = {
+  name = "della Genga"
+  culture = italian
+}
+100000129 = {
+  name = Castiglioni
+  culture = italian
+}
+100000130 = {
+  name = Cappellari
+  culture = italian
+}
+100000131 = {
+  name = "Mastai-Ferretti"
+  culture = italian
+}
+100000132 = {
+  name = Pecci
+  culture = italian
+}
+100000133 = {
+  name = Sarto
+  culture = italian
+}
+100000134 = {
+  name = "della Chiesa"
+  culture = italian
+}
+100000135 = {
+  name = Ratti
+  culture = italian
+}
+100000136 = {
+  name = Pacelli
+  culture = italian
+}
+100000137 = {
+  name = Roncalli
+  culture = italian
+}
+100000138 = {
+  name = Montini
+  culture = italian
+}
+100000139 = {
+  name = Luciani
+  culture = italian
+}
+100000140 = {
+  name = Wojtyla
+  culture = polish
+}
+100000141 = {
+  name = Ratzinger
+  culture = german
+}
+100000142 = {
+  name = Bergoglio
+  culture = castillan
+}
+100000143 = {
+  name = "De Nicola"
+  culture = italian
+}
+100000144 = {
+  name = Einaudi
+  culture = italian
+}
+100000145 = {
+  name = Gronchi
+  culture = italian
+}
+100000146 = {
+  name = Segni
+  culture = italian
+}
+100000147 = {
+  name = Saragat
+  culture = italian
+}
+100000148 = {
+  name = Leone
+  culture = italian
+}
+100000149 = {
+  name = Pertini
+  culture = italian
+}
+100000150 = {
+  name = Cosiga
+  culture = italian
+}
+100000151 = {
+  name = Scalfaro
+  culture = italian
+}
+100000152 = {
+  name = Ciampi
+  culture = italian
+}
+100000153 = {
+  name = Napolitano
+  culture = italian
+}
+100000154 = {
+  name = Mattarella
+  culture = italian
+}
+100000155 = {
+  name = Mouskos
+  culture = greek
+}
+100000156 = {
+  name = Kyprianou
+  culture = greek
+}
+100000157 = {
+  name = Vasiliou
+  culture = greek
+}
+100000158 = {
+  name = Klirides
+  culture = greek
+}
+100000159 = {
+  name = Papadopoulos
+  culture = greek
+}
+100000160 = {
+  name = Khristophias
+  culture = greek
+}
+100000161 = {
+  name = Anastasiadis
+  culture = greek
+}
+100000162 = {
+  name = "Borg Olivier"
+  culture = italian
+}
+100000163 = {
+  name = Mintoff
+  culture = italian
+}
+100000164 = {
+  name = "Mifsud Bonnici"
+  culture = italian
+}
+100000165 = {
+  name = "Fenech Adami"
+  culture = italian
+}
+100000166 = {
+  name = Sant
+  culture = italian
+}
+100000167 = {
+  name = Gonzi
+  culture = italian
+}
+100000168 = {
+  name = Muscat
+  culture = italian
+}
+100000169 = {
+  name = Oldenburg
+  culture = danish
+}
+100000170 = {
+  name = "Schleswig-Holstein-Sonderburg-Glücksburg"
+  culture = danish
+}
+100000171 = {
+  name = Wittelsbach
+  culture = german
+}
+100000172 = {
+  name = Hessen
+  culture = german
+}
+100000173 = {
+  name = "Holstein-Gottorp"
+  culture = german
+}
+100000174 = {
+  name = Bernadotte
+  culture = Swedish
+}
+100000175 = {
+  name = Didi
+  culture = tamil
+}
+100000176 = {
+  name = Nasir
+  culture = tamil
+}
+100000177 = {
+  name = Gayoom
+  culture = tamil
+}
+100000178 = {
+  name = Nasheed
+  culture = tamil
+}
+100000179 = {
+  name = Hassan
+  culture = tamil
+}
+100000180 = {
+  name = Yameen
+  culture = tamil
+}
+100000181 = {
+  name = Senanayake
+  culture = sinhala
+}
+100000182 = {
+  name = Kotelawala
+  culture = sinhala
+}
+100000183 = {
+  name = Bandaranaike
+  culture = sinhala
+}
+100000184 = {
+  name = Dahanayake
+  culture = sinhala
+}
+100000185 = {
+  name = Gopallawa
+  culture = sinhala
+}
+100000186 = {
+  name = Jayewardene
+  culture = sinhala
+}
+100000187 = {
+  name = Premadasa
+  culture = sinhala
+}
+100000188 = {
+  name = Wijetunga
+  culture = sinhala
+}
+100000189 = {
+  name = Kumaratunga
+  culture = sinhala
+}
+100000190 = {
+  name = Rajapaksa
+  culture = sinhala
+}
+100000191 = {
+  name = Sirisena
+  culture = sinhala
+}
+100000192 = {
+  name = Nehru
+  culture = hindustani
+}
+100000193 = {
+  name = Shatri
+  culture = hindustani
+}
+100000194 = {
+  name = Gandhi
+  culture = hindustani
+}
+100000195 = {
+  name = Desai
+  culture = hindustani
+}
+100000196 = {
+  name = Singh
+  culture = panjabi
+}
+100000197 = {
+  name = Shekhar
+  culture = hindustani
+}
+100000198 = {
+  name = Rao
+  culture = hindustani
+}
+100000199 = {
+  name = Vajpayee
+  culture = hindustani
+}
+100000200 = {
+  name = Gowda
+  culture = hindustani
+}
+100000201 = {
+  name = Gujral
+  culture = hindustani
+}
+100000202 = {
+  name = Modi
+  culture = hindustani
+}
+100000203 = {
+  name = Timurid
+  culture = hindustani
+}
+100000204 = {
+  name = Bhonsle
+  culture = marathi
+}
+100000205 = {
+  name = "Nassau-Weilburg"
+  culture = dutch
+}
+100000206 = {
+  name = Romanov
+  culture = Russan
+}
+100000207 = {
+  name = Lenin
+  culture = russian
+}
+100000208 = {
+  name = Stalin
+  culture = georgian
+}
+100000209 = {
+  name = Malenkov
+  culture = russian
+}
+100000210 = {
+  name = Khrushchyov
+  culture = ukrainian
+}
+100000211 = {
+  name = Brezhnev
+  culture = ukrainian
+}
+100000212 = {
+  name = Andropov
+  culture = russian
+}
+100000213 = {
+  name = Chernenko
+  culture = russian
+}
+100000214 = {
+  name = Gorbachyov
+  culture = russian
+}
+100000215 = {
+  name = Yeltsin
+  culture = russian
+}
+100000216 = {
+  name = Putin
+  culture = russian
+}
+100000217 = {
+  name = Medvedev
+  culture = russian
+}
+100000218 = {
+  name = "Sachsen-Coburg und Gotha"
+  culture = dutch
+}
+100000219 = {
+  name = "Oranje-Nassau"
+  culture = dutch
+}
+100000220 = {
+  name = Seitz
+  culture = german
+}
+100000221 = {
+  name = Hainisch
+  culture = german
+}
+100000222 = {
+  name = Miklas
+  culture = german
+}
+100000223 = {
+  name = Renner
+  culture = german
+}
+100000224 = {
+  name = "Körner"
+  culture = german
+}
+100000225 = {
+  name = "Schärf"
+  culture = german
+}
+100000226 = {
+  name = Jonas
+  culture = german
+}
+100000227 = {
+  name = "Kirchschläger"
+  culture = german
+}
+100000228 = {
+  name = Waldheim
+  culture = german
+}
+100000229 = {
+  name = Klestil
+  culture = german
+}
+100000230 = {
+  name = Fischer
+  culture = german
+}
+100000231 = {
+  name = Bures
+  culture = german
+}
+100000232 = {
+  name = "Van der Bellen"
+  culture = german
+}
+100000233 = {
+  name = Hohenzollern
+  culture = german
+}
+100000234 = {
+  name = Pieck
+  culture = german
+}
+100000235 = {
+  name = Ulbricht
+  culture = german
+}
+100000236 = {
+  name = Honecker
+  culture = german
+}
+100000237 = {
+  name = Krenz
+  culture = german
+}
+100000238 = {
+  name = Adenauer
+  culture = german
+}
+100000239 = {
+  name = Erhard
+  culture = german
+}
+100000240 = {
+  name = Kiesinger
+  culture = german
+}
+100000241 = {
+  name = Brandt
+  culture = german
+}
+100000242 = {
+  name = Schmidt
+  culture = german
+}
+100000243 = {
+  name = Kohl
+  culture = german
+}
+100000244 = {
+  name = Ebert
+  culture = german
+}
+100000245 = {
+  name = "von Hindenburg"
+  culture = german
+}
+100000246 = {
+  name = Hitler
+  culture = german
+}
+100000247 = {
+  name = Doenitz
+  culture = german
+}
+100000248 = {
+  name = "Schröder"
+  culture = german
+}
+100000249 = {
+  name = Merkel
+  culture = german
+}
+100000250 = {
+  name = Sahm
+  culture = german
+}
+100000251 = {
+  name = Ziehm
+  culture = german
+}
+100000252 = {
+  name = Rauschning
+  culture = german
+}
+100000253 = {
+  name = Greiser
+  culture = german
+}
+100000254 = {
+  name = Mecklenburg
+  culture = german
+}
+100000255 = {
+  name = "Zähringen"
+  culture = german
+}
+100000256 = {
+  name = "Württemberg"
+  culture = german
+}
+100000257 = {
+  name = "Sachsen-Weimar-Eisenach"
+  culture = german
+}
+100000258 = {
+  name = Askanier
+  culture = german
+}
+100000259 = {
+  name = Masaryk
+  culture = bohemian
+}
+100000260 = {
+  name = "Beneš"
+  culture = bohemian
+}
+100000261 = {
+  name = "Hácha"
+  culture = bohemian
+}
+100000262 = {
+  name = Gottwald
+  culture = bohemian
+}
+100000263 = {
+  name = "Novotný"
+  culture = bohemian
+}
+100000264 = {
+  name = Dubcek
+  culture = bohemian
+}
+100000265 = {
+  name = "Husák"
+  culture = bohemian
+}
+100000266 = {
+  name = "Jakeš"
+  culture = bohemian
+}
+100000267 = {
+  name = "Urbánek"
+  culture = bohemian
+}
+100000268 = {
+  name = Havel
+  culture = bohemian
+}
+100000269 = {
+  name = Klaus
+  culture = bohemian
+}
+100000270 = {
+  name = Zeman
+  culture = bohemian
+}
+100000271 = {
+  name = Tiso
+  culture = bohemian
+}
+100000272 = {
+  name = Kovac
+  culture = bohemian
+}
+100000273 = {
+  name = Schuster
+  culture = bohemian
+}
+100000274 = {
+  name = Gasparovic
+  culture = bohemian
+}
+100000275 = {
+  name = Kiska
+  culture = bohemian
+}
+100000276 = {
+  name = Ottoman
+  culture = turkish
+}
+100000277 = {
+  name = "Atatürk"
+  culture = turkish
+}
+100000278 = {
+  name = Inonu
+  culture = turkish
+}
+100000279 = {
+  name = Bayar
+  culture = turkish
+}
+100000280 = {
+  name = Gursel
+  culture = turkish
+}
+100000281 = {
+  name = Sunay
+  culture = turkish
+}
+100000282 = {
+  name = Koruturk
+  culture = turkish
+}
+100000283 = {
+  name = Evren
+  culture = turkish
+}
+100000284 = {
+  name = Ozal
+  culture = turkish
+}
+100000285 = {
+  name = Demirel
+  culture = turkish
+}
+100000286 = {
+  name = Sezer
+  culture = turkish
+}
+100000287 = {
+  name = Gul
+  culture = turkish
+}
+100000288 = {
+  name = Erdogan
+  culture = turkish
+}
+100000289 = {
+  name = "al-Baghdadi"
+  culture = levantine_arabic
+}
+100000290 = {
+  name = Bourguiba
+  culture = maghreb_arabic
+}
+100000291 = {
+  name = "Ben Ali"
+  culture = maghreb_arabic
+}
+100000292 = {
+  name = Marzouki
+  culture = maghreb_arabic
+}
+100000293 = {
+  name = Essebsi
+  culture = maghreb_arabic
+}
+100000294 = {
+  name = Senussi
+  culture = maghreb_arabic
+}
+100000295 = {
+  name = Gaddafi
+  culture = maghreb_arabic
+}
+100000296 = {
+  name = "Abdul-Jalil"
+  culture = maghreb_arabic
+}
+100000297 = {
+  name = Magariaf
+  culture = maghreb_arabic
+}
+100000298 = {
+  name = Abusahmai
+  culture = maghreb_arabic
+}
+100000299 = {
+  name = Issa
+  culture = maghreb_arabic
+}
+100000300 = {
+  name = "al-Sarraj"
+  culture = maghreb_arabic
+}
+100000301 = {
+  name = "Farès"
+  culture = maghreb_arabic
+}
+100000302 = {
+  name = Abbas
+  culture = maghreb_arabic
+}
+100000303 = {
+  name = "Ben Bella"
+  culture = maghreb_arabic
+}
+100000304 = {
+  name = Boumediene
+  culture = maghreb_arabic
+}
+100000305 = {
+  name = Bitat
+  culture = maghreb_arabic
+}
+100000306 = {
+  name = Bendjedid
+  culture = maghreb_arabic
+}
+100000307 = {
+  name = Benhabyles
+  culture = maghreb_arabic
+}
+100000308 = {
+  name = Boudiaf
+  culture = maghreb_arabic
+}
+100000309 = {
+  name = Kafi
+  culture = maghreb_arabic
+}
+100000310 = {
+  name = "Zéroual"
+  culture = maghreb_arabic
+}
+100000311 = {
+  name = Bouteflika
+  culture = maghreb_arabic
+}
+100000312 = {
+  name = Alaouite
+  culture = maghreb_arabic
+}
+100000313 = {
+  name = Zaimis
+  culture = greek
+}
+100000314 = {
+  name = "Glücksburg"
+  culture = danish
+}
+100000315 = {
+  name = Kountouriotis
+  culture = greek
+}
+100000316 = {
+  name = Pangalos
+  culture = greek
+}
+100000317 = {
+  name = Gizikis
+  culture = greek
+}
+100000318 = {
+  name = Stasinopoulos
+  culture = greek
+}
+100000319 = {
+  name = Tsatsos
+  culture = greek
+}
+100000320 = {
+  name = Karamanlis
+  culture = greek
+}
+100000321 = {
+  name = Sartzetakis
+  culture = greek
+}
+100000322 = {
+  name = Stephanopoulos
+  culture = greek
+}
+100000323 = {
+  name = Papoulias
+  culture = greek
+}
+100000324 = {
+  name = Pavlopoulos
+  culture = greek
+}
+100000325 = {
+  name = Battenberg
+  culture = german
+}
+100000326 = {
+  name = Dimitrov
+  culture = bulgarian
+}
+100000327 = {
+  name = Chervenkov
+  culture = bulgarian
+}
+100000328 = {
+  name = Zhivkov
+  culture = bulgarian
+}
+100000329 = {
+  name = Mladenov
+  culture = bulgarian
+}
+100000330 = {
+  name = Zhelev
+  culture = bulgarian
+}
+100000331 = {
+  name = Stoyanov
+  culture = bulgarian
+}
+100000332 = {
+  name = Parvanov
+  culture = bulgarian
+}
+100000333 = {
+  name = Plevneliev
+  culture = bulgarian
+}
+100000334 = {
+  name = Radev
+  culture = bulgarian
+}
+100000335 = {
+  name = Jinnah
+  culture = sindhi
+}
+100000336 = {
+  name = Nazimuddin
+  culture = sindhi
+}
+100000337 = {
+  name = Muhammad
+  culture = bedouin_arabic
+}
+100000338 = {
+  name = Mirza
+  culture = sindhi
+}
+100000339 = {
+  name = Khan
+  culture = sindhi
+}
+100000340 = {
+  name = Bhutto
+  culture = sindhi
+}
+100000341 = {
+  name = Chaudhry
+  culture = sindhi
+}
+100000342 = {
+  name = "Zia-ul-Haq"
+  culture = sindhi
+}
+100000343 = {
+  name = Sajjad
+  culture = sindhi
+}
+100000344 = {
+  name = Leghari
+  culture = sindhi
+}
+100000345 = {
+  name = Tarar
+  culture = sindhi
+}
+100000346 = {
+  name = Musharraf
+  culture = sindhi
+}
+100000347 = {
+  name = Soomro
+  culture = sindhi
+}
+100000348 = {
+  name = Zardari
+  culture = sindhi
+}
+100000349 = {
+  name = Hussain
+  culture = sindhi
+}
+100000350 = {
+  name = Durrani
+  culture = afghan
+}
+100000351 = {
+  name = Barakzai
+  culture = afghan
+}
+100000352 = {
+  name = Kalakani
+  culture = afghan
+}
+100000353 = {
+  name = Daoud
+  culture = afghan
+}
+100000354 = {
+  name = Qadir
+  culture = afghan
+}
+100000355 = {
+  name = Taraki
+  culture = afghan
+}
+100000356 = {
+  name = Amin
+  culture = afghan
+}
+100000357 = {
+  name = Karmal
+  culture = afghan
+}
+100000358 = {
+  name = Akhundaza
+  culture = afghan
+}
+100000359 = {
+  name = Najibullah
+  culture = afghan
+}
+100000360 = {
+  name = Hatif
+  culture = afghan
+}
+100000361 = {
+  name = Mojaddedi
+  culture = afghan
+}
+100000362 = {
+  name = Rabbani
+  culture = afghan
+}
+100000363 = {
+  name = Omar
+  culture = afghan
+}
+100000364 = {
+  name = Karzai
+  culture = afghan
+}
+100000365 = {
+  name = Ghani
+  culture = afghan
+}
+100000366 = {
+  name = "Al-Sabah"
+  culture = bedouin_arabic
+}
+100000367 = {
+  name = "Al Thani"
+  culture = bedouin_arabic
+}
+100000368 = {
+  name = "Al Khalifa"
+  culture = bedouin_arabic
+}
+100000369 = {
+  name = Zand
+  culture = persian
+}
+100000370 = {
+  name = Qajar
+  culture = persian
+}
+100000371 = {
+  name = Pahlavi
+  culture = persian
+}
+100000372 = {
+  name = Khomeini
+  culture = persian
+}
+100000373 = {
+  name = Khamenei
+  culture = persian
+}
+100000374 = {
+  name = Karayev
+  culture = turkish
+}
+100000375 = {
+  name = Ovezov
+  culture = turkish
+}
+100000376 = {
+  name = Gapurow
+  culture = turkish
+}
+100000377 = {
+  name = Niyazov
+  culture = turkish
+}
+100000378 = {
+  name = Berdimuhamedow
+  culture = turkish
+}
+100000379 = {
+  name = Nazarbayev
+  culture = cuman
+}
+100000380 = {
+  name = Karimov
+  culture = karluk
+}
+100000381 = {
+  name = "Päts"
+  culture = ugricbaltic
+}
+100000382 = {
+  name = Meri
+  culture = ugricbaltic
+}
+100000383 = {
+  name = "Rüütel"
+  culture = ugricbaltic
+}
+100000384 = {
+  name = Ilves
+  culture = ugricbaltic
+}
+100000385 = {
+  name = Kaljulaid
+  culture = ugricbaltic
+}
+100000386 = {
+  name = Smetona
+  culture = lithuanian
+}
+100000387 = {
+  name = Stulginskis
+  culture = lithuanian
+}
+100000388 = {
+  name = Grinius
+  culture = lithuanian
+}
+100000389 = {
+  name = Snieckus
+  culture = lithuanian
+}
+100000390 = {
+  name = "Griškevicius"
+  culture = lithuanian
+}
+100000391 = {
+  name = Songaila
+  culture = lithuanian
+}
+100000392 = {
+  name = Brazauskas
+  culture = lithuanian
+}
+100000393 = {
+  name = Landsbergis
+  culture = lithuanian
+}
+100000394 = {
+  name = Adamkus
+  culture = lithuanian
+}
+100000395 = {
+  name = Paksas
+  culture = lithuanian
+}
+100000396 = {
+  name = Grybauskaite
+  culture = lithuanian
+}
+100000397 = {
+  name = "Ståhlberg"
+  culture = finnish
+}
+100000398 = {
+  name = Relander
+  culture = finnish
+}
+100000399 = {
+  name = Svinhufvud
+  culture = swedish
+}
+100000400 = {
+  name = Kallio
+  culture = finnish
+}
+100000401 = {
+  name = Ryti
+  culture = finnish
+}
+100000402 = {
+  name = Mannerheim
+  culture = swedish
+}
+100000403 = {
+  name = Paasikivi
+  culture = finnish
+}
+100000404 = {
+  name = Kekkonen
+  culture = finnish
+}
+100000405 = {
+  name = Koivisto
+  culture = finnish
+}
+100000406 = {
+  name = Ahtisaari
+  culture = finnish
+}
+100000407 = {
+  name = Halonen
+  culture = finnish
+}
+100000408 = {
+  name = "Niinistö"
+  culture = finnish
+}
+100000409 = {
+  name = Cakste
+  culture = lettigallish
+}
+100000410 = {
+  name = Zemgals
+  culture = lettigallish
+}
+100000411 = {
+  name = Kviesis
+  culture = lettigallish
+}
+100000412 = {
+  name = Ulmanis
+  culture = lettigallish
+}
+100000413 = {
+  name = "Kirhenšteins"
+  culture = lettigallish
+}
+100000414 = {
+  name = "Ozolinš"
+  culture = lettigallish
+}
+100000415 = {
+  name = "Kalnberzinš"
+  culture = lettigallish
+}
+100000416 = {
+  name = Rubenis
+  culture = lettigallish
+}
+100000417 = {
+  name = Strautmanis
+  culture = lettigallish
+}
+100000418 = {
+  name = Vagris
+  culture = lettigallish
+}
+100000419 = {
+  name = Gorbunovs
+  culture = lettigallish
+}
+100000420 = {
+  name = "Vike-Freiberga"
+  culture = lettigallish
+}
+100000421 = {
+  name = Zatlers
+  culture = lettigallish
+}
+100000422 = {
+  name = "Berzinš"
+  culture = lettigallish
+}
+100000423 = {
+  name = Vejonis
+  culture = lettigallish
+}
+100000424 = {
+  name = Rasulzade
+  culture = turkish
+}
+100000425 = {
+  name = Topchubashov
+  culture = turkish
+}
+100000426 = {
+  name = Kaminsky
+  culture = turkish
+}
+100000427 = {
+  name = Kirov
+  culture = turkish
+}
+100000428 = {
+  name = Akhundov
+  culture = turkish
+}
+100000429 = {
+  name = Mirzoyan
+  culture = turkish
+}
+100000430 = {
+  name = Gikalo
+  culture = russian
+}
+100000431 = {
+  name = Polonsky
+  culture = turkish
+}
+100000432 = {
+  name = Rubenov
+  culture = turkish
+}
+100000433 = {
+  name = Baghirov
+  culture = turkish
+}
+100000434 = {
+  name = Yaqubov
+  culture = turkish
+}
+100000435 = {
+  name = Mustafayev
+  culture = turkish
+}
+100000436 = {
+  name = Aliyev
+  culture = turkish
+}
+100000437 = {
+  name = Vazirov
+  culture = turkish
+}
+100000438 = {
+  name = Mutallibov
+  culture = turkish
+}
+100000439 = {
+  name = Elchibey
+  culture = turkish
+}
+100000440 = {
+  name = "Ter-Petrossyan"
+  culture = armenian
+}
+100000441 = {
+  name = Kocharyan
+  culture = armenian
+}
+100000442 = {
+  name = Sargsyan
+  culture = armenian
+}
+100000443 = {
+  name = Saud
+  culture = bedouin_arabic
+}
+100000444 = {
+  name = Hashemite
+  culture = bedouin_arabic
+}
+100000445 = {
+  name = "ar-Ruba'i"
+  culture = levantine_arabic
+}
+100000446 = {
+  name = Arif
+  culture = levantine_arabic
+}
+100000447 = {
+  name = "al-Bakr"
+  culture = levantine_arabic
+}
+100000448 = {
+  name = Hussein
+  culture = levantine_arabic
+}
+100000449 = {
+  name = Talabani
+  culture = levantine_arabic
+}
+100000450 = {
+  name = Masum
+  culture = levantine_arabic
+}
+100000451 = {
+  name = Horthy
+  culture = hungarian
+}
+100000452 = {
+  name = "Szálasi"
+  culture = hungarian
+}
+100000453 = {
+  name = "Rákosi"
+  culture = hungarian
+}
+100000454 = {
+  name = Gero
+  culture = hungarian
+}
+100000455 = {
+  name = "Kádár"
+  culture = hungarian
+}
+100000456 = {
+  name = "Grósz"
+  culture = hungarian
+}
+100000457 = {
+  name = Nyers
+  culture = hungarian
+}
+100000458 = {
+  name = "Szurös"
+  culture = hungarian
+}
+100000459 = {
+  name = "Göncz"
+  culture = hungarian
+}
+100000460 = {
+  name = "Mádl"
+  culture = hungarian
+}
+100000461 = {
+  name = "Sólyom"
+  culture = hungarian
+}
+100000462 = {
+  name = Schmitt
+  culture = hungarian
+}
+100000463 = {
+  name = "Áder"
+  culture = hungarian
+}
+100000464 = {
+  name = Shevardnadze
+  culture = georgian
+}
+100000465 = {
+  name = Saakashvili
+  culture = georgian
+}
+100000466 = {
+  name = Margvelashvili
+  culture = georgian
+}
+100000467 = {
+  name = Kravchuk
+  culture = ukrainian
+}
+100000468 = {
+  name = Zelensky
+  culture = ukrainian
+}
+100000469 = {
+  name = Yushchenko
+  culture = ukrainian
+}
+100000470 = {
+  name = Yanukovych
+  culture = ukrainian
+}
+100000471 = {
+  name = Turchynov
+  culture = ukrainian
+}
+100000472 = {
+  name = Poroshenko
+  culture = ukrainian
+}
+100000473 = {
+  name = Zelenskyy
+  culture = ukrainian
+}
+100000474 = {
+  name = Knorinsh
+  culture = belarusian
+}
+100000475 = {
+  name = "Osatkin-Vladimirsky"
+  culture = belarusian
+}
+100000476 = {
+  name = Krinitsky
+  culture = belarusian
+}
+100000477 = {
+  name = Goloded
+  culture = belarusian
+}
+100000478 = {
+  name = Gamarnik
+  culture = belarusian
+}
+100000479 = {
+  name = Gey
+  culture = belarusian
+}
+100000480 = {
+  name = Sharangovich
+  culture = belarusian
+}
+100000481 = {
+  name = Yakovlev
+  culture = belarusian
+}
+100000482 = {
+  name = Volkov
+  culture = belarusian
+}
+100000483 = {
+  name = Ponomarenko
+  culture = belarusian
+}
+100000484 = {
+  name = Gusarov
+  culture = belarusian
+}
+100000485 = {
+  name = Patolichev
+  culture = belarusian
+}
+100000486 = {
+  name = Zimyanin
+  culture = belarusian
+}
+100000487 = {
+  name = Mazurov
+  culture = belarusian
+}
+100000488 = {
+  name = Masherov
+  culture = belarusian
+}
+100000489 = {
+  name = Kiselyov
+  culture = belarusian
+}
+100000490 = {
+  name = Slyunkov
+  culture = belarusian
+}
+100000491 = {
+  name = Sokolov
+  culture = belarusian
+}
+100000492 = {
+  name = Malofeyev
+  culture = belarusian
+}
+100000493 = {
+  name = Shushkevich
+  culture = belarusian
+}
+100000494 = {
+  name = Lukashenko
+  culture = belarusian
+}
+100000495 = {
+  name = Kucan
+  culture = carantanian
+}
+100000496 = {
+  name = "Drnovšek"
+  culture = carantanian
+}
+100000497 = {
+  name = "Türk"
+  culture = carantanian
+}
+100000498 = {
+  name = Pahor
+  culture = carantanian
+}
+100000499 = {
+  name = Tudman
+  culture = croatian
+}
+100000500 = {
+  name = Mesic
+  culture = croatian
+}
+100000501 = {
+  name = Josipovic
+  culture = croatian
+}
+100000502 = {
+  name = "Grabar-Kitarovic"
+  culture = croatian
+}
+100000503 = {
+  name = Izetbegovic
+  culture = croatian
+}
+100000504 = {
+  name = Bildt
+  culture = swedish
+}
+100000505 = {
+  name = Westendorp
+  culture = castillan
+}
+100000506 = {
+  name = Petritsch
+  culture = carantanian
+}
+100000507 = {
+  name = Johnson
+  culture = english
+}
+100000508 = {
+  name = "Schwarz-Schilling"
+  culture = german
+}
+100000509 = {
+  name = "Lajcák"
+  culture = croatian
+}
+100000510 = {
+  name = Inzko
+  culture = carantanian
+}
+100000511 = {
+  name = Obrenovic
+  culture = serbian
+}
+100000512 = {
+  name = Karadordevic
+  culture = serbian
+}
+100000513 = {
+  name = Tito
+  culture = serbian
+}
+100000514 = {
+  name = "Koliševski"
+  culture = bulgarian
+}
+100000515 = {
+  name = Mijatovic
+  culture = bosnian
+}
+100000516 = {
+  name = Kraigher
+  culture = carantanian
+}
+100000517 = {
+  name = Stambolic
+  culture = serbian
+}
+100000518 = {
+  name = Spiljak
+  culture = croatian
+}
+100000519 = {
+  name = Duranovic
+  culture = serbian
+}
+100000520 = {
+  name = Vlajkovic
+  culture = serbian
+}
+100000521 = {
+  name = Hasani
+  culture = arberian
+}
+100000522 = {
+  name = Mojsov
+  culture = bulgarian
+}
+100000523 = {
+  name = Dizdarevic
+  culture = bosnian
+}
+100000524 = {
+  name = Jovic
+  culture = serbian
+}
+100000525 = {
+  name = Kostic
+  culture = serbian
+}
+100000526 = {
+  name = Cosic
+  culture = serbian
+}
+100000527 = {
+  name = Lilic
+  culture = serbian
+}
+100000528 = {
+  name = "Miloševic"
+  culture = serbian
+}
+100000529 = {
+  name = "Koštunica"
+  culture = serbian
+}
+100000530 = {
+  name = Marovic
+  culture = serbian
+}
+100000531 = {
+  name = Tadic
+  culture = serbian
+}
+100000532 = {
+  name = Nikolic
+  culture = serbian
+}
+100000533 = {
+  name = Vucic
+  culture = serbian
+}
+100000534 = {
+  name = Gligorov
+  culture = serbian
+}
+100000535 = {
+  name = Andov
+  culture = serbian
+}
+100000536 = {
+  name = Klimovski
+  culture = serbian
+}
+100000537 = {
+  name = Trajkovski
+  culture = serbian
+}
+100000538 = {
+  name = Jordanovski
+  culture = serbian
+}
+100000539 = {
+  name = Crvenkovski
+  culture = serbian
+}
+100000540 = {
+  name = Ivanov
+  culture = serbian
+}
+100000541 = {
+  name = "Muhammad Ali"
+  culture = egyptian_arabic
+}
+100000542 = {
+  name = Naguib
+  culture = egyptian_arabic
+}
+100000543 = {
+  name = Nasser
+  culture = egyptian_arabic
+}
+100000544 = {
+  name = Sadat
+  culture = egyptian_arabic
+}
+100000545 = {
+  name = Mubarak
+  culture = egyptian_arabic
+}
+100000546 = {
+  name = Morsi
+  culture = egyptian_arabic
+}
+100000547 = {
+  name = "el-Sisi"
+  culture = egyptian_arabic
+}
+100000548 = {
+  name = "al-Quwatli"
+  culture = levantine_arabic
+}
+100000549 = {
+  name = "al-Za'im"
+  culture = levantine_arabic
+}
+100000550 = {
+  name = "al-Atassi"
+  culture = levantine_arabic
+}
+100000551 = {
+  name = Selu
+  culture = levantine_arabic
+}
+100000552 = {
+  name = Shishakli
+  culture = levantine_arabic
+}
+100000553 = {
+  name = "al-Kuzbari"
+  culture = levantine_arabic
+}
+100000554 = {
+  name = "al-Nuss"
+  culture = levantine_arabic
+}
+100000555 = {
+  name = "al-Kudsi"
+  culture = levantine_arabic
+}
+100000556 = {
+  name = "al-Hafiz"
+  culture = levantine_arabic
+}
+100000557 = {
+  name = "al-Khatib"
+  culture = levantine_arabic
+}
+100000558 = {
+  name = "al-Assad"
+  culture = levantine_arabic
+}
+100000559 = {
+  name = Khoury
+  culture = levantine_arabic
+}
+100000560 = {
+  name = Chehab
+  culture = levantine_arabic
+}
+100000561 = {
+  name = Chamoun
+  culture = levantine_arabic
+}
+100000562 = {
+  name = Helou
+  culture = levantine_arabic
+}
+100000563 = {
+  name = Frangieh
+  culture = levantine_arabic
+}
+100000564 = {
+  name = Sarkis
+  culture = levantine_arabic
+}
+100000565 = {
+  name = Gemayel
+  culture = levantine_arabic
+}
+100000566 = {
+  name = Aoun
+  culture = levantine_arabic
+}
+100000567 = {
+  name = Moawad
+  culture = levantine_arabic
+}
+100000568 = {
+  name = Hoss
+  culture = levantine_arabic
+}
+100000569 = {
+  name = Hrawi
+  culture = levantine_arabic
+}
+100000570 = {
+  name = Lahoud
+  culture = levantine_arabic
+}
+100000571 = {
+  name = Siniora
+  culture = levantine_arabic
+}
+100000572 = {
+  name = Suleiman
+  culture = levantine_arabic
+}
+100000573 = {
+  name = Salam
+  culture = levantine_arabic
+}
+100000574 = {
+  name = "Ben-Gurion"
+  culture = ashkenazi
+}
+100000575 = {
+  name = Sharett
+  culture = ashkenazi
+}
+100000576 = {
+  name = Eshkol
+  culture = ashkenazi
+}
+100000577 = {
+  name = Meir
+  culture = ashkenazi
+}
+100000578 = {
+  name = Rabin
+  culture = ashkenazi
+}
+100000579 = {
+  name = Begin
+  culture = ashkenazi
+}
+100000580 = {
+  name = Shamir
+  culture = ashkenazi
+}
+100000581 = {
+  name = Peres
+  culture = ashkenazi
+}
+100000582 = {
+  name = Netanyahu
+  culture = ashkenazi
+}
+100000583 = {
+  name = Barak
+  culture = ashkenazi
+}
+100000584 = {
+  name = Sharon
+  culture = ashkenazi
+}
+100000585 = {
+  name = Olmert
+  culture = ashkenazi
+}
+100000586 = {
+  name = Rassid
+  culture = bedouin_arabic
+}
+100000587 = {
+  name = "as-Sallal"
+  culture = bedouin_arabic
+}
+100000588 = {
+  name = "al-Iryani"
+  culture = bedouin_arabic
+}
+100000589 = {
+  name = "al-Hamdi"
+  culture = bedouin_arabic
+}
+100000590 = {
+  name = "al-Ghashmi"
+  culture = bedouin_arabic
+}
+100000591 = {
+  name = "al-Arashi"
+  culture = bedouin_arabic
+}
+100000592 = {
+  name = Saleh
+  culture = bedouin_arabic
+}
+100000593 = {
+  name = "al-Shaabi"
+  culture = bedouin_arabic
+}
+100000594 = {
+  name = Ali
+  culture = bedouin_arabic
+}
+100000595 = {
+  name = Ismail
+  culture = bedouin_arabic
+}
+100000596 = {
+  name = "al-Attas"
+  culture = bedouin_arabic
+}
+100000597 = {
+  name = Hadi
+  culture = bedouin_arabic
+}
+100000598 = {
+  name = Solomonid
+  culture = ethiopian
+}
+100000599 = {
+  name = Zagwe
+  culture = ethiopian
+}
+100000600 = {
+  name = Benti
+  culture = ethiopian
+}
+100000601 = {
+  name = Mariam
+  culture = ethiopian
+}
+100000602 = {
+  name = Kidan
+  culture = ethiopian
+}
+100000603 = {
+  name = Zenawi
+  culture = ethiopian
+}
+100000604 = {
+  name = Gidada
+  culture = ethiopian
+}
+100000605 = {
+  name = "Wolde-Giorgis"
+  culture = ethiopian
+}
+100000606 = {
+  name = Teshome
+  culture = ethiopian
+}
+100000607 = {
+  name = Zewde
+  culture = ethiopian
+}
+100000608 = {
+  name = Abboud
+  culture = nubian
+}
+100000609 = {
+  name = "Al-Khalifa"
+  culture = nubian
+}
+100000610 = {
+  name = "al-Azhari"
+  culture = nubian
+}
+100000611 = {
+  name = Nimeiry
+  culture = nubian
+}
+100000612 = {
+  name = "al-Dahab"
+  culture = nubian
+}
+100000613 = {
+  name = "Al-Mirghani"
+  culture = nubian
+}
+100000614 = {
+  name = "al-Bashir"
+  culture = nubian
+}
+100000615 = {
+  name = "Hohenzollern-Sigmaringen"
+  culture = german
+}
+100000616 = {
+  name = Parhon
+  culture = romanian
+}
+100000617 = {
+  name = Groza
+  culture = romanian
+}
+100000618 = {
+  name = Maurer
+  culture = romanian
+}
+100000619 = {
+  name = "Gheorghiu-Dej"
+  culture = romanian
+}
+100000620 = {
+  name = Stoica
+  culture = romanian
+}
+100000621 = {
+  name = Ceausescu
+  culture = romanian
+}
+100000622 = {
+  name = Iliescu
+  culture = romanian
+}
+100000623 = {
+  name = Constantinescu
+  culture = romanian
+}
+100000624 = {
+  name = Basescu
+  culture = romanian
+}
+100000625 = {
+  name = Iohannis
+  culture = romanian
+}
+100000626 = {
+  name = Snegur
+  culture = romanian
+}
+100000627 = {
+  name = Lucinschi
+  culture = romanian
+}
+100000628 = {
+  name = Voronin
+  culture = romanian
+}
+100000629 = {
+  name = Ghimpu
+  culture = romanian
+}
+100000630 = {
+  name = Filat
+  culture = romanian
+}
+100000631 = {
+  name = Lupu
+  culture = romanian
+}
+100000632 = {
+  name = Timofti
+  culture = romanian
+}
+100000633 = {
+  name = Dodon
+  culture = romanian
+}
+100000634 = {
+  name = Qemali
+  culture = arberian
+}
+100000635 = {
+  name = Alizoti
+  culture = arberian
+}
+100000636 = {
+  name = Wied
+  culture = arberian
+}
+100000637 = {
+  name = Zogu
+  culture = arberian
+}
+100000638 = {
+  name = Hoxha
+  culture = arberian
+}
+100000639 = {
+  name = Alia
+  culture = arberian
+}
+100000640 = {
+  name = Berisha
+  culture = arberian
+}
+100000641 = {
+  name = Meidani
+  culture = arberian
+}
+100000642 = {
+  name = Moisiu
+  culture = arberian
+}
+100000643 = {
+  name = Topi
+  culture = arberian
+}
+100000644 = {
+  name = Nishani
+  culture = arberian
+}
+100000645 = {
+  name = "Petrovic-Njegoš"
+  culture = serbian
+}
+100000646 = {
+  name = Vujanovic
+  culture = serbian
+}
+100000647 = {
+  name = Dukanovic
+  culture = serbian
+}
+100000648 = {
+  name = "al Said"
+  culture = bedouin_arabic
+}
+100000649 = {
+  name = Wettin
+  culture = german
+}
+100000650 = {
+  name = Pilsudski
+  culture = polish
+}
+100000651 = {
+  name = Narutowicz
+  culture = polish
+}
+100000652 = {
+  name = Wojciechowski
+  culture = polish
+}
+100000653 = {
+  name = Moscicki
+  culture = polish
+}
+100000654 = {
+  name = Raczkiewicz
+  culture = polish
+}
+100000655 = {
+  name = Bierut
+  culture = polish
+}
+100000656 = {
+  name = Ochab
+  culture = polish
+}
+100000657 = {
+  name = Gomulka
+  culture = polish
+}
+100000658 = {
+  name = Gierek
+  culture = polish
+}
+100000659 = {
+  name = Kania
+  culture = polish
+}
+100000660 = {
+  name = Jaruzelski
+  culture = polish
+}
+100000661 = {
+  name = Walesa
+  culture = polish
+}
+100000662 = {
+  name = Kwasniewski
+  culture = polish
+}
+100000663 = {
+  name = Kaczynski
+  culture = polish
+}
+100000664 = {
+  name = Komorowski
+  culture = polish
+}
+100000665 = {
+  name = Duda
+  culture = polish
+}
+100000666 = {
+  name = Murat
+  culture = frankish
+}
+100000667 = {
+  name = Wodzicki
+  culture = polish
+}
+100000668 = {
+  name = Wieloglowski
+  culture = polish
+}
+100000669 = {
+  name = Haller
+  culture = polish
+}
+100000670 = {
+  name = Schindler
+  culture = polish
+}
+100000671 = {
+  name = Kadyrov
+  culture = alan
+}
+100000672 = {
+  name = Yandarbiyev
+  culture = alan
+}
+100000673 = {
+  name = Maskhadov
+  culture = alan
+}
+100000674 = {
+  name = Dewar
+  culture = scottish
+}
+100000675 = {
+  name = McLeish
+  culture = scottish
+}
+100000676 = {
+  name = McConnell
+  culture = scottish
+}
+100000677 = {
+  name = Salmond
+  culture = scottish
+}
+100000678 = {
+  name = Sturgeon
+  culture = scottish
+}
+100000679 = {
+  name = Tuguzhoko
+  culture = georgian
+}
+100000680 = {
+  name = Tombalbaye
+  culture = kanuri
+}
+100000681 = {
+  name = Malloum
+  culture = kanuri
+}
+100000682 = {
+  name = Oueddei
+  culture = kanuri
+}
+100000683 = {
+  name = Choua
+  culture = kanuri
+}
+100000684 = {
+  name = "Habré"
+  culture = kanuri
+}
+100000685 = {
+  name = "Déby"
+  culture = kanuri
+}
+100000686 = {
+  name = Diori
+  culture = hausa
+}
+100000687 = {
+  name = "Kountché"
+  culture = hausa
+}
+100000688 = {
+  name = Saibou
+  culture = hausa
+}
+100000689 = {
+  name = Ousmane
+  culture = hausa
+}
+100000690 = {
+  name = Mainassara
+  culture = hausa
+}
+100000691 = {
+  name = "Wanké"
+  culture = hausa
+}
+100000692 = {
+  name = Tandja
+  culture = hausa
+}
+100000693 = {
+  name = Djibo
+  culture = hausa
+}
+100000694 = {
+  name = Issoufou
+  culture = hausa
+}
+100000695 = {
+  name = Harper
+  culture = canadian
+}
+100000696 = {
+  name = Braganza
+  culture = portuguese
+}
+100000697 = {
+  name = Cheney
+  culture = american
+}

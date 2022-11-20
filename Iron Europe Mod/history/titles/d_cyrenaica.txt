@@ -1,0 +1,107 @@
+767.1.1 = {
+  holder = 210034
+  de_jure_liege = k_egypt
+  liege = k_africa
+}
+788.1.1 = {
+  holder = 0
+}
+936.1.1 = {
+  holder = 260925
+  liege = 0
+}
+1066.1.1 = {
+  liege = k_africa
+  holder = 155199
+}
+1072.1.1 = {
+  holder = 155209
+}
+1097.1.1 = {
+  holder = 155210
+}
+1129.1.1 = {
+  holder = 155211
+}
+1161.1.1 = {
+  holder = 155212
+}
+1172.1.1 = {
+  liege = k_egypt
+  holder = 155113
+}
+1182.1.1 = {
+  holder = 155212
+}
+1193.1.1 = {
+  holder = 155213
+}
+1225.1.1 = {
+  holder = 155214
+}
+1264.1.1 = {
+  holder = 155215
+}
+1289.1.1 = {
+  holder = 155200
+}
+1321.1.1 = {
+  holder = 155201
+}
+1337.1.1 = {
+  holder = 155202
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114101639
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 112896273
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 115634756
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 118675697
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 119705103
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 111645364
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 113422581
+  liege = e_arabia
+}
+1912.10.18 = {
+  holder = 114759066
+  liege = e_italy
+}
+1927.10.18 = {
+  holder = 117033980
+  liege = e_italy
+}
+1942.10.18 = {
+  holder = 110742917
+  liege = e_italy
+}
+1951.12.24 = {
+  holder = 0
+  liege = 0
+}

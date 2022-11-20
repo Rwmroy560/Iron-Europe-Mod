@@ -1,0 +1,181 @@
+330.1.1 = {
+  liege = e_byzantium
+  vice_royalty = yes
+}
+758.1.1 = {
+  holder = 145852
+}
+844.1.1 = {
+  liege = e_arabia
+  vice_royalty = no
+  holder = 159724
+}
+852.1.1 = {
+  liege = 0
+}
+863.1.1 = {
+  holder = 159725
+}
+934.1.1 = {
+  liege = e_byzantium
+  vice_royalty = yes
+  holder = 145173
+}
+1060.1.1 = {
+  holder = 41537
+}
+1071.8.26 = {
+  liege = k_persia
+  vice_royalty = no
+  holder = 41704
+}
+1077.1.1 = {
+  liege = k_rum
+}
+1104.1.1 = {
+  holder = 34197
+}
+1134.1.1 = {
+  holder = 34198
+}
+1142.1.1 = {
+  holder = 34199
+}
+1164.1.1 = {
+  holder = 34201
+}
+1171.1.1 = {
+  holder = 34207
+}
+1174.1.1 = {
+  holder = 215043
+}
+1178.1.1 = {
+  holder = 225000
+}
+1192.1.1 = {
+  holder = 225002
+}
+1196.1.1 = {
+  holder = 225004
+}
+1204.1.1 = {
+  holder = 34187
+}
+1205.1.1 = {
+  holder = 225002
+}
+1211.1.1 = {
+  holder = 34188
+}
+1220.1.1 = {
+  holder = 34189
+}
+1237.1.1 = {
+  holder = 34190
+}
+1246.1.1 = {
+  holder = 34191
+}
+1248.1.1 = {
+  holder = 34192
+}
+1249.1.1 = {
+  holder = 34193
+}
+1257.1.1 = {
+  holder = 34192
+}
+1265.1.1 = {
+  holder = 34194
+}
+1284.1.1 = {
+  holder = 34195
+}
+1296.1.1 = {
+  holder = 34196
+}
+1302.1.1 = {
+  holder = 34195
+}
+1307.1.1 = {
+  liege = "e_il-khanate"
+  holder = 93417
+}
+1335.1.1 = {
+  liege = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 118671282
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 112893381
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 119832703
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 110675908
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 118209551
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 110849987
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 116389650
+  liege = e_arabia
+}
+1920.6.9 = {
+  holder = 116941781
+  liege = e_arabia
+}
+1922.11.1 = {
+  holder = 116482604
+  liege = k_anatolia
+}
+1937.11.1 = {
+  holder = 111083323
+  liege = k_anatolia
+}
+1952.11.1 = {
+  holder = 112500465
+  liege = k_anatolia
+}
+1967.11.1 = {
+  holder = 116522011
+  liege = k_anatolia
+}
+1982.11.1 = {
+  holder = 116543175
+  liege = k_anatolia
+}
+1997.11.1 = {
+  holder = 116694711
+  liege = k_anatolia
+}
+2012.11.1 = {
+  holder = 116610567
+  liege = k_anatolia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

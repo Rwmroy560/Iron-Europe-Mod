@@ -1,0 +1,13 @@
+title = c_sens
+max_settlements = 4
+b_sens = castle
+b_montargis = temple
+b_nemours = city
+culture = old_frankish
+religion = catholic
+790.1.1 = {
+  culture = frankish
+}
+1700.1.1 = {
+  b_chateaulandon = castle
+}

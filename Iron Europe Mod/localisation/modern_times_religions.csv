@@ -1,0 +1,9 @@
+protestant;Protestant;;;;;;;;;;;;;x
+protestant_DESC;Lutheran/Anglican branch of Protestantism;;;;;;;;;;;;;x
+d_protestant;Ecumenical Primacy;;;;;;;;;;;;;x
+d_protestant_adj;Primatial;;;;;;;;;;;;;x
+PROTESTANT_PRIMATE;Ecumenical Primate;;;;;;;;;;;;;x
+reformed;Reformed;;;;;;;;;;;;;x
+reformed_DESC;Reformed/Calvinist branch of Protestantism;;;;;;;;;;;;;x
+create_protestant_papacy;Establish Ecumenical Primate in Rome;;;;;;;;;;;;;x
+create_protestant_papacy_desc;With Rome under Protestant control, pious Protestant ruler can establish Ecumenical Primate as leader of Protestants living in countries without established national churches.;;;;;;;;;;;;;x

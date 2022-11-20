@@ -1,0 +1,94 @@
+450.1.1 = {
+  holder = 159036
+}
+490.1.1 = {
+  holder = 159035
+}
+535.1.1 = {
+  holder = 159952
+}
+570.1.1 = {
+  holder = 159953
+}
+590.1.1 = {
+  holder = 159958
+}
+597.1.1 = {
+  holder = 159959
+}
+616.1.1 = {
+  holder = 159955
+}
+638.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 111456824
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 119502917
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 111778315
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 119406738
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 112012290
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 119513667
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 111084615
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 118159828
+  liege = e_britannia
+}
+1935.6.9 = {
+  holder = 110455780
+  liege = e_britannia
+}
+1950.6.9 = {
+  holder = 117021367
+  liege = e_britannia
+}
+1965.6.9 = {
+  holder = 112399303
+  liege = e_britannia
+}
+1980.6.9 = {
+  holder = 119044664
+  liege = e_britannia
+}
+1995.6.9 = {
+  holder = 110898738
+  liege = e_britannia
+}
+2010.6.9 = {
+  holder = 119420982
+  liege = e_britannia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

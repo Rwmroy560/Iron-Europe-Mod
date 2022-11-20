@@ -1,0 +1,73 @@
+namespace = sinocide_warcrime_maintain
+character_event = {
+	id = sinocide_warcrime_maintain.0
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		war = yes
+		is_primary_war_defender = yes
+		any_realm_province = {
+			has_province_modifier = sinocide_war	
+		}
+	}
+
+	immediate = {
+		any_independent_ruler = {
+				limit = {
+					has_character_modifier = sinocide_war_crime
+					war_with = ROOT
+					is_primary_war_attacker = yes
+				}
+				character_event = { id = sinocide_warcrime_maintain.1 }
+		}
+	}
+}
+character_event = {
+	id = sinocide_warcrime_maintain.1
+	desc = EVTDESCsinocide_warcrime_maintain.1
+	picture = GFX_evt_courtiers_talking
+	is_triggered_only = yes
+
+	option = {
+		name = EVTOPTAsinocide_warcrime_maintain.1
+		FROM = {
+			any_realm_province = {
+				limit = { has_province_modifier = sinocide_war }
+				remove_province_modifier = sinocide_war
+				culture = ROOT
+				religion = ROOT
+				any_province_holding = {
+					grant_title_no_opinion = ROOT
+				}
+			}
+		}
+	}
+}
+character_event = {
+	id = sinocide_warcrime_maintain.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	trigger = {
+		FROM = {
+			has_character_modifier = sinocide_war_crime
+		}
+		ROOT = {
+			any_realm_province = {
+				has_province_modifier = sinocide_war
+			}
+		}
+	}
+
+	immediate = {
+		ROOT = {
+			any_realm_province = {
+				IF = {
+					limit = { has_province_modifier = sinocide_war }
+					remove_province_modifier = sinocide_war
+				}
+			}
+		}
+	}
+}

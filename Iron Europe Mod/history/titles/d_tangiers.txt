@@ -1,0 +1,137 @@
+936.1.1 = {
+  holder = 168268
+}
+1078.10.8 = {
+  liege = k_mauretania
+  holder = 155036
+}
+1114.1.1 = {
+  holder = 32966
+}
+1122.1.1 = {
+  holder = 32970
+}
+1146.1.1 = {
+  liege = 0
+  holder = 32978
+}
+1147.1.1 = {
+  liege = k_mauretania
+  holder = 32979
+}
+1163.1.1 = {
+  holder = 155085
+}
+1173.1.1 = {
+  holder = 32980
+}
+1184.7.29 = {
+  holder = 155085
+}
+1189.1.1 = {
+  holder = 32992
+}
+1223.1.1 = {
+  holder = 32987
+}
+1242.1.1 = {
+  holder = 32989
+}
+1248.1.1 = {
+  holder = 0
+}
+1267.1.1 = {
+  liege = 0
+  holder = 155167
+}
+1275.1.1 = {
+  liege = k_mauretania
+}
+1287.1.1 = {
+  holder = 155168
+}
+1316.1.1 = {
+  liege = 0
+  holder = 155169
+}
+1327.1.1 = {
+  liege = k_mauretania
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 117002222
+  liege = k_mauretania
+}
+1830.6.9 = {
+  holder = 112031802
+  liege = k_mauretania
+}
+1845.6.9 = {
+  holder = 113213227
+  liege = k_mauretania
+}
+1860.6.9 = {
+  holder = 118624234
+  liege = k_mauretania
+}
+1875.6.9 = {
+  holder = 118033693
+  liege = k_mauretania
+}
+1890.6.9 = {
+  holder = 119303092
+  liege = k_mauretania
+}
+1905.6.9 = {
+  holder = 113110379
+  liege = k_mauretania
+}
+1912.3.30 = {
+  holder = 119932171
+  liege = e_spain
+}
+1927.3.30 = {
+  holder = 113040415
+  liege = e_spain
+}
+1942.3.30 = {
+  holder = 114533702
+  liege = e_spain
+}
+1957.3.30 = {
+  holder = 118260909
+  liege = e_spain
+}
+1958.4.1 = {
+  holder = 115825947
+  liege = k_mauretania
+}
+1973.4.1 = {
+  holder = 113781956
+  liege = k_mauretania
+}
+1988.4.1 = {
+  holder = 114120852
+  liege = k_mauretania
+}
+2003.4.1 = {
+  holder = 112904736
+  liege = k_mauretania
+}
+2018.4.1 = {
+  holder = 113111154
+  liege = k_mauretania
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

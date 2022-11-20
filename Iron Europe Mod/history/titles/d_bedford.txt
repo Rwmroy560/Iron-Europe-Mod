@@ -1,0 +1,80 @@
+10.1.1 = {
+  holder = 252137
+}
+41.1.1 = {
+  holder = 252140
+}
+43.1.1 = {
+  holder = 252141
+}
+480.1.1 = {
+  liege = d_bedford
+  holder = 252228
+}
+510.1.1 = {
+  holder = 252264
+}
+527.1.1 = {
+  holder = 194095
+}
+587.1.1 = {
+  holder = 194096
+}
+604.1.1 = {
+  holder = 194097
+}
+616.1.1 = {
+  holder = 194099
+}
+617.1.1 = {
+  holder = 194100
+}
+653.1.1 = {
+  holder = 194101
+}
+660.1.1 = {
+  holder = 194102
+}
+664.1.1 = {
+  holder = 205256
+}
+694.1.1 = {
+  holder = 205258
+}
+708.1.1 = {
+  holder = 205259
+}
+709.1.1 = {
+  holder = 205262
+}
+746.1.1 = {
+  holder = 205263
+}
+758.1.1 = {
+  holder = 205265
+}
+798.1.1 = {
+  holder = 205266
+}
+812.1.1 = {
+  holder = 0
+}
+1066.1.1 = {
+  liege = k_england
+}
+1066.1.5 = {
+  holder = 122
+}
+1066.10.14 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}

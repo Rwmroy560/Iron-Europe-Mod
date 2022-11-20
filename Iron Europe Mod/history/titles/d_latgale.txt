@@ -1,0 +1,42 @@
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 116145015
+  liege = e_russia
+}
+1830.6.9 = {
+  holder = 118944940
+  liege = e_russia
+}
+1845.6.9 = {
+  holder = 110307442
+  liege = e_russia
+}
+1860.6.9 = {
+  holder = 110625388
+  liege = e_russia
+}
+1875.6.9 = {
+  holder = 111338728
+  liege = e_russia
+}
+1890.6.9 = {
+  holder = 117553491
+  liege = e_russia
+}
+1905.6.9 = {
+  holder = 118518291
+  liege = e_russia
+}
+1918.11.11 = {
+  holder = 0
+  liege = 0
+}

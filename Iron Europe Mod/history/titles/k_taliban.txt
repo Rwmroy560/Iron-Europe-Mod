@@ -1,0 +1,9 @@
+2001.9.11 = {
+  name = "Islamic Emirate of Afghanistan"
+  adjective = "Taliban"
+  holder = 109997392
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_2
+}
+

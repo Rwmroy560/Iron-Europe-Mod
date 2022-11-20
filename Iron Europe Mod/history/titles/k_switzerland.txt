@@ -1,0 +1,80 @@
+1291.7.15 = {
+  liege = e_hre
+  de_jure_liege = e_hre
+  holder = 462085
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1806.8.6 = {
+  de_jure_liege = e_germany
+}
+1815.6.9 = {
+  holder = 117987864
+}
+1824.5.13 = {
+  holder = 118629645
+}
+1830.12.26 = {
+  holder = 115089058
+}
+1845.3.4 = {
+  holder = 118239174
+}
+1864.1.2 = {
+  holder = 116603275
+}
+1869.3.22 = {
+  holder = 114181292
+}
+1877.8.6 = {
+  holder = 115181803
+}
+1893.10.5 = {
+  holder = 113706300
+}
+1907.6.17 = {
+  holder = 113361853
+}
+1918.1.26 = {
+  holder = 118058605
+}
+1935.2.25 = {
+  holder = 115195547
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_1
+  law = vassal_wars_law_2
+}
+1948.2.9 = {
+  holder = 118198892
+}
+1953.8.14 = {
+  holder = 110111197
+}
+1962.4.25 = {
+  holder = 117005049
+}
+1978.9.8 = {
+  holder = 118130817
+}
+1985.9.5 = {
+  holder = 111207849
+}
+1995.2.16 = {
+  holder = 115013209
+}
+2007.7.9 = {
+  holder = 111564604
+}
+2016.2.24 = {
+  holder = 113750832
+}

@@ -1,0 +1,117 @@
+756.1.1 = {
+  holder = 273018
+}
+793.1.1 = {
+  holder = 273017
+}
+820.1.1 = {
+  holder = 187011
+}
+830.1.1 = {
+  liege = k_moravia
+  holder = 187010
+}
+850.1.1 = {
+  holder = 187003
+}
+871.12.1 = {
+  holder = 187006
+}
+894.1.1 = {
+  holder = 187008
+}
+902.1.1 = {
+  liege = k_magyar
+  holder = 159136
+}
+907.1.1 = {
+  holder = 159135
+}
+925.1.1 = {
+  holder = 261316
+  liege = k_hungary
+}
+955.1.1 = {
+  holder = 460
+}
+972.1.1 = {
+  holder = 462
+}
+978.1.1 = {
+  holder = 487
+}
+1029.1.1 = {
+  holder = 466
+}
+1037.1.1 = {
+  holder = 470
+}
+1063.12.1 = {
+  holder = 472
+}
+1077.4.25 = {
+  holder = 474
+}
+1095.7.29 = {
+  holder = 480
+}
+1116.2.3 = {
+  holder = 93678
+}
+1150.1.1 = {
+  holder = 93679
+}
+1180.1.1 = {
+  holder = 93680
+}
+1200.1.1 = {
+  holder = 93682
+}
+1239.1.1 = {
+  holder = 93683
+}
+1249.1.1 = {
+  holder = 93685
+}
+1278.1.1 = {
+  holder = 93686
+}
+1290.1.1 = {
+  holder = 93711
+}
+1321.3.18 = {
+  holder = 93687
+}
+1335.1.1 = {
+  holder = 93713
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Slovakia
+  adjective = Slovak
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1939.3.15 = {
+  holder = 119043192
+}
+1945.5.8 = {
+  holder = 0
+}
+1993.1.1 = {
+  holder = 119967144
+}
+1998.3.2 = {
+  holder = 111979374
+}
+2004.6.15 = {
+  holder = 114367351
+}
+2014.6.15 = {
+  holder = 118822352
+}

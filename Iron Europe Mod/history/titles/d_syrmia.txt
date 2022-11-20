@@ -1,0 +1,42 @@
+936.1.1 = {
+  liege = k_hungary
+  holder = 260650
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1918.11.11 = {
+  holder = 114078230
+  liege = k_serbia
+}
+1923.7.13 = {
+  holder = 118612568
+  liege = k_serbia
+}
+1938.7.13 = {
+  holder = 119886351
+  liege = k_serbia
+}
+1953.7.13 = {
+  holder = 111874373
+  liege = k_serbia
+}
+1968.7.13 = {
+  holder = 117344243
+  liege = k_serbia
+}
+1983.7.13 = {
+  holder = 119590232
+  liege = k_serbia
+}
+1991.10.8 = {
+  holder = 0
+  liege = 0
+}

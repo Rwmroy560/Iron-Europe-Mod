@@ -1,0 +1,74 @@
+100.1.1 = {
+  pentarch = b_roma
+}
+646.1.1 = {
+  holder = 131727
+}
+680.1.1 = {
+  holder = 131725
+}
+719.1.1 = {
+  holder = 131726
+}
+734.1.1 = {
+  holder = 131728
+}
+741.1.1 = {
+  holder = 131729
+}
+748.1.1 = {
+  holder = 131730
+}
+760.1.1 = {
+  holder = 0
+}
+769.1.1 = {
+  de_jure_liege = e_france
+}
+775.1.1 = {
+  holder = 0
+}
+867.1.1 = {
+  de_jure_liege = e_hre
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Netherlands
+  adjective = Dutch
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1806.8.6 = {
+  de_jure_liege = e_germany
+}
+1815.3.16 = {
+  holder = 112063135
+}
+1840.10.7 = {
+  holder = 119686439
+}
+1849.3.17 = {
+  holder = 118598213
+}
+1890.11.23 = {
+  holder = 113859305
+}
+1948.9.4 = {
+  holder = 112893154
+}
+1980.4.30 = {
+  holder = 113071563
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = vassal_wars_law_2
+}
+2013.4.30 = {
+  holder = 118815462
+}

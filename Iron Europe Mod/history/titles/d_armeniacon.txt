@@ -1,0 +1,147 @@
+330.1.1 = {
+  liege = e_byzantium
+  vice_royalty = yes
+}
+763.1.1 = {
+  holder = 145847
+}
+860.1.1 = {
+  holder = 145171
+}
+936.1.1 = {
+  holder = 41317
+}
+1059.12.25 = {
+  holder = 1752
+}
+1067.7.12 = {
+  holder = 1756
+}
+1071.4.17 = {
+  holder = 1758
+}
+1077.1.1 = {
+  liege = k_rum
+  vice_royalty = no
+  holder = 3046
+}
+1086.1.1 = {
+  holder = 41701
+}
+1097.6.19 = {
+  liege = e_byzantium
+  vice_royalty = yes
+  holder = 34338
+}
+1147.1.1 = {
+  holder = 34340
+}
+1156.1.1 = {
+  holder = 34342
+}
+1193.1.1 = {
+  holder = 215037
+}
+1204.4.1 = {
+  liege = k_trebizond
+  vice_royalty = no
+  holder = 215519
+}
+1211.1.1 = {
+  liege = k_rum
+  holder = 71860
+}
+1227.1.1 = {
+  holder = 71861
+}
+1248.1.1 = {
+  holder = 71862
+}
+1280.1.1 = {
+  holder = 71863
+}
+1307.1.1 = {
+  liege = 0
+}
+1309.1.1 = {
+  liege = k_candar
+  holder = 476350
+}
+1314.1.1 = {
+  holder = 476351
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  de_jure_liege = k_anatolia
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 110531682
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 117357630
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 112508195
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 110560314
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 110082700
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 114883633
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 119366780
+  liege = e_arabia
+}
+1920.6.9 = {
+  holder = 118880916
+  liege = e_arabia
+}
+1922.11.1 = {
+  holder = 115374859
+  liege = k_anatolia
+}
+1937.11.1 = {
+  holder = 115392888
+  liege = k_anatolia
+}
+1952.11.1 = {
+  holder = 112168361
+  liege = k_anatolia
+}
+1967.11.1 = {
+  holder = 114456842
+  liege = k_anatolia
+}
+1982.11.1 = {
+  holder = 112205075
+  liege = k_anatolia
+}
+1997.11.1 = {
+  holder = 111118483
+  liege = k_anatolia
+}
+2012.11.1 = {
+  holder = 115180368
+  liege = k_anatolia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

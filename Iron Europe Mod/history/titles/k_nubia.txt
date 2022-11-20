@@ -1,0 +1,83 @@
+100.1.1 = {
+  pentarch = b_alexandria
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Sudan
+  adjective = Sudanese
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 113628252
+}
+1821.1.1 = {
+  liege = e_arabia
+}
+1835.4.12 = {
+  holder = 111227255
+}
+1852.11.16 = {
+  holder = 113548069
+}
+1871.12.12 = {
+  holder = 112980851
+}
+1882.9.1 = {
+  liege = e_britannia
+}
+1891.1.13 = {
+  holder = 115102209
+}
+1899.9.16 = {
+  holder = 119607934
+}
+1908.6.11 = {
+  holder = 114129080
+}
+1919.6.17 = {
+  holder = 110007064
+}
+1927.11.17 = {
+  holder = 119320536
+}
+1934.6.11 = {
+  holder = 117665307
+}
+1940.6.22 = {
+  holder = 116923976
+}
+1954.9.13 = {
+  holder = 116665138
+}
+1956.1.1 = {
+  holder = 114436010
+  liege = 0
+}
+1964.11.16 = {
+  holder = 119600411
+}
+1964.12.3 = {
+  holder = 110375272
+}
+1969.5.25 = {
+  holder = 119144218
+}
+1985.4.6 = {
+  holder = 119705878
+}
+1986.5.6 = {
+  holder = 119971629
+}
+1989.6.30 = {
+  holder = 116922027
+  law = army_professionalism_law_2
+  law = tax_peasants_law_feudal_3
+  law = high_court_law_1
+}

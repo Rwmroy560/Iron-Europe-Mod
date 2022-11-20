@@ -1,0 +1,139 @@
+768.1.1 = {
+  holder = 210031
+}
+850.1.1 = {
+  liege = k_africa
+  holder = 273136
+}
+866.1.1 = {
+  holder = 273137
+}
+903.1.1 = {
+  liege = 0
+  holder = 273139
+}
+940.1.1 = {
+  holder = 273140
+}
+1001.1.1 = {
+  holder = 155123
+}
+1009.1.1 = {
+  holder = 155124
+}
+1012.1.1 = {
+  holder = 155125
+}
+1022.1.1 = {
+  holder = 155126
+}
+1028.1.1 = {
+  holder = 155127
+}
+1038.1.1 = {
+  holder = 155128
+}
+1052.1.1 = {
+  holder = 155184
+}
+1066.1.1 = {
+  holder = 155185
+}
+1087.1.1 = {
+  holder = 155186
+}
+1108.1.1 = {
+  holder = 155187
+}
+1129.1.1 = {
+  holder = 155188
+}
+1146.1.1 = {
+  liege = k_sicily
+  holder = 155136
+}
+1160.1.22 = {
+  liege = k_mauretania
+  holder = 33013
+}
+1172.1.1 = {
+  liege = k_egypt
+  holder = 155113
+}
+1187.10.15 = {
+  liege = k_mauretania
+}
+1192.1.1 = {
+  liege = 0
+}
+1195.1.1 = {
+  holder = 32977
+}
+1210.1.1 = {
+  liege = k_mauretania
+  holder = 33016
+}
+1223.1.1 = {
+  holder = 33018
+}
+1229.1.1 = {
+  liege = k_africa
+}
+1251.1.1 = {
+  holder = 33040
+}
+1270.1.1 = {
+  holder = 33041
+}
+1290.1.1 = {
+  holder = 33030
+}
+1300.1.1 = {
+  holder = 33032
+}
+1318.1.1 = {
+  holder = 33034
+}
+1324.1.1 = {
+  liege = 0
+  holder = 155237
+}
+1327.1.1 = {
+  holder = 155238
+}
+1348.1.1 = {
+  holder = 155239
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Libya
+  adjective = Libyan
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1951.12.24 = {
+  holder = 111685472
+}
+1969.9.1 = {
+  holder = 118006784
+}
+2011.10.20 = {
+  holder = 115513473
+}
+2012.8.9 = {
+  holder = 116762037
+}
+2013.6.25 = {
+  holder = 117039931
+}
+2014.8.5 = {
+  holder = 118400861
+}
+2016.3.30 = {
+  holder = 113729122
+}

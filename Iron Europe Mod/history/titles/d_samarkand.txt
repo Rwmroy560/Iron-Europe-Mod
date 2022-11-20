@@ -1,0 +1,72 @@
+710.1.1 = {
+  liege = e_arabia
+}
+769.1.1 = {
+  holder = 188603
+  liege = 0
+}
+864.1.1 = {
+  liege = k_khiva
+  holder = 163099
+}
+907.1.1 = {
+  holder = 261016
+}
+914.1.1 = {
+  holder = 261017
+}
+943.1.1 = {
+  holder = 261018
+}
+1137.1.1 = {
+  liege = 0
+  holder = 188905
+}
+1143.1.1 = {
+  holder = 188907
+}
+1163.1.1 = {
+  holder = 188908
+}
+1177.1.1 = {
+  holder = 188912
+}
+1211.1.1 = {
+  holder = 188914
+}
+1218.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Bukhara
+  adjective = Bukharan
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 110836360
+}
+1834.4.18 = {
+  holder = 112029634
+}
+1844.8.25 = {
+  holder = 112793071
+}
+1850.6.28 = {
+  holder = 114286177
+}
+1861.3.25 = {
+  holder = 116569266
+}
+1868.11.3 = {
+  holder = 112302406
+}
+1873.1.1 = {
+  holder = 0
+}

@@ -1,0 +1,272 @@
+370.1.1 = {
+  holder = 83607
+}
+420.1.1 = {
+  holder = 83608
+}
+450.1.1 = {
+  holder = 83609
+}
+489.1.1 = {
+  holder = 83611
+}
+500.1.1 = {
+  holder = 83610
+}
+520.1.1 = {
+  holder = 83615
+}
+542.1.1 = {
+  holder = 83765
+}
+577.1.1 = {
+  holder = 83757
+}
+583.1.1 = {
+  holder = 83699
+}
+588.1.1 = {
+  holder = 83767
+}
+596.1.1 = {
+  holder = 83738
+}
+599.1.1 = {
+  holder = 83739
+}
+601.1.1 = {
+  holder = 83619
+}
+618.1.1 = {
+  holder = 83784
+}
+619.1.1 = {
+  holder = 83768
+}
+627.1.1 = {
+  holder = 83620
+}
+639.1.1 = {
+  holder = 83740
+}
+641.1.1 = {
+  holder = 83621
+}
+661.1.1 = {
+  holder = 83769
+}
+665.1.1 = {
+  holder = 83628
+}
+678.1.1 = {
+  holder = 83770
+}
+696.1.1 = {
+  holder = 83771
+}
+701.1.1 = {
+  holder = 83624
+}
+712.1.1 = {
+  holder = 83747
+}
+721.1.1 = {
+  holder = 83772
+}
+742.1.1 = {
+  holder = 83748
+}
+769.1.1 = {
+  holder = 83789
+}
+786.1.1 = {
+  holder = 83746
+}
+805.1.1 = {
+  holder = 83773
+}
+807.1.1 = {
+  holder = 83655
+}
+817.1.1 = {
+  holder = 83774
+}
+820.1.1 = {
+  holder = 83633
+}
+847.1.1 = {
+  holder = 83793
+}
+851.1.1 = {
+  holder = 83657
+}
+853.1.1 = {
+  holder = 83658
+  holder = 83658
+}
+859.1.1 = {
+  holder = 83763
+  holder = 83763
+}
+872.1.1 = {
+  holder = 83672
+}
+888.1.1 = {
+  holder = 83659
+}
+895.1.1 = {
+  holder = 83675
+  holder = 83685
+}
+908.1.1 = {
+  holder = 83692
+}
+922.1.1 = {
+  holder = 252134
+}
+944.1.1 = {
+  holder = 83666
+}
+954.1.1 = {
+  holder = 83646
+}
+957.1.1 = {
+  holder = 83733
+}
+959.1.1 = {
+  holder = 83662
+}
+961.1.1 = {
+  holder = 83667
+}
+963.1.1 = {
+  holder = 166120
+}
+970.7.1 = {
+  holder = 83332
+}
+976.1.1 = {
+  holder = 166120
+}
+978.7.1 = {
+  holder = 900
+}
+1014.4.23 = {
+  holder = 83647
+}
+1024.7.1 = {
+  holder = 902
+}
+1063.7.1 = {
+  holder = 83355
+}
+1068.7.1 = {
+  holder = 906
+}
+1086.7.14 = {
+  holder = 912
+}
+1086.8.1 = {
+  holder = 913
+}
+1086.12.1 = {
+  holder = 907
+}
+1114.7.1 = {
+  holder = 913
+}
+1115.7.1 = {
+  holder = 907
+}
+1116.7.1 = {
+  holder = 913
+}
+1118.7.1 = {
+  holder = 83254
+}
+1124.7.1 = {
+  holder = 83255
+}
+1138.7.1 = {
+  holder = 83256
+}
+1143.7.1 = {
+  holder = 214610
+}
+1172.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114705036
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 116513574
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 113202339
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 116810247
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 112145342
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 111568278
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 114988415
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 116817574
+  liege = e_britannia
+}
+1921.12.6 = {
+  holder = 113782839
+  liege = k_ireland
+}
+1936.12.6 = {
+  holder = 110400509
+  liege = k_ireland
+}
+1951.12.6 = {
+  holder = 118274484
+  liege = k_ireland
+}
+1966.12.6 = {
+  holder = 110031879
+  liege = k_ireland
+}
+1981.12.6 = {
+  holder = 118023682
+  liege = k_ireland
+}
+1996.12.6 = {
+  holder = 111507900
+  liege = k_ireland
+}
+2011.12.6 = {
+  holder = 118800391
+  liege = k_ireland
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

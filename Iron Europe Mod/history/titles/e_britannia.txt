@@ -1,0 +1,64 @@
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1689.2.13 = {
+  holder = 113183721
+}
+1700.1.1 = {
+  name = "United Kingdom"
+  adjective = British
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_0
+  law = imperial_administration
+  law = vice_royalty_0
+  law = ze_administration_laws_2
+}
+1702.3.8 = {
+  holder = 115017738
+}
+1714.8.1 = {
+  holder = 118909314
+}
+1727.6.11 = {
+  holder = 110303763
+}
+1760.10.25 = {
+  holder = 115180271
+}
+1820.1.29 = {
+  holder = 112234221
+}
+1830.6.26 = {
+  holder = 113735472
+}
+1837.6.20 = {
+  holder = 119532987
+}
+1901.1.22 = {
+  holder = 112274579
+}
+1910.5.6 = {
+  holder = 113854106
+}
+1936.1.20 = {
+  holder = 115164102
+}
+1936.12.11 = {
+  holder = 110548993
+}
+1947.8.15 = {
+  law = feudal_administration
+  law = ze_administration_laws_0
+}
+1952.2.6 = {
+  holder = 116379051
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = agnatic_succession
+  law = vassal_wars_law_2
+}

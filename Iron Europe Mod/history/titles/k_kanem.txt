@@ -1,0 +1,68 @@
+1223.1.1 = {
+  holder = 248754
+}
+1242.1.1 = {
+  holder = 248755
+}
+1270.1.1 = {
+  holder = 248756
+}
+1290.1.1 = {
+  holder = 248757
+}
+1310.1.1 = {
+  holder = 248758
+}
+1328.1.1 = {
+  holder = 248759
+}
+1332.1.1 = {
+  holder = 248760
+}
+1333.1.1 = {
+  holder = 248761
+}
+1334.1.1 = {
+  holder = 248762
+}
+1335.1.1 = {
+  holder = 248763
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  name = Chad
+  adjective = Chadian
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1960.8.11 = {
+  holder = 116759693
+}
+1975.4.13 = {
+  holder = 110106340
+}
+1979.3.23 = {
+  holder = 118660157
+}
+1979.4.29 = {
+  holder = 114088267
+}
+1979.9.3 = {
+  holder = 118660157
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = vassal_wars_law_2
+}
+1982.6.7 = {
+  holder = 114609858
+}
+1990.12.2 = {
+  holder = 113568156
+}

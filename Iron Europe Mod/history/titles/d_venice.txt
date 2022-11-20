@@ -1,0 +1,99 @@
+726.1.1 = {
+  holder = 145910
+  law = succ_patrician_elective
+}
+737.1.1 = {
+  holder = 145911
+}
+755.1.1 = {
+  holder = 145915
+}
+756.1.1 = {
+  holder = 145916
+}
+764.1.1 = {
+  holder = 145919
+}
+787.1.1 = {
+  holder = 145920
+}
+804.1.1 = {
+  holder = 145923
+}
+811.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 115316084
+  liege = e_carpathia
+}
+1830.6.9 = {
+  holder = 119204517
+  liege = e_carpathia
+}
+1845.6.9 = {
+  holder = 110742071
+  liege = e_carpathia
+}
+1860.6.9 = {
+  holder = 119911150
+  liege = e_carpathia
+}
+1866.10.12 = {
+  holder = 117535375
+  liege = e_italy
+}
+1881.10.12 = {
+  holder = 111406449
+  liege = e_italy
+}
+1896.10.12 = {
+  holder = 119382629
+  liege = e_italy
+}
+1911.10.12 = {
+  holder = 114108272
+  liege = e_italy
+}
+1926.10.12 = {
+  holder = 119213223
+  liege = e_italy
+}
+1941.10.12 = {
+  holder = 113452341
+  liege = e_italy
+}
+1956.10.12 = {
+  holder = 119797753
+  liege = e_italy
+}
+1971.10.12 = {
+  holder = 111819005
+  liege = e_italy
+}
+1986.10.12 = {
+  holder = 114717126
+  liege = e_italy
+}
+2001.10.12 = {
+  holder = 118829812
+  liege = e_italy
+}
+2016.10.12 = {
+  holder = 111564682
+  liege = e_italy
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

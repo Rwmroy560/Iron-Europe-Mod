@@ -1,0 +1,95 @@
+100.1.1 = {
+  pentarch = b_roma
+}
+769.1.1 = {
+  name = EAST_FRANCIA
+  adjective = EAST_FRANCIA_ADJ
+  law = agnatic_succession
+}
+771.12.4 = {
+  holder = 6392
+}
+814.1.28 = {
+  holder = 90095
+}
+843.8.11 = {
+  holder = 90107
+}
+867.1.1 = {
+  de_jure_liege = e_hre
+}
+876.8.28 = {
+  holder = 90105
+}
+887.11.30 = {
+  holder = 7945
+}
+900.1.21 = {
+  holder = 7949
+}
+911.9.24 = {
+  holder = 7952
+}
+918.12.23 = {
+  holder = 1280
+  reset_name = yes
+  reset_adjective = yes
+  set_global_flag = east_francia_renamed
+}
+936.7.2 = {
+  holder = 1282
+  law = succ_feudal_elective
+}
+973.5.7 = {
+  holder = 1286
+}
+983.12.7 = {
+  holder = 1288
+}
+1002.1.12 = {
+  holder = 1296
+}
+1024.7.13 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}
+1806.8.6 = {
+  de_jure_liege = e_germany
+}
+1945.5.8 = {
+  holder = 118543997
+  name = "West Germany"
+  adjective = "West Germany"
+}
+1963.10.17 = {
+  holder = 111352291
+  law = army_professionalism_law_0
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_1
+  law = succ_feudal_elective
+}
+1966.12.1 = {
+  holder = 113506359
+}
+1969.10.22 = {
+  holder = 118237218
+}
+1974.5.16 = {
+  holder = 114358184
+}
+1982.10.1 = {
+  holder = 117347519
+}
+1990.9.29 = {
+  holder = 0
+}

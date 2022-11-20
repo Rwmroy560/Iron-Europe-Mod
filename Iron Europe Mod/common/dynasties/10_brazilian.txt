@@ -1,0 +1,712 @@
+92000000 = {
+  name = ""
+  culture = brazilian
+}
+92000001 = {
+  name = Acquarone
+  culture = brazilian
+}
+92000002 = {
+  name = Alberton
+  culture = brazilian
+}
+92000003 = {
+  name = Alencar
+  culture = brazilian
+}
+92000004 = {
+  name = Alvin
+  culture = brazilian
+}
+92000005 = {
+  name = "Álvares"
+  culture = brazilian
+}
+92000006 = {
+  name = Amaral
+  culture = brazilian
+}
+92000007 = {
+  name = Andrade
+  culture = brazilian
+}
+92000008 = {
+  name = Antonelli
+  culture = brazilian
+}
+92000009 = {
+  name = Antunes
+  culture = brazilian
+}
+92000010 = {
+  name = Azevedo
+  culture = brazilian
+}
+92000011 = {
+  name = Baricelli
+  culture = brazilian
+}
+92000012 = {
+  name = Becker
+  culture = brazilian
+}
+92000013 = {
+  name = Bernardes
+  culture = brazilian
+}
+92000014 = {
+  name = Bettencourt
+  culture = brazilian
+}
+92000015 = {
+  name = Bevilacqua
+  culture = brazilian
+}
+92000016 = {
+  name = Bianchi
+  culture = brazilian
+}
+92000017 = {
+  name = Boglietti
+  culture = brazilian
+}
+92000018 = {
+  name = Buonfiglioli
+  culture = brazilian
+}
+92000019 = {
+  name = Buongiovanni
+  culture = brazilian
+}
+92000020 = {
+  name = Borges
+  culture = brazilian
+}
+92000021 = {
+  name = Bourgeois
+  culture = brazilian
+}
+92000022 = {
+  name = Branco
+  culture = brazilian
+}
+92000023 = {
+  name = Brito
+  culture = brazilian
+}
+92000024 = {
+  name = Bruno
+  culture = brazilian
+}
+92000025 = {
+  name = Burnier
+  culture = brazilian
+}
+92000026 = {
+  name = Buzatto
+  culture = brazilian
+}
+92000027 = {
+  name = Cabral
+  culture = brazilian
+}
+92000028 = {
+  name = "Câmara"
+  culture = brazilian
+}
+92000029 = {
+  name = Cardoso
+  culture = brazilian
+}
+92000030 = {
+  name = Carvalho
+  culture = brazilian
+}
+92000031 = {
+  name = Castelli
+  culture = brazilian
+}
+92000032 = {
+  name = Castro
+  culture = brazilian
+}
+92000033 = {
+  name = Cavalcanti
+  culture = brazilian
+}
+92000034 = {
+  name = Cavalcante
+  culture = brazilian
+}
+92000035 = {
+  name = Chaves
+  culture = brazilian
+}
+92000036 = {
+  name = Cicarelli
+  culture = brazilian
+}
+92000037 = {
+  name = Cisoto
+  culture = brazilian
+}
+92000038 = {
+  name = Cohen
+  culture = brazilian
+}
+92000039 = {
+  name = Costa
+  culture = brazilian
+}
+92000040 = {
+  name = Couto
+  culture = brazilian
+}
+92000041 = {
+  name = Cruz
+  culture = brazilian
+}
+92000042 = {
+  name = "Conceição"
+  culture = brazilian
+}
+92000043 = {
+  name = Mata
+  culture = brazilian
+}
+92000044 = {
+  name = Jesus
+  culture = brazilian
+}
+92000045 = {
+  name = "de Vielmond"
+  culture = brazilian
+}
+92000046 = {
+  name = "del Sarto"
+  culture = brazilian
+}
+92000047 = {
+  name = "del Vecchio"
+  culture = brazilian
+}
+92000048 = {
+  name = Dias
+  culture = brazilian
+}
+92000049 = {
+  name = Bosque
+  culture = brazilian
+}
+92000050 = {
+  name = Nascimento
+  culture = brazilian
+}
+92000051 = {
+  name = Passos
+  culture = brazilian
+}
+92000052 = {
+  name = "Du Bois"
+  culture = brazilian
+}
+92000053 = {
+  name = "Du Champs"
+  culture = brazilian
+}
+92000054 = {
+  name = Duris
+  culture = brazilian
+}
+92000055 = {
+  name = "du Vale"
+  culture = brazilian
+}
+92000056 = {
+  name = Fagundes
+  culture = brazilian
+}
+92000057 = {
+  name = Fernandes
+  culture = brazilian
+}
+92000058 = {
+  name = Ferreira
+  culture = brazilian
+}
+92000059 = {
+  name = Fischer
+  culture = brazilian
+}
+92000060 = {
+  name = Garcia
+  culture = brazilian
+}
+92000061 = {
+  name = Giachetto
+  culture = brazilian
+}
+92000062 = {
+  name = Gianechinni
+  culture = brazilian
+}
+92000063 = {
+  name = Gil
+  culture = brazilian
+}
+92000064 = {
+  name = Gomes
+  culture = brazilian
+}
+92000065 = {
+  name = Habib
+  culture = brazilian
+}
+92000066 = {
+  name = Haddad
+  culture = brazilian
+}
+92000067 = {
+  name = Henriques
+  culture = brazilian
+}
+92000068 = {
+  name = Hilbert
+  culture = brazilian
+}
+92000069 = {
+  name = Jayme
+  culture = brazilian
+}
+92000070 = {
+  name = Jaime
+  culture = brazilian
+}
+92000071 = {
+  name = Jensen
+  culture = brazilian
+}
+92000072 = {
+  name = Kalil
+  culture = brazilian
+}
+92000073 = {
+  name = Kobayashi
+  culture = brazilian
+}
+92000074 = {
+  name = Kozlowski
+  culture = brazilian
+}
+92000075 = {
+  name = Kovalic
+  culture = brazilian
+}
+92000076 = {
+  name = Kowalsky
+  culture = brazilian
+}
+92000077 = {
+  name = Krieger
+  culture = brazilian
+}
+92000078 = {
+  name = Levi
+  culture = brazilian
+}
+92000079 = {
+  name = Lima
+  culture = brazilian
+}
+92000080 = {
+  name = Lins
+  culture = brazilian
+}
+92000081 = {
+  name = Lira
+  culture = brazilian
+}
+92000082 = {
+  name = Lombardi
+  culture = brazilian
+}
+92000083 = {
+  name = Lombardini
+  culture = brazilian
+}
+92000084 = {
+  name = Lombardo
+  culture = brazilian
+}
+92000085 = {
+  name = Lombardelli
+  culture = brazilian
+}
+92000086 = {
+  name = Lopes
+  culture = brazilian
+}
+92000087 = {
+  name = Malfitano
+  culture = brazilian
+}
+92000088 = {
+  name = Martins
+  culture = brazilian
+}
+92000089 = {
+  name = Matsumoto
+  culture = brazilian
+}
+92000090 = {
+  name = Matos
+  culture = brazilian
+}
+92000091 = {
+  name = Mayer
+  culture = brazilian
+}
+92000092 = {
+  name = Meano
+  culture = brazilian
+}
+92000093 = {
+  name = Mean
+  culture = brazilian
+}
+92000094 = {
+  name = Medeiros
+  culture = brazilian
+}
+92000095 = {
+  name = Mendez
+  culture = brazilian
+}
+92000096 = {
+  name = "Mendonça"
+  culture = brazilian
+}
+92000097 = {
+  name = Menezes
+  culture = brazilian
+}
+92000098 = {
+  name = Meyer
+  culture = brazilian
+}
+92000099 = {
+  name = Michel
+  culture = brazilian
+}
+92000100 = {
+  name = Michelsen
+  culture = brazilian
+}
+92000101 = {
+  name = Moniz
+  culture = brazilian
+}
+92000102 = {
+  name = Muniz
+  culture = brazilian
+}
+92000103 = {
+  name = Moraes
+  culture = brazilian
+}
+92000104 = {
+  name = Morais
+  culture = brazilian
+}
+92000105 = {
+  name = Moreira
+  culture = brazilian
+}
+92000106 = {
+  name = Moreau
+  culture = brazilian
+}
+92000107 = {
+  name = Moretti
+  culture = brazilian
+}
+92000108 = {
+  name = "Müller"
+  culture = brazilian
+}
+92000109 = {
+  name = Nakamura
+  culture = brazilian
+}
+92000110 = {
+  name = Nakashima
+  culture = brazilian
+}
+92000111 = {
+  name = Nakata
+  culture = brazilian
+}
+92000112 = {
+  name = Neves
+  culture = brazilian
+}
+92000113 = {
+  name = Nogueira
+  culture = brazilian
+}
+92000114 = {
+  name = Oliveira
+  culture = brazilian
+}
+92000115 = {
+  name = Pai
+  culture = brazilian
+}
+92000116 = {
+  name = "Paixão"
+  culture = brazilian
+}
+92000117 = {
+  name = Peltier
+  culture = brazilian
+}
+92000118 = {
+  name = Pereira
+  culture = brazilian
+}
+92000119 = {
+  name = Petit
+  culture = brazilian
+}
+92000120 = {
+  name = Pinto
+  culture = brazilian
+}
+92000121 = {
+  name = Pires
+  culture = brazilian
+}
+92000122 = {
+  name = Popovic
+  culture = brazilian
+}
+92000123 = {
+  name = Rego
+  culture = brazilian
+}
+92000124 = {
+  name = Reis
+  culture = brazilian
+}
+92000125 = {
+  name = Ribeiro
+  culture = brazilian
+}
+92000126 = {
+  name = Ricci
+  culture = brazilian
+}
+92000127 = {
+  name = Rodrigues
+  culture = brazilian
+}
+92000128 = {
+  name = Rossi
+  culture = brazilian
+}
+92000129 = {
+  name = Russo
+  culture = brazilian
+}
+92000130 = {
+  name = "Sá"
+  culture = brazilian
+}
+92000131 = {
+  name = Sanchez
+  culture = brazilian
+}
+92000132 = {
+  name = "San Girard"
+  culture = brazilian
+}
+92000133 = {
+  name = Santos
+  culture = brazilian
+}
+92000134 = {
+  name = Sato
+  culture = brazilian
+}
+92000135 = {
+  name = Scheidt
+  culture = brazilian
+}
+92000136 = {
+  name = Schmidt
+  culture = brazilian
+}
+92000137 = {
+  name = Schneider
+  culture = brazilian
+}
+92000138 = {
+  name = Schultz
+  culture = brazilian
+}
+92000139 = {
+  name = Serrano
+  culture = brazilian
+}
+92000140 = {
+  name = Silva
+  culture = brazilian
+}
+92000141 = {
+  name = Silveira
+  culture = brazilian
+}
+92000142 = {
+  name = Siqueira
+  culture = brazilian
+}
+92000143 = {
+  name = Soares
+  culture = brazilian
+}
+92000144 = {
+  name = Sousa
+  culture = brazilian
+}
+92000145 = {
+  name = Souza
+  culture = brazilian
+}
+92000146 = {
+  name = Suzuki
+  culture = brazilian
+}
+92000147 = {
+  name = Tavares
+  culture = brazilian
+}
+92000148 = {
+  name = Teixeira
+  culture = brazilian
+}
+92000149 = {
+  name = Tozzi
+  culture = brazilian
+}
+92000150 = {
+  name = Tucci
+  culture = brazilian
+}
+92000151 = {
+  name = Valmor
+  culture = brazilian
+}
+92000152 = {
+  name = Valverde
+  culture = brazilian
+}
+92000153 = {
+  name = "Van der Ley"
+  culture = brazilian
+}
+92000154 = {
+  name = "Van Helden"
+  culture = brazilian
+}
+92000155 = {
+  name = Vasconcelos
+  culture = brazilian
+}
+92000156 = {
+  name = Vaz
+  culture = brazilian
+}
+92000157 = {
+  name = "Venâncio"
+  culture = brazilian
+}
+92000158 = {
+  name = Ventura
+  culture = brazilian
+}
+92000159 = {
+  name = Venturini
+  culture = brazilian
+}
+92000160 = {
+  name = "Vilas Boas"
+  culture = brazilian
+}
+92000161 = {
+  name = "Vila Lobos"
+  culture = brazilian
+}
+92000162 = {
+  name = "Vila Nova"
+  culture = brazilian
+}
+92000163 = {
+  name = "Vila Real"
+  culture = brazilian
+}
+92000164 = {
+  name = "von Dorff"
+  culture = brazilian
+}
+92000165 = {
+  name = Wabner
+  culture = brazilian
+}
+92000166 = {
+  name = Wagner
+  culture = brazilian
+}
+92000167 = {
+  name = Watanabe
+  culture = brazilian
+}
+92000168 = {
+  name = Weber
+  culture = brazilian
+}
+92000169 = {
+  name = Westphalen
+  culture = brazilian
+}
+92000170 = {
+  name = Xavier
+  culture = brazilian
+}
+92000171 = {
+  name = Ximenes
+  culture = brazilian
+}
+92000172 = {
+  name = Yamaguchi
+  culture = brazilian
+}
+92000173 = {
+  name = Yamamoto
+  culture = brazilian
+}
+92000174 = {
+  name = Zambrotta
+  culture = brazilian
+}
+92000175 = {
+  name = Zanini
+  culture = brazilian
+}
+92000176 = {
+  name = Zimmerman
+  culture = brazilian
+}
+92000177 = {
+  name = ""
+  culture = brazilian
+}

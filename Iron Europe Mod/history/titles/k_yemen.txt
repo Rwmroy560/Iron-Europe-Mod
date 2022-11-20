@@ -1,0 +1,38 @@
+1063.1.1 = {
+  holder = 45035
+}
+1067.5.9 = {
+  holder = 45036
+}
+1074.4.10 = {
+  holder = 220820
+}
+1138.3.12 = {
+  holder = 0
+}
+1229.1.1 = {
+  holder = 144094
+}
+1250.1.1 = {
+  holder = 144095
+}
+1295.1.1 = {
+  holder = 144096
+}
+1296.1.1 = {
+  holder = 144097
+}
+1322.1.1 = {
+  holder = 144098
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = crown_authority_1
+  law = centralization_2
+}

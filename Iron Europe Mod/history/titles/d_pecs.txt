@@ -1,0 +1,105 @@
+804.1.1 = {
+  liege = k_hungary
+  holder = 146140
+}
+814.1.1 = {
+  holder = 146141
+}
+829.1.1 = {
+  holder = 146142
+}
+835.1.1 = {
+  liege = k_bavaria
+  holder = 90107
+}
+839.1.1 = {
+  liege = 0
+  holder = 187011
+}
+861.1.1 = {
+  holder = 187012
+}
+876.1.1 = {
+  liege = 0
+  holder = 0
+}
+936.1.1 = {
+  holder = 261321
+  liege = k_hungary
+}
+1299.1.1 = {
+  holder = 470150
+}
+1309.1.1 = {
+  holder = 469500
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 116544547
+  liege = e_carpathia
+}
+1830.6.9 = {
+  holder = 112734677
+  liege = e_carpathia
+}
+1845.6.9 = {
+  holder = 118594423
+  liege = e_carpathia
+}
+1860.6.9 = {
+  holder = 111734419
+  liege = e_carpathia
+}
+1875.6.9 = {
+  holder = 117908021
+  liege = e_carpathia
+}
+1890.6.9 = {
+  holder = 115110388
+  liege = e_carpathia
+}
+1905.6.9 = {
+  holder = 112338727
+  liege = e_carpathia
+}
+1918.11.11 = {
+  holder = 119378854
+  liege = k_hungary
+}
+1933.11.11 = {
+  holder = 112918094
+  liege = k_hungary
+}
+1948.11.11 = {
+  holder = 112469043
+  liege = k_hungary
+}
+1963.11.11 = {
+  holder = 110217901
+  liege = k_hungary
+}
+1978.11.11 = {
+  holder = 116428384
+  liege = k_hungary
+}
+1993.11.11 = {
+  holder = 112668843
+  liege = k_hungary
+}
+2008.11.11 = {
+  holder = 118518797
+  liege = k_hungary
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

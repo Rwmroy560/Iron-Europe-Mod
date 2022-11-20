@@ -1,0 +1,55 @@
+1000.1.1 = {
+  de_jure_liege = k_germany
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1694.4.27 = {
+  holder = 113002124
+}
+1700.1.1 = {
+  name = Saxony
+  adjective = Saxon
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1733.2.1 = {
+  holder = 114509189
+}
+1763.10.5 = {
+  holder = 111958159
+}
+1763.12.17 = {
+  holder = 116658470
+}
+1827.5.5 = {
+  holder = 118189262
+}
+1836.6.6 = {
+  holder = 119419395
+}
+1854.8.9 = {
+  holder = 111662767
+}
+1871.1.18 = {
+  liege = e_germany
+}
+1873.10.29 = {
+  holder = 112368690
+}
+1902.6.19 = {
+  holder = 113852313
+}
+1904.10.15 = {
+  holder = 113679132
+}
+1918.11.11 = {
+  holder = 0
+  liege = 0
+}
+1945.5.8 = {
+  de_jure_liege = k_pomerania
+}

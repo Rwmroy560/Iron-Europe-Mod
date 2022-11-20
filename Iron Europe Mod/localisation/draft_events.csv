@@ -1,0 +1,19 @@
+draft_local_unit;Announce Mobilisation;;;x
+draft_local_unit_desc;Send out a notice to your citizens calling for them to fight for their nation.;;;x
+hire_azov;Hire Azon Battalion;;;x
+hire_azov_desc;Hire Neo-Nazi fighters to defend Ukraine.;;;x
+hire_wagner;Hire Wagner Group;;;x
+hire_wagner_desc;Hire the Wagner Private Military Company to fight for you.;;;x
+
+EVTDESCroy_draft.1;Your Marshal has notified you that thousands of men from around the realm have answered their draft notice and flocked to [Root.Capital.GetName] ready for military service.;;;x
+EVTroy_draft.0;Nevermind. Send them home.;;;x
+EVTroy_draft.1;Tell them to be on standby.;;;x
+drafted_peasants;Mobilized Citizens;;;x
+war_draft;Male Population Drafted;;;x
+war_draft_desc;The men of this province have been drafted to fight in war.;;;
+
+EVTDESCcourtier_draft_events.1;Some men in your court are of age and must be drafted into the army by law. You watch as they swear in and promise to fight on your nation's behalf.;;;x
+EVTOPTBcourtier_draft_events.1;What a display!;;;x
+
+EVTDESCroy_draft.2;Your nation is at war! Thousands of men from around the realm have flocked to [Root.Capital.GetName] with their weapons. They pledge to defend the realm from its enemies and fight in your name!;;;x
+EVTroy_draft.2;OOORAAH!;;;x

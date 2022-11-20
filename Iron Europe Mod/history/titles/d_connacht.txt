@@ -1,0 +1,209 @@
+768.1.1 = {
+  holder = 260482
+}
+773.1.1 = {
+  holder = 0
+}
+925.7.1 = {
+  holder = 83387
+}
+1010.7.1 = {
+  holder = 909
+}
+1030.7.1 = {
+  holder = 910
+}
+1067.7.1 = {
+  holder = 1000
+}
+1087.7.1 = {
+  holder = 911
+}
+1092.7.1 = {
+  holder = 83457
+}
+1097.7.1 = {
+  holder = 83119
+}
+1098.7.1 = {
+  holder = 1004
+}
+1102.7.1 = {
+  holder = 83458
+}
+1106.7.1 = {
+  holder = 214520
+}
+1156.5.20 = {
+  holder = 214510
+}
+1183.7.1 = {
+  holder = 214500
+}
+1189.7.1 = {
+  holder = 214505
+}
+1202.7.1 = {
+  holder = 83462
+}
+1224.7.1 = {
+  holder = 83467
+}
+1225.3.1 = {
+  holder = 214501
+}
+1225.9.1 = {
+  holder = 83467
+}
+1228.7.1 = {
+  holder = 214501
+}
+1230.7.1 = {
+  holder = 83468
+}
+1231.7.1 = {
+  holder = 214502
+}
+1233.7.1 = {
+  holder = 83468
+}
+1236.7.1 = {
+  holder = 83469
+}
+1237.7.1 = {
+  holder = 83468
+}
+1249.7.1 = {
+  holder = 83509
+}
+1250.7.1 = {
+  holder = 83468
+}
+1265.7.1 = {
+  holder = 83504
+}
+1274.1.1 = {
+  holder = 83512
+}
+1274.5.1 = {
+  holder = 83513
+}
+1274.11.1 = {
+  holder = 83511
+}
+1278.7.1 = {
+  holder = 83505
+}
+1280.7.1 = {
+  holder = 83497
+}
+1288.7.1 = {
+  holder = 83498
+}
+1293.7.1 = {
+  holder = 83515
+}
+1309.7.1 = {
+  holder = 83500
+}
+1310.7.1 = {
+  holder = 83517
+}
+1315.7.1 = {
+  holder = 83501
+}
+1316.2.23 = {
+  holder = 83517
+}
+1316.9.10 = {
+  holder = 83516
+}
+1317.7.1 = {
+  holder = 83519
+}
+1318.7.1 = {
+  holder = 83484
+}
+1324.7.1 = {
+  holder = 83519
+}
+1342.7.1 = {
+  holder = 83502
+}
+1343.7.1 = {
+  holder = 83519
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 114179729
+  liege = e_britannia
+}
+1830.6.9 = {
+  holder = 110906504
+  liege = e_britannia
+}
+1845.6.9 = {
+  holder = 110166672
+  liege = e_britannia
+}
+1860.6.9 = {
+  holder = 116896193
+  liege = e_britannia
+}
+1875.6.9 = {
+  holder = 116726768
+  liege = e_britannia
+}
+1890.6.9 = {
+  holder = 118183805
+  liege = e_britannia
+}
+1905.6.9 = {
+  holder = 117373757
+  liege = e_britannia
+}
+1920.6.9 = {
+  holder = 110365739
+  liege = e_britannia
+}
+1921.12.6 = {
+  holder = 117316488
+  liege = k_ireland
+}
+1936.12.6 = {
+  holder = 115621400
+  liege = k_ireland
+}
+1951.12.6 = {
+  holder = 116937893
+  liege = k_ireland
+}
+1966.12.6 = {
+  holder = 117902945
+  liege = k_ireland
+}
+1981.12.6 = {
+  holder = 116504516
+  liege = k_ireland
+}
+1996.12.6 = {
+  holder = 111831325
+  liege = k_ireland
+}
+2011.12.6 = {
+  holder = 110412721
+  liege = k_ireland
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

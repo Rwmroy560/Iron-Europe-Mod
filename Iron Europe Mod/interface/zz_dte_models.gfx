@@ -1,0 +1,1545 @@
+objectTypes = {
+	pdxmesh = {
+		name = "dalmatiangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "dalmatiangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "dalmatiangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "dalmatiangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "dalmatiangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "dalmatiangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "dalmatiangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+
+	pdxmesh = {
+		name = "romangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "romangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "romangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "romangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "romangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "romangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "romangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+
+	pdxmesh = {
+		name = "englishgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "englishgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "englishgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "englishgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "englishgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "englishgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "englishgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+
+	pdxmesh = {
+		name = "turkishgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "turkishgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "turkishgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "turkishgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "turkishgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "turkishgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "turkishgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+
+	pdxmesh = {
+		name = "southerngfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "southerngfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "southerngfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "southerngfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "southerngfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "southerngfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "southerngfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "chinesegfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "chinesegfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "chinesegfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "chinesegfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "chinesegfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "chinesegfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "chinesegfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+
+	pdxmesh = {
+		name = "arabicgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "arabicgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "arabicgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "arabicgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "arabicgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "arabicgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "arabicgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "berbergfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "berbergfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "berbergfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "berbergfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "berbergfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "berbergfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "berbergfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "westernslavicgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "westernslavicgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "westernslavicgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "westernslavicgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "westernslavicgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "westernslavicgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "westernslavicgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "persiangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "persiangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "persiangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "persiangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "persiangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "persiangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "persiangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "indiangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "indiangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "indiangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "indiangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "indiangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "indiangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "indiangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "frankishgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "frankishgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "frankishgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "frankishgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "frankishgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "frankishgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "frankishgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "germangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "germangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "germangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "germangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "germangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "germangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "germangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "bodpagfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "bodpagfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "bodpagfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "bodpagfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "bodpagfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "bodpagfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "bodpagfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "celticgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "celticgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "celticgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "celticgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "celticgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "celticgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "celticgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "ugricgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "ugricgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "ugricgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "ugricgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "ugricgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "ugricgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "ugricgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "republicsgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "republicsgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "republicsgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "republicsgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "republicsgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "republicsgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "republicsgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "mongolgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "mongolgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "mongolgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "mongolgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "mongolgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "mongolgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "mongolgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "cumangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "cumangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "cumangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "cumangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "cumangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "cumangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "cumangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "levantinegfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "levantinegfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "levantinegfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "levantinegfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "levantinegfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "levantinegfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "levantinegfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "andalusiangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "andalusiangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "andalusiangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "andalusiangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "andalusiangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "andalusiangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "andalusiangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "westafricangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "westafricangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "westafricangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "westafricangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "westafricangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "westafricangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "westafricangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "africangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "africangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "africangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "africangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "africangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "africangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "africangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "croatsouthslavicgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "croatsouthslavicgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "croatsouthslavicgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "croatsouthslavicgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "croatsouthslavicgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "croatsouthslavicgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "croatsouthslavicgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "serbsouthslavicgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "serbsouthslavicgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "serbsouthslavicgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "serbsouthslavicgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "serbsouthslavicgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "serbsouthslavicgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "serbsouthslavicgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "magyargfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "magyargfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "magyargfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "magyargfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "magyargfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "magyargfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "magyargfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "byzantinegfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "byzantinegfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "byzantinegfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "byzantinegfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "byzantinegfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "byzantinegfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "byzantinegfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "southindiangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "southindiangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "southindiangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "southindiangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "southindiangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "southindiangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "southindiangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "italiangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "italiangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "italiangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "italiangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "italiangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "italiangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "italiangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "trueoccitangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "trueoccitangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "trueoccitangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "trueoccitangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "trueoccitangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "trueoccitangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "trueoccitangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "occitangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "occitangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "occitangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "occitangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "occitangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "occitangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "occitangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "mesoamericangfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "mesoamericangfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "mesoamericangfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "mesoamericangfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "mesoamericangfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "mesoamericangfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "mesoamericangfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "norsegfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "norsegfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "norsegfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "norsegfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "norsegfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "norsegfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "norsegfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "outremergfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "outremergfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "outremergfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "outremergfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "outremergfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "outremergfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "outremergfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "stormlandergfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "stormlandergfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "stormlandergfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "stormlandergfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "stormlandergfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "stormlandergfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "stormlandergfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "easternslavicgfx_horse_archers"
+		file = "gfx/models/motorized.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "easternslavicgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "easternslavicgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "easternslavicgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "easternslavicgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "easternslavicgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "easternslavicgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "easternslavicgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "westerngfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "westerngfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "westerngfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "westerngfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "westerngfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "easterngfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "easterngfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "easterngfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "easterngfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "easterngfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "easterngfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "easterngfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+	pdxmesh = {
+		name = "muslimgfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "muslimgfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "muslimgfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "muslimgfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "muslimgfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "muslimgfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "muslimgfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+
+
+	pdxmesh = {
+		name = "prewargfx_LIGHT_INFANTRY"
+		file = "gfx/models/militia.mesh"
+		scale = 925.00f
+	}
+
+	pdxmesh = {
+		name = "prewargfx_HEAVY_INFANTRY"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "prewargfx_ARCHERS"
+		file = "gfx/models/marksman.mesh"
+		scale = 900.00f
+	}
+	pdxmesh = {
+		name = "prewargfx_PIKEMEN"
+		file = "gfx/models/demolitions.mesh"
+		scale = 750.00f
+	}
+	pdxmesh = {
+		name = "prewargfx_LIGHT_CAVALRY"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "prewargfx_KNIGHTS"
+		file = "gfx/models/motorized.mesh"
+		scale = 600.00f
+	}
+	pdxmesh = {
+		name = "prewargfx_war_elephants"
+		file = "gfx/models/artillery.mesh"
+		scale = 300.00f
+	}
+	pdxmesh = {
+		name = "tribalgfx_tribal_1"
+		file = "gfx\models\camp.mesh"
+		scale = 10.0f
+		cull_distance = 550.0f
+	}
+	EMFXActorType = {
+		name = "muslimgfx_count_shield"
+		actorfile = "gfx\models\Shields\norse_count_shield.xac"
+		scale = 0.5f
+		use_animation = no
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_duke_shield"
+		actorfile = "gfx\models\Shields\norse_count_shield.xac"
+		scale = 0.5f
+		use_animation = no
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_king_shield"
+		actorfile = "gfx\models\Shields\norse_count_shield.xac"
+		scale = 0.5f
+		use_animation = no
+	}
+	
+	EMFXActorType = {
+		name = "muslimgfx_emperor_shield"
+		actorfile = "gfx\models\Shields\norse_count_shield.xac"
+		scale = 0.5f
+		use_animation = no
+	}
+	#pdxmesh = {	#acts bizarrely for some reason
+	#	name = "muslimgfx_port"
+	#	file = "gfx\models\port.mesh"
+	#	scale = 5.0f
+	#	cull_distance = 550.0f
+	#}
+	#pdxmesh = {
+	#	name = "tribalgfx_port"
+	#	file = "gfx\models\port.mesh"
+	#	scale = 5.0f
+	#	cull_distance = 550.0f
+	#}
+	#below isn't working for some reason - suspect have wrong tags
+#	pdxmesh = {
+#		name = "tribalgfx_castle_1"
+#		actorfile = "gfx\models\base.mesh"
+#		scale = 5.0f
+#		cull_distance = 550.0f
+#	}
+#	pdxmesh = {
+#		name = "muslimgfx_temple_1"
+#		actorfile = "gfx\models\shrine.mesh"
+#		scale = 5.0f
+#		cull_distance = 550.0f
+#	}
+#	pdxmesh = {
+#		name = "muslimgfx_city_1"
+#		actorfile = "gfx\models\city.mesh"
+#		scale = 5.0f
+#		cull_distance = 550.0f
+#	}
+#	pdxmesh = {
+#		name = "muslimgfx_port"
+#		file = "gfx\models\port.mes"
+#		scale = 15.0f
+#	}
+}

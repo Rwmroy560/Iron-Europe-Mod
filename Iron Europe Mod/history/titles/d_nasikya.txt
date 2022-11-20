@@ -1,0 +1,95 @@
+670.1.1 = {
+  holder = 191632
+  liege = k_maharastra
+}
+690.1.1 = {
+  holder = 191634
+}
+738.1.1 = {
+  holder = 191635
+}
+747.1.1 = {
+  holder = 74409
+}
+750.1.1 = {
+  holder = 191636
+}
+800.1.1 = {
+  holder = 0
+}
+1220.1.1 = {
+  holder = 74659
+}
+1230.1.1 = {
+  holder = 0
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1818.6.3 = {
+  holder = 111384865
+  liege = k_maharastra
+}
+1833.6.3 = {
+  holder = 116753030
+  liege = k_maharastra
+}
+1848.6.3 = {
+  holder = 119228026
+  liege = k_maharastra
+}
+1863.6.3 = {
+  holder = 111165176
+  liege = k_maharastra
+}
+1878.6.3 = {
+  holder = 116701080
+  liege = k_maharastra
+}
+1893.6.3 = {
+  holder = 110400524
+  liege = k_maharastra
+}
+1908.6.3 = {
+  holder = 119564304
+  liege = k_maharastra
+}
+1923.6.3 = {
+  holder = 118351549
+  liege = k_maharastra
+}
+1938.6.3 = {
+  holder = 119273794
+  liege = k_maharastra
+}
+1947.8.15 = {
+  holder = 114138975
+  liege = e_india
+}
+1962.8.15 = {
+  holder = 113380771
+  liege = e_india
+}
+1977.8.15 = {
+  holder = 110549088
+  liege = e_india
+}
+1992.8.15 = {
+  holder = 111836212
+  liege = e_india
+}
+2007.8.15 = {
+  holder = 110359247
+  liege = e_india
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

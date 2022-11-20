@@ -1,0 +1,91 @@
+330.1.1 = {
+  liege = e_byzantium
+  vice_royalty = yes
+}
+769.1.1 = {
+  holder = 145825
+}
+867.1.1 = {
+  holder = 145110
+}
+936.1.1 = {
+  holder = 250798
+}
+1066.1.1 = {
+  holder = 0
+  vice_royalty = no
+}
+1450.1.1 = {
+  liege = 0
+  holder = 0
+}
+1700.1.1 = {
+  vice_royalty = no
+  law = investiture_law_0
+  law = cognatic_succession
+  law = centralization_2
+}
+1815.6.9 = {
+  holder = 119418904
+  liege = e_arabia
+}
+1830.6.9 = {
+  holder = 113566653
+  liege = e_arabia
+}
+1845.6.9 = {
+  holder = 118620475
+  liege = e_arabia
+}
+1860.6.9 = {
+  holder = 110039016
+  liege = e_arabia
+}
+1875.6.9 = {
+  holder = 112317962
+  liege = e_arabia
+}
+1890.6.9 = {
+  holder = 110041070
+  liege = e_arabia
+}
+1905.6.9 = {
+  holder = 114927465
+  liege = e_arabia
+}
+1920.6.9 = {
+  holder = 118084245
+  liege = e_arabia
+}
+1922.11.1 = {
+  holder = 110121159
+  liege = k_anatolia
+}
+1937.11.1 = {
+  holder = 114171997
+  liege = k_anatolia
+}
+1952.11.1 = {
+  holder = 113134312
+  liege = k_anatolia
+}
+1967.11.1 = {
+  holder = 117349312
+  liege = k_anatolia
+}
+1982.11.1 = {
+  holder = 116413221
+  liege = k_anatolia
+}
+1997.11.1 = {
+  holder = 118460533
+  liege = k_anatolia
+}
+2012.11.1 = {
+  holder = 114741047
+  liege = k_anatolia
+}
+2020.12.31 = {
+  holder = 0
+  liege = 0
+}

@@ -1,0 +1,264 @@
+namespace = sinocide_maintenance
+character_event = {
+	id = sinocide_maintenance.0
+	desc = EVTDESCsinocide_maintenance.0
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+
+	option = {
+		name = EVTOPTAsinocide_maintenance.0
+		any_realm_province = {
+			limit = {
+				OR = {
+					has_province_modifier = sinocide_race
+					has_province_modifier = sinocide_religion
+				}
+			}
+			remove_province_modifier = sinocide_race
+			remove_province_modifier = sinocide_religion
+		}
+	}
+
+	option = {
+		name = EVTOPTBsinocide_maintenance.0
+		remove_trait = kind
+		add_trait = cruel
+	}
+}
+character_event = {
+	id = sinocide_maintenance.1
+	desc = EVTDESCsinocide_maintenance.1
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	trigger = {
+		any_realm_province = {
+			OR = {
+				AND = {
+					has_province_modifier = sinocide_race
+					culture = ROOT
+				}
+				AND = {
+					has_province_modifier = sinocide_religion
+					religion = ROOT
+				}
+			}
+		}
+		higher_real_tier_than = DUKE
+		independent = yes
+	}
+	option = {
+		name = EVTOPTBsinocide_maintenance.1
+		piety = -20
+	}
+	option = {
+		name = EVTOPTAsinocide_maintenance.1
+		piety = 50
+		any_realm_province = {
+			limit = {
+				OR = {
+					has_province_modifier = sinocide_race
+					has_province_modifier = sinocide_religion
+				}
+			}
+			remove_province_modifier = sinocide_race
+			remove_province_modifier = sinocide_religion
+		}
+	}
+}
+character_event = {
+	id = sinocide_maintenance.2
+	desc = EVTDESCsinocide_maintenance.2
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	trigger = {
+		any_realm_province = {
+			OR = {
+				has_province_modifier = sinocide_race
+				has_province_modifier = sinocide_religion
+			}
+		}
+		NOT = {
+			any_liege = {
+				character = FROMFROM
+			}
+		}
+		lower_real_tier_than = KING
+	}
+	option = {
+		name = EVTOPTBsinocide_maintenance.1
+		piety = -200
+	}
+
+	option = {
+		name = EVTOPTAsinocide_maintenance.2
+		piety = 50
+		any_realm_province = {
+			limit = {
+				OR = {
+					has_province_modifier = sinocide_race
+					has_province_modifier = sinocide_religion
+				}
+			}
+			remove_province_modifier = sinocide_race
+			remove_province_modifier = sinocide_religion
+		}
+	}
+}
+character_event = {
+	id = sinocide_maintenance.3
+	desc = EVTDESCsinocide_maintenance.3
+	picture = GFX_roy_genocide
+	is_triggered_only = yes
+
+	trigger = {
+		crownlaw_title = {
+			holder_scope = {
+				character = ROOT
+				OR = {
+					any_courtier = {
+						OR = {
+							has_job_title = job_castellan
+							has_job_title = job_chancellor
+							has_job_title = job_marshal
+							has_job_title = job_treasurer
+							has_job_title = job_spymaster
+						}
+						NOR = {
+							culture = ROOT
+							religion = ROOT
+						}
+					}
+					any_realm_lord = {
+						any_courtier = {
+							OR = {
+								has_job_title = job_castellan
+								has_job_title = job_chancellor
+								has_job_title = job_marshal
+								has_job_title = job_treasurer
+								has_job_title = job_spymaster
+							}
+							NOR = {
+								culture = ROOT
+								religion = ROOT
+							}
+						}
+					}
+				}
+			}
+			has_law = sinocide_laws_1
+		}
+	}
+
+	option = {
+		name = EVTOPTAsinocide_maintenance.3
+		any_courtier = {
+			IF = {
+				limit = {
+					has_job_title = job_castellan
+					NOR = {
+						culture = ROOT
+						religion = ROOT
+					}
+				}
+				remove_title = job_castellan
+			}
+			IF = {
+				limit = {
+					has_job_title = job_chancellor
+					NOR = {
+						culture = ROOT
+						religion = ROOT
+					}
+				}
+				remove_title = job_chancellor
+			}
+			IF = {
+				limit = {
+					has_job_title = job_marshal
+					NOR = {
+						culture = ROOT
+						religion = ROOT
+					}
+				}
+				remove_title = job_marshal
+			}
+			IF = {
+				limit = {
+					has_job_title = job_treasurer
+					NOR = {
+						culture = ROOT
+						religion = ROOT
+					}
+				}
+				remove_title = job_treasurer
+			}
+			IF = {
+				limit = {
+					has_job_title = job_spymaster
+					NOR = {
+						culture = ROOT
+						religion = ROOT
+					}
+				}
+				remove_title = job_spymaster
+			}
+		}
+		any_realm_lord = {
+			any_courtier = {
+				IF = {
+					limit = {
+						has_job_title = job_castellan
+						NOR = {
+							culture = ROOT
+							religion = ROOT
+						}
+					}
+					remove_title = job_castellan
+				}
+				IF = {
+					limit = {
+						has_job_title = job_chancellor
+						NOR = {
+							culture = ROOT
+							religion = ROOT
+						}
+					}
+					remove_title = job_chancellor
+				}
+				IF = {
+					limit = {
+						has_job_title = job_marshal
+						NOR = {
+							culture = ROOT
+							religion = ROOT
+						}
+					}
+					remove_title = job_marshal
+				}
+				IF = {
+					limit = {
+						has_job_title = job_treasurer
+						NOR = {
+							culture = ROOT
+							religion = ROOT
+						}
+					}
+					remove_title = job_treasurer
+				}
+				IF = {
+					limit = {
+						has_job_title = job_spymaster
+						NOR = {
+							culture = ROOT
+							religion = ROOT
+						}
+					}
+					remove_title = job_spymaster
+				}
+			}
+		}
+	}
+}
