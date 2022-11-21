@@ -508,7 +508,6 @@ technology = {
     d_susa
     d_swabia
     d_swiss
-    d_swiss
     d_thurgau
     d_thuringia
     d_tioharad
