@@ -94,7 +94,7 @@ powerful_vassal_takeover_war = {
 		}
 		modifier = {
 			factor = 2
-			FROM = has_character_modifier = rigged_elections }
+			FROM = { has_character_modifier = rigged_elections }
 		}
 		modifier = {
 			factor = 1.5

@@ -26,7 +26,7 @@ character_event = {
 			}	
 			modifier = {
 				factor = 2
-				FROM = { is_ friend = ROOT }
+				FROM = { is_friend = ROOT }
 			}
 			modifier = {
 				factor = 2
