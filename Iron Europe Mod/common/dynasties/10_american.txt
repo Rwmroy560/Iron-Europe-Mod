@@ -391,7 +391,7 @@
   culture = american
 }
 90000098 = {
-  name = Barnes
+  name = Trump
   culture = american
 }
 90000099 = {

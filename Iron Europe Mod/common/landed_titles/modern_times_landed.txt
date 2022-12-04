@@ -72,3 +72,17 @@ k_taliban = {
   culture = afghan
   religion = sunni
 }
+k_rojava = {
+        color = {
+          155
+          110
+          30
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+  culture = kurdistan
+  religion = sunni
+}

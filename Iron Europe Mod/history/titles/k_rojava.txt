@@ -1,0 +1,9 @@
+2017.5.14 = {
+  name = "Rojava"
+  adjective = "Kurdish"
+  holder = 109988702
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_0
+  law = high_court_law_0
+}
+

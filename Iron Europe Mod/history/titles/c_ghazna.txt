@@ -173,4 +173,5 @@
 }
 2001.8.1 = {
   holder = 109997392
+  liege = k_taliban
 }

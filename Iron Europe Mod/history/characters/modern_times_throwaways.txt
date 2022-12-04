@@ -19105,26 +19105,6 @@
     death = yes
   }
 }
-109986701 = {
-  name = Bob
-  religion = cathar
-  culture = bohemian
-  1450.1.1 = {
-    birth = yes
-  }
-  1450.1.1 = {
-    death = yes
-  }
-}
-109988702 = {
-  name = Bob
-  religion = cathar
-  culture = bohemian
-  1450.1.1 = {
-    birth = yes
-  }
-  1450.1.1 = {
-    death = yes
-  }
-}
+
+
 

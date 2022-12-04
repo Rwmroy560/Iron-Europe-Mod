@@ -329,6 +329,7 @@
 1922.11.1 = {
   holder = 119197028
   liege = k_anatolia
+  name = Istanbul
 }
 1938.11.10 = {
   holder = 116962729

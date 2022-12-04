@@ -2790,3 +2790,7 @@
   name = Cheney
   culture = american
 }
+100000698 = {
+  name = Yousef
+  culture = Kurdish
+}
