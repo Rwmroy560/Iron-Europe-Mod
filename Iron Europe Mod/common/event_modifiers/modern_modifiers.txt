@@ -92,3 +92,15 @@ taliban_help = {
 annex_attempt = {
 	icon = 18
 }
+armed_groups = {
+	icon = 106
+	local_revolt_risk = 0.50
+	supply_limit = -0.25
+	siege_defence = -0.2
+	local_tax_modifier = -0.40
+}
+france_help = {
+	icon = 111
+	monthly_character_prestige =  -0.50
+	vassal_opinion = -5
+}

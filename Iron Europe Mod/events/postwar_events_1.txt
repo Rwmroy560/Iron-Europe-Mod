@@ -31,10 +31,14 @@ character_event = {
 			event_target:target_loser = { lower_tier_than = DUKE }
 		}
 		custom_tooltip = { text = dconv3 }
-		event_target:target_loser = { 
-			set_defacto_liege = ROOT 
-			prestige = -100
+		any_suzerain = {
+			event_target:target_loser = {
+				remove_tributary = PREV
+			}
 		}
+		ROOT = { 
+			make_tributary = { who = event_target:target_loser tributary_type = colony }
+			}
 		clear_event_target = target_loser
 		clear_event_target = target_depose
 	}
@@ -55,8 +59,22 @@ character_event = {
 			}
 		}
 		ROOT = { 
-			make_tributary = { who = event_target:target_loser percentage = 0.4 }
+			make_tributary = { who = event_target:target_loser tributary_type = puppet }
 			}
+		event_target:target_loser = {
+			primary_title = {
+				add_law = army_professionalism_law_0
+				add_law = high_court_law_0
+				add_law = tax_peasants_law_feudal_1
+				add_law = vassal_wars_law_2
+				add_law = law_voting_power_1
+				add_law = war_voting_power_1
+				add_law = revoke_title_voting_power_1
+				add_law = grant_title_voting_power_1
+				add_law = imprison_voting_power_0
+		}
+
+	}
 		event_target:target_loser = {
 			opinion = {
 				modifier = opinion_forced_tributary 
@@ -73,7 +91,6 @@ character_event = {
 			factor = 25
 		}
 		trigger = {
-			ROOT = { any_courtier = { has_minor_title = title_commander } }
 			ROOT = { higher_tier_than = DUKE }
 			event_target:target_loser = { NOT = { tier = EMPEROR } }
 		}

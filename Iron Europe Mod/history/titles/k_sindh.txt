@@ -99,6 +99,8 @@
 }
 1815.6.9 = {
   holder = 114241054
+  name = "Pakistan"
+  adjective = "Pakistani"
 }
 1823.7.21 = {
   holder = 111358589

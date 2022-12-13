@@ -1,4 +1,7 @@
 ukrainian;Ukrainian;;;;;;;;;;;;;x
+ca_american_base;Foreign Military Base;;;x
+ca_american_base_desc;A base used to house and supply American soldiers.;;;x
+nato_soldiers;American Troops;;;x
 join_any_war;Join [Root.GetFirstName]'s war;;;;;;;;;;;;;x
 join_any_war_named;Join War;;;;;;;;;;;;;x
 join_any_war_desc;Join [Root.GetTitledFirstName]'s war.;;;;;;;;;;;;;x
@@ -54,7 +57,7 @@ EVTDESCukr_war.5;Your country is at war. Though the 'International Community' ha
 EVTAukr_war.5;We can do this alone.;;;x
 EVTBukr_war.5;We need their strength...;;;x
 
-EVTDESCukr_war.6;The scourge known as the 'Islamic State' is occupying your country's territory and wreaking havoc! You can turn to America again to help stabilize your embattled country.;;;x
+EVTDESCukr_war.6;Your nation is at war and in need of help! In this situation you find yourself alone, but you can turn to the United States of America again to help stabilize your embattled country.;;;x
 
 EVTDESCukr_war.7;The North Atlantic Treaty Organization is dedicated to peace and the defensive of its member states of the European continent. As its head you are expected to uphold Democracy.;;;x
 EVTBukr_war.7;Peace, Prosperity, Democracy!;;;x

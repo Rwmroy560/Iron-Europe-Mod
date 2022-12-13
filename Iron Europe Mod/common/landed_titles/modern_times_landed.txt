@@ -83,6 +83,20 @@ k_rojava = {
           255
           255
         }
-  culture = kurdistan
+  culture = kurdish
+  religion = sunni
+}
+k_palestine = {
+        color = {
+          155
+          110
+          30
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+  culture = levantine_arabic
   religion = sunni
 }

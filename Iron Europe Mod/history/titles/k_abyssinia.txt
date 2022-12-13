@@ -187,4 +187,8 @@
 }
 2018.10.25 = {
   holder = 116200887
+  law = army_professionalism_law_2
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_1
+  law = status_of_women_4
 }

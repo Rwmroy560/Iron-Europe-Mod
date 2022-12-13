@@ -1,148 +1,26 @@
 castle = {
-  ca_culture_american_1 = {
-    desc = ca_culture_american_1_desc
-    potential = {
-      FROM = {
-        culture = american
-      }
-    }
-    is_active_trigger = {
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    trigger = {
-      TECH_CASTLE_CONSTRUCTION = 0
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    prerequisites = {
-      ca_wall_2
-    }
-    gold_cost = 200
-    build_time = 730
-    heavy_infantry = 30
-    heavy_infantry_offensive = 0.15
-    ai_creation_factor = 101
-    extra_tech_building_start = 0.8
-  }
-  ca_culture_american_2 = {
-    desc = ca_culture_american_1_desc
-    potential = {
-      FROM = {
-        culture = american
-      }
-    }
-    is_active_trigger = {
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    trigger = {
-      TECH_CASTLE_CONSTRUCTION = 1
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    upgrades_from = ca_culture_american_1
-    gold_cost = 300
-    build_time = 1095
-    heavy_infantry = 40
-    heavy_infantry_offensive = 0.15
-    ai_creation_factor = 101
-    extra_tech_building_start = 0.8
-  }
-  ca_culture_american_3 = {
-    desc = ca_culture_american_1_desc
-    potential = {
-      FROM = {
-        culture = american
-      }
-    }
-    is_active_trigger = {
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    trigger = {
-      TECH_CASTLE_CONSTRUCTION = 2
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    upgrades_from = ca_culture_american_2
-    gold_cost = 400
-    build_time = 2190
-    heavy_infantry = 50
-    heavy_infantry_offensive = 0.15
-    ai_creation_factor = 101
-    extra_tech_building_start = 0.8
-  }
-  ca_culture_american_4 = {
-    desc = ca_culture_american_1_desc
-    potential = {
-      FROM = {
-        culture = american
-      }
-    }
-    is_active_trigger = {
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    trigger = {
-      TECH_CASTLE_CONSTRUCTION = 4
-      ROOT = {
-        OR = {
-          culture_group = north_germanic
-          culture = saxon
-          culture = old_saxon
-          culture = frisian
-        }
-      }
-    }
-    upgrades_from = ca_culture_american_3
-    gold_cost = 500
-    build_time = 2190
-    heavy_infantry = 60
-    heavy_infantry_offensive = 0.15
-    ai_creation_factor = 101
-    extra_tech_building_start = 0.8
-  }
+	ca_american_base = {
+		desc = ca_american_base_desc
+		potential = {	
+			FROM = {
+				culture = american
+			}	
+		}	
+		trigger = { TECH_CONSTRUCTION = 0  }
+		is_active_trigger = {
+			FROM = {
+				culture = american
+			}
+		} 
+		gold_cost = 280
+		build_time = 580
+		add_number_to_name = no
+		military_techpoints = 1.25
+		commander_limit = 1
+		global_supply_limit = 0.35
+		levy_reinforce_rate = 0.15
+		nato_soldiers = 3000
+		fort_level = 4
+		ai_creation_factor = 110
+	}
 }

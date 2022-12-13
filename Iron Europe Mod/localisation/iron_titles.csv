@@ -1,0 +1,154 @@
+emperor_job_treasurer_american;Finance Minister;;;;;;;;x
+emperor_job_treasurer_north_germanic;Finance Minister;;;;;;;;;;x
+emperor_job_treasurer_central_germanic;Minister of Finance;;;;;;;;;x
+emperor_job_treasurer_west_germanic;Minister of Finance;;;;;;;;;x
+emperor_job_treasurer_east_african;Minister of Finance;;;;;;;;;x
+king_job_treasurer_american;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_north_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_central_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_west_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_east_african;Lord Treasurer;Lord Trésorier;;;Tesorero Mayor;;;;;;;;;x
+emperor_job_treasurer_female_american;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+emperor_job_treasurer_female_north_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+emperor_job_treasurer_female_central_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+emperor_job_treasurer_female_west_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+emperor_job_treasurer_female_east_african;Lord Treasurer;Lord Trésorier;;;Tesorero Mayor;;;;;;;;;x
+king_job_treasurer_female_american;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_female_north_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_female_central_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_female_west_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+king_job_treasurer_female_east_african;Lord Treasurer;Lord Trésorier;;;Tesorero Mayor;;;;;;;;;x
+job_treasurer_american;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+job_treasurer_north_germanic;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+job_treasurer_central_germanic;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+job_treasurer_west_germanic;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+job_treasurer_west_african;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+emperor_job_chancellor_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_east_african;Justiciar;Justicier;;;Justicia Mayor;;;;;;;;;x
+king_job_chancellor_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_east_african;Justiciar;Justicier;;;Justicia Mayor;;;;;;;;;x
+emperor_job_chancellor_female_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_female_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_female_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_female_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+emperor_job_chancellor_female_east_african;Justiciar;Justicier;;;Justicia Mayor;;;;;;;;;x
+king_job_chancellor_female_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_female_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_female_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_female_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+king_job_chancellor_female_east_african;Justiciar;Justicier;;;Justicia Mayor;;;;;;;;;x
+job_marshal_american;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+job_marshal_north_germanic;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+job_marshal_central_germanic;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+job_marshal_west_germanic;Captain of the Fleet;Maître d'Armes;Secretary of Defense;;Capitán de la Flota;;;;;;;;;x
+job_marshal_west_african;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+job_marshal_east_african;Chief General;Général en chef;;;Comandante en Jefe;;;;;;;;;x
+emperor_job_spymaster_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_east_african;Spymaster;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_east_african;Spymaster;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_female_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_female_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_female_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_female_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+emperor_job_spymaster_female_east_african;Spymaster;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_female_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_female_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_female_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_female_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+king_job_spymaster_female_east_african;Spymaster;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_treasurer_american;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_emperor_job_treasurer_north_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_emperor_job_treasurer_central_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_emperor_job_treasurer_west_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_american;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_north_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_central_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_west_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_emperor_job_treasurer_female_american;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_emperor_job_treasurer_female_north_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_emperor_job_treasurer_female_central_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_emperor_job_treasurer_female_west_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_female_american;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_female_north_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_female_central_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_king_job_treasurer_female_west_germanic;Minister of Finance;Grand Argentier;Minister of Finance;;Consejero de la Moneda ;;;;;;;;;x
+city_job_treasurer_american;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+city_job_treasurer_north_germanic;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+city_job_treasurer_central_germanic;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+city_job_treasurer_west_germanic;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+city_job_treasurer_west_african;Treasurer;Trésorier;;;Tesorero;;;;;;;;;x
+city_emperor_job_chancellor_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_emperor_job_chancellor_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_emperor_job_chancellor_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_emperor_job_chancellor_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_emperor_job_chancellor_female_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_emperor_job_chancellor_female_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_emperor_job_chancellor_female_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_emperor_job_chancellor_female_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_female_american;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_female_north_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_female_central_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_king_job_chancellor_female_west_germanic;Secretary of State;Maître des Lois;Secretary of State ;;Consejero de Edictos;;;;;;;;;x
+city_job_marshal_american;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+city_job_marshal_north_germanic;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+city_job_marshal_central_germanic;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+city_job_marshal_west_germanic;Captain of the Fleet;Maître d'Armes;Secretary of Defense;;Capitán de la Flota;;;;;;;;;x
+city_job_marshal_west_african;Secretary of Defense;Maître d'Armes;Secretary of Defense;;Maestro de armas;;;;;;;;;x
+city_emperor_job_spymaster_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_spymaster_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_spymaster_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_spymaster_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_spymaster_female_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_spymaster_female_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_spymaster_female_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_spymaster_female_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_female_american;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_female_north_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_female_central_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_king_job_spymaster_female_west_germanic;Head of Central Intelligence;Maître des Chuchoteurs;Head of Central Intelligence;;Consejero de los Rumores ;;;;;;;;;x
+city_emperor_job_castellan_american;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_emperor_job_castellan_north_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_emperor_job_castellan_central_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_emperor_job_castellan_west_germanic;Lord Steward;Lord Intendant;;;Primer Mayordomo;;;;;;;;;x
+city_king_job_castellan_american;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_king_job_castellan_north_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_king_job_castellan_central_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_king_job_castellan_west_germanic;Lord Steward;Lord Intendant;;;Primer Mayordomo;;;;;;;;;x
+city_emperor_job_castellan_female_american;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_emperor_job_castellan_female_north_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_emperor_job_castellan_female_central_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_emperor_job_castellan_female_west_germanic;Lord Steward;Lord Intendant;;;Primer Mayordomo;;;;;;;;;x
+city_king_job_castellan_female_american;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_king_job_castellan_female_north_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_king_job_castellan_female_central_germanic;High Steward;Châtelain;Castellan;Castellan;Gran Mayordomo;;;;;;;;;x
+city_king_job_castellan_female_west_germanic;Lord Steward;Lord Intendant;;;Primer Mayordomo;;;;;;;;;x
+city_job_castellan_american;Steward;Châtelain;Castellan;Castellan;Mayordomo;;;;;;;;;x
+city_job_castellan_north_germanic;Steward;Châtelain;Castellan;Castellan;Mayordomo;;;;;;;;;x
+city_job_castellan_central_germanic;Steward;Châtelain;Castellan;Castellan;Mayordomo;;;;;;;;;x
+city_job_castellan_west_germanic;Steward;Châtelain;Castellan;Castellan;Mayordomo;;;;;;;;;x
+city_job_castellan_west_african;Steward;Châtelain;Castellan;Castellan;Mayordomo;;;;;;;;;x
+emperor_job_castellan;Secretary of State;Magistrat impérial;;;Canciller Imperial;;;;;;;;;x
+emperor_job_chancellor;Secretary of State;Justicier impérial;;;Justicia Imperial;;;;;;;;;x
+emperor_job_castellan_female;Secretary of State;Magistrat impérial;;;Canciller Imperial;;;;;;;;;x
+emperor_job_chancellor_female;Secretary of State;Justicier impérial;;;Justicia Imperial;;;;;;;;;x

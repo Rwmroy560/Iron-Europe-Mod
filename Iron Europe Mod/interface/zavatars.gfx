@@ -11,6 +11,12 @@ objectTypes = {
 
 	
 	pdxmesh = {
+		name = "westerngfx_nato_soldiers"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
+
+	pdxmesh = {
 		name = "muslim_dlc_job_chancellor"
 		file = "gfx\models\UNIT264.mesh"
 		

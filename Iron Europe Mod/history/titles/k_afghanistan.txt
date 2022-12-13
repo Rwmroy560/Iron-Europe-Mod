@@ -202,9 +202,20 @@
 }
 2014.9.29 = {
   holder = 117294660
-  law = army_professionalism_law_1
+  law = army_professionalism_law_0
   law = tax_peasants_law_feudal_0
   law = high_court_law_0
   law = agnatic_succession
   law = succ_feudal_elective
+  law = vassal_wars_law_2
+  law = status_of_women_3
+  law = status_of_women_3
+  law = law_voting_power_1
+  law = war_voting_power_1
+  law = revoke_title_voting_power_1
+  law = imprison_voting_power_0
+  law = grant_title_voting_power_1
+  law = banish_voting_power_1
+  law = execution_voting_power_1
+  law = succession_voting_power_1
 }

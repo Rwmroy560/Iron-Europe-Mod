@@ -1,0 +1,74 @@
+namespace = iron_century
+#Jihadists in the Motherland
+character_event = {
+	id = iron_century.1
+	desc = "EVTDESCiron_century.1"
+	picture = GFX_evt_riots_byzantine
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+	trigger = {
+		war = no	
+		capital_scope = { region = world_africa }
+		independent = yes
+		capital_scope = { is_occupied = no }
+	}
+
+	option = { 
+		name = "EVTAiron_century.1" 
+		random_demesne_title = { add_province_modifier = { modifier = armed_groups years = 5 } }
+	}
+}
+
+#Mali ask France for help
+character_event = {
+	id = iron_century.2
+	desc = "EVTDESCiron_century.2"
+	picture = GFX_roy_soldiers
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTAiron_century.2" 
+	}
+
+	option = { 
+		name = "EVTBiron_century.2" 
+		ai_chance = { factor = 100 }
+		add_character_modifier = { modifier = france_help years = 5 }
+		event_target:good_france = { 
+			make_tributary = {
+				who = ROOT
+				tributary_type = puppet
+				}
+			}
+		capital_scope = {
+			holder_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							is_occupied = no
+						}
+					}
+					spawn_unit = {
+						owner = THIS
+						province = PREV
+						leader = none
+						troops = {
+							heavy_infantry = { 2000 3700 }
+							light_cavalry = { 750 1500 }
+						}
+						attrition = 1.0
+						maintenance_multiplier = 0.1
+						merge = yes
+						disband_on_peace = yes
+					}
+				}
+			}
+		}
+		clear_event_target = good_france
+	}
+}

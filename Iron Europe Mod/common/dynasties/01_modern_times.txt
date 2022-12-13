@@ -1759,7 +1759,7 @@
   culture = turkish
 }
 100000440 = {
-  name = "Ter-Petrossyan"
+  name = "Kardashian"
   culture = armenian
 }
 100000441 = {

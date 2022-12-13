@@ -29,7 +29,7 @@ powerful_vassal_takeover_war_desc;This country is going down the wrong path. I m
 
 CB_NAME_FUCK_YOU_DEMOCRACY;Install Democracy!;;;;;;;;;;;;;x
 WAR_NAME_FUCK_YOU_DEMOCRACY;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$ Intervention;;;;;;;;;;;;;x
-fuck_you_democracy_desc;The people of this state do not have a democratic tradition. Time to change that.;;;;;;;;;;;;;x
+fuck_you_democracy_desc;The leader of this state does not act in your interests. Time to change that.;;;;;;;;;;;;;x
 
 CB_NAME_FUCK_YOU_COLONIZE;Special Military Operation;;;x
 WAR_NAME_FUCK_YOU_COLONIZE;$ORDER$ $FIRST_ADJ$ Special Military Operation;;;x
@@ -90,15 +90,15 @@ stepd2;Make this colony an Autonomous Region of your State. This may upset some 
 EVTDESCelection_events.6;The time has come for [FromFrom.GetTitledName] to step down and abdicate to their successor. This will mark the independence of your colony.;;;x
 EVTOPTAelection_events.6;Good luck to them.;;;x
 
-EVTDESCconvert1;[target_loser.GetTitledName] is defeated and [target_loser.GetHerHis] armies have surrendered and laid down their arms. With democracy established in the realm, what should be done with their leader [target_loser.GetTitledName]?;;;x
-EVTOPTAconvert1;Clap [target_loser.GetHerHim] in irons;;;x
+EVTDESCconvert1;[target_loser.GetTitledName] is defeated and [target_loser.GetHerHis] armies have surrendered and laid down their arms. With democracy established in the country, what should be done with their leader [target_loser.GetTitledName]?;;;x
+EVTOPTAconvert1;Have [target_loser.GetHerHim] imprisoned;;;x
 dconv1;Arrest [target_loser.GetFirstName] and decide what to do with [target_loser.GetHerHim] later.;;;x
 EVTOPTBconvert1;Demand reparations.;;;x
 dconv2;Demand a large sum of gold for your troubles.;;;x
-EVTOPTCconvert1;You will swear fealty to me;;;x
-dconv3;Make [target_loser.GetTitledName] your vassal.;;;x
-EVTOPTDconvert1;Demand tribute;;;x 
-dconv4;Make [target_loser.GetTitledName] pay tribute to you.;;;x
+EVTOPTCconvert1;Make this state a colony;;;x
+dconv3;Leave [target_loser.GetTitledName] as the colonial administrator of your new colony.;;;x
+EVTOPTDconvert1;Force reforms;;;x 
+dconv4;Make [target_loser.GetTitledName] change their laws and constitution more to your liking.;;;x
 EVTOPTEconvert1;Replace [target_loser.GetHerHim] with [target_depose.GetTitledName];;;x
 dconv5;Depose [target_loser.GetTitledName] and install a puppet.;;;x
 

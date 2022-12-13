@@ -20,6 +20,7 @@ reclaim_war = {
 			OR = {
 			has_landed_title =  k_iraq
 			has_landed_title =  k_syria
+			has_landed_title =  k_rojava
 			}
 		}
 	}
@@ -27,6 +28,13 @@ reclaim_war = {
 
 	can_use = {
 		FROM = { has_landed_title =  d_sunni }
+		ROOT = {
+			OR = {
+			has_landed_title =  k_iraq
+			has_landed_title =  k_syria
+			has_landed_title =  k_rojava
+			}
+		}
 		ROOT = {
 			independent = yes
 			mercenary = no

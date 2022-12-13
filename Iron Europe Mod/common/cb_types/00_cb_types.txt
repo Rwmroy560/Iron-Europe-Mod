@@ -3091,10 +3091,12 @@ invasion = {
   can_use = {
     ROOT = {
       mercenary = no
+      NOT = { has_landed_title = e_united_states }
     }
   }
   can_use_gui = {
     check_if_crusader_trigger = yes
+      NOT = { has_landed_title = e_united_states }
   }
   can_use_title = {
     OR = {
@@ -3613,6 +3615,7 @@ tribal_invasion = {
   sort_priority = 2000
   can_use_gui = {
     ROOT = {
+      NOT = { has_landed_title = e_united_states }
       prestige = 500
     }
     check_if_crusader_trigger = yes
@@ -3656,9 +3659,6 @@ tribal_invasion = {
       }
       ROOT = {
         has_landed_title = e_canada
-      }
-      ROOT = {
-        has_landed_title = e_united_states
       }
       ROOT = {
         OR = {

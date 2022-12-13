@@ -135,19 +135,18 @@ bm_2017_07_01 = {
     }
   }
   selectable_character = {
-    id = 112840430
-    age = 47
-    name = "Nicola Sturgeon"
-    title = k_scotland
-    title_name = Scotland
+    id = 109986701
+    age = 71
+    name = "Donald Trump"
+    title = e_united_states
+    title_name = America
     character = {
       dna = aaaaaaaaaaa
       properties = aj00bc00000
-      religion = reformed
-      culture = scottish
+      religion = protestant
+      culture = american
       government = feudal_government
-      dynasty = 100000678
-      female = yes
+      dynasty = 90000098
     }
   }
 }

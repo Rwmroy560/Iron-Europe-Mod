@@ -54,7 +54,7 @@ character_event = {
 	trigger = {
 		war = yes	
 		has_landed_title =  k_ruthenia
-		any_enemy = { has_landed_title = e_russia  }
+		any_current_enemy = { has_landed_title = e_russia  }
 		higher_tier_than = BARON
 		capital_scope = { is_occupied = no }
 		is_primary_war_defender = yes
@@ -255,7 +255,14 @@ character_event = {
 	option = { 
 		name = "EVTBukr_war.5" 
 		ai_chance = { factor = 100 }
-		add_character_modifier = { modifier = america_help years = 10 }
+		event_target:good_america = { 
+			add_alliance = {
+				who = ROOT
+				years = 2
+				}
+			}
+		clear_event_target = good_russia
+		add_character_modifier = { modifier = america_help years = 2 }
 		capital_scope = {
 			holder_scope = {
 				IF = {
@@ -270,6 +277,7 @@ character_event = {
 						leader = none
 						troops = {
 							heavy_infantry = { 9000 10700 }
+							archers = { 1000 1500 }
 							light_cavalry = { 3050 5500 }
 						}
 						attrition = 1.0
@@ -280,6 +288,7 @@ character_event = {
 				}
 			}
 		}
+		clear_event_target = good_russia
 	}
 }
 #Establish NATO
@@ -388,6 +397,14 @@ character_event = {
 				who = event_target:nato_dude23
 				tributary_type = nato
 				}
+			make_tributary = {
+				who = event_target:nato_dude24
+				tributary_type = nato
+				}
+			make_tributary = {
+				who = event_target:nato_dude25
+				tributary_type = nato
+				}
 			}
 		prestige = 200
 		add_character_modifier = { modifier = nato_setup years = 10 }
@@ -414,6 +431,8 @@ character_event = {
 		clear_event_target = nato_dude21
 		clear_event_target = nato_dude22
 		clear_event_target = nato_dude23
+		clear_event_target = nato_dude24
+		clear_event_target = nato_dude25
 	}
 }
 #Establish Union State with Belarus

@@ -14,10 +14,6 @@
 }
 1954.1.26 = {
   holder = 114030572
-  law = army_professionalism_law_2
-  law = tax_peasants_law_feudal_2
-  law = high_court_law_2
-  law = succ_feudal_elective
 }
 1955.11.3 = {
   holder = 119968855
@@ -51,6 +47,19 @@
 }
 1996.6.18 = {
   holder = 111311257
+  law = army_professionalism_law_2
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_2
+  law = succ_feudal_elective
+  law = status_of_women_4
+  law = law_voting_power_1
+  law = war_voting_power_1
+  law = revoke_title_voting_power_1
+  law = imprison_voting_power_1
+  law = grant_title_voting_power_1
+  law = banish_voting_power_1
+  law = execution_voting_power_1
+  law = succession_voting_power_1
 }
 1999.7.6 = {
   holder = 119001771

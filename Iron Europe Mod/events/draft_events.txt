@@ -17,11 +17,11 @@ character_event = {
 		name = "EVTroy_draft.1" 
 		any_realm_province = { add_province_modifier = { name = war_draft years = 2 } }
 		if = {
-			limit = { has_landed_title = e_russia }
+			limit = { has_law = army_professionalism_law_2  }
 			add_character_modifier = { modifier = drafted_peasants months = 6 }
 				}
 		if = {
-			limit = { NOT = { has_landed_title = e_russia } }
+			limit = { NOT = { has_law = army_professionalism_law_2  } }
 			add_character_modifier = { modifier = drafted_peasants years = 1 }
 				}
 		capital_scope = {

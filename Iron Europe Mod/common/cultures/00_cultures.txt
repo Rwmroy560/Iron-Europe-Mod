@@ -13350,6 +13350,7 @@ arabic = {
       Yasmin_Yasmin
       Zaynab
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "mn "
     male_patronym = "ibn "
     female_patronym = "bint "
@@ -13828,6 +13829,7 @@ arabic = {
       Zwina
       Zwira
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "mn "
     male_patronym = "ibn "
     female_patronym = "bint "
@@ -13971,6 +13973,7 @@ arabic = {
       Zahra_Zahra
       Zuhayra
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "mn "
     male_patronym = "ibn "
     female_patronym = "bint "
@@ -14126,6 +14129,7 @@ arabic = {
       Zara
       Zahra_Zahra
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "mn "
     male_patronym = "ibn "
     female_patronym = "bint "
@@ -14423,6 +14427,7 @@ east_slavic = {
       Zabava
       Zvenislava
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "of "
     male_patronym = ovich
     female_patronym = ovna
@@ -15140,6 +15145,7 @@ west_slavic = {
       Zdenka
       Zofie_Sophia
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "of "
     modifier = default_culture_modifier
   }
@@ -15320,6 +15326,7 @@ west_slavic = {
       Zofia_Sophia
       Zwinislawa
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "of "
     modifier = default_culture_modifier
     pat_grf_name_chance = 40
@@ -15644,6 +15651,7 @@ south_slavic = {
       Zlata
       Zvonimira
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "od "
     modifier = default_culture_modifier
     pat_grf_name_chance = 40
@@ -15788,6 +15796,7 @@ south_slavic = {
       Nadanje
       Namena
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "od "
     male_patronym = ic
     prefix = no
@@ -15919,6 +15928,7 @@ south_slavic = {
       Voica
       Zina
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "de "
     male_patronym = escu
     prefix = no
@@ -16048,6 +16058,7 @@ south_slavic = {
       Yordanka
       Zhivka
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "ot "
     male_patronym = ov
     female_patronym = ova
@@ -16140,6 +16151,7 @@ south_slavic = {
       Nika
       Pavica
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "od "
     male_patronym = ic
     modifier = default_culture_modifier
@@ -16907,6 +16919,7 @@ magyar = {
       Zsanett_Joan
       Zsuzsa_Susan
     }
+    dukes_called_kings = yes
     dynasty_name_first = yes
     from_dynasty_prefix = "a "
     male_patronym = fi

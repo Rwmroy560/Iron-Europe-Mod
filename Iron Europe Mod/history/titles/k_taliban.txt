@@ -5,5 +5,6 @@
   law = army_professionalism_law_1
   law = tax_peasants_law_feudal_2
   law = high_court_law_2
+  law = status_of_women_0
 }
 

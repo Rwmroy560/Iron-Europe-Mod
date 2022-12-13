@@ -1,0 +1,10 @@
+france_help;Recieved French Assistance;;;x
+ask_france_help;Ask for French Assistance;;;x
+ask_france_help_desc;You may ask your former colonial master France for assistance in your wars.;;;x
+
+EVTDESCiron_century.1;Prosperity cannot reach all corners of your country. Young men, disenfranchised from the state and radicalized by religion, have decided to take up arms against you and all that is good.;;;x
+EVTAiron_century.1;We don't negotiate with terrorists!;;;x
+
+EVTDESCiron_century.2;Your country is at war and you need help! Despite the intense generational suffering brought to your people by the state of France, you have few options when it comes to allies and they are willing to aid you...for a price.;;;x
+EVTAiron_century.2;Actually, let's not.;;;x
+EVTBiron_century.2;Oui Oui! Sovereignty be damned!;;;x

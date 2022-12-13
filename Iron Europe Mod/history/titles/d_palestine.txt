@@ -1,0 +1,9 @@
+2017.5.14 = {
+  name = "Palestine"
+  adjective = "Palestinian"
+  holder = 109984004
+  law = army_professionalism_law_2
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_2
+}
+

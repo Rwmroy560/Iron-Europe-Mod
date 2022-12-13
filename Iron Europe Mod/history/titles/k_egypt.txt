@@ -183,6 +183,7 @@
   law = tax_peasants_law_feudal_2
   law = high_court_law_2
   law = vassal_wars_law_2
+  law = status_of_women_2
 }
 2013.7.3 = {
   holder = 114092506

@@ -4,19 +4,19 @@
 }
 90000001 = {
   name = Johnson
-  culture = american
+  culture = black_american
 }
 90000002 = {
   name = Williams
-  culture = american
+  culture = black_american
 }
 90000003 = {
   name = Brown
-  culture = american
+  culture = black_american
 }
 90000004 = {
   name = Jones
-  culture = american
+  culture = black_american
 }
 90000005 = {
   name = Miller
@@ -55,7 +55,7 @@
   culture = american
 }
 90000014 = {
-  name = Hernandez
+  name = Clinton
   culture = american
 }
 90000015 = {
@@ -72,7 +72,7 @@
 }
 90000018 = {
   name = Thompson
-  culture = american
+  culture = black_american
 }
 90000019 = {
   name = White
@@ -83,7 +83,7 @@
   culture = american
 }
 90000021 = {
-  name = Lee
+  name = Kushner
   culture = american
 }
 90000022 = {
@@ -136,7 +136,7 @@
 }
 90000034 = {
   name = King
-  culture = american
+  culture = black_american
 }
 90000035 = {
   name = Scott
@@ -163,8 +163,8 @@
   culture = american
 }
 90000041 = {
-  name = Ramirez
-  culture = american
+  name = West
+  culture = black_american
 }
 90000042 = {
   name = Campbell
@@ -180,7 +180,7 @@
 }
 90000045 = {
   name = Carter
-  culture = american
+  culture = black_american
 }
 90000046 = {
   name = Phillips
@@ -360,7 +360,7 @@
 }
 90000090 = {
   name = Powell
-  culture = american
+  culture = black_american
 }
 90000091 = {
   name = Sullivan
@@ -395,6 +395,10 @@
   culture = american
 }
 90000099 = {
-  name = Fisher
+  name = Bannon
+  culture = american
+}
+900000100 = {
+  name = Guilfoyle
   culture = american
 }

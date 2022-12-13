@@ -36,4 +36,5 @@
 }
 2015.1.23 = {
   holder = 110925884
+  law = status_of_women_2
 }

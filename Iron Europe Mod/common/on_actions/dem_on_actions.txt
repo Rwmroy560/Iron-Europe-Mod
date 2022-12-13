@@ -16,6 +16,7 @@ on_five_year_pulse = {
 
 	events = {
 		election_events.2
+		iron_century.1
 	}
 }
 on_decade_pulse = {

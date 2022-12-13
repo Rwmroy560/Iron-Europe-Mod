@@ -79,7 +79,10 @@ decisions = {
 	ask_russia_help = {
 		is_high_prio = yes
 		potential = {
-			has_landed_title = k_syria 
+			OR = {
+				has_landed_title = k_syria
+				has_landed_title = k_mali
+				} 
 			}
 		allow = {
 			NOT = { has_character_modifier = russia_help }
@@ -96,7 +99,34 @@ decisions = {
 			character_event = { id = ukr_war.5 }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0.5
+		}
+	}
+	ask_france_help = {
+		is_high_prio = yes
+		potential = {
+			OR = {
+				has_landed_title = k_kanem
+				has_landed_title = k_mali
+				} 
+			}
+		allow = {
+			NOT = { has_character_modifier = france_help }
+			NOT = { has_character_modifier = russia_help }
+			is_primary_war_defender = yes
+			capital_scope = {
+				is_occupied = no
+			}
+		}
+		effect = {
+		any_independent_ruler = { 
+			limit = { has_landed_title = e_france } 
+				save_event_target_as = good_france
+			}
+			character_event = { id = iron_century.3 }
+		}
+		ai_will_do = {
+			factor = 0.3
 		}
 	}
 	ask_america_help = {
@@ -104,6 +134,10 @@ decisions = {
 		potential = {
 			OR = {
 				has_landed_title = k_israel
+				AND = {
+					has_landed_title = k_rojava
+					year >= 2001
+					}
 				AND = {
 					has_landed_title = k_iraq
 					year >= 2001
@@ -120,12 +154,22 @@ decisions = {
 			}
 		allow = {
 			NOT = { has_character_modifier = america_help }
-			war = yes
+			OR = {
+				is_primary_war_defender = yes
+				AND = {
+					is_primary_war_attacker = yes
+					any_current_enemy = { has_landed_title = d_sunni }
+				}
+			}
 			capital_scope = {
 				is_occupied = no
 			}
 		}
 		effect = {
+		any_independent_ruler = { 
+			limit = { has_landed_title = e_united_states } 
+				save_event_target_as = good_america
+			}
 			character_event = { id = ukr_war.6 }
 		}
 		ai_will_do = {
@@ -143,6 +187,7 @@ decisions = {
 				has_landed_title = e_britannia
 				has_landed_title = e_germany
 				has_landed_title = k_poland
+				has_landed_title = e_united_states
 				}
 			}
 		allow = {
@@ -241,6 +286,14 @@ decisions = {
 		any_independent_ruler = { 
 			limit = { has_landed_title = k_switzerland } 
 				save_event_target_as = nato_dude23
+			}
+		any_independent_ruler = { 
+			limit = { has_landed_title = e_united_states } 
+				save_event_target_as = nato_dude24
+			}
+		any_independent_ruler = { 
+			limit = { has_landed_title = k_dacia } 
+				save_event_target_as = nato_dude25
 			}
 			character_event = { id = ukr_war.7 }
 		}

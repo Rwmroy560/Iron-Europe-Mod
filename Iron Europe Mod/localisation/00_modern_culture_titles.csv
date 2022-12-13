@@ -22,6 +22,81 @@ king_female_levantine_arabic;President;;;x
 emperor_levantine_arabic;President;;;x
 emperor_female_levantine_arabic;President;;;x
 
+#american
+tribal_duke_american;Governer-General;;;x
+tribal_duke_female_american;Governer-General;;;x
+duke_american;Governer-General;;;x
+duke_female_american;Governer-General;;;x
+duke_title_ruler_consort_american;Minister;;;x
+duke_title_ruler_consort_female_american;Mistress;;;x
+emperor_american;President;;;x
+emperor_female_american;President;;;x
+emperor_title_ruler_consort_female_american;First Lady;;;x
+emperor_title_ruler_consort_american;Mister;;;x
+king_american;President;;;x
+king_title_ruler_consort_female_american;First Lady;;;x
+king_title_ruler_consort_american;Mister;;;x
+king_female_american;Prime Minister;;;x
+title_prince_american;Minister;;;;;;;;;;;;;x
+title_prince_female_american;Lady;;;;;;;;;;;;;x
+count_american;Mayor;;;;;;;;;;;;;x
+count_female_american;Mayor;;;x
+count_title_ruler_consort_american;Mister;;;x
+count_title_ruler_consort_female_american;Miss;;;x
+
+
+city_count_american;Mayor;;;;;;;;;x
+city_count_female_american;Lady;;;;
+city_king_american;President;;;;;;;;;x
+city_king_female_american;President;;;;;;;;;x
+city_duke_female_american;Lady;;;;;;;;;x
+city_duke_american;Lord;;;;;;;;;x
+
+county_of_american;Province of;;;;;;;;;x
+barony_of_american;Fort;;;x
+duchy_of_american;Region of;;;;;;;;;x
+kingdom_of_american;Republic of;;;;;;;;;x
+empire_of_american;United States of;;;x
+temple_barony_of;Temple of;;;;;x
+
+
+#kurdish
+tribal_duke_kurdish;Governer-General;;;x
+tribal_duke_female_kurdish;Governer-General;;;x
+duke_kurdish;Governer-General;;;x
+duke_female_kurdish;Governer-General;;;x
+duke_title_ruler_consort_kurdish;Minister;;;x
+duke_title_ruler_consort_female_kurdish;Mistress;;;x
+emperor_kurdish;President;;;x
+emperor_female_kurdish;President;;;x
+emperor_title_ruler_consort_female_kurdish;First Lady;;;x
+emperor_title_ruler_consort_kurdish;Mister;;;x
+king_kurdish;President;;;x
+king_title_ruler_consort_female_kurdish;First Lady;;;x
+king_title_ruler_consort_kurdish;Mister;;;x
+king_female_kurdish;Prime Minister;;;x
+title_prince_kurdish;Minister;;;;;;;;;;;;;x
+title_prince_female_kurdish;Lady;;;;;;;;;;;;;x
+count_kurdish;Mayor;;;;;;;;;;;;;x
+count_female_kurdish;Mayor;;;x
+count_title_ruler_consort_kurdish;Mister;;;x
+count_title_ruler_consort_female_kurdish;Miss;;;x
+
+
+city_count_kurdish;Mayor;;;;;;;;;x
+city_count_female_kurdish;Lady;;;;
+city_king_kurdish;President;;;;;;;;;x
+city_king_female_kurdish;President;;;;;;;;;x
+city_duke_female_kurdish;Lady;;;;;;;;;x
+city_duke_kurdish;Lord;;;;;;;;;x
+
+county_of_kurdish;Province of;;;;;;;;;x
+barony_of_kurdish;Headquarters of;;;x
+duchy_of_kurdish;Region of;;;;;;;;;x
+kingdom_of_kurdish;Republic of;;;;;;;;;x
+empire_of_kurdish;Federation of;;;x
+temple_barony_of;Temple of;;;;;x
+
 
 #Russian
 tribal_duke_russian;Governer-General;;;x
