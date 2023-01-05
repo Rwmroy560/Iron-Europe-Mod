@@ -51,6 +51,7 @@
   holder = 109975182
 }
 2016.7.13 = {
+  holder = 109975181
   law = feudal_administration
   law = ze_administration_laws_0
 }
