@@ -1,0 +1,104 @@
+# Religion-specific opinion can be added to modifiers (E.G., norse_pagan_opinion = 5), but the modifier *has* to be defined in 00_modifier_definitions.txt as well. It also needs localisation. Works for groups as well
+
+# join_crusade_if_bordering_hostile = yes # The AI won't refrain from joining a crusade simply because it borders a heathen/heretic realm
+
+# This trigger defines who can see a character's secret religion. The character with the secret religion is FROM, while the viewer is ROOT
+# Characters can always see their own secret religion. The observer can see all secret religions
+# secret_religion_visibility_trigger = {
+	# secret_religion = FROM
+# }
+
+# women_can_take_consorts = yes # If set, women can take consorts as well, not just men. Defaults to "no". Has no effect if max_consorts is 0
+# men_can_take_consorts = no # If set, men cannot take consorts any more. Defaults to "yes". Has no effect if max_consorts is 0
+
+american_rel_group = { #red, yellow, orange
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	playable = yes
+	
+	color = { 0.25 0.25 0.25 } #Black
+	
+	democrat = {
+		graphical_culture = westerngfx
+		
+		alternate_start = { always = no }
+
+		icon = 1
+		heresy_icon = 8
+		color = { 0.45 0.45 0.45 } #Black
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		
+		character_modifier = {
+			stewardship = 3
+			diplomacy = -2
+			republican_opinion = -75
+		}
+		
+
+		feminist = yes
+		peace_piety_gain = 1.0	
+		
+		parent = catholic
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		
+		#intermarry = catholic
+		intermarry = orthodox
+		intermarry = miaphysite
+		intermarry = nestorian
+		
+	}
+	republican = {
+		graphical_culture = muslimgfx
+		
+		alternate_start = { always = no }
+
+		icon = 1
+		heresy_icon = 8
+		color = { 0.45 0.45 0.45 } #Black
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD GOD_JESUS GOD_THE_BLESSED_VIRGIN
+		}
+		
+		evil_god_names = {
+			SATAN LUCIFER THE_DEVIL
+		}
+		
+		
+		character_modifier = {
+			martial = 3
+			learning = -2
+			democrat_opinion = -75
+		}
+		
+
+		feminist = yes
+		peace_piety_gain = 1.0	
+		
+		parent = catholic
+		religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+		
+		#intermarry = catholic
+		intermarry = orthodox
+		intermarry = miaphysite
+		intermarry = nestorian
+		
+	}
+
+}	

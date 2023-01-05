@@ -8,6 +8,9 @@ american_group = {
       0.3
       0.3
     }
+		character_modifier = {
+			stewardship = 3
+		}
     male_names = {
       James
       John
@@ -229,6 +232,9 @@ american_group = {
       0.3
       0.3
     }
+		character_modifier = {
+			martial = 3
+		}
     male_names = {
       James
       John
@@ -442,4 +448,107 @@ american_group = {
     mat_grm_name_chance = 40
     mother_name_chance = 5
   }
+	latino_american = {
+		graphical_cultures = { southerngfx }
+		color = { 0.9 0.8 0.22 }
+		character_modifier = {
+			diplomacy = 3
+		}
+		male_names = {
+	Raynaldo	Gianluca	Calquín	Osmar	Acab	Ione	Inaxio	Anat	Pacomio	Hamlet	Ubaldo	García	Elihu
+	Génesis	Menas	Haman	Rocco	Vulpiano	Aristóbulo	Apollo	Ermelindo	Ceadas	Valfredo	Nino
+	Boreas	Randolfo	Evasio	Ofir	Valentino	Mijael	Adhelmar	Gamal	"Juan Carlos"	Roni	Amaranto
+	Malcom	Edilio	Hervé	Bonifaci	Caspar	Percival	Leónidas	Leuter	Balbo	Stefano	Udolfo	Licurgo
+	Garibaldo	Vertán	Omaro	Sacha	Alvin	Helio	Leontino	Iber	Magno	Malcom	Quintín	Gerson	Cristian
+	Saverio	Linneo	Adalrico	Jordan	Narcis	Antígono	Boreas	Fedro	Amantzi	Pilato	Wilmer	Aser	Lemuel
+	Quintín	Aristóbulo	Arandú	Amancio	Linneo	Jehová	Menelao	Macaire	Polo	Leonard	Faust	Homero	Edison	Leocadio
+	Laurindo	Bastien	Ivany	Gary	Rainero	Nuncio	Adiel	Blasco	Bennie	Dídimo	Arcadio	Hermelindo	Menandro
+	Fabricio	Clodoaldo	James	Haroldo	Tiberio	Bruno	Abdías	Telémaco	"Juan Pablo"	Cesario	Edelmiro
+	Esaú	Teodosio	Elihu	Poncio	Waskar	Basil	Valdemar	Yrko	Cañumil	Raymi	Teodor	Odon	Barry
+	Pascua	Columbo	Werner	Emigdio	Ezra	Waldino	René	Huapi	Cono	Evangelino	Duncan	Inacayal	Cirineo
+	Gualterio	Ronald	Tito	Beat	Zohar	Crisólogo	Alarico	Gordon	Cadmo	Arnulfo	Leonid	Theo	Ruy
+	Emir	Humbert	Saverio	Flavio	Menas	Didio	Efraim	Raidis	Perceval	Florian	Fulco	Milan	Rancul	Raffi
+	Cannan	Ciril	Jenofonte	Filemón	Sisebuto	Maximiano	Getulio	Dimas	Polidoro	Alesio	Casiano
+	Severo	Jose	Nehemias	Maro	Adiel	Lawrence	Francesc	Sharif	Cirineo	Otoniel	Prudens	Selemías
+	Evelio	Folco	Aritófanes	Edco	César	Polidoro	Yaco	Paulino	Panbil	Próspero	Alexandre
+	Purlan	Quintilio	Hector	Maro	Poseidón	Floreal	Filademo	Ezekiel	Bibiano	Antolin	Ezekiel	Macario
+	Juancruz	Jordi	Vital	Quintín	Maro	Giuliano	Hermalindo	Yakue	Harry	Lev	Enrico	Modesto
+	Venceslao	Ladislao	Dugan	Cyril	Cunibaldo	Anías	Narcisse	Guy	Nahum	Luano	Damián
+	Floreal	Restituto	Eleodoro	Abdías	Poncio	Raymond	Amando	Erardo	Sofiel	Ares	Santino	Nacho	Quintín
+	Calístrato	Columbo	Noam	Adelmar	Eneyen	Francesco	Lazzaro	Elliot	Albin	Alvaro	Nubar	Favio	Davor
+	Crispo	Numa	Renau	Sacha	Linneo	Febo	Jon	Pacomio	Marino	Lisandro	Adiel	Hernando	Walberto
+	Marshall	Ceumar	Orencio	Lalo	Tatiano	Ernie	Leocadio	Juven	Renau	Quique	Leal	Anolfo	Modesto
+	Godfred	Velasco	Emir	Fabricio	Yamal	Cleandro	Perfecto	Roni	Spiro	Ciset	Geremías
+	Ibrahim	Germinal	Damocles	Millan	Percival	Ticiano	Casto	Orson	Oswald	Maurizio	Diómedes
+	Silverio	Landerico	Moshe	Barry	Sylvester	Cripín	Gelasio	Haroldo	Moshe	Víctor	Dagoberto
+	Alexandre	Giulio	Bartie	Lope	Nofre	Erik	Abdías	Mahoma	Isachar	Fusiano	Panbil	Ammiel	Astolfo	Torcuato
+	Amelio	Goyo	Erato	Massimo	Anolfo	Vincent	Homero	Vincent	Vic	Raidis	Eloy	Pusaki	Josemaría	Job
+	Casiano	Licas	Wenceslao	Manases	Mickey	Mónica	Reinaldo	Caitán	Agila	Erakil	Lewis	Narkis	Harry
+	Yoel	Amintor	Segundino	Reuben	Joab	Flavio	Leocadio	Rufino	Mendel	Teseo	Constantino	Odo
+	Fulbert	Edelio	Michele	Epicuro	Landolfo	Salvino	Silvino	Albert	Frederick	Yrko	Joscio	Maclovio
+	Cuasimodo	Nelson	Orígenes	Olimpo	Valderrama	Archibaldo	Liberato	Carlo	Teócrito
+	Lihuel	Marón	Bonifaci	Lisandro	Escipion	Jairo	Vitoldo	Arnulfo	Naike	Pace	Kirk	Donardo
+	Lukas	Anicet	Douglas	Iñaqui	Misael	Alaor	Aritófanes	Buenaventura	"Juan Carlos"	Severo	Dillan	Emilian
+	Liberto	Orazio	Crístoforo	Ezekiel	Iwan	Davor	Atila	Febo	Pablo	Carim	Androcles	Yain	Tarsicio
+	Laurindo	Leuco	Ami	Tubau	Edco	Iosef	Génesis	Giovanni	Tíquico	Sebasten	Alfred	Hadrian
+	Oseas	Virgilio	Matthew	Lair	Micael	Algiso	Malcom	Marlon	Quintiliano	Cuniberto	Styalianos
+	Josemaría	Perseo	Daryl	Inocencio	Heráclito	Macabeo	Ceadas	Atila	Elvio	Lisardo	Procopio
+	Sancho	Enmanuel	Yunka	Teseo	Gordon	Jonah	Basilio	Cristopher	Nicomedes	Nereu	Aleydis	Germinal
+	Libio	Sam	Jackson	Macedonio	Areb	Arnau	Josué	Sinesio	Basileo	Licurgo	Mathías	Antoshika	Anquises
+	Cicerón	Nereo	Hobart	Quintín	Ariano	Agamenón	Alejandrino	Macario	Henrey	Jonas	Landolf	Argus
+		}
+		female_names = {
+	Niranjana	Sasha	Wereburga	Gilda	Partenia	Scarlett	Laodamia	Iva	Rosalina
+	Angelines	Leoncia	Aria	Belisa	Cadelaria	Abancuy	Alondra	Goratze	Zina	Donatela	Lizbeth	Domma
+	Yeruti	Mariola	Blandina	Ainoha	Armanda	Quiteria	Lila	Cleofe	Zaira	Clotilde	Scarlett
+	Adria	Hildegunda	Crimilda	Karenina	Carisa	Manque	Athina	Angélica	Jordana	Mafalda	Teófila
+	Anael	Elena	Zemira	Diana	Floramaría	Cora	Natalí	Zina	Pimpinela	Danika	Aracelia	Mireille
+	Iriel	Anahí	Virna	Afrodita	Jade	Edda	Temis	Acnin	Helida	Lizie	Sophe	Hilen	Karmina	Liboria
+	Amalie	Marlene	Rosinda	Crimilda	Marilda	Tatiana	Adena	Gayane	Hildegunda	Patsy	Delvis	Amalsinda
+	Adena	Meline	Cesia	Prudenciana	Felisa	Leticia	Joseph	Paris	Manela	Ludovica	Mauli	Marvela	Jenara
+	Gracias	Celmira	Numeria	Obdulia	Betiana	Ingrid	Jocelín	Bru	Vanda	Aleda	Nasya	Jasmine	Marga	Herminia
+	Jeny	Isabelina	Adalgisa	Nikole	Nunila	Amarilla	Felicidad	Adriadna	Eliú	Gail
+	Ary	Edaline	Lanin	Dorcas	Jacqueline	Barbara	Endike	Dafne	Guillermina	Garoa	Edilma	Tarsicia
+	Claudina	Clidia	Imperio	Joanna	América	Sophie	Clelia	Nereida	Flavio	Gioia	Amarilis	Lizeth	Jesabel
+	Aminta	Nale	Amapola	Annabel	Selva	Franca	Jesse	Merced	Haidee	Gilberta	Eudosia	Ezilda	Ahinoa	Rocío
+	Atenea	Nehueln	Speranza	Ezilda	Maisa	Greta	Suyay	Desideria	Micol	Eurídice	Wendell	Hermione
+	Renata	Demetria	Fani	Helda	Maya	Dana	Violette	Maura	Quichauel	Braulia	Piuque	Jeny
+	Yanella	Sol	Rosamunda	Electra	Petronila	Merle	Lanin	Farisa	Lihue	Casia	Mirella	Lolly	Arianna
+	Girzie	Indira	Malguen	Amal	Valencia	Fabienne	Balbina	Abigaíl	Betina	Mireille	Elín	Eliane
+	Eduviges	Leslie	Melissa	Ara	Lican	Waltruda	Melissa	Naara	Vilma	Candela	Violeta	Paloma	Danae
+	Montana	Farisa	Yael	Asis	Mercy	Veda	Ross	Zuleica	Indes	Allison	Etelvina	Eliane	Florida	Tali
+	Agüeda	Lila	Alvina	Jeannette	Leoncia	Marilu	Ceferina	Winifreda	Cindy	Stella	Jesse	Leopolda
+	Floramaría	Luisina	Maimara	Jaia	Amaya	Nelda	Sylvia	Dinorah	Renée	Caterina	Rosina	Muriel	Susan
+	Obdulia	Heliana	Liliana	Maxelinda	Arcadia	Zuleika	Bianca	Ondina	Yocasta	Naida	Yole	Anisia	Aquilesia
+	Piuque	Hayde	Flaminia	Andrómeda	Tusnelda	Débora	Cesarina	Jezabel	Luminosa	Calínica
+	Cleofe	Liboria	Arabel	Wayca	Digna	Priscilla	Morena	Valentina	Moria	Miranda	Letizia	Arminda	Elda
+	Iliana	Tais	Yexalén	Maha	Sulamita	Renata	Panambi	Kenti	Muriel	Muriel	Lucelia	Ashley	Tracy	Margot
+	Cuyen	Quichauel	Eira	Makenna	Fusca	Pastora	Sabel	Emma	Joanne	Gaby	Jocelín	Oliva	Penny	Xena
+	Roxana	Aymara	Mafalda	Isis	Isabelle	Betania	Tania	Gigí	Elda	Apia	Vanesa	Cassandre	Albertina
+	Arcángela	Valentine	Aracely	Bee	Domma	Clorinda	Delicia	Cira	Anastasie	Grizelda
+	Irupé	Elí	Nikole	Valeska	Helida	Graciana	Ileana	Freyra	Maku	Damiana	Milva	Maile	Turquesa
+	Wendell	Inmaculada	Brunela	Italina	Leonilda	Jennifer	Karime	Monique	Sophe	Lelis	Isadora	Denise
+	Danisa	Irina	Mary	Guilleuma	Cinthia	Amina	Valquiria	Nasha	Urania	Eira	Adria	Leonila	Karla
+	Malva	Joann	Aynkan	Jesusa	Selene	Venancia	Lil	Cebeles	Amira	Xenia	Eleanor	Ursy	Joann	Idalina
+	Beatrice	Marceliana	Hildegunda	Primitiva	Anahid	Sabela	Haidee	Michela	Sinclética	Ulla
+	Azalea	Elea	Olaya	Ammia	Milena	Numilen	Alcira	Mariu	Nydia	Maya	Ofelia	Olaya	Merced	Electra	Takara
+	Vaniria	Melanie	Brunilda	Keiko	Zahira	Yesica	Lucy	Tania	Katja	Publia	Mirana	Eliane	Edaline	Dorotea
+	Vanya	Haizea	Eduviges	Catrin	Zaida	Maruja	Yeray	Illed	Leopolda	Thina	Bertilda	Odina
+	Yoko	Dagma	Sabelia	Azul	Iluminada	Emelina	Tali	Johanna	Leocricia	Hadda	Augusta	Jeny	Fiorella
+	Pearl	Querubina	Corina	Fredel	Hilary	Bella	Karla	Marcelina	Bee	Lidia	Melisa	Mathilda
+	Jana	Pulqueria	Huilen	Alin	Belisa	Mijal	Barbea	Gail	Fiona	Nilda	Moira	Adelaide	Lelia
+	Aída	Selma	Vella	Eliú	Marta	Marian	Belisa	Lida	Debra	Fiorella	Doelia	Louisa	Ilian	Jasmine
+		}
+		from_dynasty_prefix = ""
+		#male_patronym = "son"
+		#female_patronym = "daughter"
+		prefix = no # The patronym is added as a suffix
+		pat_grf_name_chance = 10
+		mat_grf_name_chance = 10
+		father_name_chance = 0
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 10
+		mother_name_chance = 0
+		modifier = default_culture_modifier
+	}
 }

@@ -10,7 +10,6 @@ e_united_states = {
     0
   }
   short_name = yes
-  landless = yes
   culture = american
   religion = protestant
 }
@@ -99,4 +98,36 @@ k_palestine = {
         }
   culture = levantine_arabic
   religion = sunni
+}
+d_senate = {
+  color = {
+    30
+    120
+    220
+  }
+  color2 = {
+    255
+    255
+    0
+  }
+  short_name = yes
+  landless = yes
+  culture = american
+  religion = democrat
+}
+d_house_reps = {
+  color = {
+    30
+    120
+    220
+  }
+  color2 = {
+    255
+    255
+    0
+  }
+  short_name = yes
+  landless = yes
+  culture = american
+  religion = republican
 }

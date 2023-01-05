@@ -25,6 +25,10 @@ demo_elective = {
 					FROMFROM = { real_tier = EMPEROR }
 					higher_real_tier_than = COUNT #Dukes and Kings
 				}
+				AND = {
+					FROMFROM = { real_tier = EMPEROR }
+					is_ruler = no
+				}
 			}
 		}
 		additive_modifier = { 
@@ -3253,10 +3257,10 @@ demo_elective = {
 		OR = {
 			FROM = { any_claim = { title = ROOT_FROMFROM } }
 			ROOT = { 
-				is_close_relative = FROM
 				OR = { 
 					dynasty = FROM
-					FROM = { is_landed = yes higher_real_tier_than = BARON }
+					is_close_relative = FROM
+					is_adult = yes
 				}
 			}
 			AND = { 
@@ -3290,8 +3294,6 @@ demo_elective = {
 		FROM = {
 			OR = { #Candidate should not be a landless Courtier that is about to inherit a Theocracy or Republic
 				AND = {
-					is_ruler = yes
-					is_landed = yes
 					is_republic = no
 					is_merchant_republic = no
 					is_theocracy = no

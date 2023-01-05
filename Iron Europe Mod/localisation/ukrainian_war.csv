@@ -1,6 +1,12 @@
 ukrainian;Ukrainian;;;;;;;;;;;;;x
+d_wagner_group;Wagner Group;;;x
+d_wagner_2_group;Wagner Group;;;x
+d_azov_battalion;Azov Battalion;;;x
 ca_american_base;Foreign Military Base;;;x
 ca_american_base_desc;A base used to house and supply American soldiers.;;;x
+democrat_opinion;Democrat Opinion;;;x
+republican_opinion;Republican Opinion;;;x
+wagner_brigade;Wagner Group;;;x
 nato_soldiers;American Troops;;;x
 join_any_war;Join [Root.GetFirstName]'s war;;;;;;;;;;;;;x
 join_any_war_named;Join War;;;;;;;;;;;;;x

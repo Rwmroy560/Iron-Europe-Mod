@@ -1,0 +1,65 @@
+###########################################
+#
+# Robmod Warrior Kings decisions
+#
+###########################################
+# Written by Rob Kenyon
+###########################################
+
+decisions = {
+
+	robmodcombat_war_strategy = {
+		is_high_prio = yes
+		potential = {
+			is_ruler = yes
+			age = 16
+		}
+		
+		allow = {
+			prisoner = no
+			is_incapable = no
+			OR = {
+				war = yes
+				mercenary = yes
+				holy_order = yes
+			}
+			custom_tooltip = {
+				text = robmodcombat_war_strategy_cooldown_tt
+				hidden_tooltip = {
+					NOT = { has_character_modifier = robmodcombat_war_strategy_cooldown }
+				}
+			}
+			custom_tooltip = {
+				text = robmodcombat_war_strategy_liege_tt
+				hidden_tooltip = {
+					NOT = { has_character_flag = robmodcombat_liege_set_war_strategy }
+				}
+			}
+		}
+		
+		effect = {
+			hidden_tooltip = {
+				add_character_modifier = {
+					modifier = robmodcombat_war_strategy_cooldown
+					years = 1
+					hidden = yes
+				}
+			}
+			custom_tooltip = {
+				text = set_war_strategy_tt
+				hidden_tooltip = {
+					character_event = { id = robmodcombat.30001 }
+				}
+			}
+			set_character_flag = robmodcombat_war_strategy_set
+		}
+		
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

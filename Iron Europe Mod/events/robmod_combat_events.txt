@@ -1,0 +1,993 @@
+#####---------====<[ROBMOD]>====----------#####
+#---------------------------------------------#
+####----=<COMBAT EVENTS>=----####
+# IDs
+# 10001-10015: Dynamic combat flavour events
+# 20001-20021: Battlefield position events
+# 30001-30005: War strategy events
+
+namespace = robmodcombat
+
+
+
+#-WAR STRATEGY EVENTS-#
+
+#Set your war strategy 1
+character_event = {
+	id = robmodcombat.30001
+	desc = EVTDESC_ROBMODCOMBAT_30001	
+	picture = GFX_evt_war_planning
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_current_enemy = { save_event_target_as = robmodcombat_enemy }
+	}
+	
+	option = {
+		name = EVTOPTA_ROBMODCOMBAT_30001	#Balanced
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 1.5
+				realm_levy_diff = { who = robmodcombat_enemy value = 1000 }
+			}
+		}
+		custom_tooltip = { text = EVTTOOLTIPA_ROBMODCOMBAT_30001 }
+		if = {
+			limit = { trait = robmodcombat_attack }
+			remove_trait = robmodcombat_attack
+		}
+		if = {
+			limit = { trait = robmodcombat_defend }
+			remove_trait = robmodcombat_defend
+		}
+		if = {
+			limit = { trait = robmodcombat_quick }
+			remove_trait = robmodcombat_quick
+		}
+		if = {
+			limit = { trait = robmodcombat_attrition }
+			remove_trait = robmodcombat_attrition
+		}
+		add_trait = robmodcombat_balanced
+		hidden_tooltip = {
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_balanced
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB_ROBMODCOMBAT_30001	#Attack
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 3
+				is_primary_war_attacker = yes
+			}
+			modifier = {
+				factor = 2
+				realm_levy_diff = { who = robmodcombat_enemy value = 2000 }
+			}
+			modifier = {
+				factor = 2
+				realm_levy_diff = { who = robmodcombat_enemy value = 5000 }
+			}
+			modifier = {
+				factor = 0.8
+				trait = craven
+			}
+			modifier = {
+				factor = 1.2
+				trait = brave
+			}
+			modifier = {
+				factor = 0.9
+				trait = patient
+			}
+			modifier = {
+				factor = 1.1
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.1
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.9
+				trait = content
+			}
+			modifier = {
+				factor = 1.2
+				trait = inspiring_leader
+			}
+			modifier = {
+				factor = 0.8
+				trait = unyielding_leader
+			}
+			modifier = {
+				factor = 2
+				trait = aggressive_leader
+			}
+			modifier = {
+				factor = 0.5
+				trait = defensive
+			}
+		}
+		custom_tooltip = { text = EVTTOOLTIPB_ROBMODCOMBAT_30001 }
+		if = {
+			limit = { trait = robmodcombat_balanced }
+			remove_trait = robmodcombat_balanced
+		}
+		if = {
+			limit = { trait = robmodcombat_defend }
+			remove_trait = robmodcombat_defend
+		}
+		if = {
+			limit = { trait = robmodcombat_quick }
+			remove_trait = robmodcombat_quick
+		}
+		if = {
+			limit = { trait = robmodcombat_attrition }
+			remove_trait = robmodcombat_attrition
+		}
+		add_trait = robmodcombat_attack
+		hidden_tooltip = {
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_attack
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				add_province_modifier = {
+					modifier = robmodcombat_province_attack
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTC_ROBMODCOMBAT_30001	#Defend
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 3
+				is_primary_war_defender = yes
+			}
+			modifier = {
+				factor = 2
+				robmodcombat_enemy = {
+					realm_levy_diff = { who = ROOT value = 2000 }
+				}
+			}
+			modifier = {
+				factor = 2
+				robmodcombat_enemy = { 
+					realm_levy_diff = { who = ROOT value = 5000 }
+				}
+			}
+			modifier = {
+				factor = 1.2
+				trait = craven
+			}
+			modifier = {
+				factor = 0.8
+				trait = brave
+			}
+			modifier = {
+				factor = 1.1
+				trait = patient
+			}
+			modifier = {
+				factor = 0.9
+				trait = wroth
+			}
+			modifier = {
+				factor = 0.9
+				trait = ambitious
+			}
+			modifier = {
+				factor = 1.1
+				trait = content
+			}
+			modifier = {
+				factor = 0.8
+				trait = inspiring_leader
+			}
+			modifier = {
+				factor = 1.2
+				trait = unyielding_leader
+			}
+			modifier = {
+				factor = 0.5
+				trait = aggressive_leader
+			}
+			modifier = {
+				factor = 2
+				trait = defensive
+			}
+		}
+		custom_tooltip = { text = EVTTOOLTIPC_ROBMODCOMBAT_30001 }
+		if = {
+			limit = { trait = robmodcombat_balanced }
+			remove_trait = robmodcombat_balanced
+		}
+		if = {
+			limit = { trait = robmodcombat_attack }
+			remove_trait = robmodcombat_attack
+		}
+		if = {
+			limit = { trait = robmodcombat_quick }
+			remove_trait = robmodcombat_quick
+		}
+		if = {
+			limit = { trait = robmodcombat_attrition }
+			remove_trait = robmodcombat_attrition
+		}
+		add_trait = robmodcombat_defend
+		hidden_tooltip = {
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_defend
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				add_province_modifier = {
+					modifier = robmodcombat_province_defend
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTD_ROBMODCOMBAT_30001
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 2
+				is_primary_war_attacker = yes
+			}
+			modifier = {
+				factor = 10
+				realm_levy_diff = { who = robmodcombat_enemy value = 10000 }
+			}
+			modifier = {
+				factor = 1.2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.8
+				trait = slothful
+			}
+			modifier = {
+				factor = 1.5
+				trait = cavalry_leader
+			}
+			modifier = {
+				factor = 1.2
+				trait = trickster
+			}
+			modifier = {
+				factor = 1.2
+				trait = flanker
+			}
+			modifier = {
+				factor = 1.2
+				trait = organizer
+			}
+			modifier = {
+				factor = 2
+				is_primary_war_defender = yes
+			}
+			modifier = {
+				factor = 10
+				NOT = { 
+					realm_levy_diff = { who = robmodcombat_enemy value = 1000 }
+				}
+			}
+			modifier = {
+				factor = 1.2
+				trait = patient
+			}
+			modifier = {
+				factor = 0.8
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.5
+				trait = siege_leader
+			}
+			modifier = {
+				factor = 1.2
+				OR = {
+					trait = flat_terrain_leader
+					trait = rough_terrain_leader
+					trait = mountain_terrain_leader
+					trait = desert_terrain_leader
+					trait = jungle_terrain_leader
+					trait = winter_soldier
+				}
+			}
+		}
+		character_event = {
+			id = robmodcombat.30002
+			tooltip = EVTTOOLTIPD_ROBMODCOMBAT_30001
+		}
+	}
+}
+
+#Set your war strategy 2
+character_event = {
+	id = robmodcombat.30002
+	desc = EVTDESC_ROBMODCOMBAT_30001	
+	picture = GFX_evt_war_planning
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		random_current_enemy = { save_event_target_as = robmodcombat_enemy }
+	}
+	
+	option = {
+		name = EVTOPTE_ROBMODCOMBAT_30001	#quick
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				is_primary_war_attacker = yes
+			}
+			modifier = {
+				factor = 10
+				realm_levy_diff = { who = robmodcombat_enemy value = 10000 }
+			}
+			modifier = {
+				factor = 1.2
+				trait = diligent
+			}
+			modifier = {
+				factor = 0.8
+				trait = slothful
+			}
+			modifier = {
+				factor = 1.5
+				trait = cavalry_leader
+			}
+			modifier = {
+				factor = 1.2
+				trait = trickster
+			}
+			modifier = {
+				factor = 1.2
+				trait = flanker
+			}
+			modifier = {
+				factor = 1.2
+				trait = organizer
+			}
+		}
+		custom_tooltip = { text = EVTTOOLTIPE_ROBMODCOMBAT_30001 }
+		if = {
+			limit = { trait = robmodcombat_attack }
+			remove_trait = robmodcombat_attack
+		}
+		if = {
+			limit = { trait = robmodcombat_defend }
+			remove_trait = robmodcombat_defend
+		}
+		if = {
+			limit = { trait = robmodcombat_balanced }
+			remove_trait = robmodcombat_balanced
+		}
+		if = {
+			limit = { trait = robmodcombat_attrition }
+			remove_trait = robmodcombat_attrition
+		}
+		add_trait = robmodcombat_quick
+		hidden_tooltip = {
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_quick
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTF_ROBMODCOMBAT_30001	#Attrition
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 2
+				is_primary_war_defender = yes
+			}
+			modifier = {
+				factor = 10
+				NOT = { 
+					realm_levy_diff = { who = robmodcombat_enemy value = 500 }
+				}
+			}
+			modifier = {
+				factor = 1.2
+				trait = patient
+			}
+			modifier = {
+				factor = 0.8
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.5
+				trait = siege_leader
+			}
+			modifier = {
+				factor = 1.2
+				OR = {
+					trait = flat_terrain_leader
+					trait = rough_terrain_leader
+					trait = mountain_terrain_leader
+					trait = desert_terrain_leader
+					trait = jungle_terrain_leader
+					trait = winter_soldier
+				}
+			}
+		}
+		custom_tooltip = { text = EVTTOOLTIPF_ROBMODCOMBAT_30001 }
+		if = {
+			limit = { trait = robmodcombat_balanced }
+			remove_trait = robmodcombat_balanced
+		}
+		if = {
+			limit = { trait = robmodcombat_defend }
+			remove_trait = robmodcombat_defend
+		}
+		if = {
+			limit = { trait = robmodcombat_quick }
+			remove_trait = robmodcombat_quick
+		}
+		if = {
+			limit = { trait = robmodcombat_attack }
+			remove_trait = robmodcombat_attack
+		}
+		add_trait = robmodcombat_attrition
+		hidden_tooltip = {
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				add_trait = robmodcombat_attrition
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+		hidden_tooltip = {
+			any_realm_province = {
+				add_province_modifier = {
+					modifier = robmodcombat_province_defend
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTG_ROBMODCOMBAT_30001	#Back
+		ai_chance = {
+			factor = 200
+			modifier = {
+				factor = 1.5
+				realm_levy_diff = { who = robmodcombat_enemy value = 1000 }
+			}
+			modifier = {
+				factor = 3
+				is_primary_war_attacker = yes
+			}
+			modifier = {
+				factor = 2
+				realm_levy_diff = { who = robmodcombat_enemy value = 2000 }
+			}
+			modifier = {
+				factor = 2
+				realm_levy_diff = { who = robmodcombat_enemy value = 5000 }
+			}
+			modifier = {
+				factor = 0.8
+				trait = craven
+			}
+			modifier = {
+				factor = 1.2
+				trait = brave
+			}
+			modifier = {
+				factor = 0.9
+				trait = patient
+			}
+			modifier = {
+				factor = 1.1
+				trait = wroth
+			}
+			modifier = {
+				factor = 1.1
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.9
+				trait = content
+			}
+			modifier = {
+				factor = 1.2
+				trait = inspiring_leader
+			}
+			modifier = {
+				factor = 0.8
+				trait = unyielding_leader
+			}
+			modifier = {
+				factor = 2
+				trait = aggressive_leader
+			}
+			modifier = {
+				factor = 0.5
+				trait = defensive
+			}
+			modifier = {
+				factor = 3
+				is_primary_war_defender = yes
+			}
+			modifier = {
+				factor = 2
+				robmodcombat_enemy = {
+					realm_levy_diff = { who = ROOT value = 2000 }
+				}
+			}
+			modifier = {
+				factor = 2
+				robmodcombat_enemy = { 
+					realm_levy_diff = { who = ROOT value = 5000 }
+				}
+			}
+			modifier = {
+				factor = 1.2
+				trait = craven
+			}
+			modifier = {
+				factor = 0.8
+				trait = brave
+			}
+			modifier = {
+				factor = 1.1
+				trait = patient
+			}
+			modifier = {
+				factor = 0.9
+				trait = wroth
+			}
+			modifier = {
+				factor = 0.9
+				trait = ambitious
+			}
+			modifier = {
+				factor = 1.1
+				trait = content
+			}
+			modifier = {
+				factor = 0.8
+				trait = inspiring_leader
+			}
+			modifier = {
+				factor = 1.2
+				trait = unyielding_leader
+			}
+			modifier = {
+				factor = 0.5
+				trait = aggressive_leader
+			}
+			modifier = {
+				factor = 2
+				trait = defensive
+			}
+		}
+		hidden_tooltip = {
+			character_event = { id = robmodcombat.30001 }
+		}
+	}
+}
+
+# Remove war strategy when at peace
+character_event = {
+	id = robmodcombat.30003
+	hide_window = yes
+	
+	has_character_flag = robmodcombat_war_strategy_set
+	war = no
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		holy_order = no
+		mercenary = no
+	}
+	
+	immediate = {
+		clr_character_flag = robmodcombat_war_strategy_set
+		if = {
+			limit = { trait = robmodcombat_balanced }
+			remove_trait = robmodcombat_balanced
+		}
+		if = {
+			limit = { trait = robmodcombat_defend }
+			remove_trait = robmodcombat_defend
+			hidden_tooltip = {
+				any_realm_province = { remove_province_modifier = robmodcombat_province_defend }
+			}
+		}
+		if = {
+			limit = { trait = robmodcombat_quick }
+			remove_trait = robmodcombat_quick
+		}
+		if = {
+			limit = { trait = robmodcombat_attack }
+			remove_trait = robmodcombat_attack
+			hidden_tooltip = {
+				any_realm_province = { remove_province_modifier = robmodcombat_province_attack }
+			}
+		}
+		if = {
+			limit = { trait = robmodcombat_attrition }
+			remove_trait = robmodcombat_attrition
+			hidden_tooltip = {
+				any_realm_province = { remove_province_modifier = robmodcombat_province_defend }
+			}
+		}
+		any_courtier_or_vassal = {
+			limit = { 
+				OR = {
+					has_minor_title = title_commander
+					has_job_title = job_marshal
+				}
+			}
+			if = {
+				limit = { trait = robmodcombat_balanced }
+				remove_trait = robmodcombat_balanced
+			}
+			if = {
+				limit = { trait = robmodcombat_defend }
+				remove_trait = robmodcombat_defend
+			}
+			if = {
+				limit = { trait = robmodcombat_quick }
+				remove_trait = robmodcombat_quick
+			}
+			if = {
+				limit = { trait = robmodcombat_attack }
+				remove_trait = robmodcombat_attack
+			}
+			if = {
+				limit = { trait = robmodcombat_attrition }
+				remove_trait = robmodcombat_attrition
+			}
+			clr_character_flag = robmodcombat_liege_set_war_strategy
+		}
+	}
+}
+
+# Add war strategy to new commanders
+character_event = {
+	id = robmodcombat.30004
+	hide_window = yes
+	
+	has_character_flag = robmodcombat_war_strategy_set
+	war = yes
+	only_rulers = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = { trait = robmodcombat_balanced }
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_balanced
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+		if = {
+			limit = { trait = robmodcombat_defend }
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_defend
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+		if = {
+			limit = { trait = robmodcombat_quick }
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_quick
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+		if = {
+			limit = { trait = robmodcombat_attack }
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attrition }
+					remove_trait = robmodcombat_attrition
+				}
+				add_trait = robmodcombat_attack
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+		if = {
+			limit = { trait = robmodcombat_attrition }
+			any_courtier_or_vassal = {
+				limit = { 
+					OR = {
+						has_minor_title = title_commander
+						has_job_title = job_marshal
+					}
+				}
+				if = {
+					limit = { trait = robmodcombat_balanced }
+					remove_trait = robmodcombat_balanced
+				}
+				if = {
+					limit = { trait = robmodcombat_defend }
+					remove_trait = robmodcombat_defend
+				}
+				if = {
+					limit = { trait = robmodcombat_quick }
+					remove_trait = robmodcombat_quick
+				}
+				if = {
+					limit = { trait = robmodcombat_attack }
+					remove_trait = robmodcombat_attack
+				}
+				add_trait = robmodcombat_attrition
+				set_character_flag = robmodcombat_liege_set_war_strategy
+			}
+		}
+	}
+}
+
+# Remove war strategies from courtier commanders when their liege is at peace
+character_event = {
+	id = robmodcombat.30005
+	hide_window = yes
+
+	war = no
+	ai = yes
+	
+	is_triggered_only = yes
+	
+	trigger = { 
+		is_ruler = no
+		liege = { war = no }
+		OR = {
+			trait = robmodcombat_balanced
+			trait = robmodcombat_defend
+			trait = robmodcombat_quick
+			trait = robmodcombat_attack
+			trait = robmodcombat_attrition
+		}
+		mercenary = no
+		holy_order = no
+	}
+	
+	immediate = {
+		clr_character_flag = robmodcombat_liege_set_war_strategy
+		if = {
+			limit = { trait = robmodcombat_balanced }
+			remove_trait = robmodcombat_balanced
+		}
+		if = {
+			limit = { trait = robmodcombat_defend }
+			remove_trait = robmodcombat_defend
+		}
+		if = {
+			limit = { trait = robmodcombat_quick }
+			remove_trait = robmodcombat_quick
+		}
+		if = {
+			limit = { trait = robmodcombat_attack }
+			remove_trait = robmodcombat_attack
+		}
+		if = {
+			limit = { trait = robmodcombat_attrition }
+			remove_trait = robmodcombat_attrition
+		}
+	}
+}

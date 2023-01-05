@@ -1,0 +1,6 @@
+2017.5.14 = {
+  name = "The Senate"
+  adjective = "American"
+  holder = 109975160
+  liege = e_united_states
+}

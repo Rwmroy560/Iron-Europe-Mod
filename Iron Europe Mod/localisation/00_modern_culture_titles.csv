@@ -23,10 +23,10 @@ emperor_levantine_arabic;President;;;x
 emperor_female_levantine_arabic;President;;;x
 
 #american
-tribal_duke_american;Governer-General;;;x
-tribal_duke_female_american;Governer-General;;;x
-duke_american;Governer-General;;;x
-duke_female_american;Governer-General;;;x
+tribal_duke_american;Representative;;;x
+tribal_duke_female_american;Representative;;;x
+duke_american;Representative;;;x
+duke_female_american;Representative;;;x
 duke_title_ruler_consort_american;Minister;;;x
 duke_title_ruler_consort_female_american;Mistress;;;x
 emperor_american;President;;;x

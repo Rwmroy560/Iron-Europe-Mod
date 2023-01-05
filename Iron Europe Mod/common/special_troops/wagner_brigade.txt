@@ -1,0 +1,11 @@
+wagner_brigade = {
+	morale = 3
+	maintenance = 0.25 #2.5
+	phase_skirmish_attack = 9
+	phase_melee_attack = 5
+	phase_pursue_attack = 9
+	phase_skirmish_defense = 5
+	phase_melee_defense = 5
+	phase_pursue_defense = 5
+	base_type = heavy_infantry
+}

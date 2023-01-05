@@ -8,3 +8,8 @@ EVTAiron_century.1;We don't negotiate with terrorists!;;;x
 EVTDESCiron_century.2;Your country is at war and you need help! Despite the intense generational suffering brought to your people by the state of France, you have few options when it comes to allies and they are willing to aid you...for a price.;;;x
 EVTAiron_century.2;Actually, let's not.;;;x
 EVTBiron_century.2;Oui Oui! Sovereignty be damned!;;;x
+
+ca_rail_network;Rail Network;;;x
+ca_rail_network_desc;A network of railroads used to hasten the movement of goods and people.;;;x
+ca_intl_airport;International Airport;;;x
+ca_intl_airport_desc;An airport to facilitate travel and trade to other countries.;;;x

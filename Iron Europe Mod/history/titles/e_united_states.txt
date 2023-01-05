@@ -12,6 +12,35 @@
   law = crown_authority_1
   law = centralization_0
 }
+1981.1.1 = {
+  holder = 109975180
+  law = army_professionalism_law_0
+  law = high_court_law_0
+  law = tax_peasants_law_feudal_1
+  law = vassal_wars_law_2
+  law = status_of_women_3
+  law = law_voting_power_1
+  law = war_voting_power_1
+  law = revoke_title_voting_power_1
+  law = imprison_voting_power_1
+  law = grant_title_voting_power_1
+  law = banish_voting_power_1
+  law = execution_voting_power_1
+  law = succession_voting_power_1
+}
+1989.1.1 = {
+  holder = 109975178
+}
+1993.1.1 = {
+  holder = 109975155
+}
+2001.1.1 = {
+  holder = 109975179
+}
+2008.11.4 = {
+  holder = 109975174
+
+}
 2017.5.14 = {
   holder = 109986701
   law = army_professionalism_law_0

@@ -17,7 +17,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "dalmatiangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -55,7 +55,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "romangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -93,7 +93,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "englishgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -131,7 +131,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "turkishgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -169,7 +169,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "southerngfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -206,7 +206,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "chinesegfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -244,7 +244,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "arabicgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -280,7 +280,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "berbergfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -316,7 +316,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "westernslavicgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -352,7 +352,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "persiangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -389,7 +389,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "indiangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -425,7 +425,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "frankishgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -462,7 +462,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "germangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -499,7 +499,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "bodpagfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -535,7 +535,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "celticgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -571,7 +571,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "ugricgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -607,7 +607,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "republicsgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -643,7 +643,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "mongolgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -680,7 +680,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "cumangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -716,7 +716,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "levantinegfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -753,7 +753,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "andalusiangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -790,7 +790,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "westafricangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -827,7 +827,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "africangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -864,7 +864,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "croatsouthslavicgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -900,7 +900,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "serbsouthslavicgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -936,7 +936,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "magyargfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -972,7 +972,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "byzantinegfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1009,7 +1009,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "southindiangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1045,7 +1045,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "italiangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1082,7 +1082,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "trueoccitangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1119,7 +1119,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "occitangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1156,7 +1156,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "mesoamericangfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1192,7 +1192,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "norsegfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1228,7 +1228,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "outremergfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1264,7 +1264,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "stormlandergfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1306,7 +1306,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "easternslavicgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1343,7 +1343,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "westerngfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1380,7 +1380,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "easterngfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1417,7 +1417,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "muslimgfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {
@@ -1455,7 +1455,7 @@ objectTypes = {
 	}
 	pdxmesh = {
 		name = "prewargfx_PIKEMEN"
-		file = "gfx/models/demolitions.mesh"
+		file = "gfx/models/artillery.mesh"
 		scale = 750.00f
 	}
 	pdxmesh = {

@@ -32,29 +32,29 @@
 1820.1.29 = {
   holder = 112234221
 }
-1830.6.26 = {
-  holder = 113735472
+1976.5.5 = {
+  holder = 109975187
 }
-1837.6.20 = {
-  holder = 119532987
+1979.1.1 = {
+  holder = 109975186
 }
-1901.1.22 = {
-  holder = 112274579
+1990.1.22 = {
+  holder = 109975185
 }
-1910.5.6 = {
-  holder = 113854106
+1997.5.6 = {
+  holder = 109975184
 }
-1936.1.20 = {
-  holder = 115164102
+2007.6.20 = {
+  holder = 109975183
 }
-1936.12.11 = {
-  holder = 110548993
+2010.5.11 = {
+  holder = 109975182
 }
-1947.8.15 = {
+2016.7.13 = {
   law = feudal_administration
   law = ze_administration_laws_0
 }
-1952.2.6 = {
+2019.9.6 = {
   holder = 116379051
   law = army_professionalism_law_0
   law = tax_peasants_law_feudal_1

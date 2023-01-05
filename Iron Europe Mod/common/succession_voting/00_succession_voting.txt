@@ -147,6 +147,10 @@ feudal_elective = {
 					FROMFROM = { real_tier = EMPEROR }
 					higher_real_tier_than = COUNT #Dukes and Kings
 				}
+				AND = {
+					FROMFROM = { real_tier = EMPEROR }
+					is_ruler = no
+				}
 			}
 		}
 		additive_modifier = { 
@@ -3329,28 +3333,16 @@ feudal_elective = {
 		OR = {
 			FROM = { any_claim = { title = ROOT_FROMFROM } }
 			ROOT = { 
-				is_close_relative = FROM
 				OR = { 
 					dynasty = FROM
-					FROM = { is_landed = yes higher_real_tier_than = BARON }
+					is_close_relative = FROM
+					is_adult = yes
 				}
 			}
 			AND = { 
 				OR = { 
-					FROM = { higher_real_tier_than = COUNT } #Or Duke-tier...
-					AND = { 
-						ROOT = { 
-							lower_real_tier_than = KING
-							higher_real_tier_than = COUNT
-						}
-						FROM = { higher_real_tier_than = BARON } #...Or Count-tier under a Duchy...
-					} 
-					AND = { 
-						ROOT = { 
-							lower_real_tier_than = DUKE
-						}
-						FROM = { is_landed = yes is_ruler = yes } #...Or Baron-tier under a County.
-					} 
+					FROM = { is_landed = no }
+					FROM = { is_landed = yes }
 				}
 				FROM = { 
 					OR = { #Either defacto direct vassal, or independent ruler who is dejure vassal.
@@ -3366,8 +3358,6 @@ feudal_elective = {
 		FROM = {
 			OR = { #Candidate should not be a landless Courtier that is about to inherit a Theocracy or Republic
 				AND = {
-					is_ruler = yes
-					is_landed = yes
 					is_republic = no
 					is_merchant_republic = no
 					is_theocracy = no

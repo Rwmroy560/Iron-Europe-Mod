@@ -28,11 +28,11 @@
 }
 90000007 = {
   name = Garcia
-  culture = american
+  culture = latino_american
 }
 90000008 = {
   name = Rodriguez
-  culture = american
+  culture = latino_american
 }
 90000009 = {
   name = Wilson
@@ -40,14 +40,14 @@
 }
 90000010 = {
   name = Martinez
-  culture = american
+  culture = latino_american
 }
 90000011 = {
   name = Anderson
   culture = american
 }
 90000012 = {
-  name = Taylor
+  name = Schumer
   culture = american
 }
 90000013 = {
@@ -80,7 +80,7 @@
 }
 90000020 = {
   name = Lopez
-  culture = american
+  culture = latino_american
 }
 90000021 = {
   name = Kushner
@@ -88,7 +88,7 @@
 }
 90000022 = {
   name = Gonzalez
-  culture = american
+  culture = latino_american
 }
 90000023 = {
   name = Harris
@@ -128,7 +128,7 @@
 }
 90000032 = {
   name = Sanchez
-  culture = american
+  culture = latino_american
 }
 90000033 = {
   name = Wright
@@ -156,7 +156,7 @@
 }
 90000039 = {
   name = Nelson
-  culture = american
+  culture = black_american
 }
 90000040 = {
   name = Hill
@@ -196,7 +196,7 @@
 }
 90000049 = {
   name = Torres
-  culture = american
+  culture = latino_american
 }
 90000050 = {
   name = Parker
@@ -216,7 +216,7 @@
 }
 90000054 = {
   name = Flores
-  culture = american
+  culture = latino_american
 }
 90000055 = {
   name = Morris
@@ -232,10 +232,10 @@
 }
 90000058 = {
   name = Rivera
-  culture = american
+  culture = latino_american
 }
 90000059 = {
-  name = Cook
+  name = Pelosi
   culture = american
 }
 90000060 = {
@@ -255,7 +255,7 @@
   culture = american
 }
 90000064 = {
-  name = Reed
+  name = Mccarthy
   culture = american
 }
 90000065 = {
@@ -263,12 +263,12 @@
   culture = american
 }
 90000066 = {
-  name = Bell
+  name = Mcconnell
   culture = american
 }
 90000067 = {
   name = Gomez
-  culture = american
+  culture = latino_american
 }
 90000068 = {
   name = Kelly
@@ -288,7 +288,7 @@
 }
 90000072 = {
   name = Diaz
-  culture = american
+  culture = latino_american
 }
 90000073 = {
   name = Richardson
@@ -324,7 +324,7 @@
 }
 90000081 = {
   name = Cruz
-  culture = american
+  culture = latino_american
 }
 90000082 = {
   name = Hughes
@@ -356,7 +356,7 @@
 }
 90000089 = {
   name = Morales
-  culture = american
+  culture = latino_american
 }
 90000090 = {
   name = Powell
@@ -372,7 +372,7 @@
 }
 90000093 = {
   name = Ortiz
-  culture = american
+  culture = latino_american
 }
 90000094 = {
   name = Jenkins
@@ -380,7 +380,7 @@
 }
 90000095 = {
   name = Gutierrez
-  culture = american
+  culture = latino_american
 }
 90000096 = {
   name = Perry
@@ -400,5 +400,68 @@
 }
 900000100 = {
   name = Guilfoyle
+  culture = american
+}
+900000101 = {
+  name = Ocasio-Cortez
+  culture = latino_american
+  used_for_random = no
+}
+900000102 = {
+  name = Desantis
+  culture = latino_american
+  used_for_random = no
+}
+900000103 = {
+  name = Abbot
+  culture = american
+}
+900000104 = {
+  name = Jeffries
+  culture = american
+}
+900000105 = {
+  name = Obama
+  culture = black_american
+  used_for_random = no
+}
+900000106 = {
+  name = Biden
+  culture = american
+  used_for_random = no
+}
+900000107 = {
+  name = Bush
+  culture = american
+}
+900000108 = {
+  name = Reagan
+  culture = american
+  used_for_random = no
+}
+900000109 = {
+  name = May
+  culture = american
+  used_for_random = no
+}
+900000110 = {
+  name = Cameron
+  culture = american
+}
+900000111 = {
+  name = Blair
+  culture = american
+}
+900000112 = {
+  name = Major
+  culture = american
+}
+900000113 = {
+  name = Thatcher
+  culture = american
+  used_for_random = no
+}
+900000114 = {
+  name = Callaghan
   culture = american
 }

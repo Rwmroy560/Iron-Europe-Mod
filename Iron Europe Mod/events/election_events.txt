@@ -21,6 +21,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTAelection_events.3
+		trigger = { NOT = { has_landed_title = e_united_states } }
 		ai_chance = { 
 			factor = 35 
 			modifier = {
@@ -74,7 +75,15 @@ character_event = {
 				voting_rules = demo_elective
 				}
 			}
+		any_vassal = {
+			primary_title = {
+			succession = {
+    				base_type = feudal_elective
+				voting_rules = demo_elective
+				}
+			}
 		}
+	}
 		if = { limit = { ai = no }
 		any_independent_ruler = {
 			limit = {
@@ -130,6 +139,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTAelection_events.3
+		trigger = { NOT = { has_landed_title = e_united_states } }
 		ai_chance = { 
 			factor = 35 
 			modifier = {
