@@ -55,7 +55,7 @@
   law = feudal_administration
   law = ze_administration_laws_0
 }
-2019.9.6 = {
+2017.5.14 = {
   holder = 116379051
   law = army_professionalism_law_0
   law = tax_peasants_law_feudal_1
