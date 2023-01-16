@@ -96,6 +96,15 @@
 }
 1924.1.21 = {
   holder = 114033062
+  law = vassal_wars_law_2
+  law = law_voting_power_0
+  law = war_voting_power_1
+  law = revoke_title_voting_power_0
+  law = imprison_voting_power_0
+  law = grant_title_voting_power_1
+  law = banish_voting_power_1
+  law = execution_voting_power_0
+  law = succession_voting_power_1
 }
 1953.3.5 = {
   holder = 119770731
@@ -130,9 +139,9 @@
 }
 2012.5.7 = {
   holder = 118727187
-  law = army_professionalism_law_1
+  law = army_professionalism_law_2
   law = high_court_law_2
-  law = tax_peasants_law_feudal_1
+  law = tax_peasants_law_feudal_2
   law = vassal_wars_law_2
   law = status_of_women_4
 }

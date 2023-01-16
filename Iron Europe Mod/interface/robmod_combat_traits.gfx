@@ -1,0 +1,66 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_robmodcombat_vanguard"
+		texturefile = "gfx/traits/robmod_vanguard.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_front"
+		texturefile = "gfx/traits/robmod_front.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_middle"
+		texturefile = "gfx/traits/robmod_middle.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_rear"
+		texturefile = "gfx/traits/robmod_rear.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_balanced"
+		texturefile = "gfx/traits/robmod_balanced.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_attack"
+		texturefile = "gfx/traits/robmod_attack.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_defend"
+		texturefile = "gfx/traits/robmod_defend.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_quick"
+		texturefile = "gfx/traits/robmod_quick.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_robmodcombat_attrition"
+		texturefile = "gfx/traits/robmod_attrition.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

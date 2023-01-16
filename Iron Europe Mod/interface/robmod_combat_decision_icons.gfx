@@ -1,0 +1,17 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_robmodcombat_battlefield_position_first"
+		texturefile = "gfx\\interface\\decision_icon_employ_soldier.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_robmodcombat_battlefield_position_change"
+		texturefile = "gfx\\interface\\decision_icon_employ_soldier.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_robmodcombat_war_strategy"
+		texturefile = "gfx\\interface\\decision_icon_war_strategy.dds"
+	}
+}

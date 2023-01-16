@@ -60,7 +60,37 @@ nato_soldiers_morale = {
 	is_hidden = no
 	max_decimals = 2
 }
+nazi_soldiers = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
 
+nazi_soldiers_offensive = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
+
+nazi_soldiers_defensive = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
+
+nazi_soldiers_morale = {
+	show_as_percent = yes
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 2
+}
 jewish_opinion = {
 	show_as_percent = no
 	is_good = yes

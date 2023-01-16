@@ -26,11 +26,31 @@
 1727.6.11 = {
   holder = 110303763
 }
-1760.10.25 = {
-  holder = 115180271
+1922.11.11 = {
+  holder = 100014470
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_1
+  law = agnatic_succession
+  law = vassal_wars_law_2
+  law = status_of_women_3
+  law = law_voting_power_1
+  law = war_voting_power_1
+  law = revoke_title_voting_power_1
+  law = imprison_voting_power_1
+  law = grant_title_voting_power_1
+  law = banish_voting_power_1
+  law = execution_voting_power_1
+  law = succession_voting_power_1
 }
-1820.1.29 = {
-  holder = 112234221
+1937.5.28 = {
+  holder = 100014472
+}
+1940.5.14 = {
+  holder = 100014471
+}
+1955.1.1 = {
+  holder = 100014473
 }
 1976.5.5 = {
   holder = 109975187

@@ -641,24 +641,25 @@ temple_barony_of;Temple of;;;;;x
 
 
 
-emperor_han;President;;;;;;;;;;;;;x
-emperor_title_ruler_consort_han;Mr. Admiral;;;;;;;;;;;;x
-emperor_title_ruler_consort_female_han;Mrs. Admiral;;;;;;;;;;;;;x
+emperor_han_taoist;President;;;;;;;;;;;;;x
+emperor_chinese_group;President;;;x
+emperor_title_ruler_consort_han;Representative;;;;;;;;;;;;x
+emperor_title_ruler_consort_female_han;Representative;;;;;;;;;;;;;x
 
 king_han;Premier;;;;;;;;;;;;;x
 king_title_ruler_consort_han;Minister;;;;;;;;;;;;x
 king_title_ruler_consort_female_han;Mrs.;;;;;;;;;;;;;x
-title_prince_han;Cadet;;;;;;;;;;;;;x
-title_prince_female_han;Cadet;;;;;;;;;;;;;x
+title_prince_han;Minister;;;;;;;;;;;;;x
+title_prince_female_han;Minister;;;;;;;;;;;;;x
 duke_han;Commander;;;;;;;;;;;;;x
-duke_title_ruler_consort_han;Mr. Commander;;;;;;;;;;;;x
-duke_title_ruler_consort_female_han;Mrs. Commander;;;;;;;;;;;;;x
+duke_title_ruler_consort_han;Commander;;;;;;;;;;;;x
+duke_title_ruler_consort_female_han;Commander;;;;;;;;;;;;;x
 count_han;Lieutenant;;;;;;;;;;;;;x
-count_title_ruler_consort_han;Mr. Lieutenant;;;;;;;;;;;;x
-count_title_ruler_consort_female_han;Mrs. Lieutenant;;;;;;;;;;;;;x
+count_title_ruler_consort_han;Lieutenant;;;;;;;;;;;;x
+count_title_ruler_consort_female_han;Lieutenant;;;;;;;;;;;;;x
 baron_han;Officer;;;;;;;;;;;;;x
-baron_title_ruler_consort_han;Mr. Officer;;;;;;;;;;;;x
-baron_title_ruler_consort_female_han;Mrs. Officer;;;;;;;;;;;;;x
+baron_title_ruler_consort_han;Officer;;;;;;;;;;;;x
+baron_title_ruler_consort_female_han;Officer;;;;;;;;;;;;;x
 
 family_palace_han;Corporate Palace;;;;;;;;;;;;;x
 family_palace_baron_han;CEO;;;;;;;;;;;;;x

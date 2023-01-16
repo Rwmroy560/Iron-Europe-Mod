@@ -1,5 +1,9 @@
 #CODE;English;French;German;;Spanish;;;;;;;;;x
 ;;;;;;;;;;;;;;
+grant_nob;Raise [Root.GetFirstName] to Nobility;;;x
+grant_nob_desc;[Root.GetFirstName] is lowborn from no distinguished dynasty. You may grant [Root.GetFirstName] the priviledge to form [Root.GetHerHis] own house with [Root.GetHerHis] own Coat of Arms.;;;x
+opinion_raised_to_nobility;Raised Me To Nobility!;;;x
+
 employ_foreign_steward;Employ a Local Steward;;;;;;;;;;;;;
 employ_foreign_steward_desc;Search for a noble who would help me manage my foreign subjects.;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;

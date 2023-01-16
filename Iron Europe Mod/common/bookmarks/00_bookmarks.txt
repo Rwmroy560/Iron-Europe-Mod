@@ -1,3 +1,215 @@
+bm_1922_11_01 = {
+  name = BM_1922_11_01
+  desc = BM_1922_11_01_DESC
+  date = 1922.11.1
+  era = yes
+  selectable_character = {
+    id = 119197028
+    age = 41
+    name = "Mustafa Kemal Atatürk"
+    title = k_anatolia
+    title_name = Turkey
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = sunni
+      culture = turkish
+      government = muslim_government
+      dynasty = 100000277
+    }
+  }
+  selectable_character = {
+    id = 119607587
+    age = 33
+    name = "Aleksandar Karadordevic"
+    title = k_serbia
+    title_name = Yugoslavia
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = orthodox
+      culture = serbian
+      government = feudal_government
+      dynasty = 100000512
+    }
+  }
+  selectable_character = {
+    id = 117391417
+    age = 64
+    name = "Michael Hainisch"
+    title = k_bavaria
+    title_name = Austria
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = catholic
+      culture = german
+      government = feudal_government
+      dynasty = 100000221
+    }
+  }
+  selectable_character = {
+    id = 113475682
+    age = 54
+    name = "Jozef Pilsudski"
+    title = k_poland
+    title_name = Poland
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = catholic
+      culture = polish
+      government = feudal_government
+      dynasty = 100000650
+    }
+  }
+  selectable_character = {
+    id = 115913757
+    age = 52
+    name = "Vladimir Lenin"
+    title = e_russia
+    title_name = "Soviet Union"
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = orthodox
+      culture = russian
+      government = feudal_government
+      dynasty = 100000207
+    }
+  }
+}
+bm_1939_08_31 = {
+  name = BM_1939_08_31
+  desc = BM_1939_08_31_DESC
+  date = 1939.8.31
+  selectable_character = {
+    id = 118977433
+    age = 50
+    name = "Adolf Hitler"
+    title = e_germany
+    title_name = Germany
+    character = {
+      dna="0dge00gaa00"
+      properties="em0fdk00000000000000000000000000000000"
+      religion = nazi
+      culture = german
+      government = feudal_government
+      dynasty = 100000246
+    }
+  }
+  selectable_character = {
+    id = 114033062
+    age = 60
+    name = "Joseph Stalin"
+    title = e_russia
+    title_name = "Soviet Union"
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = orthodox
+      culture = georgian
+      government = feudal_government
+      dynasty = 100000208
+    }
+  }
+  selectable_character = {
+    id = 110852402
+    age = 71
+    name = "Ignacy Moscicki"
+    title = k_poland
+    title_name = Poland
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = catholic
+      culture = polish
+      government = feudal_government
+      dynasty = 100000653
+    }
+  }
+}
+bm_1948_05_14 = {
+  name = BM_1948_05_14
+  desc = BM_1948_05_14_DESC
+  date = 1948.5.14
+  era = yes
+  selectable_character = {
+    id = 114033062
+    age = 69
+    name = "Joseph Stalin"
+    title = e_russia
+    title_name = "Soviet Union"
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = orthodox
+      culture = georgian
+      government = feudal_government
+      dynasty = 100000208
+    }
+  }
+  selectable_character = {
+    id = 118543997
+    age = 72
+    name = "Konrad Adenauer"
+    title = k_germany
+    title_name = "West Germany"
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = catholic
+      culture = german
+      government = feudal_government
+      dynasty = 100000238
+    }
+  }
+  selectable_character = {
+    id = 117897101
+    age = 72
+    name = "Wilhelm Pieck"
+    title = k_pomerania
+    title_name = "East Germany"
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = protestant
+      culture = german
+      government = feudal_government
+      dynasty = 100000234
+    }
+  }
+  selectable_character = {
+    id = 114800375
+    age = 59
+    name = "Jawharlal Nehru"
+    title = e_india
+    title_name = India
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = hindu
+      culture = hindustani
+      government = feudal_government
+      dynasty = 100000192
+    }
+  }
+  selectable_character = {
+    id = 119968855
+    age = 62
+    name = "David Ben-Gurion"
+    title = k_israel
+    title_name = Israel
+    character = {
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
+      religion = jewish
+      culture = ashkenazi
+      government = feudal_government
+      dynasty = 100000574
+    }
+  }
+}
 bm_1979_07_16 = {
   name = BM_1979_07_16
   desc = BM_1979_07_16_DESC

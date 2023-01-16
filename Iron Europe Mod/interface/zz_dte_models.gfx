@@ -18,7 +18,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "dalmatiangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "dalmatiangfx_LIGHT_CAVALRY"
@@ -56,7 +56,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "romangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "romangfx_LIGHT_CAVALRY"
@@ -94,7 +94,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "englishgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "englishgfx_LIGHT_CAVALRY"
@@ -132,7 +132,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "turkishgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "turkishgfx_LIGHT_CAVALRY"
@@ -170,7 +170,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "southerngfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "southerngfx_LIGHT_CAVALRY"
@@ -207,7 +207,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "chinesegfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "chinesegfx_LIGHT_CAVALRY"
@@ -245,7 +245,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "arabicgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "arabicgfx_LIGHT_CAVALRY"
@@ -281,7 +281,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "berbergfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "berbergfx_LIGHT_CAVALRY"
@@ -317,7 +317,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "westernslavicgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "westernslavicgfx_LIGHT_CAVALRY"
@@ -353,7 +353,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "persiangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "persiangfx_LIGHT_CAVALRY"
@@ -390,7 +390,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "indiangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "indiangfx_LIGHT_CAVALRY"
@@ -426,7 +426,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "frankishgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "frankishgfx_LIGHT_CAVALRY"
@@ -463,7 +463,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "germangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "germangfx_LIGHT_CAVALRY"
@@ -500,7 +500,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "bodpagfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "bodpagfx_LIGHT_CAVALRY"
@@ -536,7 +536,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "celticgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "celticgfx_LIGHT_CAVALRY"
@@ -572,7 +572,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "ugricgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "ugricgfx_LIGHT_CAVALRY"
@@ -608,7 +608,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "republicsgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "republicsgfx_LIGHT_CAVALRY"
@@ -644,7 +644,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "mongolgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "mongolgfx_LIGHT_CAVALRY"
@@ -681,7 +681,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "cumangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "cumangfx_LIGHT_CAVALRY"
@@ -717,7 +717,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "levantinegfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "levantinegfx_LIGHT_CAVALRY"
@@ -754,7 +754,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "andalusiangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "andalusiangfx_LIGHT_CAVALRY"
@@ -791,7 +791,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "westafricangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "westafricangfx_LIGHT_CAVALRY"
@@ -828,7 +828,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "africangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "africangfx_LIGHT_CAVALRY"
@@ -865,7 +865,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "croatsouthslavicgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "croatsouthslavicgfx_LIGHT_CAVALRY"
@@ -901,7 +901,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "serbsouthslavicgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "serbsouthslavicgfx_LIGHT_CAVALRY"
@@ -937,7 +937,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "magyargfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "magyargfx_LIGHT_CAVALRY"
@@ -973,7 +973,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "byzantinegfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "byzantinegfx_LIGHT_CAVALRY"
@@ -1010,7 +1010,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "southindiangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "southindiangfx_LIGHT_CAVALRY"
@@ -1046,7 +1046,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "italiangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "italiangfx_LIGHT_CAVALRY"
@@ -1083,7 +1083,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "trueoccitangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "trueoccitangfx_LIGHT_CAVALRY"
@@ -1120,7 +1120,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "occitangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "occitangfx_LIGHT_CAVALRY"
@@ -1157,7 +1157,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "mesoamericangfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "mesoamericangfx_LIGHT_CAVALRY"
@@ -1193,7 +1193,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "norsegfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "norsegfx_LIGHT_CAVALRY"
@@ -1229,7 +1229,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "outremergfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "outremergfx_LIGHT_CAVALRY"
@@ -1265,7 +1265,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "stormlandergfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "stormlandergfx_LIGHT_CAVALRY"
@@ -1307,7 +1307,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "easternslavicgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "easternslavicgfx_LIGHT_CAVALRY"
@@ -1344,7 +1344,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "westerngfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "westerngfx_LIGHT_CAVALRY"
@@ -1381,7 +1381,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "easterngfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "easterngfx_LIGHT_CAVALRY"
@@ -1418,7 +1418,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "muslimgfx_PIKEMEN"
 		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
+		scale = 300.00f
 	}
 	pdxmesh = {
 		name = "muslimgfx_LIGHT_CAVALRY"
@@ -1443,36 +1443,6 @@ objectTypes = {
 		scale = 925.00f
 	}
 
-	pdxmesh = {
-		name = "prewargfx_HEAVY_INFANTRY"
-		file = "gfx/models/riflemen.mesh"
-		scale = 750.00f
-	}
-	pdxmesh = {
-		name = "prewargfx_ARCHERS"
-		file = "gfx/models/marksman.mesh"
-		scale = 900.00f
-	}
-	pdxmesh = {
-		name = "prewargfx_PIKEMEN"
-		file = "gfx/models/artillery.mesh"
-		scale = 750.00f
-	}
-	pdxmesh = {
-		name = "prewargfx_LIGHT_CAVALRY"
-		file = "gfx/models/motorized.mesh"
-		scale = 600.00f
-	}
-	pdxmesh = {
-		name = "prewargfx_KNIGHTS"
-		file = "gfx/models/motorized.mesh"
-		scale = 600.00f
-	}
-	pdxmesh = {
-		name = "prewargfx_war_elephants"
-		file = "gfx/models/artillery.mesh"
-		scale = 300.00f
-	}
 	pdxmesh = {
 		name = "tribalgfx_tribal_1"
 		file = "gfx\models\camp.mesh"

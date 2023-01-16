@@ -86,7 +86,7 @@
 }
 1979.2.11 = {
   holder = 116554139
-  law = army_professionalism_law_1
+  law = army_professionalism_law_2
   law = tax_peasants_law_feudal_3
   law = high_court_law_2
   law = vassal_wars_law_2

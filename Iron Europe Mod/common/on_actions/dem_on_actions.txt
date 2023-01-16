@@ -1,6 +1,8 @@
 on_chronicle_start = {
 	events = {
 		election_events.1
+		modern_times_setup.1
+		election_events.5
 	}
 }
 on_yearly_pulse = {
@@ -10,6 +12,7 @@ on_yearly_pulse = {
 		roy_colony_events.2
 		ukr_war.2
 		ukr_war.9
+		iron_century.3
 	}
 }
 on_five_year_pulse = {

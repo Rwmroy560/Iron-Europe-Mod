@@ -203,7 +203,7 @@ character_event = {
 						trait = honest
 					}
 			custom_tooltip = { text = secretlett2 }
-			character_event = { id = secretletter.1 days = 14 } 
+			character_event = { id = secretletter.11 days = 14 } 
 			}
 		}
 	}
@@ -221,7 +221,7 @@ character_event = {
 						FROM = { opinion = { who = ROOT value =  40 } }
 					}	
 					modifier = {
-						factor = 1.25
+						factor = 3.25
 						FROM = { is_friend = ROOT }
 					}
 					modifier = {
@@ -237,11 +237,11 @@ character_event = {
 						ROOT = { intrigue = 15 }
 					}
 					modifier = {
-						factor = 1.5
+						factor = 2.5
 						ROOT = { intrigue = 18 }
 					}				
 					modifier = {
-						factor = 1.75
+						factor = 3
 						ROOT = { intrigue = 21 }
 					}
 					modifier = {
@@ -285,7 +285,7 @@ character_event = {
 						ROOT = { trait = honest }
 					}
 					modifier = {
-						factor = 9.45
+						factor = 1.45
 						FROM = { is_ruler = yes }
 					}	
 				custom_tooltip = { text = secretlett2 }

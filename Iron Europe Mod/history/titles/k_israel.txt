@@ -11,6 +11,9 @@
 }
 1948.5.14 = {
   holder = 119968855
+  law = army_professionalism_law_2
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_2
 }
 1954.1.26 = {
   holder = 114030572

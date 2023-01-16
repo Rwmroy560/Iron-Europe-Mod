@@ -11,10 +11,7 @@ decisions = {
 			}
 		allow = {
 			NOT = { has_character_modifier = drafted_peasants }
-			OR = {
-			is_primary_war_defender = yes
-			is_primary_war_attacker = yes
-			}
+			war = yes
 			capital_scope = {
 				is_occupied = no
 			}
@@ -25,8 +22,24 @@ decisions = {
 		ai_will_do = {
 			factor = 0.2
 			modifier = {
+				factor = 3
+				culture = russian
+				}
+			modifier = {
+				factor = 5
+				is_primary_war_defender = yes
+				}
+			modifier = {
+				factor = .05
+				any_war = {
+					defender = { character = ROOT }
+					war_score = 0.50
+				}
+			}
+			modifier = {
 				factor = 10
 				any_war = {
+					defender = { character = ROOT }
 					war_score = -0.30
 				}
 			}
@@ -79,6 +92,7 @@ decisions = {
 	ask_russia_help = {
 		is_high_prio = yes
 		potential = {
+			year >= 2012
 			OR = {
 				has_landed_title = k_syria
 				has_landed_title = k_mali
@@ -105,6 +119,7 @@ decisions = {
 	ask_france_help = {
 		is_high_prio = yes
 		potential = {
+			NOT = { any_current_enemy = { has_landed_title = e_france } }
 			OR = {
 				has_landed_title = k_kanem
 				has_landed_title = k_mali
@@ -132,6 +147,7 @@ decisions = {
 	ask_america_help = {
 		is_high_prio = yes
 		potential = {
+			NOT = { any_current_enemy = { has_landed_title = e_united_states } }
 			OR = {
 				has_landed_title = k_israel
 				AND = {
@@ -182,13 +198,7 @@ decisions = {
 		potential = {	
 			NOT = { any_independent_ruler = { has_character_modifier = nato_setup } }
 			NOT = { any_independent_ruler = { is_tributary = { type = nato } } }
-			OR = {
-				has_landed_title = e_france
-				has_landed_title = e_britannia
-				has_landed_title = e_germany
-				has_landed_title = k_poland
-				has_landed_title = e_united_states
-				}
+			has_landed_title = e_united_states
 			}
 		allow = {
 			NOT = { has_character_modifier = nato_setup }
@@ -301,28 +311,37 @@ decisions = {
 			factor = 99
 		}
 	}
-	establish_union_state = {
+
+	establish_csto = {
 		is_high_prio = yes
 		potential = {	
-				year >= 2001
-				has_landed_title = e_russia
-				NOT = {
-					any_independent_ruler = { 
-					limit = { has_landed_title = k_belarus }
-					pays_tribute_to = ROOT
-					}
-				}
+			year >= 1992
+			NOT = { has_character_modifier = csto_setup }
+			NOT = { any_independent_ruler = { is_tributary = { type = csto } } }
+			has_landed_title = e_russia
 			}
 		allow = {
-			NOT = { has_character_modifier = union_setup }
+			NOT = { has_character_modifier = csto_setup }
 			NOT = { trait = incapable }
-				}
+		}
 		effect = {
 		any_independent_ruler = { 
 			limit = { has_landed_title = k_belarus } 
-				save_event_target_as = bela_union
+				save_event_target_as = csto_dude1
 			}
-			character_event = { id = ukr_war.8 }
+		any_independent_ruler = { 
+			limit = { has_landed_title = k_armenia } 
+				save_event_target_as = csto_dude2
+			}
+		any_independent_ruler = { 
+			limit = { has_landed_title = k_cuman } 
+				save_event_target_as = csto_dude3
+			}
+		any_independent_ruler = { 
+			limit = { has_landed_title = k_georgia } 
+				save_event_target_as = csto_dude4
+			}
+			character_event = { id = iron_century.4 }
 		}
 		ai_will_do = {
 			factor = 99

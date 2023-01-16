@@ -70,6 +70,15 @@
 }
 1931.6.13 = {
   holder = 117968448
+  law = vassal_wars_law_2
+  law = law_voting_power_1
+  law = war_voting_power_1
+  law = revoke_title_voting_power_1
+  law = imprison_voting_power_1
+  law = grant_title_voting_power_1
+  law = banish_voting_power_1
+  law = execution_voting_power_1
+  law = succession_voting_power_1
 }
 1932.5.10 = {
   holder = 116530280

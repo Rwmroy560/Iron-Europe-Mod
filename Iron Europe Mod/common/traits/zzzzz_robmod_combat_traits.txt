@@ -1,0 +1,158 @@
+########################################################################################################
+# WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
+########################################################################################################
+
+robmodcombat_vanguard = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_front
+		robmodcombat_middle
+		robmodcombat_rear
+	}
+	leader = yes
+	monthly_character_prestige = 0.5
+	vassal_opinion = 5
+	land_morale = 0.05
+}
+
+robmodcombat_front = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_vanguard
+		robmodcombat_middle
+		robmodcombat_rear
+	}
+	leader = yes
+}
+
+robmodcombat_middle = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_vanguard
+		robmodcombat_front
+		robmodcombat_rear
+	}
+	leader = yes
+	monthly_character_prestige = -0.3
+	vassal_opinion = -3
+	land_morale = -0.03
+}
+
+robmodcombat_rear = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_vanguard
+		robmodcombat_front
+		robmodcombat_middle
+	}
+	leader = yes
+	monthly_character_prestige = -0.5
+	vassal_opinion = -5
+	land_morale = -0.05
+}
+
+robmodcombat_balanced = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_attack
+		robmodcombat_defend
+		robmodcombat_quick
+		robmodcombat_attrition
+	}
+	leader = yes
+}
+
+robmodcombat_attack = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_balanced
+		robmodcombat_defend
+		robmodcombat_quick
+		robmodcombat_attrition
+	}
+	leader = yes
+	command_modifier = {
+		speed = 0.05
+		damage = 0.15
+		defence = -0.1
+		siege = 0.1
+	}
+}
+
+robmodcombat_defend = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_balanced
+		robmodcombat_attack
+		robmodcombat_quick
+		robmodcombat_attrition
+	}
+	leader = yes
+	command_modifier = {
+		speed = -0.05
+		damage = -0.1
+		defence = 0.15
+		narrow_flank = 0.1
+		terrain = forest
+		terrain = hills
+		terrain = mountain
+		terrain = jungle
+	}
+}
+
+robmodcombat_quick = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_balanced
+		robmodcombat_attack
+		robmodcombat_defend
+		robmodcombat_attrition
+	}
+	leader = yes
+	command_modifier = {
+		speed = 0.4
+		cavalry = 0.1
+		light_infantry = 0.1
+		heavy_infantry = -0.2
+		damage = -0.1
+		defence = -0.2
+		retreat = 0.1
+		pursue = 0.25
+		siege = -0.3
+		supply_limit = -0.2
+	}
+}
+
+robmodcombat_attrition = {
+	customizer = no
+	random = no
+	opposites = {
+		robmodcombat_balanced
+		robmodcombat_attack
+		robmodcombat_defend
+		robmodcombat_quick
+	}
+	leader = yes
+	command_modifier = {
+		speed = -0.3
+		cavalry = -0.1
+		light_infantry = -0.1
+		heavy_infantry = 0.2
+		damage = 0.05
+		defence = 0.05
+		retreat = -0.2
+		pursue = -0.25
+		siege = 0.3
+		supply_limit = 0.3
+	}
+}
+
+#!!!!!!!!! CREATE NEW FILE BEFORE ADDING MORE TRAITS - CHECK OTHER MODS FOR LATEST FILE NUMBERING !!!!!!!!!

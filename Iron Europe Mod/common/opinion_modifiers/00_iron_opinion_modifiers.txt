@@ -140,3 +140,10 @@ denied_mentorship = {
 failed_to_kidnap = {
 	opinion = -20
 }
+opinion_supported_war_effort = {
+	opinion = 15
+	months = 36
+}
+opinion_raised_to_nobility = {
+	opinion = 15
+}

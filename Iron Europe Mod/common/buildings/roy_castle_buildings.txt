@@ -15,6 +15,31 @@ castle = {
 		culture_techpoints = 0.05		
 		ai_creation_factor = 10
 		extra_tech_building_start = 0.3
+		fort_level = 1
 	
+	}
+	ca_nazi_base = {
+		desc = ca_nazi_base_desc
+		potential = {	
+			FROM = {
+				religion = nazi
+			}	
+		}	
+		trigger = { TECH_CONSTRUCTION = 0  }
+		is_active_trigger = {
+			FROM = {
+				religion = nazi
+			}
+		} 
+		gold_cost = 280
+		build_time = 580
+		add_number_to_name = no
+		military_techpoints = 1.25
+		commander_limit = 1
+		global_supply_limit = 0.35
+		levy_reinforce_rate = 0.15
+		nazi_soldiers = 2000
+		fort_level = 2
+		ai_creation_factor = 110
 	}
 }

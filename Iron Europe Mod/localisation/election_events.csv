@@ -35,6 +35,11 @@ CB_NAME_FUCK_YOU_COLONIZE;Special Military Operation;;;x
 WAR_NAME_FUCK_YOU_COLONIZE;$ORDER$ $FIRST_ADJ$ Special Military Operation;;;x
 colony_war_desc;Our great country must be returned to its historical borders. We have exhausted all other means of solving this issue so we must make war!;;;x
 
+CB_NAME_WW2;Nazi Invasion;;;x
+WAR_NAME_WW2;$ORDER$ $FIRST_ADJ$ Nazi Invasion;;;x
+nazi_war;Nazi Invasion;;;x
+nazi_war_desc;Our great country must be expand its borders. We have exhausted all other means of solving this issue so we must make war!;;;x
+
 reclaim_war;Reclaim Territory;;;x
 reclaim_war_desc;The so-called 'Islamic State' occupies your sovereign territory. You may fight to reclaim as much of it as you can. Be warned, if you fail they will take even more of your territory.;;;x
 CB_NAME_RECLAIM;Anti-Terrorist Operation;;;x
@@ -46,6 +51,8 @@ CB_NAME_TALIBAN;Take Over Afghanistan;;;x
 WAR_NAME_TALIBAN;War For Afghanistan;;;x
 
 #modifiers
+settlement_genocide;Genocide;;;x
+settlement_genocide_desc;The natives of this land have been systematically removed and a new class  of settlers are pouring in;;;x
 change_character;Play as [Root.GetTitledName];;;;;;;;;;;;x
 change_character_desc;Switch your character to this one.;;;;;;;;;;;;x
 political_instab;Political Instability;;;x

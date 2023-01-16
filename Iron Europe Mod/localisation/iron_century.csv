@@ -1,6 +1,27 @@
 france_help;Recieved French Assistance;;;x
 ask_france_help;Ask for French Assistance;;;x
 ask_france_help_desc;You may ask your former colonial master France for assistance in your wars.;;;x
+nazi_soldiers;Wehrmacht;;;x
+ca_nazi_base;National Socialist Training Camp;;;x
+ca_nazi_base_desc;A base to train, equip, and indoctrinate a new class of warrior.;;;x
+ca_communications_center;Communications Center;x
+ca_communications_center_desc;A site to monitor communications traffic across the country.;x
+ca_central_bank;Central Bank;x
+ct_central_bank;Central Bank;x
+ca_central_bank_desc;A national bank that provides financial and banking services for its country's government and commercial banking system, as well as implementing the government's monetary policy and issuing currency..;x
+ca_stock_market;Stock Market;x
+ct_stock_market;Stock Market;x
+ca_stock_market_desc;This market provides a place for traders to exchange shares and finance businesses in need of financial resources.;x
+ca_reformed_civil_service;Reformed Civil Service;x
+ct_reformed_civil_service;Reformed Civil Service;x
+ca_reformed_civil_service_desc;A steady and unrelenting eye on the administrative apparatus keeps our civil service honest and effective.;x
+ca_infrastructure_program;Infrastructure Program;x
+ct_infrastructure_program;Infrastructure Program;x
+ca_infrastructure_program_desc;Publicly funded program to advance the country's infrastructure and invest in its upkeep.;x
+ca_trade_center;Trade Hub;;;x
+ca_trade_center_desc;A center for trading goods between your people and the countries that neighbor you.;;;x
+
+
 
 EVTDESCiron_century.1;Prosperity cannot reach all corners of your country. Young men, disenfranchised from the state and radicalized by religion, have decided to take up arms against you and all that is good.;;;x
 EVTAiron_century.1;We don't negotiate with terrorists!;;;x
@@ -9,7 +30,100 @@ EVTDESCiron_century.2;Your country is at war and you need help! Despite the inte
 EVTAiron_century.2;Actually, let's not.;;;x
 EVTBiron_century.2;Oui Oui! Sovereignty be damned!;;;x
 
+EVTDESCiron_century.3;Russia has invaded Ukraine in an attempt to annex some of its territory. With your help, Ukraine may be able to fend the Russians off. Will you offer your men up to help?;;x
+EVTAiron_century.3;"Slava Ukraini!";;;x
+"EVTBiron_century.3;This is not our war.;;;x
+
+EVTDESCiron_century.4;The Collective Security Treaty Organization is an intergovernmental military alliance in Eurasia consisting of six post-Soviet states: Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia, and Tajikistan.;;;x
+EVTBiron_century.4;Glory to Russia!;;;x
+EVTDESCiron_century.5
+iron_century.5;World War Two;;;x
+EVTDESCiron_century.5;The Nazi Regime of Germany has declared a war to eradicate your people and claim your territory for the German people. The battle ahead seems daunting, but you have allies that you can ask for help.;;;x
+EVTOPTAiron_century.5;Britain and France will help me!;;;x
+EVTOPTBiron_century.5;We will do this alone.;;;;x
+
+
+csto;Collective Security Treaty;;;x
+TRIBUTARY_CSTO;Collective Security Treaty;;;x
+TRIBUTARY_CSTO_PLURAL;Puppet States;;;x
 ca_rail_network;Rail Network;;;x
 ca_rail_network_desc;A network of railroads used to hasten the movement of goods and people.;;;x
 ca_intl_airport;International Airport;;;x
 ca_intl_airport_desc;An airport to facilitate travel and trade to other countries.;;;x
+
+tribal_government;Developing Country;;;x
+tribal_government_desc;A developing country is a sovereign state with a lesser developed industrial base and a lower Human Development Index relative to other countries.;;;x
+feudal_government;Developed Country;;;x
+feudal_government_desc;A highly-developed industrialized, technologically-advanced, educated, and wealthy country.;;;x
+best_interests;Not My War;;;x
+
+LOADING_TIP_0;'Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game.' - Donald Trump;;;x
+LOADING_TIP_1;'Anyone who doesn't regret the passing of the Soviet Union has no heart. Anyone who wants it restored has no brain.' - Vladimir Putin;;;x
+LOADING_TIP_2;'Russia is a part of European culture. Therefore, it is with difficulty that I imagine NATO as an enemy.' - Vladimir Putin;;;;x
+LOADING_TIP_3;'Sometimes by losing a battle you find a new way to win the war.' - Donald Trump;;;;x
+LOADING_TIP_4;'Change will not come if we wait for some other person some other time. We are the ones we've been waiting for. We are the change that we seek.' - Barack Obama;;;;x
+LOADING_TIP_5;'I mean, I do think at a certain point you've made enough money.' - Barack Obama;;;;x
+LOADING_TIP_6;'When politics is no longer a mission but a profession, politicians become more self-serving than public servants.' - Emmanuel Macron;;;x
+LOADING_TIP_7;'I think when people have pudding and jobs, they vote for you.' - Emmanuel Macron;;;;x
+LOADING_TIP_8;'The situation is under control.' - Idriss Deby;;;x
+LOADING_TIP_9;'My friends, as I have discovered myself, there are no disasters, only opportunities. And, indeed, opportunities for fresh disasters.' - Boris Johnson;;;;x
+LOADING_TIP_10;'The Italians, who used to be a great motor-manufacturing power, have been absolutely destroyed by the euro - as was intended by the Germans.' - Boris Johnson;;;x
+LOADING_TIP_11;'I have more in common with a three-toed sloth or a one-eyed pterodactyl or a Kalamata olive than I have with Winston Churchill.' - Boris Johnson;;;x
+LOADING_TIP_12;'I'm undaunted in my quest to amuse myself by constantly changing my hair.' - Hillary Clinton;;;x
+LOADING_TIP_13;'Our policy is very simple. The Jewish state was set up to defend Jewish lives, and we always reserve the right to defend ourselves.' - Benjamin Netanyahu;;;x
+LOADING_TIP_14;'Peace is purchased from strength. It's not purchased from weakness or unilateral retreats.' - Benjamin Netanyahu;;;x
+LOADING_TIP_15;'We want Israel as a democratic and Jewish state. So you have to maintain a Jewish majority, and you want to do that by legal means, by democratic means.' - Benjamin Netanyahu;;;x
+LOADING_TIP_16;'Those who do not love me do not deserve to live.' - Muammar al-Gaddafi;;;x
+LOADING_TIP_17;'I do not support peace in the Middle East. And I do not support Arafat. He is a stupid, incompetent fool!' - Muammar al-Gaddafi;;;x
+LOADING_TIP_18;'I have sworn to only live free. Even if I find bitter the taste of death, I don't want to die humiliated or deceived.' - Osama bin Laden;;;x
+LOADING_TIP_19;'Jihad will continue even if I am not around.' - Osama bin Laden;;;x
+LOADING_TIP_20;'Let me tell you what I literally told every world leader I've met with, and I've met them all: It's never, never, never been a good bet to bet against America. We have the finest fighting force in the world.' - Joe Biden;;;x
+LOADING_TIP_21;'We are America, second to none, and we own the finish line. Don't forget it.' - Joe Biden;;;x
+LOADING_TIP_22;'Terrorism is you winning hearts and minds of people.' - Imran Khan;;;x
+LOADING_TIP_23;'Personally I don't think solving corruption is such a big problem.' - Imran Khan;;;x
+LOADING_TIP_24;'People don't really believe in words. Or rather, people believe in words only for a stretch of time. Then they start to look for action.' - Volodymyr Zelenskyy;;;x
+LOADING_TIP_25;'I would never want Ukraine to be a piece on the map, on the chessboard of big global players, so that someone could toss us around, use us as cover, as part of some bargain.' - Volodymyr Zelenskyy;;;x
+LOADING_TIP_25;'I don't carry the burden of the past or the madness of the future. I live in the present.' - Narendra Modi;;;x
+LOADING_TIP_26;'India does not need to become anything else. India must become only India. This is a country that once upon a time was called the golden bird.' - Narendra Modi;;;x
+LOADING_TIP_27;'I can say that out of 365 days, I manage to do yoga on at least 300 days.' - Narendra Modi;;;x
+LOADING_TIP_28;'Success is the sole earthly judge of right and wrong.' - Adolf Hiter;;;x
+LOADING_TIP_29;'The victor will never be asked if he told the truth.' - Adolf Hitler;;;x
+LOADING_TIP_30;'It is always more difficult to fight against faith than against knowledge.' - Adolf Hitler;;;x
+LOADING_TIP_31;'Any alliance whose purpose is not the intention to wage war is senseless and useless.' - Adolf Hitler;;;x
+LOADING_TIP_32;'Nobody in Europe will be abandoned. Nobody in Europe will be excluded. Europe only succeeds if we work together.' - Angela Merkel;;;x
+LOADING_TIP_33;'Hatred, racism, and extremism have no place in this country.' - Angela Merkel;;;x
+LOADING_TIP_34;'Do not worship me, I am not God. I'm only a man. I worship Jesus Christ.' - Haile Selassie;;;x
+LOADING_TIP_35;'We have finished the job, what shall we do with the tools?' - Haile Selassie;;;x
+LOADING_TIP_36;'Peace is a day-to-day problem, the product of a multitude of events and judgments. Peace is not an 'is,' it is a 'becoming.'' - Haile Selassie;;;x
+LOADING_TIP_37;'Women make up one half of society. Our society will remain backward and in chains unless its women are liberated, enlightened and educated.' - Saddam Hussein;;;x
+LOADING_TIP_38;'I just didn't believe Bush' - Saddam Hussein;;;x
+LOADING_TIP_39;'Whoever tries to climb over our fence, we will try to climb over his house.' - Saddam Hussein;;;x
+LOADING_TIP_40;'The most important thing about marriage is that the man must not let the woman feel downtrodden simply because she is a woman and he is a man.' - Saddam Hussein;;x
+LOADING_TIP_41;'I know that there are scores of people plotting to kill me, and this is not difficult to understand. After all, did we not seize power by plotting against our predecessors? However, I am far cleverer than they are.' - Saddam Hussein;;;x
+LOADING_TIP_42;'Palestine is Arab and must be liberated from the river to the sea and all the Zionists who emigrated to the land of Palestine must leave.' - Saddam Hussein;;;x
+LOADING_TIP_43;'Promising too much can be as cruel as caring too little.' - Bill Clinton;;;x
+LOADING_TIP_44;'Being president is like running a cemetery: you've got a lot of people under you and nobody's listening.' - Bill Clinton;;;x
+LOADING_TIP_45;'Part of our essential humanity is paying respect to what God gave us and what will be here a long time after we're gone.' - Bill Clinton;;;x
+LOADING_TIP_46;'The 22nd Amendment should probably be modified to say two consecutive terms instead of two terms for a lifetime.' - Bill Clinton;;;x
+LOADING_TIP_47;'I trust no one, not even myself.' - Joseph Stalin;;;x
+LOADING_TIP_48;'Ideas are more powerful than guns. We would not let our enemies have guns, why should we let them have ideas?' - Joseph Stalin;;;x
+LOADING_TIP_49;'Death is the solution to all problems. No man - no problem.' - Joseph Stalin;;;x
+LOADING_TIP_50;'When we hang the capitalists they will sell us the rope we use.' - Joseph Stalin;;;x
+LOADING_TIP_51;'If you're going through hell, keep going.' - Winston Churchill;;;x
+LOADING_TIP_52;'You have enemies? Good. That means you've stood up for something, sometime in your life.' - Winston Churchill;;;x
+LOADING_TIP_53;'To improve is to change; to be perfect is to change often.' - Winston Churchill;;;x
+LOADING_TIP_54;'Enjoy the game.' - Roy;;;x
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,13 +3,13 @@
 high_court_laws;High Court Laws;;;;;;;;;;;;x
 high_court_laws_desc;These laws define how fair or harsh miscreants in your realm are punished, and expands what a "miscreant" may happen to be.;;;;;;;;;;;;;x
 high_court_law_0;Free Speech;;;;;;;;;;;;;x
-high_court_law_0_desc;Every man and woman in your realm is free to live and express themselves as they please without much interference from you.;;;;;;;;;;;;;;;x
+high_court_law_0_desc;Every man and woman in your country is free to live and express themselves as they please without much interference from you.;;;;;;;;;;;;;;;x
 high_court_law_1;Restricted Freedom;;;;;;;;;;;;;x
-high_court_law_1_desc;Order in your realm is more aggressively pursued. Lawmen around your realm are dispatched to keep order and suppress potential rebellion.;x
+high_court_law_1_desc;Order in your realm is more aggressively pursued. Lawmen around your nation are dispatched to keep order and suppress potential rebellion.;x
 high_court_law_2;Oppressive Regime;;;;;;;;;;;;;;;x
-high_court_law_2_desc;Your vassals and lawmen are given more authority to arrest and otherwise interrupt anyone they suspect of treasounous activity. Their methods can often be heavy-handed.;x
+high_court_law_2_desc;Your judges and lawmen are given more authority to arrest and otherwise interrupt anyone they suspect of treasounous activity. Their methods can often be heavy-handed.;x
 high_court_law_3;Martial Law;;;;;;;;;;;;;x
-high_court_law_3_desc;Every movement, conversation, and message in your realm is being tracked by your vast network of spys and lawmen. Life in your realm is hard, as any man can be accused of being a rebel or heretic and taken away, but at least you need not fear insurrection.;x
+high_court_law_3_desc;Every movement, conversation, and message in your state is being tracked by your vast network of spys and lawmen. Life in your country is hard, as any man can be accused of being a rebel or heretic and taken away, but at least you need not fear insurrection.;x
 more_order_good;More order in the realm is a good thing.;x
 less_power_good;The people deserve some respite.;x
 too_much_power;Perhaps that would be a bit much.;x
@@ -20,7 +20,7 @@ priest_say_no;The people deserve freedom and autonomy;x
 army_professionalism_law;National Army Law;;;;;;;;;x
 army_professionalism_law_desc;These laws determine the composition of the realm's Armed Forces.;;;x
 army_professionalism_law_0;Volunteer Army;;;;;;;;;x
-army_professionalism_law_0_desc;Your army is composed by soldiers called upon to your service directly from your realm, or those in your vassals ranks that are sent according to their vassalage.;;;;;;;;;x
+army_professionalism_law_0_desc;Your army is composed by soldiers called upon to your service directly from your nation, or those in your vassals ranks that are sent according to their vassalage.;;;;;;;;;x
 army_professionalism_law_0_option;Volunteer;;;;;;;;;x
 army_professionalism_law_1;Semi-Conscripted Army;;;;;;;;;x
 army_professionalism_law_1_desc;Your army is partially composed by troops conscripted from the populace.;;;;;;;;;x

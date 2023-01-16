@@ -63,7 +63,7 @@ america_help = {
 nato_setup = {
 	icon = 9
 }
-union_setup = {
+csto_setup = {
 	icon = 9
 	monthly_character_prestige =  1.50
 	vassal_opinion = 10
@@ -100,7 +100,18 @@ armed_groups = {
 	local_tax_modifier = -0.40
 }
 france_help = {
-	icon = 111
+	icon = 10
 	monthly_character_prestige =  -0.50
 	vassal_opinion = -5
+}
+best_interests = {
+	icon = 122
+	ukrainian_opinion = -25
+}
+settlement_genocide = {
+	icon = 106
+	local_revolt_risk = 0.05
+	supply_limit = -0.15
+	siege_defence = -0.2
+	local_tax_modifier = -0.40
 }

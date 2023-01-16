@@ -1,5 +1,5 @@
 936.1.1 = {
-  historical_nomad = yes
+  historical_nomad = no
   holder = 260699
 }
 1450.1.1 = {

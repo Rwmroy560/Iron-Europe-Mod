@@ -75,15 +75,7 @@ character_event = {
 				voting_rules = demo_elective
 				}
 			}
-		any_vassal = {
-			primary_title = {
-			succession = {
-    				base_type = feudal_elective
-				voting_rules = demo_elective
-				}
-			}
 		}
-	}
 		if = { limit = { ai = no }
 		any_independent_ruler = {
 			limit = {
@@ -251,3 +243,17 @@ character_event = {
 		ROOT = { any_demense_province = { add_province_modifier = { modifier = immigrant1 years = 10 } } }
 		}
 	}
+character_event = {
+	id = election_events.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+	independent = no
+	higher_tier_than = COUNT
+	}
+
+	immediate = {
+		 ROOT = { character_event = { id = election_events.1 } }
+	}
+}

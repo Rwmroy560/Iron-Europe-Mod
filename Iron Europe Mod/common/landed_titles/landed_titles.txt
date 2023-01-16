@@ -6743,8 +6743,6 @@ e_byzantium = {
   }
   capital = 496
   short_name = yes
-  title = BASILEUS_TITLE
-  title_female = BASILEUS_TITLE_FEMALE
   dignity = 10
   culture = greek
   has_top_de_jure_capital = yes
@@ -43027,8 +43025,6 @@ e_arabia = {
     }
     capital = 774
     roman = Judea
-    title = KING
-    title_female = QUEEN
     dynasty_title_names = no
     allow = {
       always = no

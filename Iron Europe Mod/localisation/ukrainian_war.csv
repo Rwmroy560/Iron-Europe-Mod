@@ -15,9 +15,9 @@ k_taliban;Islamic Emirate;;;x
 taliban_help;Summoned Mujahideen;;;x
 unleash_mujahideen;Call Upon the Mujahideen;;;x
 unleash_mujahideen_desc;Command the fighters resting about Afghanistan to pick up arms to defend the Islamic Emirate.;;;x
-establish_union_state;Establish Union State with Belarus;;;x
-establish_union_state_desc;Unite Russia and Belarus into a Union State of the Russian Federation.;;;x
-union_setup;Head of Union State;;;x
+establish_csto;Establish Collective Security Treaty Organization;;;x
+establish_csto_desc;Unite Russia and like-minded states in a defensive pact.;;;x
+csto_setup;Head of Collective Security Treaty;;;x
 nato_setup;Head of NATO;;;x
 nazi_allegations;Nazi Allegations;;;x
 russia_help;Recieved Russian Assistance;;;x

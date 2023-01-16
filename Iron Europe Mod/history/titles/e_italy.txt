@@ -19,6 +19,9 @@
 }
 1900.7.29 = {
   holder = 113588823
+  law = army_professionalism_law_2
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_1
 }
 1946.5.9 = {
   holder = 118054322
@@ -43,8 +46,8 @@
 }
 1978.7.9 = {
   holder = 119058825
-  law = army_professionalism_law_2
-  law = tax_peasants_law_feudal_2
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_1
   law = high_court_law_1
   law = succ_feudal_elective
 }

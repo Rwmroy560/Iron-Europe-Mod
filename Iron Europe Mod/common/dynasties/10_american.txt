@@ -319,7 +319,7 @@
   culture = american
 }
 90000080 = {
-  name = Reye
+  name = Reyes
   culture = american
 }
 90000081 = {
@@ -464,4 +464,41 @@
 900000114 = {
   name = Callaghan
   culture = american
+}
+900000115 = {
+  name = Musk
+  culture = american
+  used_for_random= no
+}
+900000116 = {
+  name = Gaetz
+  culture = american
+}
+900000117 = {
+  name = Carson
+  culture = american
+}
+900000118 = {
+  name = George
+  culture = american
+}
+900000119 = {
+  name = Churchill
+  culture = american
+  used_for_random = no
+}
+900000120 = {
+  name = Chamberlain
+  culture = american
+  used_for_random = no
+}
+900000121 = {
+  name = Eden
+  culture = american
+  used_for_random = no
+}
+900000122 = {
+  name = Mussolini
+  culture = italian
+  used_for_random = no
 }

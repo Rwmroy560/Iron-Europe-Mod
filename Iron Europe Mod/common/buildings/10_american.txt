@@ -19,8 +19,8 @@ castle = {
 		commander_limit = 1
 		global_supply_limit = 0.35
 		levy_reinforce_rate = 0.15
-		nato_soldiers = 3000
-		fort_level = 4
+		nato_soldiers = 5000
+		fort_level = 5
 		ai_creation_factor = 110
 	}
 }

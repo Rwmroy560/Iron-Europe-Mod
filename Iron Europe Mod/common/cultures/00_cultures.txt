@@ -9450,6 +9450,7 @@ finno_ugric = {
       "Ülane"
       "Ülle"
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "of "
     modifier = default_culture_modifier
   }
@@ -10340,6 +10341,7 @@ baltic = {
       Viba
       Zigne
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "gada "
     modifier = default_culture_modifier
   }
@@ -10447,6 +10449,7 @@ baltic = {
       Svajone
       Vida
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "iš "
     modifier = default_culture_modifier
   }
@@ -10721,13 +10724,14 @@ altaic = {
       Zehra
       Zuhal
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "ve "
     male_patronym = oglu
     prefix = no
     founder_named_dynasties = yes
     allow_looting = yes
     modifier = default_culture_modifier
-    nomadic_in_alt_start = yes
+    nomadic_in_alt_start = no
   }
   pecheneg = {
     graphical_cultures = {
@@ -16726,6 +16730,7 @@ south_slavic = {
       Zvezdana
       "Živkoka"
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "od "
     male_patronym = ic
     prefix = no

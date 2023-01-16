@@ -33,6 +33,10 @@
 }
 1934.8.2 = {
   holder = 118977433
+  law = army_professionalism_law_2
+  law = tax_peasants_law_feudal_3
+  law = high_court_law_3
+  law = vassal_wars_law_2
 }
 1945.4.30 = {
   holder = 112652929

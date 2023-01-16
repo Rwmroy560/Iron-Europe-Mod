@@ -15,36 +15,41 @@ objectTypes = {
 		file = "gfx/models/riflemen.mesh"
 		scale = 750.00f
 	}
+	pdxmesh = {
+		name = "westerngfx_nazi_soldiers"
+		file = "gfx/models/riflemen.mesh"
+		scale = 750.00f
+	}
 
 	pdxmesh = {
-		name = "muslim_dlc_job_chancellor"
+		name = "westerngfx_job_chancellor"
 		file = "gfx\models\UNIT264.mesh"
 		
 		scale = 25.0f
 	}
 	pdxmesh = {
-		name = "muslim_dlc_job_treasurer"
-		file = "gfx\models\UNIT264.mesh"
-		
-		scale = 25.0f
-	}
-
-	pdxmesh = {
-		name = "muslim_dlc_job_spymaster"
-		file = "gfx\models\UNIT264.mesh"
-		
-		scale = 25.0f
-	}
-
-	pdxmesh = {
-		name = "muslim_dlc_job_spiritual"
+		name = "westerngfx_job_treasurer"
 		file = "gfx\models\UNIT264.mesh"
 		
 		scale = 25.0f
 	}
 
 	pdxmesh = {
-		name = "muslim_dlc_job_marshal"
+		name = "westerngfx_job_spymaster"
+		file = "gfx\models\UNIT264.mesh"
+		
+		scale = 25.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_job_spiritual"
+		file = "gfx\models\UNIT264.mesh"
+		
+		scale = 25.0f
+	}
+
+	pdxmesh = {
+		name = "westerngfx_job_marshal"
 		file = "gfx\models\UNIT264.mesh"
 		
 		scale = 25.0f

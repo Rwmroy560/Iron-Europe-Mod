@@ -20,6 +20,10 @@
 }
 1913.3.18 = {
   holder = 110574341
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_1
+  law = high_court_law_0
+  law = vassal_wars_law_2
 }
 1917.6.11 = {
   holder = 113608350

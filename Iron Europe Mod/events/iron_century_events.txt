@@ -72,3 +72,128 @@ character_event = {
 		clear_event_target = good_france
 	}
 }
+#Join Ukraine in war against Russia in non-SMO
+character_event = {
+	id = iron_century.3
+	desc = "EVTDESCiron_century.3"
+	picture = GFX_roy_nato
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_landed_title = k_belarus }
+		capital_scope = { region = world_europe }
+		higher_tier_than = COUNT
+		independent = yes
+		war = no
+		NOT = { has_character_modifier = best_interests }
+		any_independent_ruler = {
+			war = yes	
+			has_landed_title =  k_ruthenia
+			any_current_enemy = { has_landed_title = e_russia  }
+			capital_scope = { is_occupied = no }
+			is_primary_war_defender = yes
+		}
+	}
+	immediate = {
+		any_independent_ruler = {
+			limit = {
+				war = yes	
+				has_landed_title =  k_ruthenia
+				any_current_enemy = { has_landed_title = e_russia  }
+				capital_scope = { is_occupied = no }
+				is_primary_war_defender = yes
+				}
+			save_event_target_as = war_ukraine
+		}
+	}
+	option = { 
+		name = "EVTAiron_century.3" 
+		ai_chance = { factor = 30 }
+		ROOT = {
+			prestige = 100
+			piety = 150
+			join_defender_wars = event_target:war_ukraine
+			}
+		clear_event_target = war_ukraine
+	}
+	option = { 
+		name = "EVTBiron_century.3"
+		ai_chance = { factor = 70 }
+		add_character_modifier = { modifier = best_interests years = 3 }
+		clear_event_target = war_ukraine 
+	}
+}
+#Establish CSTO
+character_event = {
+	id = iron_century.4
+	desc = "EVTDESCiron_century.4"
+	picture = GFX_roy_russians
+	border = GFX_event_normal_frame_war
+	
+	is_triggered_only = yes
+
+
+	option = { 
+		name = "EVTBiron_century.4" 
+		ai_chance = { factor = 100 }
+		ROOT = { 
+			make_tributary = {
+				who = event_target:csto_dude1
+				tributary_type = csto
+				}
+			make_tributary = {
+				who = event_target:csto_dude2
+				tributary_type = csto
+				}
+			make_tributary = {
+				who = event_target:csto_dude3
+				tributary_type = csto
+				}
+			make_tributary = {
+				who = event_target:csto_dude4
+				tributary_type = csto
+				}
+			}
+		prestige = 200
+		add_character_modifier = { modifier = csto_setup years = 10 }
+		clear_event_target = csto_dude1
+		clear_event_target = csto_dude2
+		clear_event_target = csto_dude3
+		clear_event_target = csto_dude4
+	}
+}
+#Hitler Invades Poland or Russia...
+narrative_event = {
+	id = iron_century.5
+	title = iron_century.5
+	desc = "EVTDESCiron_century.5"
+	picture = "GFX_roy_draft"
+	border = GFX_event_narrative_frame_religion	
+	is_triggered_only = yes
+
+	trigger = {
+
+	}
+
+
+	option = {
+		name = "EVTOPTAiron_century.5"
+		any_independent_ruler = {
+			limit = {
+			OR = {
+				has_landed_title = e_britannia
+				has_landed_title = e_france
+				has_landed_title = e_russia
+				}
+			}
+			join_defender_wars = ROOT
+		}
+	}
+	option = {
+		name = "EVTOPTBiron_century.5"
+		ai_chance = { factor = 0 }
+		prestige = 500
+		}
+	}
