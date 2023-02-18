@@ -23,15 +23,7 @@ character_event = {
 		name = EVTOPTAelection_events.3
 		trigger = { NOT = { has_landed_title = e_united_states } }
 		ai_chance = { 
-			factor = 35 
-			modifier = {
-				factor = 2
-				trait = proud
-			}
-			modifier = {
-				factor = 2
-				trait = ambitious
-			}
+			factor = 20 
 		}
 		ROOT = {
 			add_character_modifier = { modifier = rigged_elections years = 10 }	

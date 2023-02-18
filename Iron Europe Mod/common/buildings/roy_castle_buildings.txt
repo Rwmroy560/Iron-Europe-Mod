@@ -42,4 +42,65 @@ castle = {
 		fort_level = 2
 		ai_creation_factor = 110
 	}
+	ca_artillery_1 = {
+		desc = ca_artillery_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
+		gold_cost = 200
+		build_time = 730
+		pikemen = 50
+		levy_reinforce_rate = 0.1
+		retinuesize = 20
+		ai_creation_factor = 89
+
+		extra_tech_building_start = 1.2
+	}
+	ca_artillery_2 = {
+		desc = ca_artillery_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
+		upgrades_from = ca_artillery_1
+		gold_cost = 250
+		build_time = 1095
+		land_morale = 0.15
+		levy_reinforce_rate = 0.15
+		retinuesize = 30
+		pikemen = 75
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_artillery_3 = {
+		desc = ca_artillery_1_desc
+		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		upgrades_from = ca_artillery_2 
+		gold_cost = 300
+		build_time = 2190
+		land_morale = 0.25
+		levy_reinforce_rate = 0.25
+		retinuesize = 40
+		pikemen = 100
+		ai_creation_factor = 88
+		
+		extra_tech_building_start = 1.0
+	}
+	ca_russian_artillery = {
+		desc = ca_russian_artillery_desc
+		potential = {	
+			FROM = {
+				culture = russian
+			}	
+		}	
+		trigger = { TECH_CONSTRUCTION = 0  }
+		is_active_trigger = {
+			FROM = {
+				culture = russian
+			}
+		} 
+		gold_cost = 280
+		build_time = 580
+		add_number_to_name = no
+		global_supply_limit = 0.35
+		levy_reinforce_rate = 0.15
+		pikemen = 1000
+		ai_creation_factor = 110
+	}
 }

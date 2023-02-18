@@ -142,13 +142,12 @@
 1963.5.14 = {
   holder = 111298014
 }
-1978.5.14 = {
-  holder = 110918204
-}
-1993.5.14 = {
-  holder = 114774539
+1969.2.4 = {
+  name = "Palestine"
+  adjective = "Palestinian"
+  liege = k_palestine
+  holder = 100014475
 }
 2017.5.14 = {
-  liege = d_palestine
   holder = 109984004
 }

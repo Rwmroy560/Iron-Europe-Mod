@@ -16,7 +16,7 @@ namespace = robmodcombat
 character_event = {
 	id = robmodcombat.30001
 	desc = EVTDESC_ROBMODCOMBAT_30001	
-	picture = GFX_evt_war_planning
+	picture = GFX_roy_strategy
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes
@@ -393,7 +393,7 @@ character_event = {
 character_event = {
 	id = robmodcombat.30002
 	desc = EVTDESC_ROBMODCOMBAT_30001	
-	picture = GFX_evt_war_planning
+	picture = GFX_roy_strategy
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes

@@ -664,7 +664,7 @@ action_charity = {
 	attribute = learning
 	
 	potential = {
-		FROM = { religion_group = muslim }
+		is_nomadic = no
 	}
 	
 	trigger = {

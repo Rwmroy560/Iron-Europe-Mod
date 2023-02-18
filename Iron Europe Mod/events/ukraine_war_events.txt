@@ -30,12 +30,15 @@ character_event = {
 						leader = none
 						troops = {
 							heavy_infantry = { 6000 8500 }
-							light_cavalry = { 150 150 }
+							light_cavalry = { 1500 2500 }
+							archers = { 500 1500 }
 						}
 						attrition = 1.0
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = yes
+						reinforces = yes
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -83,13 +86,15 @@ character_event = {
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = yes
+						reinforces = yes
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
 		}
 	}
 }
-#Event to call Europe to war...
+#Event to call NATO to war...
 narrative_event = {
 	id = ukr_war.3
 	title = ukr_war.3
@@ -105,39 +110,17 @@ narrative_event = {
 
 	option = {
 		name = "EVTOPTAukr_war.3"
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 100 }
+		custom_tooltip = { text = NATOjoin } 
 		any_independent_ruler = {
 			limit = {
-			capital_scope = { region = world_europe_east } 
-			NOT = { has_landed_title = k_belarus }
+			is_tributary = { type = nato }
 			}
-			join_defender_wars = ROOT
+			character_event = { id = iron_century.3 days = 7 }
 		}
 	}
 	option = {
 		name = "EVTOPTBukr_war.3"
-		ai_chance = { factor = 25 }
-		any_independent_ruler = {
-			limit = {
-			capital_scope = { region = world_europe_south }
-			}
-		join_defender_wars = ROOT
-			}
-		}
-	
-	option = {
-		name = "EVTOPTCukr_war.3"
-		ai_chance = { factor = 50 }
-		any_independent_ruler = {
-			limit = {
-			NOT = { has_landed_title = k_belarus }
-			capital_scope = { region = world_europe_west }
-				}
-			join_defender_wars = ROOT
-			}
-		}
-	option = {
-		name = "EVTOPTDukr_war.3"
 		ai_chance = { factor = 0 }
 		}
 	}
@@ -145,7 +128,7 @@ narrative_event = {
 character_event = {
 	id = ukr_war.4
 	desc = "EVTDESCukr_war.4"
-	picture = GFX_roy_soldiers
+	picture = GFX_roy_russians
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes
@@ -179,6 +162,8 @@ character_event = {
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = no
+						reinforces = yes
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -231,6 +216,8 @@ character_event = {
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = yes
+						reinforces = yes
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}

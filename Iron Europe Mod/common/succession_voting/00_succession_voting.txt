@@ -408,7 +408,7 @@ feudal_elective = {
 
 		#Ageism
 		additive_modifier = { 
-			value = -30
+			value = -80
 			localisation_key = tooltip_feudal_elector_vote_baby
 			NOT = { character = FROM }
 			FROM = {
@@ -418,7 +418,7 @@ feudal_elective = {
 			}
 		}
 		additive_modifier = { 
-			value = -15
+			value = -55
 			localisation_key = tooltip_feudal_elector_vote_child
 			NOT = { character = FROM }
 			FROM = {
@@ -429,7 +429,7 @@ feudal_elective = {
 			}
 		}
 		additive_modifier = { 
-			value = -10
+			value = -50
 			localisation_key = tooltip_feudal_elector_vote_child
 			NOT = { character = FROM }
 			FROM = {
@@ -3309,6 +3309,13 @@ feudal_elective = {
 	
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = {
+		ROOT = { is_adult = yes }
+		ROOT = { 
+			AND = { 
+				religion_group = FROM
+				culture_group = FROM
+			} 
+		}
 		NOT = { character = FROM } #Not the current ruler.
 		FROM = { 
 			NOR = { 
@@ -3333,6 +3340,7 @@ feudal_elective = {
 		OR = {
 			FROM = { any_claim = { title = ROOT_FROMFROM } }
 			ROOT = { 
+				is_lowborn = no
 				OR = { 
 					dynasty = FROM
 					is_close_relative = FROM

@@ -17,7 +17,7 @@ character_event = {
 
 	option = { 
 		name = "EVTAiron_century.1" 
-		random_demesne_title = { add_province_modifier = { modifier = armed_groups years = 5 } }
+		random_demesne_title = { add_province_modifier = { name = armed_groups years = 5 } }
 	}
 }
 
@@ -72,7 +72,7 @@ character_event = {
 		clear_event_target = good_france
 	}
 }
-#Join Ukraine in war against Russia in non-SMO
+#Join Ukraine in war against Russia in SMO
 character_event = {
 	id = iron_century.3
 	desc = "EVTDESCiron_century.3"
@@ -82,31 +82,7 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_landed_title = k_belarus }
-		capital_scope = { region = world_europe }
-		higher_tier_than = COUNT
-		independent = yes
-		war = no
-		NOT = { has_character_modifier = best_interests }
-		any_independent_ruler = {
-			war = yes	
-			has_landed_title =  k_ruthenia
-			any_current_enemy = { has_landed_title = e_russia  }
-			capital_scope = { is_occupied = no }
-			is_primary_war_defender = yes
-		}
-	}
-	immediate = {
-		any_independent_ruler = {
-			limit = {
-				war = yes	
-				has_landed_title =  k_ruthenia
-				any_current_enemy = { has_landed_title = e_russia  }
-				capital_scope = { is_occupied = no }
-				is_primary_war_defender = yes
-				}
-			save_event_target_as = war_ukraine
-		}
+		is_tributary = { type = nato }
 	}
 	option = { 
 		name = "EVTAiron_century.3" 
@@ -156,12 +132,18 @@ character_event = {
 				tributary_type = csto
 				}
 			}
+			make_tributary = {
+				who = event_target:csto_dude5
+				tributary_type = csto
+				}
+			}
 		prestige = 200
 		add_character_modifier = { modifier = csto_setup years = 10 }
 		clear_event_target = csto_dude1
 		clear_event_target = csto_dude2
 		clear_event_target = csto_dude3
 		clear_event_target = csto_dude4
+		clear_event_target = csto_dude5
 	}
 }
 #Hitler Invades Poland or Russia...

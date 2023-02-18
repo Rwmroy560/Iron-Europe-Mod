@@ -45,6 +45,7 @@ colony_war = {
 	}
 
 	on_add = {
+		FROM = { save_event_target_as = war_ukraine }
 		FROM = { character_event = { id = ukr_war.3 days = 2 } }
 
 	}
@@ -107,7 +108,7 @@ colony_war = {
 			}
 		}
 		any_independent_ruler = { 
-			limit = { has_character_modifier = nato_setup } 
+			limit = { has_landed_title = e_united_states } 
 			make_tributary = {
 				who = FROM
 				tributary_type = nato

@@ -15,6 +15,7 @@ TRIBUTARY_PUPPET_PLURAL;Puppet States;;;x
 
 nato;NATO;;;x
 TRIBUTARY_NATO;NATO Member State;;;x
+TRIBUTARY_NATO_TRIBUTE;Member State;;;x
 TRIBUTARY_NATO_PLURAL;NATO Member States;;;x
 
 #buildings
@@ -40,10 +41,21 @@ WAR_NAME_WW2;$ORDER$ $FIRST_ADJ$ Nazi Invasion;;;x
 nazi_war;Nazi Invasion;;;x
 nazi_war_desc;Our great country must be expand its borders. We have exhausted all other means of solving this issue so we must make war!;;;x
 
+CB_NAME_VIKING_INVASION;Neo-Nazi Invasion;;;x
+WAR_NAME_VIKING_INVASION;$ORDER$ $FIRST_ADJ$ Neo-Nazi Invasion;;;x
+viking_invasion;Neo-Nazi Invasion;;;x
+
+
 reclaim_war;Reclaim Territory;;;x
 reclaim_war_desc;The so-called 'Islamic State' occupies your sovereign territory. You may fight to reclaim as much of it as you can. Be warned, if you fail they will take even more of your territory.;;;x
 CB_NAME_RECLAIM;Anti-Terrorist Operation;;;x
 WAR_NAME_RECLAIM;$ORDER$ $FIRST_ADJ$ Anti-Terrorist Operation;;;x
+
+reclaim_pale_war;Reclaim Territory;;;x
+reclaim_war_desc;Territory of the sovereign state of Palestine is currently being occupied by Israelis. You may fight to reclaim as much of it as you can. Be warned, if you fail they will take even more of your land!;;;x
+CB_NAME_RECLAIM_PALESTINE;Reclaim Palestinian Territory;;;x
+WAR_NAME_RECLAIM_PALESTINE;$ORDER$ $FIRST_ADJ$ Intifada;;;x
+
 
 taliban_takeover;Taliban Takeover;;;x
 taliban_takeover_desc;The Islamic Emirate of Afghanistan is currently under occupation by an infidel-installed, illegitimate regime. Inshallah, you will finally remove them from your land!;;;x

@@ -28,6 +28,7 @@ targetted_decisions = {
 			}
 		}
 		effect = {
+			FROM = { piety = -20 }
 			ROOT = {
 				IF = {
 					limit = { is_primary_war_attacker = yes }

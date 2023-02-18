@@ -11,6 +11,7 @@ decisions = {
 			}
 		allow = {
 			NOT = { has_character_modifier = drafted_peasants }
+			piety = 50
 			war = yes
 			capital_scope = {
 				is_occupied = no
@@ -323,14 +324,16 @@ decisions = {
 		allow = {
 			NOT = { has_character_modifier = csto_setup }
 			NOT = { trait = incapable }
+			piety = 100
 		}
 		effect = {
+		piety = -100
 		any_independent_ruler = { 
 			limit = { has_landed_title = k_belarus } 
 				save_event_target_as = csto_dude1
 			}
 		any_independent_ruler = { 
-			limit = { has_landed_title = k_armenia } 
+			limit = { has_landed_title = d_armenia } 
 				save_event_target_as = csto_dude2
 			}
 		any_independent_ruler = { 
@@ -340,6 +343,10 @@ decisions = {
 		any_independent_ruler = { 
 			limit = { has_landed_title = k_georgia } 
 				save_event_target_as = csto_dude4
+			}
+		any_independent_ruler = { 
+			limit = { has_landed_title = d_azerbaijan } 
+				save_event_target_as = csto_dude5
 			}
 			character_event = { id = iron_century.4 }
 		}

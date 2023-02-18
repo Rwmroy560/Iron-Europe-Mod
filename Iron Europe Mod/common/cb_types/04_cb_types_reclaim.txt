@@ -157,10 +157,5 @@ reclaim_war = {
 	
 	ai_will_do = { 
 		factor = 1
-		
-		modifier = {
-			factor = 50
-			has_landed_title = e_russia
-		}
 	}
 }

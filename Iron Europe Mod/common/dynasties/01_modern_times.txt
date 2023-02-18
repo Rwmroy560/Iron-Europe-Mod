@@ -2794,3 +2794,7 @@
   name = Yousef
   culture = Kurdish
 }
+100000699 = {
+  name = Arafat
+  culture = levantine_arabic
+}

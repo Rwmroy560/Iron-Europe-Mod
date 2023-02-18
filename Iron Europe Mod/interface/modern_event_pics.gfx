@@ -1,4 +1,25 @@
 spriteTypes = {
+	spriteType = {
+		name = "GFX_roy_speech"
+		texturefile = "gfx\\event_pictures\roy_speech.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_strategy"
+		texturefile = "gfx\\event_pictures\roy_strategy.dds"
+		allwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_roy_training"
+		texturefile = "gfx\\event_pictures\roy_training.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_riot"
+		texturefile = "gfx\\event_pictures\roy_riot.dds"
+		allwaystransparent = yes
+	}
 
 	spriteType = {
 		name = "GFX_roy_draft"

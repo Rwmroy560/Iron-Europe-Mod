@@ -29,7 +29,7 @@ targetted_decisions = {
 			hidden_tooltip = {
 				add_character_modifier = {
 					name = imprisonfake_attempt
-					duration = 90
+					duration = 30
 					hidden= yes
 					}
 				character_event = { id = roy_fsb_events.001 }
@@ -68,7 +68,7 @@ targetted_decisions = {
 			hidden_tooltip = {
 				add_character_modifier = {
 					name = poison_attempt
-					duration = 90
+					duration = 30
 					hidden = yes
 					}
 				character_event = { id = roy_fsb_events.002 }

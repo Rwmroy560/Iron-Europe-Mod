@@ -1,4 +1,9 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+ARCHERS;Scouts;;;x
+PIKEMEN;Artillery;;;x
+LIGHT_CAVALRY;Light Armor;;;x
+KNIGHTS;Armor;;;x
+war_elephants;Artilley;;x
 
 tribal_emperor;President;;;x
 emperor_frankish;President;;;x
@@ -9,6 +14,11 @@ king_turkish;President;;;x
 emperor_turkish;President;;;x
 kingdom_of_turkish;Republic of;;;;;;;;;x
 empire_of_turkish;Federation of;;;x
+
+king_greek;President;;;x
+emperor_greek;President;;;x
+kingdom_of_greek;Republic of;;;;;;;;;x
+empire_of_greek;Republic of;;;x
 
 
 emperor_german;Chancellor;;;x

@@ -20,7 +20,56 @@ ct_infrastructure_program;Infrastructure Program;x
 ca_infrastructure_program_desc;Publicly funded program to advance the country's infrastructure and invest in its upkeep.;x
 ca_trade_center;Trade Hub;;;x
 ca_trade_center_desc;A center for trading goods between your people and the countries that neighbor you.;;;x
+ca_wall_q_1;Regional Fortifications;;;x
+ca_wall_q_2;Regional Fortifications;;;x
+ca_wall_q_3;Regional Fortifications;;;x
+ca_wall_q_4;Regional Fortifications;;;x
+ca_wall_q_5;Regional Fortifications;;;x
+ca_wall_q_1_desc;Fortifications used to slow down a besieging army.;;;x
+ca_wall_1;Trench Fortifications;;;x
+ca_wall_2;Trench Fortifications;;;x
+ca_wall_3;Trench Fortifications;;;x
+ca_wall_4;Trench Fortifications;;;x
+ca_wall_5;Trench Fortifications;;;x
+ca_wall_1_desc;Fortifications used to slow down a besieging army.;;;x
+ca_keep_1;Military Base;;;x
+ca_keep_2;Military Base;;;x
+ca_keep_3;Military Base;;;x
+ca_keep_4;Military Base;;;x
+ca_keep_5;Military Base;;;x
+ca_keep_6;Military Base;;;x
+ca_keep_1_desc;Base used to foster coordination between the different branches of the armed forces.;;;x
+ca_training_grounds_1_desc;A field used to test your latest weapons and give your soldiers valuable training.;;;x
+ca_barracks_1_desc;A facility used to house and train soldiers.;;;x
+ca_stable_1;Tank Factory;;;x
+ca_stable_2;Tank Factory;;;x
+ca_stable_3;Tank Factory;;;x
+ca_stable_4;Tank Factory;;;x
+ca_stable_5;Tank Factory;;;x
+ca_stable_6;Tank Manufactory;;;x
+ca_stable_1_desc;A factory to build and develop armor units.;;;x
+ca_town_1;Small Town;;;x
+ca_town_2;Town;;;x
+ca_town_3;Large Town;;;x
+ca_town_4;City;;;x
+ca_town_5;Large City;;;x
+ca_town_6;Megacity;;;x
+ca_town_1_desc;Towns are generally larger than villages and smaller than cities, though the criteria to distinguish between them vary considerably in different parts of the world;;;x
+ca_town_2_desc;An urban area of greater size, population, and importance than a town or village.;;;x
+ca_artillery_1;Artillery Factory;;;x
+ca_artillery_2;Artillery Factory;;;x
+ca_artillery_3;Artillery Manufactory;;;x
+ca_artillery_1_desc;A factory to build and develop artillery units.;;;x
 
+ca_russian_artillery;Soviet Artillery Factory;;;x
+ca_russian_artillery_desc;A factory to build artillery guns and shells.;;;x
+
+
+
+POLI_WILL;Political Will;;;;x
+STAT_PIETY_POLI_WILL;Political Will;;;;x
+STAT_PIETY_MENU_POLI_WILL;Political Will;;;x
+STAT_PIETY_DESC_POLI_WILL;Political will is defined as "the extent of committed support among key decision makers for a particular policy solution to a particular problem." It is also considered by political scientist Linn Hammergren to be "the slipperiest concept in the policy lexicon.";;;x
 
 
 EVTDESCiron_century.1;Prosperity cannot reach all corners of your country. Young men, disenfranchised from the state and radicalized by religion, have decided to take up arms against you and all that is good.;;;x
@@ -32,7 +81,7 @@ EVTBiron_century.2;Oui Oui! Sovereignty be damned!;;;x
 
 EVTDESCiron_century.3;Russia has invaded Ukraine in an attempt to annex some of its territory. With your help, Ukraine may be able to fend the Russians off. Will you offer your men up to help?;;x
 EVTAiron_century.3;"Slava Ukraini!";;;x
-"EVTBiron_century.3;This is not our war.;;;x
+EVTBiron_century.3;This is not our war.;;;x
 
 EVTDESCiron_century.4;The Collective Security Treaty Organization is an intergovernmental military alliance in Eurasia consisting of six post-Soviet states: Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia, and Tajikistan.;;;x
 EVTBiron_century.4;Glory to Russia!;;;x
@@ -111,7 +160,7 @@ LOADING_TIP_49;'Death is the solution to all problems. No man - no problem.' - J
 LOADING_TIP_50;'When we hang the capitalists they will sell us the rope we use.' - Joseph Stalin;;;x
 LOADING_TIP_51;'If you're going through hell, keep going.' - Winston Churchill;;;x
 LOADING_TIP_52;'You have enemies? Good. That means you've stood up for something, sometime in your life.' - Winston Churchill;;;x
-LOADING_TIP_53;'To improve is to change; to be perfect is to change often.' - Winston Churchill;;;x
+LOADING_TIP_53;'To improve is to change, to be perfect is to change often.' - Winston Churchill;;;x
 LOADING_TIP_54;'Enjoy the game.' - Roy;;;x
 
 

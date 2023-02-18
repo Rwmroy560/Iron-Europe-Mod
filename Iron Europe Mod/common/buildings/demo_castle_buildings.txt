@@ -12,7 +12,8 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 195
 		build_time = 765
-		ai_creation_factor = 110
+		ai_creation_factor = 90
+		extra_tech_building_start = 0.4
 		commander_limit = 10
 		court_size_modifier = 5
 		levy_reinforce_rate = 0.15
@@ -25,10 +26,11 @@ castle = {
 				is_feudal = yes	
 			}	
 		}	
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		gold_cost = 205
 		build_time = 765
-		ai_creation_factor = 110
+		ai_creation_factor = 90
+		extra_tech_building_start = 0.8
 		tax_income = 3
 		supply_limit = 2
 		local_build_cost_modifier = -0.10
@@ -44,10 +46,11 @@ castle = {
 				}	
 			}	
 		}	
-		trigger = { TECH_CASTLE_CONSTRUCTION = 1 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 2 }
 		gold_cost = 195
 		build_time = 965
-		ai_creation_factor = 110
+		ai_creation_factor = 90
+		extra_tech_building_start = 0.4
 		tax_income = 5
 		local_build_cost_modifier = -0.10
 		local_build_time_modifier = -0.10

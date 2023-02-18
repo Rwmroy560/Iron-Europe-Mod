@@ -71,6 +71,7 @@ targetted_decisions = {
 			prisoner = no
 			ROOT = { is_within_diplo_range = FROM }
 			FROM = { wealth = 100 }
+			FROM = { piety = 50 }
 			ROOT = { 
 				OR = {
 				religion_group = FROM
@@ -83,6 +84,7 @@ targetted_decisions = {
 		}
 		effect = {
 			FROM = {
+			piety = -50
 			any_courtier = { 
 				limit = { has_job_title = job_chancellor }
 				save_event_target_as = target_negotiator

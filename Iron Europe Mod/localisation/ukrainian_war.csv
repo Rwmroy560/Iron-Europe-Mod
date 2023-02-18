@@ -50,10 +50,9 @@ EVTAukr_war.2;Thanks, Uncle Sam!;;;x
 
 ukr_war.3;Invasion of Ukraine;;x
 EVTDESCukr_war.3;In violation of International Law, the President of the Russian Federation has launched what it calls a "Special Military Operation" on the territory of Ukraine! Ukraine recognizes no Russian claim on our territory so wemust fight them back!  While Ukraine is not a member of NATO, some European states may still wish to get involved and defend democracy from Russia. You may call on your European allies to aid in your defense.;;;x
-EVTOPTAukr_war.3;The Baltic States will help us.;;x
-EVTOPTBukr_war.3;I will call upon the Mediterranean!;;;x
-EVTOPTCukr_war.3;We need the power of the West!;;;x
-EVTOPTDukr_war.3;We can handle this ourselves.;;;x
+EVTOPTAukr_war.3;NATO will come to our aid!;;x
+NATOjoin;Ask for NATO, led by the United States, to assist you in your war against Russia.;;;x
+EVTOPTBukr_war.3;We can handle this ourselves.;;;x
 
 EVTDESCukr_war.4;The Wagner Battalion, infamous for their deeds on the battlefields across the Middle East and Africa, are available for service to fight for you in Ukraine.;;;x
 EVTAukr_war.4;Send them back.;;;x

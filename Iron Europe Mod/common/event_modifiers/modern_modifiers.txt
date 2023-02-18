@@ -115,3 +115,27 @@ settlement_genocide = {
 	siege_defence = -0.2
 	local_tax_modifier = -0.40
 }
+give_speech = {
+	icon = 29
+}
+inspired_faithfuls = {
+	icon = 17
+	local_revolt_risk = -0.03
+	build_time_modifier = -0.10
+
+}
+revered_military = {
+	icon = 13
+	levy_reinforce_rate = 0.35
+	land_morale = 0.25
+}
+despise_immigrants = {
+	icon = 29
+	local_revolt_risk = -0.05
+	local_tax_modifier = -0.45
+}
+strong_ruler = {
+	icon = 18
+	levy_reinforce_rate = 0.15
+	local_revolt_risk = -0.02
+}

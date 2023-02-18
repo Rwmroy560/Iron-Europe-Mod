@@ -17,7 +17,8 @@ namespace = royannex
 			wealth = 100
 			}
 			ROOT = { 
-			prestige = -200 
+			piety = -50
+			prestige = 100 
 			}
 
 			FROMFROM = {
@@ -36,6 +37,7 @@ namespace = royannex
 
 		option = { 
 		name = "EVTOPTAroyannex.12" 
+			piety = -50
 			prestige = -50
 		clear_event_target = target_negotiator
 		}
@@ -47,6 +49,7 @@ namespace = royannex
 			wealth = 100
 			}
 			ROOT = { 
+			piety = -50
 			transfer_scaled_wealth = { to = FROMFROM value = 3 min = 350 max = 800 }
 			}
 			FROMFROM = {
@@ -66,6 +69,7 @@ namespace = royannex
 	
 		option = { 
 		name = "EVTOPTAroyannex.2" 
+		piety= -50
 		prestige = -50
 		clear_event_target = target_negotiator
 		}
