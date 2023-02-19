@@ -86,7 +86,7 @@ character_event = {
 	}
 	option = { 
 		name = "EVTAiron_century.3" 
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 25 }
 		ROOT = {
 			prestige = 100
 			piety = 150
@@ -96,9 +96,48 @@ character_event = {
 	}
 	option = { 
 		name = "EVTBiron_century.3"
-		ai_chance = { factor = 70 }
+		ai_chance = { factor = 25 }
 		add_character_modifier = { modifier = best_interests years = 3 }
 		clear_event_target = war_ukraine 
+	}
+	option = { 
+		name = "EVTCiron_century.3"
+		ai_chance = { factor = 50 }
+		custom_tooltip = { text = Ukrhelp } 
+		transfer_scaled_wealth = {
+			from = ROOT
+			to = event_target:war_ukraine
+			value = 0.5
+			}
+		event_target:war_ukraine = {
+		capital_scope = {
+			holder_scope = {
+				IF = {
+					limit = {
+						capital_scope = {
+							is_occupied = no
+						}
+					}
+					spawn_unit = {
+						owner = THIS
+						province = PREV
+						leader = none
+						troops = {
+							light_infantry = { 250 2000 }
+							light_cavalry = { 250 500 }
+							pikemen = { 300 500 }
+							archers = { 150 500 }
+						}
+						attrition = 1.0
+						maintenance_multiplier = 0.1
+						merge = yes
+						disband_on_peace = yes
+					}
+				}
+			}
+		}
+	}
+	clear_event_target = war_ukraine 
 	}
 }
 #Establish CSTO

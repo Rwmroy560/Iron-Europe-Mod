@@ -82,6 +82,8 @@ EVTBiron_century.2;Oui Oui! Sovereignty be damned!;;;x
 EVTDESCiron_century.3;Russia has invaded Ukraine in an attempt to annex some of its territory. With your help, Ukraine may be able to fend the Russians off. Will you offer your men up to help?;;x
 EVTAiron_century.3;"Slava Ukraini!";;;x
 EVTBiron_century.3;This is not our war.;;;x
+EVTCiron_century.3;We will provide weapons and training.;;;x
+Ukrhelp;Rather than join the war yourself, offer weapons and training to Ukrainian soldiers to fight Russia.;;;x
 
 EVTDESCiron_century.4;The Collective Security Treaty Organization is an intergovernmental military alliance in Eurasia consisting of six post-Soviet states: Armenia, Belarus, Kazakhstan, Kyrgyzstan, Russia, and Tajikistan.;;;x
 EVTBiron_century.4;Glory to Russia!;;;x
