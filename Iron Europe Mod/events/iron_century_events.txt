@@ -170,7 +170,6 @@ character_event = {
 				who = event_target:csto_dude4
 				tributary_type = csto
 				}
-			}
 			make_tributary = {
 				who = event_target:csto_dude5
 				tributary_type = csto
