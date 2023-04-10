@@ -15,14 +15,15 @@ nazi_war = {
 	allowed_to_target_suzerains = no
 
 	can_use_gui = {
-		ROOT = {
-			culture = german
-			religion = nazi
-		}
+
 	}
 	
 
 	can_use = {
+		year <= 1945
+		ROOT = {
+			religion = nazi
+		}
 		FROM = { 
 			independent = yes
 			primary_title = { higher_tier_than = COUNT }

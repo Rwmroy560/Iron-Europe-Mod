@@ -35,14 +35,8 @@ character_event = {
 	trigger = {
 		any_realm_province = {
 			OR = {
-				AND = {
-					has_province_modifier = sinocide_race
-					culture = ROOT
-				}
-				AND = {
-					has_province_modifier = sinocide_religion
-					religion = ROOT
-				}
+				has_province_modifier = sinocide_race
+				has_province_modifier = sinocide_religion
 			}
 		}
 		higher_real_tier_than = DUKE

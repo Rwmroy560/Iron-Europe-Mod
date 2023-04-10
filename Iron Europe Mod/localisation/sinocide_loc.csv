@@ -33,19 +33,19 @@ EVTOPTAsinocide_events.1;[sinocide_rac_target1.Culture.GetName], All of them!;;;
 EVTOPTBsinocide_events.1;[sinocide_rac_target2.Culture.GetName], Every one!!!;;;;;;;;;;;;;x
 EVTOPTCsinocide_events.1;[sinocide_rac_target3.Culture.GetName], Slaughter them all!;;;;;;;;;;;;;x
 EVTOPTDsinocide_events.1;Actually, nevermind.;;;;;;;;;;;;;x
-EVTDESCsinocide_events.10;The Crown has called a general slaughter against a people and demands you execute any of thepeoples in your Realm.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.10;The Crown has called a general slaughter against a people and demands you execute any of the peoples in your Realm.;;;;;;;;;;;;;x
 EVTOPTAsinocide_events.10;Very well.;;;;;;;;;;;;;x
 EVTOPTBsinocide_events.10;This is ridiculous! I refuse.;;;;;;;;;;;;;x
 EVTOPTCsinocide_events.10;This is ridiculous! I'll send them away.;;;;;;;;;;;;;x
-EVTDESCsinocide_events.101;You have completed a Religious Purge in a province in your realm, slaughtering a great many of your people.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.101;You have completed a Religious Purge in a province in your country, slaughtering a great many of your people.;;;;;;;;;;;;;x
 EVTOPTAsinocide_events.101;Excellent.;;;;;;;;;;;;;x
-EVTDESCsinocide_events.201;You have completed a Racial Genocide in a province in your realm, slaughtering a great many of your people.;;;;;;;;;;;;;x
+EVTDESCsinocide_events.201;You have completed a Racial Genocide in a province in your country, slaughtering a great many of your people.;;;;;;;;;;;;;x
 EVTOPTAsinocide_events.201;Excellent.;;;;;;;;;;;;;x
-EVTDESCsinocide_maintenance.0;You have an ongoing genocide in your realm, and you can stop it.;;;;;;;;;;;;;x
+EVTDESCsinocide_maintenance.0;You have an ongoing genocide in your nation, and you have the power to put an end to it.;;;;;;;;;;;;;x
 EVTOPTBsinocide_maintenance.1;Unfortunately, this is necessary;;;x
 EVTOPTAsinocide_maintenance.0;This is horrific, end it immediately!;;;;;;;;;;;;;x
 EVTOPTBsinocide_maintenance.0;What's done is done...;;;;;;;;;;;;;x
-EVTDESCsinocide_maintenance.1;You have an ongoing genocide of your people in your realm, and you can stop it.;;;;;;;;;;;;;x
+EVTDESCsinocide_maintenance.1;You have an ongoing genocide of your people in your country, and you have the power to put an end to it.;;;;;;;;;;;;;x
 EVTOPTAsinocide_maintenance.1;This is horrific, end it immediately!;;;;;;;;;;;;;x
 EVTDESCsinocide_maintenance.2;You have an ongoing genocide in your realm, and you can stop it.;;;;;;;;;;;;;x
 EVTOPTAsinocide_maintenance.2;This is horrific, end it immediately!;;;;;;;;;;;;;x

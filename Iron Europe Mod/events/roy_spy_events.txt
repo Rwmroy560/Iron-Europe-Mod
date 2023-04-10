@@ -7,7 +7,7 @@ character_event = {
 	id = roy_spy.1
 	desc = EVTDESCroy_spy.1
 	is_triggered_only = yes
-	picture = GFX_evt_whispers
+	picture = GFX_roy_spy
 
 	immediate = { 
 		any_courtier = {

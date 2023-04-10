@@ -57,6 +57,46 @@ spriteTypes = {
 		texturefile = "gfx\\event_pictures\roy_ruler.dds"
 		allwaystransparent = yes
 	}
+	spriteType = {
+		name = "GFX_roy_europe"
+		texturefile = "gfx\\event_pictures\roy_europe.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_injured"
+		texturefile = "gfx\\event_pictures\roy_injured.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_surrender"
+		texturefile = "gfx\\event_pictures\roy_surrender.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_battle"
+		texturefile = "gfx\\event_pictures\roy_battle.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_terror"
+		texturefile = "gfx\\event_pictures\roy_terror.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_spy"
+		texturefile = "gfx\\event_pictures\roy_spy.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_azov"
+		texturefile = "gfx\\event_pictures\roy_azov.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_roy_wagner"
+		texturefile = "gfx\\event_pictures\roy_wagner.dds"
+		allwaystransparent = yes
+	}
 
 
 }

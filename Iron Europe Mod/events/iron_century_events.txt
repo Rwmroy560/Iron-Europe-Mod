@@ -3,7 +3,7 @@ namespace = iron_century
 character_event = {
 	id = iron_century.1
 	desc = "EVTDESCiron_century.1"
-	picture = GFX_evt_riots_byzantine
+	picture = GFX_roy_terror
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes

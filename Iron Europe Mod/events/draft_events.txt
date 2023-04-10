@@ -15,6 +15,7 @@ character_event = {
 
 	option = { 
 		name = "EVTroy_draft.1" 
+		piety = -75
 		any_realm_province = { add_province_modifier = { name = war_draft years = 2 } }
 		if = {
 			limit = { has_law = army_professionalism_law_2  }

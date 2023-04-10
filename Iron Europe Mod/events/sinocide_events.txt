@@ -57,6 +57,7 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTAsinocide_events.0
+		ROOT = { piety = -100 }
 		trigger = {
 			any_realm_province = {
 				has_province_flag = sinocide_rel_target1
@@ -212,6 +213,7 @@ character_event = {
 				has_province_flag = sinocide_rel_target2
 			}
 		}
+		ROOT = { piety = -100 }
 		any_realm_province = {
 			IF = {
 				limit = {
@@ -362,6 +364,7 @@ character_event = {
 				has_province_flag = sinocide_rel_target3
 			}
 		}
+		ROOT = { piety = -100 }
 		any_realm_province = {
 			IF = {
 				limit = {
@@ -591,6 +594,7 @@ character_event = {
 				has_province_flag = sinocide_rac_target1
 			}
 		}
+		ROOT = { piety = -100 }
 		any_realm_province = {
 			IF = {
 				limit = {
@@ -741,6 +745,7 @@ character_event = {
 				has_province_flag = sinocide_rac_target2
 			}
 		}
+		ROOT = { piety = -100 }
 		any_realm_province = {
 			IF = {
 				limit = {
@@ -891,6 +896,7 @@ character_event = {
 				has_province_flag = sinocide_rac_target3
 			}
 		}
+		ROOT = { piety = -100 }
 		any_realm_province = {
 			IF = {
 				limit = {

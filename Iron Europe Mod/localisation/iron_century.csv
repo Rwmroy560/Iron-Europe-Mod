@@ -60,6 +60,11 @@ ca_artillery_1;Artillery Factory;;;x
 ca_artillery_2;Artillery Factory;;;x
 ca_artillery_3;Artillery Manufactory;;;x
 ca_artillery_1_desc;A factory to build and develop artillery units.;;;x
+ca_shipyard_1;Naval Shipyard;;;x
+ca_shipyard_2;Naval Shipyard;;;x
+ca_shipyard_3;Naval Shipyard;;;x
+ca_shipyard_4;Naval Port;;;x
+shipyard_desc;A port to develop, build, and dock ships for your navy.;;;x
 
 ca_russian_artillery;Soviet Artillery Factory;;;x
 ca_russian_artillery_desc;A factory to build artillery guns and shells.;;;x
@@ -118,7 +123,7 @@ LOADING_TIP_6;'When politics is no longer a mission but a profession, politician
 LOADING_TIP_7;'I think when people have pudding and jobs, they vote for you.' - Emmanuel Macron;;;;x
 LOADING_TIP_8;'The situation is under control.' - Idriss Deby;;;x
 LOADING_TIP_9;'My friends, as I have discovered myself, there are no disasters, only opportunities. And, indeed, opportunities for fresh disasters.' - Boris Johnson;;;;x
-LOADING_TIP_10;'The Italians, who used to be a great motor-manufacturing power, have been absolutely destroyed by the euro - as was intended by the Germans.' - Boris Johnson;;;x
+LOADING_TIP_10;'We are no longer going to ask for the land, but we are going to take it without negotiating.' - Robert Mugabe;;;x
 LOADING_TIP_11;'I have more in common with a three-toed sloth or a one-eyed pterodactyl or a Kalamata olive than I have with Winston Churchill.' - Boris Johnson;;;x
 LOADING_TIP_12;'I'm undaunted in my quest to amuse myself by constantly changing my hair.' - Hillary Clinton;;;x
 LOADING_TIP_13;'Our policy is very simple. The Jewish state was set up to defend Jewish lives, and we always reserve the right to defend ourselves.' - Benjamin Netanyahu;;;x
@@ -149,7 +154,7 @@ LOADING_TIP_36;'Peace is a day-to-day problem, the product of a multitude of eve
 LOADING_TIP_37;'Women make up one half of society. Our society will remain backward and in chains unless its women are liberated, enlightened and educated.' - Saddam Hussein;;;x
 LOADING_TIP_38;'I just didn't believe Bush' - Saddam Hussein;;;x
 LOADING_TIP_39;'Whoever tries to climb over our fence, we will try to climb over his house.' - Saddam Hussein;;;x
-LOADING_TIP_40;'The most important thing about marriage is that the man must not let the woman feel downtrodden simply because she is a woman and he is a man.' - Saddam Hussein;;x
+LOADING_TIP_40;'I have died many times. I have actually beaten Jesus Christ because he only died once.' - Robert Mugabe;;x
 LOADING_TIP_41;'I know that there are scores of people plotting to kill me, and this is not difficult to understand. After all, did we not seize power by plotting against our predecessors? However, I am far cleverer than they are.' - Saddam Hussein;;;x
 LOADING_TIP_42;'Palestine is Arab and must be liberated from the river to the sea and all the Zionists who emigrated to the land of Palestine must leave.' - Saddam Hussein;;;x
 LOADING_TIP_43;'Promising too much can be as cruel as caring too little.' - Bill Clinton;;;x

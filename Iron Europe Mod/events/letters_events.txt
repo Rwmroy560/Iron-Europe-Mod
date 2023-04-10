@@ -5,7 +5,7 @@ namespace = lettersoc
 character_event = {
 	id = "lettersoc.0"
 	desc = "EVTDESClettersoc.0"
-	picture = GFX_roy_raventower
+	picture = GFX_roy_spy
 	
 	is_triggered_only = yes
 	
@@ -403,7 +403,7 @@ character_event = {
 character_event = {
 	id = "lettersoc.2"
 	desc = "EVTDESCalettersoc.0"
-	picture = GFX_roy_raventower
+	picture = GFX_roy_spy
 	
 	is_triggered_only = yes
 	

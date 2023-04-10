@@ -3,7 +3,7 @@ namespace = democracy
 character_event = {
 	id = democracy.1
 	desc = "EVTDESCconvert1"
-	picture = "GFX_roy_draft"
+	picture = "GFX_roy_surrender"
 	border = GFX_event_normal_frame_war
 
 	min_age = 16
@@ -99,6 +99,13 @@ character_event = {
 			abdicate_to = event_target:target_depose 
 			prestige = -500
 		}
+		event_target:target_depose = {
+			opinion = {
+				modifier = beholden
+				who = ROOT
+				years = 1000
+				}
+			}
 		ROOT = { 
 			make_tributary = { who = event_target:target_depose tributary_type = puppet }
 			}

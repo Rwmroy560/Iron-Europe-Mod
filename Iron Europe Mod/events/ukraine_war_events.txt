@@ -3,7 +3,7 @@ namespace = ukr_war
 character_event = {
 	id = ukr_war.1
 	desc = "EVTDESCukr_war.1"
-	picture = GFX_roy_soldiers
+	picture = GFX_roy_azov
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes
@@ -49,7 +49,7 @@ character_event = {
 character_event = {
 	id = ukr_war.2
 	desc = "EVTDESCukr_war.2"
-	picture = GFX_roy_nato
+	picture = GFX_roy_europe
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes
@@ -128,7 +128,7 @@ narrative_event = {
 character_event = {
 	id = ukr_war.4
 	desc = "EVTDESCukr_war.4"
-	picture = GFX_roy_russians
+	picture = GFX_roy_wagner
 	border = GFX_event_normal_frame_war
 	
 	is_triggered_only = yes

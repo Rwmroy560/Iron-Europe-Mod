@@ -8,6 +8,7 @@ decisions = {
 			NOT = { trait = kind }
 		}
 		allow = {
+			piety = 100
 			any_realm_province = {
 				NOR = {
 					religion = ROOT
@@ -71,7 +72,7 @@ decisions = {
 			}
 		}
 		effect = {
-			character_event = { id = sinocide_maintenance.0 }
+			character_event = { id = sinocide_maintenance.1 }
 		}
 		revoke_allowed = {
 			always = no

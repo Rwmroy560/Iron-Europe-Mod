@@ -6,7 +6,7 @@ namespace = royannex
 	character_event = {
 		id = royannex.1
 		desc = "EVTDESCroyannex.1"
-		picture = "GFX_roy_annex"
+		picture = "GFX_roy_surrender"
 	
 		is_triggered_only = yes
 	
@@ -31,7 +31,7 @@ namespace = royannex
 	character_event = {
 		id = royannex.12
 		desc = "EVTDESCroyannex.12"
-		picture = "GFX_roy_annex"
+		picture = "GFX_roy_surrender"
 	
 		is_triggered_only = yes
 
@@ -63,7 +63,7 @@ namespace = royannex
 	character_event = {
 		id = royannex.2
 		desc = "EVTDESCroyannex.2"
-		picture = "GFX_roy_annex"
+		picture = "GFX_roy_surrender"
 	
 		is_triggered_only = yes
 	

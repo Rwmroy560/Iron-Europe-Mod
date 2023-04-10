@@ -9,7 +9,7 @@ american_group = {
       0.3
     }
 		character_modifier = {
-			stewardship = 3
+			intrigue = 3
 		}
     male_names = {
       James
@@ -233,7 +233,7 @@ american_group = {
       0.3
     }
 		character_modifier = {
-			martial = 3
+			diplomacy = 3
 		}
     male_names = {
       James
@@ -452,7 +452,7 @@ american_group = {
 		graphical_cultures = { southerngfx }
 		color = { 0.9 0.8 0.22 }
 		character_modifier = {
-			diplomacy = 3
+			stewardship = 3
 		}
 		male_names = {
 	Raynaldo	Gianluca	Calquín	Osmar	Acab	Ione	Inaxio	Anat	Pacomio	Hamlet	Ubaldo	García	Elihu

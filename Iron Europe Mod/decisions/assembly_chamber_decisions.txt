@@ -29,7 +29,7 @@ decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 0 
+			factor = 1 
 		}
 	}
 }

@@ -23,6 +23,7 @@ colony_war = {
 	
 
 	can_use = {
+		any_independent_ruler = { is_tributary = { type = nato } }
 		FROM = { has_landed_title =  k_ruthenia }
 		ROOT = {
 			independent = yes

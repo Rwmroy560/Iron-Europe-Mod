@@ -27,8 +27,3 @@ on_new_holder = {
 		sinocide_maintenance.2
 	}
 }
-on_new_holder_inheritance = {
-	events = {
-		sinocide_maintenance.0
-	}
-}

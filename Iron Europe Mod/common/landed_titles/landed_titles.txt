@@ -68418,9 +68418,6 @@ e_china_west_governor = {
   }
   capital = 1448
   assimilate = no
-  title_female = WESTERN_GOVERNOR_FEMALE
-  title = WESTERN_GOVERNOR_MALE
-  foa = WESTERN_GOVERNOR_TITLE_FOA
   short_name = yes
   landless = yes
   independent = yes

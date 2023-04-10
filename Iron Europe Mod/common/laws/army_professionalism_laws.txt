@@ -66,7 +66,7 @@ de_jure_laws = {
 			factor = 0
 		}
 		effect = {
-			retinuesize_perc = 2.5
+			retinuesize = 2.5
 			hidden_tooltip = {
 				revoke_law = army_professionalism_law_0
 				revoke_law = army_professionalism_law_1
@@ -110,7 +110,7 @@ de_jure_laws = {
 			factor = 0
 		}
 		effect = {
-			retinuesize_perc = 3.5
+			retinuesize = 3.5
 			hidden_tooltip = {			
 				revoke_law = army_professionalism_law_0
 				revoke_law = army_professionalism_law_1

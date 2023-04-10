@@ -5,7 +5,7 @@ namespace = royannex
 character_event = {
 	id = royannex.7
 	desc = EVTDESCroyannex.7
-	picture = GFX_roy_council
+	picture = GFX_roy_ruler
 	
 	is_triggered_only = yes
 	

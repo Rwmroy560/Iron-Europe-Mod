@@ -14,16 +14,18 @@ targeted_decisions={
 
 		potential = {
 			NOT = { de_jure_liege_or_above = FROM }
-			higher_tier_than = COUNT
+			# higher_real_tier_than = COUNT
 			NOT = { character = FROM }
 		}
 		
 		allow = {
+			FROM = { piety = 150 }
 			war = no
 			FROM = { war = no }
 		}
 		
         effect = {
+			FROM = { piety = -150 }
 			FROM = {
 				if = {
 					limit = { tier = COUNT }

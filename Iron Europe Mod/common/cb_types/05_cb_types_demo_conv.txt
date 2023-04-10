@@ -23,7 +23,7 @@ fuck_you_democracy = {
 	can_use_gui = {
 		ROOT = {
 			has_landed_title =  e_united_states
-			prestige = 100
+			piety = 250
 		}
 	}
 
@@ -49,7 +49,7 @@ fuck_you_democracy = {
 
 	on_add = {
 		ROOT = {
-			prestige = -100
+			piety = -250
 		}
 	}
 	on_success_title = {

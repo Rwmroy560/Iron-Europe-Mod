@@ -8,6 +8,7 @@ christian = {
       0.7
       0.8
     }
+		piety_name = POLI_WILL
     parent = catholic
     crusade_name = CRUSADE
     scripture_name = THE_BIBLE
@@ -41,6 +42,7 @@ christian = {
       0.4
       0.6
     }
+		piety_name = POLI_WILL
     parent = catholic
     crusade_name = CRUSADE
     scripture_name = THE_BIBLE
