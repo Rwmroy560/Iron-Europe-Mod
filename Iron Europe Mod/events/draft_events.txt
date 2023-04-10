@@ -45,7 +45,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 				IF = {
@@ -206,7 +206,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 				IF = {
@@ -250,7 +250,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 				IF = {
@@ -272,7 +272,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 				IF = {
@@ -297,7 +297,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 				IF = {
@@ -323,7 +323,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}

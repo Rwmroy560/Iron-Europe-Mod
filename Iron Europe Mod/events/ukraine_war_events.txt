@@ -38,7 +38,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}
@@ -87,7 +87,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}
@@ -163,7 +163,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = no
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}
@@ -217,7 +217,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}

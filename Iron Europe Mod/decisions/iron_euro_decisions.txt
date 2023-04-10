@@ -31,7 +31,7 @@ decisions = {
 				is_primary_war_defender = yes
 				}
 			modifier = {
-				factor = .05
+				factor = 0.5
 				any_war = {
 					defender = { character = ROOT }
 					war_score = 0.50
