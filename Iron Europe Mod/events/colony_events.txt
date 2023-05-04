@@ -14,7 +14,9 @@ character_event = {
 	}
 
 	immediate = {
-		suzerain = { id = roy_colony_events.3 }
+		suzerain = { 
+			character_event = { id = roy_colony_events.3 }
+		}
 	}
 }
 character_event = {
@@ -55,7 +57,9 @@ character_event = {
 	}
 
 	immediate = {
-		suzerain = { id = roy_colony_events.5 }
+		suzerain = { 
+			character_event = { id = roy_colony_events.5 }
+		}
 	}
 }
 character_event = {

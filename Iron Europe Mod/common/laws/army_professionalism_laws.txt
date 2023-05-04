@@ -44,6 +44,7 @@ de_jure_laws = {
 		levy_reinforce_rate = 0.50
 		castle_vassal_min_levy = -0.20
 		city_vassal_min_levy = -0.40
+		retinuesize = 2.5
 		potential = {
 			holder_scope = { is_feudal = yes }
 		}
@@ -66,7 +67,6 @@ de_jure_laws = {
 			factor = 0
 		}
 		effect = {
-			retinuesize = 2.5
 			hidden_tooltip = {
 				revoke_law = army_professionalism_law_0
 				revoke_law = army_professionalism_law_1
@@ -84,6 +84,7 @@ de_jure_laws = {
 		castle_vassal_min_levy = -0.60
 		city_vassal_min_levy = -0.80
 		levy_reinforce_rate = 0.75
+		retinuesize = 3.5
 		potential = {
 			holder_scope = { is_feudal = yes }
 		}
@@ -110,7 +111,6 @@ de_jure_laws = {
 			factor = 0
 		}
 		effect = {
-			retinuesize = 3.5
 			hidden_tooltip = {			
 				revoke_law = army_professionalism_law_0
 				revoke_law = army_professionalism_law_1
