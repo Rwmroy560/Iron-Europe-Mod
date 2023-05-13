@@ -101,158 +101,158 @@ character_event = {
 		}
 	}
 }
-character_event = {
-	id = sinocide_maintenance.3
-	desc = EVTDESCsinocide_maintenance.3
-	picture = GFX_roy_genocide
-	is_triggered_only = yes
+# character_event = {
+	# id = sinocide_maintenance.3
+	# desc = EVTDESCsinocide_maintenance.3
+	# picture = GFX_roy_genocide
+	# is_triggered_only = yes
 
-	trigger = {
-		crownlaw_title = {
-			holder_scope = {
-				character = ROOT
-				OR = {
-					any_courtier = {
-						OR = {
-							has_job_title = job_castellan
-							has_job_title = job_chancellor
-							has_job_title = job_marshal
-							has_job_title = job_treasurer
-							has_job_title = job_spymaster
-						}
-						NOR = {
-							culture = ROOT
-							religion = ROOT
-						}
-					}
-					any_realm_lord = {
-						any_courtier = {
-							OR = {
-								has_job_title = job_castellan
-								has_job_title = job_chancellor
-								has_job_title = job_marshal
-								has_job_title = job_treasurer
-								has_job_title = job_spymaster
-							}
-							NOR = {
-								culture = ROOT
-								religion = ROOT
-							}
-						}
-					}
-				}
-			}
-			has_law = sinocide_laws_1
-		}
-	}
+	# trigger = {
+		# crownlaw_title = {
+			# holder_scope = {
+				# character = ROOT
+				# OR = {
+					# any_courtier = {
+						# OR = {
+							# has_job_title = job_castellan
+							# has_job_title = job_chancellor
+							# has_job_title = job_marshal
+							# has_job_title = job_treasurer
+							# has_job_title = job_spymaster
+						# }
+						# NOR = {
+							# culture = ROOT
+							# religion = ROOT
+						# }
+					# }
+					# any_realm_lord = {
+						# any_courtier = {
+							# OR = {
+								# has_job_title = job_castellan
+								# has_job_title = job_chancellor
+								# has_job_title = job_marshal
+								# has_job_title = job_treasurer
+								# has_job_title = job_spymaster
+							# }
+							# NOR = {
+								# culture = ROOT
+								# religion = ROOT
+							# }
+						# }
+					# }
+				# }
+			# }
+			# has_law = sinocide_laws_1
+		# }
+	# }
 
-	option = {
-		name = EVTOPTAsinocide_maintenance.3
-		any_courtier = {
-			IF = {
-				limit = {
-					has_job_title = job_castellan
-					NOR = {
-						culture = ROOT
-						religion = ROOT
-					}
-				}
-				remove_title = job_castellan
-			}
-			IF = {
-				limit = {
-					has_job_title = job_chancellor
-					NOR = {
-						culture = ROOT
-						religion = ROOT
-					}
-				}
-				remove_title = job_chancellor
-			}
-			IF = {
-				limit = {
-					has_job_title = job_marshal
-					NOR = {
-						culture = ROOT
-						religion = ROOT
-					}
-				}
-				remove_title = job_marshal
-			}
-			IF = {
-				limit = {
-					has_job_title = job_treasurer
-					NOR = {
-						culture = ROOT
-						religion = ROOT
-					}
-				}
-				remove_title = job_treasurer
-			}
-			IF = {
-				limit = {
-					has_job_title = job_spymaster
-					NOR = {
-						culture = ROOT
-						religion = ROOT
-					}
-				}
-				remove_title = job_spymaster
-			}
-		}
-		any_realm_lord = {
-			any_courtier = {
-				IF = {
-					limit = {
-						has_job_title = job_castellan
-						NOR = {
-							culture = ROOT
-							religion = ROOT
-						}
-					}
-					remove_title = job_castellan
-				}
-				IF = {
-					limit = {
-						has_job_title = job_chancellor
-						NOR = {
-							culture = ROOT
-							religion = ROOT
-						}
-					}
-					remove_title = job_chancellor
-				}
-				IF = {
-					limit = {
-						has_job_title = job_marshal
-						NOR = {
-							culture = ROOT
-							religion = ROOT
-						}
-					}
-					remove_title = job_marshal
-				}
-				IF = {
-					limit = {
-						has_job_title = job_treasurer
-						NOR = {
-							culture = ROOT
-							religion = ROOT
-						}
-					}
-					remove_title = job_treasurer
-				}
-				IF = {
-					limit = {
-						has_job_title = job_spymaster
-						NOR = {
-							culture = ROOT
-							religion = ROOT
-						}
-					}
-					remove_title = job_spymaster
-				}
-			}
-		}
-	}
-}
+	# option = {
+		# name = EVTOPTAsinocide_maintenance.3
+		# any_courtier = {
+			# IF = {
+				# limit = {
+					# has_job_title = job_castellan
+					# NOR = {
+						# culture = ROOT
+						# religion = ROOT
+					# }
+				# }
+				# remove_title = job_castellan
+			# }
+			# IF = {
+				# limit = {
+					# has_job_title = job_chancellor
+					# NOR = {
+						# culture = ROOT
+						# religion = ROOT
+					# }
+				# }
+				# remove_title = job_chancellor
+			# }
+			# IF = {
+				# limit = {
+					# has_job_title = job_marshal
+					# NOR = {
+						# culture = ROOT
+						# religion = ROOT
+					# }
+				# }
+				# remove_title = job_marshal
+			# }
+			# IF = {
+				# limit = {
+					# has_job_title = job_treasurer
+					# NOR = {
+						# culture = ROOT
+						# religion = ROOT
+					# }
+				# }
+				# remove_title = job_treasurer
+			# }
+			# IF = {
+				# limit = {
+					# has_job_title = job_spymaster
+					# NOR = {
+						# culture = ROOT
+						# religion = ROOT
+					# }
+				# }
+				# remove_title = job_spymaster
+			# }
+		# }
+		# any_realm_lord = {
+			# any_courtier = {
+				# IF = {
+					# limit = {
+						# has_job_title = job_castellan
+						# NOR = {
+							# culture = ROOT
+							# religion = ROOT
+						# }
+					# }
+					# remove_title = job_castellan
+				# }
+				# IF = {
+					# limit = {
+						# has_job_title = job_chancellor
+						# NOR = {
+							# culture = ROOT
+							# religion = ROOT
+						# }
+					# }
+					# remove_title = job_chancellor
+				# }
+				# IF = {
+					# limit = {
+						# has_job_title = job_marshal
+						# NOR = {
+							# culture = ROOT
+							# religion = ROOT
+						# }
+					# }
+					# remove_title = job_marshal
+				# }
+				# IF = {
+					# limit = {
+						# has_job_title = job_treasurer
+						# NOR = {
+							# culture = ROOT
+							# religion = ROOT
+						# }
+					# }
+					# remove_title = job_treasurer
+				# }
+				# IF = {
+					# limit = {
+						# has_job_title = job_spymaster
+						# NOR = {
+							# culture = ROOT
+							# religion = ROOT
+						# }
+					# }
+					# remove_title = job_spymaster
+				# }
+			# }
+		# }
+	# }
+# }

@@ -3,7 +3,7 @@ on_bi_yearly_pulse = {
 		sinocide_events.101
 		sinocide_events.201
 		sinocide_warcrime_maintain.0
-		sinocide_maintenance.3
+		#sinocide_maintenance.3
 	}
 }
 on_war_ended_victory = {
