@@ -1,6 +1,6 @@
 91000000 = {
-  name = Lee
-  culture = canadian
+  name = Prigozhin
+  culture = russian
 }
 91000001 = {
   name = Wong

@@ -38,7 +38,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -87,7 +87,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -115,6 +115,12 @@ narrative_event = {
 		any_independent_ruler = {
 			limit = {
 			is_tributary = { type = nato }
+			}
+			character_event = { id = iron_century.3 days = 7 }
+		}
+		any_independent_ruler = {
+			limit = {
+			has_landed_title = e_united_states
 			}
 			character_event = { id = iron_century.3 days = 7 }
 		}
@@ -163,7 +169,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = no
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -217,7 +223,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}

@@ -23,6 +23,10 @@
 }
 1950.5.22 = {
   holder = 115525442
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 1961.10.10 = {
   holder = 117928718

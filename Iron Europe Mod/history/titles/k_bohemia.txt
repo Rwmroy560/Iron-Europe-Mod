@@ -93,6 +93,10 @@
 1993.1.1 = {
   reset_name = yes
   reset_adjective = yes
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 2003.3.7 = {
   holder = 115276940

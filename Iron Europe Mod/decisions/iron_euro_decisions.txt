@@ -30,7 +30,7 @@ decisions = {
 				is_primary_war_defender = yes
 				}
 			modifier = {
-				factor = 0.5
+				factor = .05
 				any_war = {
 					defender = { character = ROOT }
 					war_score = 0.50
@@ -46,48 +46,35 @@ decisions = {
 		}
 	}
 	hire_azov = {
-		is_high_prio = yes
+		is_high_prio = no
 		potential = {
-			has_landed_title = k_ruthenia
-			year >= 2004
-			independent = yes
-			war = yes
+			always = no
 			}
 		allow = {
-			NOT = { has_character_modifier = nazi_allegations }
-			is_primary_war_defender = yes
-			capital_scope = {
-				is_occupied = no
-			}
+			always = no
 		}
 		effect = {
 			piety = -50
 			character_event = { id = ukr_war.1 }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 
 	hire_wagner = {
-		is_high_prio = yes
+		is_high_prio = no
 		potential = {
-			has_landed_title = e_russia
-			year >= 2004
-			war = yes
+			always = no
 			}
 		allow = {
-			NOT = { has_character_modifier = nazi_allegations }
-			war = yes
-			capital_scope = {
-				is_occupied = no
-			}
+			always = no
 		}
 		effect = {
 			character_event = { id = ukr_war.4 }
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 	ask_russia_help = {
@@ -201,7 +188,7 @@ decisions = {
 	establish_nato = {
 		is_high_prio = yes
 		potential = {	
-			NOT = { any_independent_ruler = { has_character_modifier = nato_setup } }
+			ai = no
 			NOT = { any_independent_ruler = { is_tributary = { type = nato } } }
 			has_landed_title = e_united_states
 			}

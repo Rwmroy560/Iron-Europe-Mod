@@ -110,10 +110,19 @@ d_senate = {
     255
     0
   }
+	allow = {
+		always = no
+	}
   short_name = yes
   landless = yes
   culture = american
-  religion = democrat
+  religion = republican
+	primary = yes
+	mercenary = yes	
+	strength_growth_per_century = 1.0
+	title = "REPRES"
+	
+	mercenary_type = secret_service_composition
 }
 d_house_reps = {
   color = {
@@ -126,8 +135,96 @@ d_house_reps = {
     255
     0
   }
-  short_name = yes
-  landless = yes
-  culture = american
-  religion = republican
+	allow = {
+		always = no
+	}
+	short_name = yes
+	landless = yes
+	culture = american
+	religion = democrat
+	mercenary = yes
+	primary = yes
+
+	title = "REPRES"
+
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = secret_service_composition
+}
+d_wagner = {
+	color={ 80 160 80 }
+	color2={ 255 255 255 }
+	
+	culture = russian
+
+	capital = 535
+	
+	# Hire Trigger
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion = orthodox
+		}
+	}
+	
+	# Parent Religion 
+	religion = orthodox
+	
+	mercenary = yes
+
+	title = "OLIGARCH"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = wagner_composition
+}
+d_azov_batt = {
+	color={ 80 160 80 }
+	color2={ 255 255 255 }
+	
+	culture = ukrainian
+
+	capital = 535
+	
+	# Hire Trigger
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion = waldensian 
+		}
+	}
+	
+	# Parent Religion 
+	religion = monothelite
+	
+	mercenary = yes
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.0
+	
+	mercenary_type = azov_batt_composition
 }

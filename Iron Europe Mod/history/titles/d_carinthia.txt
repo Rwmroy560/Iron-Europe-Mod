@@ -121,9 +121,19 @@
 }
 1991.7.7 = {
   holder = 112883980
+  law = army_professionalism_law_1
+  law = tax_peasants_law_feudal_0
+  law = high_court_law_1
+  law = vassal_wars_law_2
 }
 2002.12.22 = {
   holder = 111896694
+}
+2004 = {
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 2007.12.23 = {
   holder = 117757089

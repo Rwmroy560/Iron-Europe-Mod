@@ -3,6 +3,12 @@
   adjective = "Palestinian"
   holder = 100014475
 }
+2005.1.1 = {
+	set_tribute_suzerain = {
+		who = k_israel
+		type = occupied
+	}
+}
 2017.5.14 = {
   name = "Palestine"
   adjective = "Palestinian"

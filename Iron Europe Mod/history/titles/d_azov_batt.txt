@@ -1,0 +1,5 @@
+2012.11.1 = {
+  liege = k_ruthenia
+  Name = "Azov Battalion"
+  adjective = "Azov"
+}

@@ -28,6 +28,10 @@
 }
 1948.2.18 = {
   holder = 114051565
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 1951.6.13 = {
   holder = 113387594

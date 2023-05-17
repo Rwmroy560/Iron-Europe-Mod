@@ -1,0 +1,28 @@
+# Define mercenary types here now instead of in the static_composition.txt file
+# Also remember to tell the landed title to use this mercenary type instead.
+# Several titles can refer to the same type as well now.
+
+wagner_composition = {
+	levy_size = 3
+	wagner_brigade = 300
+	heavy_infantry = 450
+	light_infantry = 150
+	knights = 225
+	light_cavalry = 200
+	archers = 150
+	pikemen = 200
+}
+
+azov_batt_composition = {
+	levy_size = 3
+	nato_soldiers = 300
+	heavy_infantry = 450
+	light_infantry = 150
+	knights = 225
+	light_cavalry = 200
+	archers = 150
+	pikemen = 200
+}
+secret_service_composition = {
+	nato_soldiers = 300
+}

@@ -1,0 +1,6 @@
+2012.11.1 = {
+  liege = e_russia
+  holder = 100014476
+  name = "Wagner Group"
+  adjective = "Wagner"
+}

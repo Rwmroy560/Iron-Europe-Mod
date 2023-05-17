@@ -158,6 +158,12 @@
 1905.6.7 = {
   holder = 119376587
 }
+1949.1.1 = {
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
+}
 1957.9.21 = {
   holder = 119360175
 }

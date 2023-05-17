@@ -9,6 +9,13 @@ TRIBUTARY_COLONY_PLURAL;Colonies;;;x
 SUZERAIN_PATRON_NAME;Patron;;;x
 TRIBUTARY_COLONY_TRIBUTE;Colony;;;x
 
+occupied;Occupied State;;;x
+TRIBUTARY_OCCUPIED;Occupied State;;;x
+TRIBUTARY_OCCUPIED_PLURAL;Occupied States;;;x
+SUZERAIN_PATRON_NAME;Patron;;;x
+TRIBUTARY_OCCUPIED_TRIBUTE;Occupied State;;;x
+
+
 puppet;puppet;;;x
 TRIBUTARY_PUPPET;Puppet State;;;x
 TRIBUTARY_PUPPET_PLURAL;Puppet States;;;x

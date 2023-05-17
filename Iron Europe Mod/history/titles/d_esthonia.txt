@@ -93,6 +93,10 @@
 }
 2006.10.9 = {
   holder = 117062177
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 2016.10.10 = {
   holder = 113497724

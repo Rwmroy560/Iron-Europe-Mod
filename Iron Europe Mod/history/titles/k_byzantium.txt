@@ -51,6 +51,10 @@
 }
 1947.4.1 = {
   holder = 110155829
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 1964.3.6 = {
   holder = 111873862

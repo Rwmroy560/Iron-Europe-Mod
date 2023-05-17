@@ -138,6 +138,10 @@
 }
 1996.3.9 = {
   holder = 111827950
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 2006.3.9 = {
   holder = 113579016

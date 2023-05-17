@@ -1,6 +1,8 @@
-2001.5.14 = {
+1900.1.1 = {
   name = "The Democratic Party"
   adjective = "American"
-  holder = 109975161
   liege = e_united_states
+}
+2001.5.14 = {
+  holder = 109975161
 }

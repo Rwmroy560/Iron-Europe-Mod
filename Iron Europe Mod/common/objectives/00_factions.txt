@@ -2903,8 +2903,11 @@ faction_independence = {
 		
 		modifier = {
 			factor = 0
-			liege = {  
-				culture = russian
+			liege = {
+				AND = {  
+					culture = russian
+					war = yes
+				}
 			}
 		}
 		modifier = {
@@ -3223,7 +3226,7 @@ faction_independence = {
 		factor = 4
 		
 		modifier = {
-			factor = 0.05
+			factor = 0.5
 			liege = {  
 				culture = russian
 			}

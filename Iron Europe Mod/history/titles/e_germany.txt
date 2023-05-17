@@ -49,6 +49,10 @@
   law = tax_peasants_law_feudal_2
   law = high_court_law_1
   law = vassal_wars_law_2
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 1990.9.29 = {
   holder = 117347519
@@ -61,7 +65,7 @@
 2005.11.22 = {
   holder = 116594806
   law = army_professionalism_law_0
-  law = tax_peasants_law_feudal_1
+  law = tax_peasants_law_feudal_0
   law = high_court_law_0
   law = cognatic_succession
   law = succ_feudal_elective

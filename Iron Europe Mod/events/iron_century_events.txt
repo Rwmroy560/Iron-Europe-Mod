@@ -132,6 +132,8 @@ character_event = {
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = yes
+						reinforces = yes
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -170,6 +172,7 @@ character_event = {
 				who = event_target:csto_dude4
 				tributary_type = csto
 				}
+			}
 			make_tributary = {
 				who = event_target:csto_dude5
 				tributary_type = csto

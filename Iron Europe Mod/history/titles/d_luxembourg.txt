@@ -23,6 +23,10 @@
 }
 1964.11.12 = {
   holder = 116523403
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 2000.10.7 = {
   holder = 113153269

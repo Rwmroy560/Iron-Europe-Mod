@@ -176,6 +176,10 @@
 }
 1947.4.20 = {
   holder = 111075456
+	set_tribute_suzerain = {
+		who = e_united_states
+		type = nato
+	}
 }
 1972.1.14 = {
   holder = 119281019
