@@ -1,0 +1,108 @@
+namespace = join_nato
+
+#
+# 0. Decision taker sends the letter
+#
+
+letter_event = {
+    id = join_nato.0
+    desc = join_nato0
+    is_triggered_only = yes
+    
+    option = { # Accept
+        name = OK
+        
+        FROMFROM = {
+            show_scope_change = no
+        }
+               
+        FROMFROM = { letter_event = { id = join_nato.1 } }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+    option = { # Refuse
+        name = join_nato0B
+        trigger = {
+            ai = no
+        }
+        piety = 5
+        FROMFROM = {
+            opinion = {
+                who = ROOT
+                modifier = join_nato_irritated
+            }
+            letter_event = { id = join_nato.2 }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}
+
+#
+# 1. Received letter of acceptance
+#
+
+letter_event = {
+    id = join_nato.1
+    desc = join_nato1
+    is_triggered_only = yes
+    
+    option = {
+        name = EVTjoin_nato1
+	random = {
+		chance = 25
+		add_friend = FROM
+		}        
+	FROM = { 
+		make_tributary = {
+		who = ROOT
+		tributary_type = nato
+			}
+		}
+	}
+}
+
+#
+# 2. Received letter of refusal
+#
+
+letter_event = {
+    id = join_nato.2
+    is_triggered_only = yes
+    
+    desc = {
+        trigger = {
+            reverse_opinion = {
+                who = FROM
+                value = 0
+            }
+        }
+        text = join_nato2.0
+    }
+    
+    desc = {
+        trigger = {
+            NOT = {
+                reverse_opinion = {
+                    who = FROM
+                    value = 0
+                }
+            }
+        }
+        text = join_nato2.1
+    }
+    
+    option = {
+        name = join_nato2A
+        FROM = {
+            opinion = {
+                who = ROOT
+                modifier = join_nato_insulted
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+apply_join_nato;Apply to Join NATO;;;;;;;;;;;;;x
+apply_join_nato_desc;Send a delegation to §Y[Root.GetTitledFirstName]§! to petition that [Root.GetSheHe] allow you into the North Atlantic Treaty Organization...;;;;;;;;;;;;;x
+
+
+didnt_recently_ask_join_nato;Has not asked §Y[Root.GetTitledFirstName]§! to join NATO in the last 12 months;;;;;;;;;;;;;x
+recently_ask_join_nato;Asked to Join NATO;;;x
+
+wrong_religion_bro;§Y[From.GetTitledFirstName]§! is the wrong religion;;;x
+is_just_bro;§Y[From.GetTitledFirstName]§! is Just;;;x
+nato_ukraine_crimea;§Y[From.PrimaryTitle.GetName]§! does not control all of its territory;;;x
+youre_broke;§Y[From.PrimaryTitle.GetName]§! is poor;;;x
+nato_unfit;§Y[From.GetTitledFirstName]§! is not an exemplary leader;;;x
+nato_draft;§Y[From.PrimaryTitle.GetName]§! has mandatory conscription;;;x
+nato_not_democratic_council;§Y[From.PrimaryTitle.GetName]§!'s council has no power;;;x
+nato_not_democratic_war;§Y[From.GetTitledFirstName]§! can unilaterally declare war;;;x
+nato_not_democratic_vassals;§Y[From.GetTitledFirstName]§! allows vassals to wage wars;;;x
+nato_not_democratic_oppressive;§Y[From.GetTitledFirstName]§! runs an oppressive regime;;;x
+nato_not_democratic_voting;The citizens of §Y[From.PrimaryTitle.GetName]§! aren't allowed to vote;;;x
+nato_democratic_voting;The citizens of §Y[From.PrimaryTitle.GetName]§! are allowed to vote;;;x
+nato_democratic_society;§Y[From.PrimaryTitle.GetName]§! has democratic principles;;;x
+nato_is_war;§Y[From.PrimaryTitle.GetName]§! is in a state of war;;;x
+nato_not_near_russia;§Y[From.PrimaryTitle.GetName]§! is not near Russia;;;x
+nato_near_russia;§Y[From.PrimaryTitle.GetName]§! is near Russia;;;x
+nato_not_europe;§Y[From.PrimaryTitle.GetName]§! is not in the North Atlantic area;;;x
+
+join_nato0;To the [GetFromFromRootCompliment] [Root.GetFirstName], I find it imperative that you consider my great country's application to join NATO. We would be steadfast defenders of democratic interests...\n\nWith warmest regards,\n[FromFrom.GetTitledName];;;;;;;;;;;;;x
+join_nato0A;Accept;;;;;;;;;;;;;x
+join_nato0B;Refuse;;;;;;;;;;;;;x
+
+join_nato1;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nThank you for the intriguing proposal. We accept your invitation to NATO and a delegation of our representatives shall be on their way shortly.\n\nWith warmest regards,\n[From.GetTitledName];;;;;;;;;;;;;x
+
+join_nato2.0;To the [GetFromRootCompliment] [Root.GetFirstName],\n\nWhile I am flattered by your interest, I must respectfully decline your request at this time.\n\nRegards,\n[From.GetTitledName];;;;;;;;;;;;;x
+
+join_nato2.1;To the [GetFromRootInsult] [Root.GetFirstName],\n\nI am surprised that you would even send such a request considering the state of your 'country'. We will not process your application at this time.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;;x
+join_nato2A;Oh well;;;;;;;;;;;;;x
+
+
+join_nato_irritated;Irritated;;;;;;;;;;;;;x
+join_nato_insulted;Insulted;;;;;;;;;;;;;x
+
+EVTjoin_nato1;Excellent!;;;x

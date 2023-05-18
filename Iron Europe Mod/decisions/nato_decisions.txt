@@ -1,0 +1,458 @@
+targetted_decisions = {
+    
+    apply_join_nato = {
+        
+	filter = independent_rulers
+        ai_target_filter = independent_rulers
+        ai_check_interval = 24
+        only_playable = yes
+        
+	from_potential = {
+		independent = yes
+		higher_tier_than = count
+		is_tributary = no
+		NOT = { has_landed_title = e_russia }
+        }
+        
+        potential = {
+		has_landed_title = e_united_states
+        }
+        
+        allow = {
+		FROM = { piety = 100 }
+		ROOT = { is_within_diplo_range = FROM }
+		FROM = {
+                custom_tooltip = {
+                    text = didnt_recently_ask_join_nato
+                    NOT = {
+                        has_opinion_modifier = {
+                            who = ROOT
+                            modifier = recently_ask_join_nato
+					}
+				}
+			}
+		}
+	}
+        
+        effect = {
+		FROM = { piety = -100 }
+		FROM = {
+                hidden_tooltip = {
+			opinion = {
+                        who = ROOT
+                        modifier = recently_ask_join_nato
+                    }
+                }
+            }
+            ROOT = {
+                letter_event = { id = join_nato.0 days = 7}
+            }
+        }
+        
+        ai_acceptance = {
+            factor = 0
+            yes_threshold = 0
+            show_maybe_for_human = yes
+            
+            additive_modifier = {
+				value = -5
+				localisation_key = baptism_sponsor_power
+				relative_power = { who = FROM power = 1.2 }
+				NOT = { relative_power = { who = FROM power = 1.5 } }
+			}
+			additive_modifier = {
+				value = -15
+				localisation_key = baptism_sponsor_power
+				relative_power = { who = FROM power = 1.5 }
+				NOT = { relative_power = { who = FROM power = 2 } }
+			}
+			additive_modifier = {
+				value = -30
+				localisation_key = baptism_sponsor_power
+				relative_power = { who = FROM power = 2 }
+				NOT = { relative_power = { who = FROM power = 3 } }
+			}
+			additive_modifier = {
+				value = -50
+				localisation_key = baptism_sponsor_power
+				relative_power = { who = FROM power = 3 }
+				NOT = { relative_power = { who = FROM power = 4 } }
+			}
+			additive_modifier = {
+				value = -50
+				localisation_key = baptism_sponsor_power
+				relative_power = { who = FROM power = 4 }
+			}
+            additive_modifier = {
+				value = -30
+				localisation_key = baptism_sponsor_enemy
+				is_rival = FROM
+			}
+			additive_modifier = {
+				value = 50
+				localisation_key = baptism_sponsor_opinion
+				opinion = { who = FROM value = 100 }
+			}
+			additive_modifier = {
+				value = 40
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = 100 } }
+				opinion = { who = FROM value = 80 }
+			}
+			additive_modifier = {
+				value = 30
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = 80 } }
+				opinion = { who = FROM value = 60 }
+			}
+			additive_modifier = {
+				value = 20
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = 60 } }
+				opinion = { who = FROM value = 40 }
+			}
+			additive_modifier = {
+				value = 10
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = 40 } }
+				opinion = { who = FROM value = 20 }
+			}
+			additive_modifier = {
+				value = 5
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = 20 } }
+				opinion = { who = FROM value = 0 }
+			}
+			additive_modifier = {
+				value = -5
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = 0 } }
+				opinion = { who = FROM value = -20 }
+			}
+			additive_modifier = {
+				value = -10
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = -20 } }
+				opinion = { who = FROM value = -40 } 
+			}
+			additive_modifier = {
+				value = -20
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = -40 } }
+				opinion = { who = FROM value = -60 } 
+			}
+			additive_modifier = {
+				value = -30
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = -60 } }
+				opinion = { who = FROM value = -80 } 
+			}
+			additive_modifier = {
+				value = -40
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = -80 } }
+				opinion = { who = FROM value = -100 } 
+			}
+			additive_modifier = {
+				value = -50
+				localisation_key = baptism_sponsor_opinion
+				NOT = { opinion = { who = FROM value = -100 } }
+			}
+            
+            additive_modifier = {
+                value = -20
+                localisation_key = wrong_religion_bro
+                FROM = {
+		OR = {
+			religion_group = pagan_group
+			religion_group = muslim
+			religion_group = jewish_group
+			religion = waldensian
+			religion = monothelite
+			religion = nazi	
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = 10
+                localisation_key = is_just_bro
+		FROM = {
+                trait = just
+		}
+            }
+            
+            additive_modifier = {
+                value = -50
+                localisation_key = nato_ukraine_crimea
+                FROM = {
+			AND = {
+				has_landed_title = k_ruthenia
+				NOT = { completely_controls = d_crimea }
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = -50
+                localisation_key = youre_broke
+                FROM = {
+                    NOT = { wealth >=1000 }
+                }
+            }
+            
+            additive_modifier = {
+                value = -50
+                localisation_key = nato_unfit
+                FROM = {
+			OR = {
+                    	trait = hedonist
+                    	trait = arbitrary
+                    	trait = drunkard
+			trait = possessed
+			trait = lunatic
+			trait = inbred
+			trait = slow
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = 20
+                localisation_key = nato_draft
+                FROM = {
+                    primary_title = {
+			OR = {
+			has_law = army_professionalism_law_2 
+			has_law = army_professionalism_law_1 
+				}
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = -20
+                localisation_key = nato_not_democratic_council
+                FROM = {
+                    primary_title = {
+			NOT = {
+			has_law = succession_voting_power_1
+				}
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = -20
+                localisation_key = nato_not_democratic_war
+                FROM = {
+                    primary_title = {
+			NOT = {
+			has_law = war_voting_power_1
+				}
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = -20
+                localisation_key = nato_not_democratic_vassals
+                FROM = {
+                    primary_title = {
+			NOT = {
+			has_law = vassal_wars_law_2
+				}
+			}
+		}
+	}
+            additive_modifier = {
+                value = -50
+                localisation_key = nato_not_democratic_oppressive
+                FROM = {
+                    NOT = {
+			has_law = high_court_law_0
+			}
+		}
+	}
+            additive_modifier = {
+                value = -50
+                localisation_key = nato_not_democratic_voting
+                FROM = {
+                    primary_title = {
+			NOT = {
+			has_law = succ_feudal_elective
+				}
+			}
+		}
+	}
+            additive_modifier = {
+                value = -50
+                localisation_key = nato_not_democratic_voting
+                FROM = {
+                    primary_title = {
+			has_law = succ_primogeniture
+			}
+		}
+	}
+            additive_modifier = {
+                value = 50
+                localisation_key = nato_democratic_voting
+                FROM = {
+                    primary_title = {
+			has_law = succ_feudal_elective
+			}
+		}
+	}
+            additive_modifier = {
+                value = 10
+                localisation_key = nato_democratic_society
+                FROM = {
+                    primary_title = {
+			has_law = law = imprison_voting_power_1
+			}
+		}
+	}
+            additive_modifier = {
+                value = 10
+                localisation_key = nato_democratic_society
+                FROM = {
+                    primary_title = {
+			has_law = law = war_voting_power_1
+			}
+		}
+	}
+            additive_modifier = {
+                value = 15
+                localisation_key = nato_democratic_society
+                FROM = {
+                    OR = {
+                        has_law = status_of_women_3
+                        has_law = succession_voting_power_1
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = 20
+                localisation_key = nato_democratic_society
+                FROM = {
+                    primary_title = {
+			has_law = high_court_law_0
+			}
+		}
+	}
+            
+            additive_modifier = {
+                value = -300
+                localisation_key = nato_is_war
+                FROM = {
+                    war = yes
+		}
+	}
+            additive_modifier = {
+                value = -100
+                localisation_key = nato_not_europe
+                FROM = {
+                    NOT = { capital_scope = { region = world_europe } }
+		}
+	}
+            
+            additive_modifier = {
+                value = -10
+                localisation_key = nato_not_near_russia
+                FROM = {
+                    NOT = {
+			any_neighbor_independent_ruler = { has_landed_title = e_russia }
+			}
+		}
+	}
+            additive_modifier = {
+                value = 50
+                localisation_key = nato_near_russia
+                FROM = {
+			any_neighbor_independent_ruler = { has_landed_title = e_russia }
+			}
+		}
+	}
+            
+        
+        ai_will_do = {
+            factor = 0.3
+            
+            modifier = { # Helps to be ambitious
+                factor = 3
+                FROM = {
+                    OR = {
+                        trait = ambitious
+                        trait = greedy
+                        trait = envious
+			trait = quick
+                    }
+                }
+            }
+                        
+            modifier = { # More likely if they are neighbors with Russia (lol)
+                factor = 5
+                FROM = {
+                    any_neighbor_independent_ruler = { has_landed_title = e_russia }
+                }
+            }
+                                    
+
+            modifier = { # More likely if outgoing
+                factor = 2
+                FROM = {
+                    OR = {
+                        trait = gregarious
+                        trait = socializer
+                    }
+                }
+            }
+
+            modifier = { # More likely if already democratic
+                factor = 2
+                FROM = {
+                    OR = {
+                        has_law = succ_feudal_elective
+                        has_law = high_court_law_0
+                        has_law = succession_voting_power_1
+                        has_law = war_voting_power_1
+                    }
+                }
+            }
+            
+            modifier = { # More likely if target is just
+                factor = 2
+                ROOT = {
+                    trait = just
+                }
+            }
+            
+            modifier = { # Less likely if orthodox
+                factor = 0.3
+                FROM = {
+                    religion = orthodox
+                }
+            }
+            
+
+            modifier = { # Won't do it at all if they're against it
+                factor = 0
+                OR = {
+                   has_law = succ_primogeniture
+                   trait = cruel
+                   trait = slow
+                   trait = paranoid
+                   AND = {
+                        trait = zealous
+                        OR = {
+                            religion_group = muslim
+                            religion_group = jewish_group
+                            religion = buddhist
+                            can_marry = no
+                        }
+                   }
+                }
+            }
+        }
+    }

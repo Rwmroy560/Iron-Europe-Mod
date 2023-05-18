@@ -1,0 +1,29 @@
+
+title_grand_judge = {
+	is_high_prio = yes
+	show_as_title = yes
+	realm_in_name = yes
+	opinion_effect = 10
+	is_voter = yes
+	revoke_allowed = no
+	
+	monthly_salary = 4
+	monthly_prestige = 0.5
+	
+	allowed_to_hold = {
+		is_landed = no
+		is_adult = yes
+	}
+	
+	allowed_to_grant = {
+			always = yes
+		}
+	
+	grant_limit = 1
+	gain_effect = {
+		prestige = 20
+	}
+	lose_effect = {
+	}
+	message = yes
+}

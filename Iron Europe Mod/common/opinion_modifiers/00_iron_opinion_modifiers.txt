@@ -147,3 +147,21 @@ opinion_supported_war_effort = {
 opinion_raised_to_nobility = {
 	opinion = 15
 }
+beholden = {
+	opinion = 1000
+	years = 1000
+	obedient = yes
+}
+recently_ask_join_nato = {
+	opinion = 0
+	months = 12
+}
+opinion_overruled_me = {
+	opinion = -45
+	months = 24
+}
+opinion_executed_notrial = {
+	opinion = -10
+	months = 18
+	stacking = yes
+}

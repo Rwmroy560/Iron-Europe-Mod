@@ -55,7 +55,7 @@ very_hard_ai = {
 ##########################################################################
 
 province_base_values = {
-	supply_limit = 50 # 50K troops
+	supply_limit = 20 # 20K troops
 }
 
 coastal = {
