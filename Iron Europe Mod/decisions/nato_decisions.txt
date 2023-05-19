@@ -15,6 +15,12 @@ targetted_decisions = {
 		mercenary = no
 		holy_order = no
 		NOT = { has_landed_title = k_papal_state }
+		is_theocracy = no
+		OR = { 
+			capital_scope = { region = world_europe } 
+			capital_scope = { region = world_africa } 
+			capital_scope = { region = world_middle_east } 
+		}
         }
         
         potential = {
