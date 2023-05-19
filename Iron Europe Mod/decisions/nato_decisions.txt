@@ -4,7 +4,7 @@ targetted_decisions = {
         
 	filter = independent_rulers
         ai_target_filter = independent_rulers
-        ai_check_interval = 24
+        ai_check_interval = 60
         only_playable = yes
         
 	from_potential = {
@@ -12,6 +12,9 @@ targetted_decisions = {
 		higher_tier_than = count
 		is_tributary = no
 		NOT = { has_landed_title = e_russia }
+		mercenary = no
+		holy_order = no
+		NOT = { has_landed_title = k_papal_state }
         }
         
         potential = {
@@ -160,7 +163,7 @@ targetted_decisions = {
 			}
             
             additive_modifier = {
-                value = -20
+                value = -30
                 localisation_key = wrong_religion_bro
                 FROM = {
 		OR = {
@@ -183,7 +186,7 @@ targetted_decisions = {
             }
             
             additive_modifier = {
-                value = -50
+                value = -75
                 localisation_key = nato_ukraine_crimea
                 FROM = {
 			AND = {

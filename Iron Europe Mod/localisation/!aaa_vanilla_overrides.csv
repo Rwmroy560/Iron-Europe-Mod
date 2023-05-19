@@ -26,10 +26,47 @@ american;American;;;x
 black_american;Black American;;;x
 american_group;American;;;x
 latino_american;Latino-American;;;x
-
+convert_to_feudalism_indep;Abandon Developing Country Status;;;x
+convert_to_feudalism_indep_desc;Transition to a Developed Country.;;;x
+convert_to_feudalism_vassal;Abandon Developing Country Status;;;x
+convert_to_feudalism_vassal_desc;Transition to a Developed Country.;;;x
 
 monothelite;Neo-Nazi;;;x
 monothelite_DESC;Neo-Nazism comprises the post–World War II militant, social, and political movements that seek to revive and reinstate Nazi ideology. Neo-Nazis employ their ideology to promote hatred and racial supremacy (often white supremacy), attack racial and ethnic minorities (often antisemitism and Islamophobia), and in some cases to create a fascist state.;;;x
 waldensian;Neo-Nazi;;;x
 waldensian_DESC;Neo-Nazism comprises the post–World War II militant, social, and political movements that seek to revive and reinstate Nazi ideology. Neo-Nazis employ their ideology to promote hatred and racial supremacy (often white supremacy), attack racial and ethnic minorities (often antisemitism and Islamophobia), and in some cases to create a fascist state.;;;x
 NAME_JEWS;the Jews;;;x
+
+christian;Capitalism;;;x
+
+catholic;Liberal Democracy;;;x
+catholic_DESC;Liberal democracy, or Western democracy, is the combination of a liberal political ideology that operates under a representative democratic form of government.;;;x
+
+protestant;Parliamentary Democracy;;;x
+protestant_DESC;A parliamentary system, or parliamentarian democracy, is a system of democratic governance of a state where the executive derives its democratic legitimacy from its ability to command the support of the legislature, typically a parliament, to which it is accountable.;;;x
+
+reformed;Social Democracy;;;x
+reformed_DESC;Social democracy has been described as the evolutionary form of democratic socialism that aims to gradually and peacefully achieve socialism through established political processes rather than social revolution as advocated by revolutionary socialists.;;;x
+
+orthodox;Authoritarian;;;x
+orthodox_DESC;Authoritarianism is a political system characterized by the rejection of political plurality, the use of strong central power to preserve the political status quo, and reductions in the rule of law, separation of powers, and democratic voting.;;;x
+
+miaphysite;Communist;;;x
+miaphysite_DESC;Communism a political theory derived from Karl Marx, advocating class war and leading to a society in which all property is publicly owned and each person works and is paid according to their abilities and needs.;;;x
+CAPITALISM;Capitalism;;;x
+
+finnish_pagan;Anarchist;;;x
+finnish_pagan_DESC;Anarchy is the organization of society on the basis of voluntary cooperation, without political institutions or hierarchical government.;;;x
+
+west_african_pagan;Communist;;;x
+west_african_pagan_DESC;Communism a political theory derived from Karl Marx, advocating class war and leading to a society in which all property is publicly owned and each person works and is paid according to their abilities and needs.;;;x
+
+
+sunni;Conservative Democracy;;;x
+sunni_DESC;Conservative democracy is a label coined by the ruling Justice and Development Party of Turkey to describe Islamic democracy;;;x
+
+hindu;Representative Democracy;;;x
+hindu_DESC;Representative democracy, also known as indirect democracy, is a type of democracy where elected people represent a group of people, in contrast to direct democracy.;;;x
+
+
+

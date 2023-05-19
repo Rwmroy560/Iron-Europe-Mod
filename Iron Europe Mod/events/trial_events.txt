@@ -267,9 +267,11 @@ character_event = {
 			who = ROOT
 			}
 		}
+		hidden_tooltip = {
 		FROMFROM = {
 			death = {
 				death_reason = death_life_sent
+				}
 			}
 		}
 		custom_tooltip = {
@@ -297,9 +299,11 @@ character_event = {
 
 	option = {
 		name = EVTOPTAtrial_events.3
+		hidden_tooltip = {
 		FROMFROM = {
 			death = {
 				death_reason = death_life_sent
+				}
 			}
 		}
 		clear_event_target = grand_judge
@@ -399,7 +403,7 @@ character_event = {
 		}
 		FROMFROM = {
 			death = {
-				death_reason = death_execution_beheading
+				death_reason = death_execution
 				killer = ROOT
 			}
 		}
@@ -490,7 +494,7 @@ character_event = {
 		}
 		FROMFROM = {
 			death = {
-				death_reason = death_execution_beheading
+				death_reason = death_execution
 				killer = ROOT
 			}
 		}
