@@ -165,3 +165,20 @@ opinion_executed_notrial = {
 	months = 18
 	stacking = yes
 }
+opinion_spared_me = {
+	opinion = 15
+	years = 2
+	stacking = no
+}
+opinion_jailed_me = {
+	opinion = -25
+	years = 2
+	stacking = no
+}
+opinion_punished_me = {
+	opinion = -50
+	years = 5
+}
+opinion_taxed_me = {
+	opinion = -20
+}
