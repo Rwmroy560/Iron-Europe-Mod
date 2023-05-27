@@ -236,7 +236,7 @@ character_event = {
 		}
 	}
 character_event = {
-	id = election_events.5
+	id = election_events.6
 	hide_window = yes
 	is_triggered_only = yes
 
