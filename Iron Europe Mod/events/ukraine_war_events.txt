@@ -38,7 +38,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}
@@ -87,7 +87,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}
@@ -162,14 +162,14 @@ character_event = {
 						leader = none
 						troops = {
 							heavy_infantry = { 10000 15500 }
-							heavy_cavalry = { 4950 5550 }
+							knights = { 4950 5550 }
 						}
 						attrition = 1.0
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = no
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}
@@ -223,7 +223,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = .25
+						reinforce_rate_multiplier = 0.25
 					}
 				}
 			}

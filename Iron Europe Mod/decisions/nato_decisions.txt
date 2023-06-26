@@ -321,7 +321,7 @@ targetted_decisions = {
                 localisation_key = nato_democratic_society
                 FROM = {
                     primary_title = {
-			has_law = law = imprison_voting_power_1
+			has_law = imprison_voting_power_1
 			}
 		}
 	}
@@ -330,7 +330,7 @@ targetted_decisions = {
                 localisation_key = nato_democratic_society
                 FROM = {
                     primary_title = {
-			has_law = law = war_voting_power_1
+			has_law = war_voting_power_1
 			}
 		}
 	}
