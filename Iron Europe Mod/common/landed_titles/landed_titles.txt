@@ -1008,6 +1008,7 @@ d_knights_templar = {
   title = GRANDMASTER
   foa = GRANDMASTER_FOA
   landless = yes
+  allow = { always = no }
   holy_order = yes
   mercenary_type = knights_templar_composition
   culture = frankish
@@ -1030,6 +1031,7 @@ d_teutonic_order = {
   capital = 258
   title = HOCHMEISTER
   foa = HOCHMEISTER_FOA
+  allow = { always = no }
   landless = yes
   holy_order = yes
   mercenary_type = teutonic_order_composition
@@ -1052,6 +1054,7 @@ k_teutonic_state = {
   graphical_culture = holygfx
   title = HOCHMEISTER
   foa = HOCHMEISTER_FOA
+  allow = { always = no }
   holy_order = yes
   mercenary_type = teutonic_order_composition
   short_name = yes
@@ -1074,6 +1077,7 @@ d_livonian_order = {
   }
   graphical_culture = holygfx
   holy_order = yes
+  allow = { always = no }
   mercenary_type = livonian_order_composition
   short_name = yes
   religion = catholic
@@ -1096,6 +1100,7 @@ d_knights_hospitaler = {
   capital = 333
   title = GRANDMASTER
   foa = GRANDMASTER_FOA
+  allow = { always = no }
   landless = yes
   holy_order = yes
   culture = occitan

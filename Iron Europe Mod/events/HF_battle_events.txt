@@ -67,6 +67,7 @@ character_event = {
 	hide_window = yes
 
     trigger = {
+	NOT = { higher_tier_than = COUNT }
     	is_alive = yes
     	NOT = { has_character_flag = battle_event_in_progess }
     	OR = { #you can't be fighting null-character

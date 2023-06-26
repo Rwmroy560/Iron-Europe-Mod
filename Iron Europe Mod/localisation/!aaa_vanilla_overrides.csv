@@ -37,15 +37,15 @@ waldensian;Neo-Nazi;;;x
 waldensian_DESC;Neo-Nazism comprises the post–World War II militant, social, and political movements that seek to revive and reinstate Nazi ideology. Neo-Nazis employ their ideology to promote hatred and racial supremacy (often white supremacy), attack racial and ethnic minorities (often antisemitism and Islamophobia), and in some cases to create a fascist state.;;;x
 NAME_JEWS;the Jews;;;x
 
-christian;Liberalism;;;x
+christian;Western;;;x
 
-catholic;Liberal Democracy;;;x
+catholic;Liberal;;;x
 catholic_DESC;Liberal democracy, or Western democracy, is the combination of a liberal political ideology that operates under a representative democratic form of government.;;;x
 
-protestant;Parliamentary Democracy;;;x
-protestant_DESC;A parliamentary system, or parliamentarian democracy, is a system of democratic governance of a state where the executive derives its democratic legitimacy from its ability to command the support of the legislature, typically a parliament, to which it is accountable.;;;x
+protestant;Conservative;;;x
+protestant_DESC;Conservatives believe in the importance of stability, and promote law and order to protect private property..;;;x
 
-reformed;Social Democracy;;;x
+reformed;Socialist;;;x
 reformed_DESC;Social democracy has been described as the evolutionary form of democratic socialism that aims to gradually and peacefully achieve socialism through established political processes rather than social revolution as advocated by revolutionary socialists.;;;x
 
 orthodox;Authoritarian;;;x
@@ -62,11 +62,8 @@ west_african_pagan;Communist;;;x
 west_african_pagan_DESC;Communism a political theory derived from Karl Marx, advocating class war and leading to a society in which all property is publicly owned and each person works and is paid according to their abilities and needs.;;;x
 
 
-sunni;Conservative Democracy;;;x
-sunni_DESC;Conservative democracy is a label coined by the ruling Justice and Development Party of Turkey to describe Islamic democracy;;;x
-
-hindu;Representative Democracy;;;x
-hindu_DESC;Representative democracy, also known as indirect democracy, is a type of democracy where elected people represent a group of people, in contrast to direct democracy.;;;x
+hindu;Libertarian;;;x
+hindu_DESC;Libertarianism is a political philosophy that advocates only minimal state intervention in the free market and the private lives of citizens..;;;x
 
 
 

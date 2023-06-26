@@ -87,6 +87,8 @@
 1991.12.26 = {
   holder = 119745300
   liege = 0
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 2001.10.8 = {
   holder = 111422847

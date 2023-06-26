@@ -1,0 +1,22 @@
+#CODE;ENGLISH;FRENCH;GERMAN;SPANISH;;;;;;;;;;;x
+fr_f_barracks_1;Barracks;;;;;;;;;;;;;;x
+fr_f_barracks_1_desc;A place for your men to sleep other than tents;;;;;;;;;;;;;;x
+fr_f_barracks_2;Barracks;;;;;;;;;;;;;;x
+fr_f_barracks_2_desc;An Improved sleeping quarters for your men,;;;;;;;;;;;;;;x
+fr_f_towers;Trenche Line;;;;;;;;;;;;;;x
+fr_f_towers_desc;A line of trenches used to slow down advancing enemy forces.;;;;;;;;;;;;;;x
+fr_f_cmd_tent;Command Center;;;;;;;;;;;;;;x
+fr_f_cmd_tent_desc;A headquarters for the commanding officer.;;;;;;;;;;;;;;x
+fr_f_cmd_building;Command Building;;;;;;;;;;;;;;x
+fr_f_cmd_building_desc;A much better place for managing the fort and its soldiers.;;;;;;;;;;;;;;x
+
+
+
+fr_f_stone_walls;Complex Defensive Structures;;;;;;;;;;;;;;x
+fr_f_stone_walls_desc;Lines of trenches,bunkers, and pill boxes to bog down any enemy.;;;;;;;;;;;;;;x
+fr_f_stone_towers;Trench Network;;;;;;;;;;;;;;x
+fr_f_stone_towers_desc;Much better than the simple one line trench, these mighty structures will make your foes' advance difficult;;;;;;;;;;;;;;x
+fr_f_barracks_3;Barracks;;;;;;;;;;;;;;x
+fr_f_barracks_3_desc;A much larger barracks to garrison many more troops.;;;;;;;;;;;;;;x
+fr_f_ballista_tower;Anti-Air Battery;;;;;;;;;;;;;;x
+fr_f_ballista_tower_desc;A anti-air gun used to knock out aircraft.;;;;;;;;;;;;;;x

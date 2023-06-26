@@ -95,6 +95,8 @@
 }
 1960.10.1 = {
   holder = 116655039
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 1977.8.3 = {
   holder = 119826632

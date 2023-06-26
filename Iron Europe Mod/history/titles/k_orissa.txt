@@ -56,7 +56,7 @@
   law = centralization_2
 }
 1803.1.1 = {
-  liege = e_britannia
+  liege = e_india
 }
 1815.6.9 = {
   holder = 112629068

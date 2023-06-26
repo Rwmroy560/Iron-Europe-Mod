@@ -294,6 +294,8 @@
 }
 1999.5.7 = {
   holder = 116953299
+  law = succ_feudal_elective
+  law = cognatic_succession
   liege = e_britannia
   law = army_professionalism_law_0
   law = tax_peasants_law_feudal_0

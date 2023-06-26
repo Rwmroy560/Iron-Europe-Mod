@@ -20,7 +20,6 @@ nazi_war = {
 	
 
 	can_use = {
-		year <= 1945
 		ROOT = {
 			religion = nazi
 		}

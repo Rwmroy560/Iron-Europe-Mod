@@ -140,6 +140,8 @@
 }
 1907.12.8 = {
   holder = 110571454
+  law = succ_feudal_elective
+  law = cognatic_succession
   law = army_professionalism_law_0
   law = tax_peasants_law_feudal_1
   law = high_court_law_0

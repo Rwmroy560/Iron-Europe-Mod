@@ -21,6 +21,7 @@ castle = {
 		levy_reinforce_rate = 0.15
 		nato_soldiers = 5000
 		fort_level = 5
+		tax_income = 3
 		ai_creation_factor = 110
 	}
 }

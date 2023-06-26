@@ -187,6 +187,7 @@ d_wagner = {
 	primary = yes
 	
 	strength_growth_per_century = 1.0
+	monthly_income = 10
 	
 	mercenary_type = wagner_composition
 }

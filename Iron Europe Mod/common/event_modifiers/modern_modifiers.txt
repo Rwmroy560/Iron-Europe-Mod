@@ -65,6 +65,7 @@ nato_setup = {
 }
 csto_setup = {
 	icon = 9
+	global_revolt_risk = -0.10
 	monthly_character_prestige =  1.50
 	vassal_opinion = 10
 }
@@ -157,24 +158,15 @@ on_probation = {
 	general_opinion = -15
 	monthly_character_prestige = -2
 }
-opinion_overruled_me = {
-	opinion = -45
-	months = 24
+anti_colonial = {
+	global_revolt_risk = 0.10
+	vassal_opinion = -15
+	icon = 36
 }
-opinion_spared_me = {
-	opinion = 15
-	years = 2
-	stacking = no
-}
-opinion_jailed_me = {
-	opinion = -25
-	years = 2
-	stacking = no
-}
-opinion_punished_me = {
-	opinion = -50
-	years = 5
-}
-opinion_taxed_me = {
-	opinion = -20
+anti_colonial_province = {
+	local_revolt_risk = 0.15
+	siege_defence = -0.15
+	local_tax_modifier = -0.5
+	levy_reinforce_rate = -0.25
+	icon = 36
 }

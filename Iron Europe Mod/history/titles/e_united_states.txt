@@ -12,9 +12,11 @@
   law = crown_authority_1
   law = centralization_0
 }
-1981.1.1 = {
-  holder = 109975180
-  law = army_professionalism_law_0
+1933.1.1 = {
+  holder = 100014484
+  law = succ_feudal_elective
+  law = cognatic_succession
+  law = army_professionalism_law_1
   law = high_court_law_0
   law = tax_peasants_law_feudal_1
   law = vassal_wars_law_2
@@ -27,6 +29,31 @@
   law = banish_voting_power_1
   law = execution_voting_power_1
   law = succession_voting_power_1
+}
+1945.1.1 = {
+  holder = 100014483
+}
+1953.1.1 = {
+  holder = 100014482
+}
+1961.1.1 = {
+  holder = 100014481
+}
+1963.1.1 = {
+  holder = 100014480
+}
+1969.1.1 = {
+  holder = 100014479
+}
+1974.1.1 = {
+  holder = 100014478
+}
+1977.1.1 = {
+  holder = 100014477
+}
+1981.1.1 = {
+  holder = 109975180
+  law = army_professionalism_law_0
 }
 1989.1.1 = {
   holder = 109975178
@@ -43,17 +70,4 @@
 }
 2017.5.14 = {
   holder = 109986701
-  law = army_professionalism_law_0
-  law = high_court_law_0
-  law = tax_peasants_law_feudal_1
-  law = vassal_wars_law_2
-  law = status_of_women_3
-  law = law_voting_power_1
-  law = war_voting_power_1
-  law = revoke_title_voting_power_1
-  law = imprison_voting_power_1
-  law = grant_title_voting_power_1
-  law = banish_voting_power_1
-  law = execution_voting_power_1
-  law = succession_voting_power_1
 }

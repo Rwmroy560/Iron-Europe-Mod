@@ -83,6 +83,14 @@ character_event = {
 						factor = 1.5
 						trait = theologian
 					}
+					modifier = {
+						factor = 2
+						trait = scholarly_theologian
+					}
+					modifier = {
+						factor = 4
+						trait = mastermind_theologian
+					}
 			custom_tooltip = { text = speech1 }
 			character_event = { id = royspeech.1 days = 14 }
 			}
@@ -138,6 +146,26 @@ character_event = {
 					modifier = {
 						factor = 1.25
 						trait = hunchback
+					}
+					modifier = {
+						factor = 2.5
+						trait = depressed
+					}
+					modifier = {
+						factor = 2
+						trait = stressed
+					}
+					modifier = {
+						factor = 2.5
+						trait = lunatic
+					}
+					modifier = {
+						factor = 2
+						trait = drunkard
+					}
+					modifier = {
+						factor = 2.5
+						trait = stutter
 					}
 			custom_tooltip = { text = speech2 }
 			character_event = { id = royspeech.2 days = 14 } 
@@ -211,11 +239,19 @@ character_event = {
 					}
 					modifier = {
 						factor = 1.25
-						trait = knight
+						trait = strong
 					}
 					modifier = {
 						factor = 1.50
-						trait = heavy_worlder
+						trait = tough_soldier
+					}
+					modifier = {
+						factor = 2
+						trait = skilled_tactician
+					}
+					modifier = {
+						factor = 4
+						trait = brilliant_strategist
 					}
 			custom_tooltip = { text = speech1 }
 			character_event = { id = royspeech.3 days = 14 }
@@ -254,7 +290,7 @@ character_event = {
 						trait = wounded
 					}
 					modifier = {
-						factor = 1.25
+						factor = 2.25
 						trait = craven
 					}
 					modifier = {
@@ -270,20 +306,40 @@ character_event = {
 						trait = arbitrary
 					}
 					modifier = {
-						factor = 1.25
+						factor = 2
 						trait = eunuch
 					}
 					modifier = {
-						factor = 1.25
+						factor = 2.25
 						trait = feeble
 					}
 					modifier = {
-						factor = 1
+						factor = 1.5
 						NOT = { trait = strong }
 					}
 					modifier = {
-						factor = 1
+						factor = 1.25
 						NOT = { trait = ambitious }
+					}
+					modifier = {
+						factor = 2.5
+						trait = depressed
+					}
+					modifier = {
+						factor = 2
+						trait = stressed
+					}
+					modifier = {
+						factor = 2.5
+						trait = lunatic
+					}
+					modifier = {
+						factor = 2
+						trait = drunkard
+					}
+					modifier = {
+						factor = 2.5
+						trait = stutter
 					}
 			custom_tooltip = { text = speech2 }
 			character_event = { id = royspeech.4 days = 14 } 
@@ -297,20 +353,36 @@ character_event = {
 		random_list = {
 			1 = { 
 				modifier = {
-						factor = 1
+						factor = 1.50
 						diplomacy = 10
 					}
 					modifier = {
-						factor = 1.35
+						factor = 1.75
 						diplomacy = 12
 					}
 					modifier = {
-						factor = 1.5
+						factor = 3.5
 						diplomacy = 16
 					}				
 					modifier = {
-						factor = 1.75
+						factor = 5
 						diplomacy = 18
+					}
+					modifier = {
+						factor = 1.50
+						stewardship = 10
+					}
+					modifier = {
+						factor = 1.75
+						stewardship = 12
+					}
+					modifier = {
+						factor = 3.5
+						stewardship = 16
+					}				
+					modifier = {
+						factor = 5
+						stewardship = 18
 					}
 					modifier = {
 						factor = 2.5
@@ -329,7 +401,7 @@ character_event = {
 						trait = temperate
 					}			
 					modifier = {
-						factor = 1.75
+						factor = 2
 						trait = genius
 					}	
 					modifier = {
@@ -341,21 +413,38 @@ character_event = {
 						trait = honest
 					}
 					modifier = {
-						factor = 1.25
+						factor = 2
 						trait = ambitious
 					}
 					modifier = {
-						factor = 1.25
+						factor = 1.75
 						trait = just
 					}
 					modifier = {
-						factor = 1.25
+						factor = 2
 						trait = socializer
 					}
 					modifier = {
-						factor = 4
-						trait = iaei_mk_iii
+						factor = 1.5
+						trait = underhanded_rogue
 					}
+					modifier = {
+						factor = 2
+						trait = charismatic_negotiator
+					}
+					modifier = {
+						factor = 4
+						trait = grey_eminence
+					}
+					modifier = {
+						factor = 2
+						trait = fortune_builder
+					}
+					modifier = {
+						factor = 4
+						trait = midas_touched
+					}
+
 			custom_tooltip = { text = speech1 }
 			character_event = { id = royspeech.5 days = 14 }
 			}
@@ -434,7 +523,27 @@ character_event = {
 					}
 					modifier = {
 						factor = 1.25
-						trait = homely
+						trait = ugly
+					}
+					modifier = {
+						factor = 2.5
+						trait = depressed
+					}
+					modifier = {
+						factor = 2
+						trait = stressed
+					}
+					modifier = {
+						factor = 2.5
+						trait = lunatic
+					}
+					modifier = {
+						factor = 2
+						trait = drunkard
+					}
+					modifier = {
+						factor = 2.5
+						trait = stutter
 					}
 			custom_tooltip = { text = speech2 }
 			character_event = { id = royspeech.6 days = 14 } 

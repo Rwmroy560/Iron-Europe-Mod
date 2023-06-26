@@ -26,8 +26,10 @@
 1727.6.11 = {
   holder = 110303763
 }
-1922.11.11 = {
+1921.11.11 = {
   holder = 100014470
+  law = succ_feudal_elective
+  law = cognatic_succession
   law = army_professionalism_law_1
   law = tax_peasants_law_feudal_1
   law = high_court_law_1

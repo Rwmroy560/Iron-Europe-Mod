@@ -236,7 +236,7 @@ character_event = {
 		}
 	}
 character_event = {
-	id = election_events.5
+	id = election_events.6
 	hide_window = yes
 	is_triggered_only = yes
 
@@ -247,5 +247,33 @@ character_event = {
 
 	immediate = {
 		 ROOT = { character_event = { id = election_events.1 } }
+	}
+}
+character_event = {
+	id = election_events.7
+	desc = EVTDESCelection_events.7
+
+	trigger = {
+		NOT = { age = 17 }
+		is_landed = yes
+		has_regent = yes
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	} 
+
+	immediate = {
+		regent = { 
+			save_event_target_as = target_regent
+		}
+	}
+
+	option = {
+		name = Okay
+		ROOT = {
+			abdicate_to = event_target:target_regent
+		}
+		clear_event_target = target_regent
 	}
 }

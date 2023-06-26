@@ -30,7 +30,10 @@
   holder = 112980851
 }
 1882.9.1 = {
-  liege = e_britannia
+	set_tribute_suzerain = {
+		who = e_britannia
+		type = colony
+	}
 }
 1891.1.13 = {
   holder = 115102209

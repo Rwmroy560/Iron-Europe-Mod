@@ -17,6 +17,8 @@
 }
 1922.11.1 = {
   holder = 119197028
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 1938.11.10 = {
   holder = 116962729

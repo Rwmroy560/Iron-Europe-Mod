@@ -124,7 +124,7 @@
 }
 1849.3.29 = {
   holder = 119735249
-  liege = e_britannia
+  liege = e_india
 }
 1864.3.29 = {
   holder = 117020772

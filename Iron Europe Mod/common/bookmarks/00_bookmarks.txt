@@ -114,18 +114,18 @@ bm_1939_08_31 = {
     }
   }
   selectable_character = {
-    id = 110852402
-    age = 71
-    name = "Ignacy Moscicki"
-    title = k_poland
-    title_name = Poland
+    id = 100014484
+    age = 57
+    name = "Franklin Roosevelt"
+    title = e_united_states
+    title_name = e_united_states
     character = {
-      dna = aaaaaaaaaaa
-      properties = aj00bc00000
-      religion = catholic
-      culture = polish
+      dna="cagi00ebj00"
+      properties="ci0d0k"
+      religion = democrat
+      culture = american
       government = feudal_government
-      dynasty = 100000653
+      dynasty = 900000127
     }
   }
 }
@@ -165,18 +165,18 @@ bm_1948_05_14 = {
     }
   }
   selectable_character = {
-    id = 117897101
-    age = 72
-    name = "Wilhelm Pieck"
-    title = k_pomerania
-    title_name = "East Germany"
+    id = 100014483
+    age = 64
+    name = "Harry Truman"
+    title = e_united_states
+    title_name = "America"
     character = {
-      dna = aaaaaaaaaaa
-      properties = aj00bc00000
-      religion = protestant
-      culture = german
+      dna=0f0ag0a0c00
+      properties=s00d0k00000
+      religion = democrat
+      culture = american
       government = feudal_government
-      dynasty = 100000234
+      dynasty = 900000126
     }
   }
   selectable_character = {
@@ -308,8 +308,8 @@ bm_2017_07_01 = {
     title = e_russia
     title_name = Russia
     character = {
-      dna = beakd0gbc00
-      properties = ua0a0k
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
       religion = orthodox
       culture = russian
       government = feudal_government
@@ -323,8 +323,8 @@ bm_2017_07_01 = {
     title = k_ruthenia
     title_name = Ukraine
     character = {
-      dna="beage0f0a00"
-      properties="gh0gck"
+      dna = aaaaaaaaaaa
+      properties = aj00bc00000
       religion = orthodox
       culture = ukrainian
       government = feudal_government

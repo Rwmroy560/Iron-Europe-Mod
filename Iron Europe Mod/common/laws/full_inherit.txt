@@ -1,0 +1,51 @@
+
+
+succession_laws = {
+
+	succ_elective_inheritance = {
+		dynasty_opinion = 10
+		vassal_opinion = -15
+		potential = {
+			holder_scope = {
+				OR = {
+					independent = yes
+					NOT = {
+						any_liege = {
+							holy_order = yes
+						}
+					}
+				}
+				is_merchant_republic = no
+				is_patrician = no
+				OR = {
+					independent = yes
+					NOT = {
+						any_demesne_title = {
+							is_vice_royalty = yes
+						}
+					}
+				}
+			}
+			OR = {
+				is_landless_type_title = no
+				is_tribal_type_title = yes
+				temporary = yes
+			}
+			NOT = { tier = baron }
+			NOT = { holder_scope = { government = confucian_bureaucracy } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = elective_inherit
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}			
+	}
+}

@@ -856,6 +856,23 @@ succession_laws = {
 		}
 		revoke_allowed = {
 			always = no
+		}
+		default_selection = {
+			factor = 0.2
+			modifier = {
+				factor = 100
+				AND = {
+					religion = catholic
+					higher_tier_than = COUNT
+				}
+			}
+			modifier = {
+				factor = 0
+				NOR = {
+					religion = catholic
+					higher_tier_than = COUNT
+				}
+			}	
 		}			
 	}
 	succ_hre_elective = {

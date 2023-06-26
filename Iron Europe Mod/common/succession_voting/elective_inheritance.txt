@@ -1,0 +1,154 @@
+elective_inherit = {
+
+    # ROOT is the potential elector, FROMFROM is the title.
+    elector_selection = {      # Determine who is allowed to vote.
+
+        days = -5              # This has nothing to do with days. This is the current character's score.
+                               # A positive score means they are allowed to vote, and a negative score means
+                               # they are not. This line by itself means no-one is allowed to vote.
+
+        additive_modifier = {
+            value = 10         # Add 10 score if ...
+            FROMFROM = {       # this character is the current ruler.
+                holder_scope = {
+                    character = ROOT
+                }
+            }
+        }
+    }
+
+    # ROOT is the elector, FROMFROM is the title.
+    elector_vote_strength = {  # Determine how many votes electors get.
+
+        days = 1               # This has nothing to do with days. This is the number of votes the elector gets.
+    }
+
+    # ROOT is the title holder, FROM is the potential candidate, FROMROM is the title.
+    candidate_trigger = {      # Determines who can be voted for.
+	NOT = { character = FROM }
+	FROM = { 
+			NOR = { 
+				trait = crusader_king 
+				trait = crusader_queen
+			} 
+		} 
+		FROM = { #Either the candidate is in the realm, or is landless, or the title is independent, or the realm of the title does NOT have protected inheritance.
+			OR = { 
+				any_liege = { 
+					character = ROOT
+				} 
+				is_ruler = no
+				ROOT_FROMFROM = { holder_scope = { independent = yes } }
+				NOR = { 
+					ROOT_FROMFROM = { has_law = out_of_realm_inheritance_law_1 } 
+					ROOT_FROMFROM = { has_law = crown_authority_3 } 
+					ROOT_FROMFROM = { has_law = crown_authority_4 } 
+				} 
+			} 
+		} 
+		OR = {
+			FROM = { any_claim = { title = ROOT_FROMFROM } }
+			ROOT = { 
+				is_close_relative = FROM
+				OR = { 
+					dynasty = FROM
+					FROM = { is_landed = yes higher_real_tier_than = BARON }
+				}
+			}
+			AND = { 
+				OR = { 
+					FROM = { higher_real_tier_than = COUNT } #Or Duke-tier...
+					AND = { 
+						ROOT = { 
+							lower_real_tier_than = KING
+							higher_real_tier_than = COUNT
+						}
+						FROM = { higher_real_tier_than = BARON } #...Or Count-tier under a Duchy...
+					} 
+					AND = { 
+						ROOT = { 
+							lower_real_tier_than = DUKE
+						}
+						FROM = { is_landed = yes is_ruler = yes } #...Or Baron-tier under a County.
+					} 
+				}
+				FROM = { 
+					OR = { #Either defacto direct vassal, or independent ruler who is dejure vassal.
+						vassal_of = ROOT 
+						AND = { 
+						 	any_dejure_liege = { title = ROOT } 
+							independent = yes
+						}
+					}
+				} 
+			}
+		}
+		FROM = {
+			OR = { #Candidate should not be a landless Courtier that is about to inherit a Theocracy or Republic
+				AND = {
+					is_ruler = yes
+					is_landed = yes
+					is_republic = no
+					is_merchant_republic = no
+					is_theocracy = no
+				}
+				NOR = {
+					any_heir_title = {
+						is_republic = yes
+					}
+					any_heir_title = {
+						is_merchant_republic = yes
+					}
+					any_heir_title = {
+						is_theocracy = yes
+					}
+				}
+			}
+			OR = { #If the title controls the religion, candidates must be of the same religion.
+				ROOT = { 
+					NOT = { 
+						controls_religion = yes
+					}
+				}
+				religion = ROOT
+			}
+			NOR = {
+				#mother = {         # Uncommenting this condition provokes that a ruler's son is not a valid candidate if the mother is married to the ruler and a candidate
+				#	is_alive = yes
+				#	is_married = ROOT
+				#	parent_for_elective_succession_trigger = yes
+				#}
+				#father = {			# Same as above, for the father
+				#	is_alive = yes
+				#	is_married = ROOT
+				#	parent_for_elective_succession_trigger = yes
+				#}
+				trait = cat
+				trait = disinherited
+				trait = horse
+				trait = eunuch
+				AND = { 
+					trait = bastard 
+					is_ruler = no
+				}
+				is_ascetic_trigger = yes
+				is_theocracy = yes
+				is_republic = yes
+				is_merchant_republic = yes
+			}
+		}
+    }
+
+    # ROOT is the elector, FROM is the candidate.
+    candidate_vote_score = {   # Determines the score an elector will assign to a candidate.
+                               # The candidate with the highest score will recieve the elector's votes.
+
+        days = 0               # Yes, days means score again.
+
+        additive_modifier = {  # Add or subtract score in additive_modifiers.
+            value = 999
+            localisation_key = tooltip_feudal_elector_vote_myself  # Text that will appear in the UI related to elections.
+            character = FROM   # If we are the candidate, vote for ourself!
+        }
+    }
+}

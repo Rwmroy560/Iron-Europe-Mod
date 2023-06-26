@@ -52,6 +52,9 @@ CB_NAME_VIKING_INVASION;Neo-Nazi Invasion;;;x
 WAR_NAME_VIKING_INVASION;$ORDER$ $FIRST_ADJ$ Neo-Nazi Invasion;;;x
 viking_invasion;Neo-Nazi Invasion;;;x
 
+colonial_war;Colonial War;;;x
+CB_NAME_COLONIAL;$ORDER$ $FIRST_ADJ$ Colonial War;;;x
+WAR_NAME_COLONIAL;Colonial Invasion;;;x
 
 reclaim_war;Reclaim Territory;;;x
 reclaim_war_desc;The so-called 'Islamic State' occupies your sovereign territory. You may fight to reclaim as much of it as you can. Be warned, if you fail they will take even more of your territory.;;;x
@@ -70,6 +73,10 @@ CB_NAME_TALIBAN;Take Over Afghanistan;;;x
 WAR_NAME_TALIBAN;War For Afghanistan;;;x
 
 #modifiers
+anti_colonial;Anti-Colonial Fervor;;;x
+anti_colonial_desc;The people are demanding that you push for inpedendence.;;;x
+anti_colonial_province;Anti-Colonial Militias;;;x
+anti_colonial_province_desc;Anti-colonial militias are harrassing government troops and disrupting the economy.;;;x
 settlement_genocide;Genocide;;;x
 settlement_genocide_desc;The natives of this land have been systematically removed and a new class  of settlers are pouring in;;;x
 change_character;Play as [Root.GetTitledName];;;;;;;;;;;;x
@@ -116,6 +123,7 @@ stepd2;Make this colony an Autonomous Region of your State. This may upset some 
 EVTDESCelection_events.6;The time has come for [FromFrom.GetTitledName] to step down and abdicate to their successor. This will mark the independence of your colony.;;;x
 EVTOPTAelection_events.6;Good luck to them.;;;x
 
+
 EVTDESCconvert1;[target_loser.GetTitledName] is defeated and [target_loser.GetHerHis] armies have surrendered and laid down their arms. With democracy established in the country, what should be done with their leader [target_loser.GetTitledName]?;;;x
 EVTOPTAconvert1;Have [target_loser.GetHerHim] imprisoned;;;x
 dconv1;Arrest [target_loser.GetFirstName] and decide what to do with [target_loser.GetHerHim] later.;;;x
@@ -130,3 +138,9 @@ dconv5;Depose [target_loser.GetTitledName] and install a puppet.;;;x
 
 EVTDESCconvert2;[target_loser.GetTitledName] has been subjugated and [target_loser.GetTitledName]'s armies have surrendered and laid down their arms. [target_loser.GetTitledName] will be replaced with a loyal man. Loyal to you, of course...;;;x
 EVTOPTEconvert2;Perfect!;;;x
+
+EVTDESCelection_events.7;Due to circumstances beyond your understanding, you have been replaced by your regent.;;;x
+
+EVTDESCroy_colony_events.7;Your people have become disillusioned with the current state of affairs. Men are arming themselves and forming militias, openly speaking of taking down the government and freeing the people from colonialism.;;x
+EVTAroy_colony_events.7;They must be stopped!;;;x
+

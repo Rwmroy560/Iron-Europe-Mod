@@ -324,6 +324,7 @@ castle = {
 		build_time = 365
 		heavy_infantry = 50
 		pikemen = 50
+		tax_income = 1
 		ai_creation_factor = 105
 		
 		extra_tech_building_start = 1.0
@@ -337,6 +338,7 @@ castle = {
 		build_time = 547
 		heavy_infantry = 50
 		pikemen = 50
+		tax_income = 2
 		ai_creation_factor = 104
 		
 		extra_tech_building_start = 2.2
@@ -350,6 +352,7 @@ castle = {
 		build_time = 730
 		heavy_infantry = 85
 		pikemen = 60
+		tax_income = 3
 		ai_creation_factor = 103
 
 		extra_tech_building_start = 3.0

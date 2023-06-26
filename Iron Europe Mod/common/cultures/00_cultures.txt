@@ -19490,6 +19490,7 @@ central_african = {
       Ya
       Yasmin
     }
+    dukes_called_kings = yes
   }
   hausa = {
     graphical_cultures = {
@@ -19774,6 +19775,7 @@ central_african = {
       Zaytun
       Zubaydah
     }
+    dukes_called_kings = yes
   }
   zaghawa = {
     graphical_cultures = {
@@ -19866,6 +19868,7 @@ central_african = {
       Wahida
       Yasmin
     }
+    dukes_called_kings = yes
   }
 }
 west_african = {
@@ -20025,6 +20028,7 @@ west_african = {
       Youma
       "Zeïnab"
     }
+    dukes_called_kings = yes
     founder_named_dynasties = yes
     modifier = default_culture_modifier
   }
@@ -20166,6 +20170,7 @@ west_african = {
       Youma
       Zeinab
     }
+    dukes_called_kings = yes
   }
   songhay = {
     color = {
@@ -20343,6 +20348,7 @@ west_african = {
       Teko
       Zaynab
     }
+    dukes_called_kings = yes
   }
 }
 mesoamerican = {

@@ -4,16 +4,90 @@ character_event = {
 	id = iron_century.1
 	desc = "EVTDESCiron_century.1"
 	picture = GFX_roy_terror
-	border = GFX_event_normal_frame_war
 	
-	is_triggered_only = yes
 
-	trigger = {
-		war = no	
-		capital_scope = { region = world_africa }
+	trigger = {	
 		independent = yes
+		capital_scope = { region = world_africa }
+		higher_tier_than = COUNT
 		capital_scope = { is_occupied = no }
 	}
+
+	mean_time_to_happen = {
+		years = 5
+		modifier = {
+			factor = 0.75
+			realm_size = 60
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 2
+			stewardship = 12
+		}
+		modifier = {
+			factor = 2
+			diplomacy = 12
+		}
+		modifier = {
+			factor = 1.75
+			intrigue = 10
+		}
+		modifier = {
+			factor = 0.75
+			trait = content
+		}
+		modifier = {
+			factor = 1.25
+			trait = charitable
+		}
+		modifier = {
+			factor = 1.25
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.5
+			trait = impaler
+		}
+		modifier = {
+			factor = 0.75
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0.75
+			AND = {
+				is_feudal = yes
+				wealth < 500
+			}
+		}
+		modifier = {
+			factor = 0.5
+			AND = {
+				is_tribal = yes
+				wealth < 250
+			}
+		}
+		modifier = {
+			factor = 2.5
+			AND = {
+				is_feudal = yes
+				wealth > 500
+			}
+		}
+		modifier = {
+			factor = 1.5
+			AND = {
+				is_tribal = yes
+				wealth > 250
+			}
+		}
+	} 
 
 	option = { 
 		name = "EVTAiron_century.1" 
@@ -172,6 +246,7 @@ character_event = {
 				who = event_target:csto_dude4
 				tributary_type = csto
 				}
+			}
 			make_tributary = {
 				who = event_target:csto_dude5
 				tributary_type = csto
@@ -208,6 +283,7 @@ narrative_event = {
 				has_landed_title = e_britannia
 				has_landed_title = e_france
 				has_landed_title = e_russia
+				has_landed_title = e_united_states
 				}
 			}
 			join_defender_wars = ROOT

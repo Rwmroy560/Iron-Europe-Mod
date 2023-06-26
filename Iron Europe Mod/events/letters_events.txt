@@ -39,7 +39,7 @@ character_event = {
 		tooltip_info_custom = secretsocc
 		wealth = -15
 		random_list = {
-			6 = { 
+			9 = { 
 					modifier = {
 						factor = 1.25
 						ROOT = { intrigue = 10 }
@@ -92,7 +92,7 @@ character_event = {
 			custom_tooltip = { text = secretlett8 }
 			character_event = { id = secretletter.8 days = 14 }
 			}
-			4 = { 
+			1 = { 
 					modifier = {
 						factor = 1.25
 						NOT = { intrigue = 8 }
@@ -141,7 +141,7 @@ character_event = {
 		tooltip_info_custom = secretsocc 
 		wealth = -15
 		random_list = {
-			1 = { 
+			9 = { 
 				modifier = {
 						factor = 1.25
 						intrigue = 12
@@ -215,7 +215,7 @@ character_event = {
 			}
 		wealth = -5
 		random_list = {
-			45 = { 
+			9 = { 
 					modifier = {
 						factor = 1.25
 						FROM = { opinion = { who = ROOT value =  40 } }
@@ -255,7 +255,7 @@ character_event = {
 			custom_tooltip = { text = secretlett1 }
 			character_event = { id = secretletter.00 days = 14 }
 			}
-			55 = { 
+			1 = { 
 					modifier = {
 						factor = 1.25
 						NOT = { opinion = { who = ROOT value =  40 } }
@@ -419,7 +419,7 @@ character_event = {
 		tooltip_info_custom = secretsocc 
 		wealth = -15
 		random_list = {
-			1 = { 
+			9 = { 
 					modifier = {
 						factor = 1.25
 						ROOT = { intrigue = 10 }

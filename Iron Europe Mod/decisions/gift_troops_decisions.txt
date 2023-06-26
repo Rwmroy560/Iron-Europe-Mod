@@ -12,6 +12,7 @@ targetted_decisions = {
 			NOT = { character = FROM }
 			is_ruler = yes
 			OR = {
+				FROM = { has_landed_title = e_united_states }
 				any_friend = { character = FROM }
 				any_liege = { character = FROM }
 				any_dynasty_member = { character = FROM }

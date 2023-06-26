@@ -73,3 +73,145 @@ character_event = {
 		}
 
 }
+character_event = {
+	id = roy_colony_events.6
+	hide_window = yes
+	
+
+	trigger = {	
+		OR = { 
+			AND = {
+				has_landed_title = e_india 
+				year >= 1947
+			}
+			AND = {
+				has_landed_title = k_nubia
+				year >= 1956
+			}
+		}
+		is_tributary = yes
+		is_tributary = { type = colony }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	} 
+
+	option = { 
+		name = "Okay" 
+		any_suzerain = { remove_tributary = ROOT }
+	}
+}
+#Anti-colonial Fervor
+character_event = {
+	id = roy_colony_events.7
+	desc = EVTDESCroy_colony_events.7
+	picture = GFX_roy_terror
+	
+
+	trigger = {	
+		year >= 1947
+		higher_tier_than = BARON
+		NOT = { has_character_modifier = anti_colonial }
+		capital_scope = { region = world_africa }
+		OR = { 
+			top_liege { has_landed_title = e_france }
+			top_liege { has_landed_title = e_italy }
+			top_liege { has_landed_title = e_britannia}
+			}
+	}
+
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 2
+			liege = { trait = kind }
+		}
+		modifier = {
+			factor = 0.5
+			liege = { trait = cruel }
+		}
+		modifier = {
+			factor = 0.5
+			liege = { war = yes }
+		}
+		modifier = {
+			factor = 2
+			liege = { diplomacy >= 12 }
+		}
+		modifier = {
+			factor = 2
+			stewardship = 12
+		}
+		modifier = {
+			factor = 2
+			diplomacy = 12
+		}
+		modifier = {
+			factor = 1.75
+			intrigue = 10
+		}
+		modifier = {
+			factor = 0.75
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = cruel
+		}
+		modifier = {
+			factor = 0.5
+			trait = impaler
+		}
+		modifier = {
+			factor = 0.75
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0.75
+			AND = {
+				is_feudal = yes
+				wealth < 500
+			}
+		}
+		modifier = {
+			factor = 0.5
+			AND = {
+				is_tribal = yes
+				wealth < 250
+			}
+		}
+		modifier = {
+			factor = 2.5
+			AND = {
+				is_feudal = yes
+				wealth > 500
+			}
+		}
+		modifier = {
+			factor = 1.5
+			AND = {
+				is_tribal = yes
+				wealth > 250
+			}
+		}
+	} 
+
+	option = { 
+		name = "EVTAroy_colony_events.7" 
+		add_character_modifier = { modifier = anti_colonial years = 5 }
+		capital_scope = { add_province_modifier = { name = anti_colonial_province duration = 1825 } }
+	}
+}

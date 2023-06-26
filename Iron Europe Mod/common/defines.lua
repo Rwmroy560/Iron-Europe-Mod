@@ -962,16 +962,16 @@ NTitle = {
 -- Title Creation Cost
 	BARON_GOLD_CREATION_COST = 1, -- Unused, impossible
 	COUNT_GOLD_CREATION_COST = 100, -- Unused, impossible
-	DUKE_GOLD_CREATION_COST = 200,
-	KING_GOLD_CREATION_COST = 400,
-	EMPEROR_GOLD_CREATION_COST = 600,
+	DUKE_GOLD_CREATION_COST = 0,
+	KING_GOLD_CREATION_COST = 300,
+	EMPEROR_GOLD_CREATION_COST = 500,
 
 -- Title Creation Cost
 	BARON_PIETY_CREATION_COST = 0, -- Unused, impossible
 	COUNT_PIETY_CREATION_COST = 0, -- Unused, impossible
 	DUKE_PIETY_CREATION_COST = 0,
-	KING_PIETY_CREATION_COST = 200,
-	EMPEROR_PIETY_CREATION_COST = 400,
+	KING_PIETY_CREATION_COST = 100,
+	EMPEROR_PIETY_CREATION_COST = 200,
 
 -- Title Creation Prestige Gain
 	BARON_CREATION_PRESTIGE = 50, -- Granted when building a new settlement
@@ -1317,7 +1317,7 @@ NMilitary = {
 	LOOT_HOLDING_BUILDING_DEST_ODDS = 10,			-- there is a 1 in this chance a random building is destroyed when looted
 	SETTLED_ADVENTURER_MODIFIER_YEARS = 20,			-- How long provinces are spared from raiding after settling a raider adventurer.
 
-	RETINUE_FROM_REALMSIZE = 4.0,
+	RETINUE_FROM_REALMSIZE = 6.0,
 	RETINUE_TITLE_MODIFIER = 0.5,
 	RETINUE_INCREASE_PER_TECH = 2.5,
 	RETINUE_HIRE_COST_MULTIPLIER = 0.14,			-- Retinues are free to hire atm, but they cost a lot to reinforce
@@ -1395,7 +1395,7 @@ NMilitary = {
 	KNIGHTS_GRAPHICAL_FACTOR = 3,
 
 	ARCHERS_MORALE = 1,
-	ARCHERS_MAINTENANCE = 1.5,
+	ARCHERS_MAINTENANCE = 2,
 	ARCHERS_PHASE_SKIRMISH_ATTACK = 2,
 	ARCHERS_PHASE_MELEE_ATTACK = 1,
 	ARCHERS_PHASE_PURSUE_ATTACK = 2,
@@ -1405,7 +1405,7 @@ NMilitary = {
 	ARCHERS_GRAPHICAL_FACTOR = 0.1,
 
 	SPECIAL_TROOPS_MORALE = 5,
-	SPECIAL_TROOPS_MAINTENANCE = 2,
+	SPECIAL_TROOPS_MAINTENANCE = 4,
 	SPECIAL_TROOPS_PHASE_SKIRMISH_ATTACK = 4,
 	SPECIAL_TROOPS_PHASE_MELEE_ATTACK = 3,
 	SPECIAL_TROOPS_PHASE_PURSUE_ATTACK = 7,
@@ -1661,7 +1661,7 @@ NAI =
 	COALITION_THREAT_MAX_DISTANCE = 200,					-- AI will only consider realms within this distance a threat, unless they're really large, but still within diplo range (COALITION_SCARY_TROOP_STRENGTH_THREAT_RATIO)
 	COALITION_SCARY_TROOP_STRENGTH_THREAT_RATIO = 5.0,		-- AI will consider a realm to be a threat if the AI is this much larger in army strength, regardless of CB's
 
-	MARRIAGE_THREATENING_FOR_THEM_MODIFIER = 5,				-- How much AI will pay attention to marriages with realms they have a CB on and are considerably stronger than
+	MARRIAGE_THREATENING_FOR_THEM_MODIFIER = 2,				-- How much AI will pay attention to marriages with realms they have a CB on and are considerably stronger than
 	BETROTHAL_MIN_AGE = 12,									-- AI will not arrange betrothals for children below this age
 
 	MARRIAGE_THREATENING_FOR_US = 14,						-- How much AI will prefer marriages towards threatening realms

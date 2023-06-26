@@ -215,6 +215,8 @@
 1991.10.8 = {
   holder = 118047218
   liege = k_croatia
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 2006.10.8 = {
   holder = 112024096

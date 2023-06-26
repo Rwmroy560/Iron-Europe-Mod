@@ -12,6 +12,9 @@ targetted_decisions = {
 		higher_tier_than = count
 		is_tributary = no
 		NOT = { has_landed_title = e_russia }
+		NOT = { has_landed_title = d_sunni }
+		NOT = { has_landed_title = k_taliban }
+		NOT = { controls_religion = yes }
 		mercenary = no
 		holy_order = no
 		NOT = { has_landed_title = k_papal_state }
@@ -178,7 +181,7 @@ targetted_decisions = {
 			religion_group = jewish_group
 			religion = waldensian
 			religion = monothelite
-			religion = nazi	
+			
 			}
 		}
 	}
@@ -222,6 +225,7 @@ targetted_decisions = {
 			trait = lunatic
 			trait = inbred
 			trait = slow
+			religion = nazi	
 			}
 		}
 	}

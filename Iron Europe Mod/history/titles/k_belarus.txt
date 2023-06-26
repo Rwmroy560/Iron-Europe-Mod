@@ -88,6 +88,8 @@
 }
 1991.8.15 = {
   holder = 114601803
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 1991.12.26 = {
   liege = 0

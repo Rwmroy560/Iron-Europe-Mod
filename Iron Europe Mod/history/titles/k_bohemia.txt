@@ -59,6 +59,8 @@
   holder = 110952178
   name = Czechoslovakia
   adjective = Czechoslovak
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 1935.12.18 = {
   holder = 113037933

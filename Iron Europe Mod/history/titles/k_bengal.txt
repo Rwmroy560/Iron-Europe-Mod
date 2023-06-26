@@ -167,6 +167,8 @@
 1947.8.15 = {
   name = Bangladesh
   adjective = Bangladeshi
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 1971.12.16 = {
   holder = 111535710

@@ -11,6 +11,8 @@
 }
 1948.5.14 = {
   holder = 119968855
+  law = succ_feudal_elective
+  law = cognatic_succession
   law = army_professionalism_law_2
   law = tax_peasants_law_feudal_2
   law = high_court_law_2

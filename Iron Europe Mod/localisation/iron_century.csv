@@ -1,4 +1,5 @@
 france_help;Recieved French Assistance;;;x
+best_interests;Not My War;;;x
 REPRES;Representative;;;x
 OLIGARCH;Oligarch;;;x
 ask_france_help;Ask for French Assistance;;;x
@@ -28,12 +29,12 @@ ca_wall_q_3;Regional Fortifications;;;x
 ca_wall_q_4;Regional Fortifications;;;x
 ca_wall_q_5;Regional Fortifications;;;x
 ca_wall_q_1_desc;Fortifications used to slow down a besieging army.;;;x
-ca_wall_1;Trench Fortifications;;;x
-ca_wall_2;Trench Fortifications;;;x
-ca_wall_3;Trench Fortifications;;;x
-ca_wall_4;Trench Fortifications;;;x
-ca_wall_5;Trench Fortifications;;;x
-ca_wall_1_desc;Fortifications used to slow down a besieging army.;;;x
+ca_wall_1;Administrative Building;;;x
+ca_wall_2;Administrative Building;;;x
+ca_wall_3;Government Complex;;;x
+ca_wall_4;Government Complex;;;x
+ca_wall_5;Government Complex;;;x
+ca_wall_1_desc;A center used to handle all government functions of a country.;;;x
 ca_keep_1;Military Base;;;x
 ca_keep_2;Military Base;;;x
 ca_keep_3;Military Base;;;x
@@ -71,6 +72,62 @@ shipyard_desc;A port to develop, build, and dock ships for your navy.;;;x
 ca_russian_artillery;Soviet Artillery Factory;;;x
 ca_russian_artillery_desc;A factory to build artillery guns and shells.;;;x
 
+#Tribal (Developing)
+
+tb_hillfort_1;Political Center;;;x
+tb_hillfort_1_desc;Where all government power is centralized.;;;x
+tb_hillfort_2;Political Center;;;x
+tb_hillfort_2_desc;A complex body that helps administrate the country.;;;x
+tb_hillfort_3;Complex Government Infrastructure;;;x
+tb_hillfort_4;Complex Government Infrastructure;;;x
+
+tb_shipyard_1;Naval Shipyard;;;x
+tb_shipyard_2;Naval Shipyard;;;x
+tb_shipyard_3;Naval Shipyard;;;x
+tb_shipyard_4;Naval Port;;;x
+shipyard_desc;A port to develop, build, and dock ships for your navy.;;;x
+
+tb_training_grounds_1;Militia Training Facility;;;x
+tb_training_grounds_2;Militia Training Facility;;;x
+tb_training_grounds_3;Militia Training Facility;;;x
+tb_training_grounds_4;Militia Training Facility;;;x
+tb_training_grounds_desc;A facility to teach young men the basics of armed combat.;;;x
+
+tb_war_camp_1;Militia Barracks;;x
+tb_war_camp_2;Militia Barracks;;x
+tb_war_camp_3;Militia Barracks;;x
+tb_war_camp_4;Militia Barracks;;x
+tb_war_camp_desc;Base used to house and train the military and local militias.;;;x
+
+tb_practice_range_1;Practice Range;;;x
+tb_practice_range_2;Practice Range;;;x
+tb_practice_range_3;Practice Range;;;x
+tb_practice_range_4;Practice Range;;;x
+tb_practice_range_desc;A field used to train troops on their accuracy.;;;x
+
+tb_steppe_barracks_1;Militia Barracks;;x
+tb_steppe_barracks_2;Militia Barracks;;x
+tb_steppe_barracks_3;Militia Barracks;;x
+tb_steppe_barracks_4;Militia Barracks;;x
+ca_steppe_barracks_desc;Base used to house and train the military and local militias.;;;x
+
+tb_steppe_stable_1;Armor Factory;;;x
+tb_steppe_stable_2;Armor Factory;;;x
+tb_steppe_stable_3;Armor Factory;;;x
+tb_steppe_stable_4;Armor Factory;;;x
+ca_steppe_stable_desc;A factory to build and develop armor units.;;;x
+
+tb_arsenal_1;Arms Storage;;;x
+tb_arsenal_2;Arms Storage;;;x
+tb_arsenal_3;Arms Storage;;;x
+tb_arsenal_4;Arms Storage;;;x
+tb_arsenal_desc;A site to store weapons.;;;x
+
+tb_desert_stable_1;Armor Factory;;;x
+tb_desert_stable_2;Armor Factory;;;x
+tb_desert_stable_3;Armor Factory;;;x
+tb_desert_stable_4;Armor Factory;;;x
+tb_desert_stable_desc;A factory to build and develop armor units.;;;x
 
 
 POLI_WILL;Political Will;;;;x
@@ -113,7 +170,7 @@ tribal_government;Developing Country;;;x
 tribal_government_desc;A developing country is a sovereign state with a lesser developed industrial base and a lower Human Development Index relative to other countries.;;;x
 feudal_government;Developed Country;;;x
 feudal_government_desc;A highly-developed industrialized, technologically-advanced, educated, and wealthy country.;;;x
-best_interests;Not My War;;;x
+feudal_governments_desc;A highly-developed industrialized, technologically-advanced, educated, and wealthy country.;;;x
 
 LOADING_TIP_0;'Money was never a big motivation for me, except as a way to keep score. The real excitement is playing the game.' - Donald Trump;;;x
 LOADING_TIP_1;'Anyone who doesn't regret the passing of the Soviet Union has no heart. Anyone who wants it restored has no brain.' - Vladimir Putin;;;x

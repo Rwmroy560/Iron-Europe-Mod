@@ -166,6 +166,8 @@
 }
 2014.2.23 = {
   holder = 111454224
+  law = succ_feudal_elective
+  law = cognatic_succession
   law = army_professionalism_law_2
   law = tax_peasants_law_feudal_1
   law = high_court_law_1

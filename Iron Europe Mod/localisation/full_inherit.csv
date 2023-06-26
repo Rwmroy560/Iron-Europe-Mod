@@ -1,0 +1,10 @@
+#CODE;ENGLISH;;;;;;;;;;x
+succ_elective_inheritance;Controlled Succession;;;;;;;;x
+succ_elective_inheritance_desc;The President or Prime Minister elects their successor.;;;;;;;;;x
+enable_CI;Enable CI;Enable CI;Enable CI;;Enable CI;;;;;;;;;x
+enable_CI_desc;Enables the controlled succession law.;Enables the controlled succession law.;Enables the controlled succession law.;;Enables the controlled succession law.;;;;;;;;;x
+disable_CI;Disable CI;Disable CI;Disable CI;;Disable CI;;;;;;;;;x
+disable_CI_desc;Disables the controlled succession law.;Disables the controlled succession law.;Disables the controlled succession law.;;Disables the controlled succession law.;;;;;;;;;x
+enable_law;Enable the law;;Enable the law;Enable the law;;Enable the law;;;;;;;;;x
+enable_law_desc;This will allow you to enact the law instantly.;This will allow you to enact the law instantly.;This will allow you to enact the law instantly.;;This will allow you to enact the law instantly.;;;;;;;;;x
+elective_inherit;Controlled Succession;;;;;;;;x

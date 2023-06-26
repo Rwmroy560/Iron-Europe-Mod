@@ -169,31 +169,25 @@
 }
 1849.3.29 = {
   holder = 117264833
-  liege = e_britannia
+  liege =   liege = e_india
 }
 1864.3.29 = {
   holder = 119637851
-  liege = e_britannia
 }
 1879.3.29 = {
   holder = 110001743
-  liege = e_britannia
 }
 1894.3.29 = {
   holder = 119892689
-  liege = e_britannia
 }
 1909.3.29 = {
   holder = 117534485
-  liege = e_britannia
 }
 1924.3.29 = {
   holder = 118289897
-  liege = e_britannia
 }
 1939.3.29 = {
   holder = 110630586
-  liege = e_britannia
 }
 1947.8.15 = {
   holder = 111201507

@@ -2911,6 +2911,12 @@ faction_independence = {
 			}
 		}
 		modifier = {
+			factor = 0.25
+			liege = {
+				has_landed_title = e_russia
+			}
+		}
+		modifier = {
 			factor = 0.5
 			liege = {  
 				any_owned_bloodline = { has_bloodline_flag = bloodline_less_factions }
@@ -3229,6 +3235,12 @@ faction_independence = {
 			factor = 0.5
 			liege = {  
 				culture = russian
+			}
+		}
+		modifier = {
+			factor = 0.25
+			liege = {
+				has_landed_title = e_russia
 			}
 		}
 		modifier = {
@@ -3926,6 +3938,12 @@ faction_claimant = {
 			factor = 0.5
 			liege = {  
 				any_owned_bloodline = { has_bloodline_flag = bloodline_less_factions }
+			}
+		}
+		modifier = {
+			factor = 2
+			liege = {
+				has_landed_title = e_russia
 			}
 		}
 		modifier = {

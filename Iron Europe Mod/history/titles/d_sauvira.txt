@@ -6,31 +6,31 @@
 }
 1843.3.1 = {
   holder = 115072735
-  liege = e_britannia
+  liege = e_india
 }
 1858.3.1 = {
   holder = 117749446
-  liege = e_britannia
+  liege = e_india
 }
 1873.3.1 = {
   holder = 119626636
-  liege = e_britannia
+  liege = e_india
 }
 1888.3.1 = {
   holder = 115850190
-  liege = e_britannia
+  liege = e_india
 }
 1903.3.1 = {
   holder = 110937218
-  liege = e_britannia
+  liege = e_india
 }
 1918.3.1 = {
   holder = 119516184
-  liege = e_britannia
+  liege = e_india
 }
 1933.3.1 = {
   holder = 114509663
-  liege = e_britannia
+  liege = e_india
 }
 1947.8.15 = {
   holder = 110413822

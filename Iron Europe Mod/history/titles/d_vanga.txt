@@ -94,39 +94,39 @@
 }
 1815.6.9 = {
   holder = 113328829
-  liege = e_britannia
+  liege = e_india
 }
 1830.6.9 = {
   holder = 118447564
-  liege = e_britannia
+  liege = e_india
 }
 1845.6.9 = {
   holder = 119061917
-  liege = e_britannia
+  liege = e_india
 }
 1860.6.9 = {
   holder = 119885378
-  liege = e_britannia
+  liege = e_india
 }
 1875.6.9 = {
   holder = 116231386
-  liege = e_britannia
+  liege = e_india
 }
 1890.6.9 = {
   holder = 118317251
-  liege = e_britannia
+  liege = e_india
 }
 1905.6.9 = {
   holder = 110512841
-  liege = e_britannia
+  liege = e_india
 }
 1920.6.9 = {
   holder = 116531193
-  liege = e_britannia
+  liege = e_india
 }
 1935.6.9 = {
   holder = 116945618
-  liege = e_britannia
+  liege = e_india
 }
 1947.8.15 = {
   holder = 118653339
