@@ -233,25 +233,24 @@ character_event = {
 			make_tributary = {
 				who = event_target:csto_dude1
 				tributary_type = csto
-				}
+			}
 			make_tributary = {
 				who = event_target:csto_dude2
 				tributary_type = csto
-				}
+			}
 			make_tributary = {
 				who = event_target:csto_dude3
 				tributary_type = csto
-				}
+			}
 			make_tributary = {
 				who = event_target:csto_dude4
 				tributary_type = csto
-				}
 			}
 			make_tributary = {
 				who = event_target:csto_dude5
 				tributary_type = csto
-				}
 			}
+		}
 		prestige = 200
 		add_character_modifier = { modifier = csto_setup years = 10 }
 		clear_event_target = csto_dude1

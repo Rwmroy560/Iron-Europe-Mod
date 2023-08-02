@@ -129,7 +129,7 @@
 2002.12.22 = {
   holder = 111896694
 }
-2004 = {
+2004.1.1 = {
 	set_tribute_suzerain = {
 		who = e_united_states
 		type = nato

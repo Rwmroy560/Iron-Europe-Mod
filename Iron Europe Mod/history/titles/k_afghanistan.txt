@@ -197,7 +197,6 @@
   law = army_professionalism_law_0
   law = tax_peasants_law_feudal_2
   law = high_court_law_1
-  law = succ_feudal_elective
 }
 2001.12.22 = {
   holder = 110993423

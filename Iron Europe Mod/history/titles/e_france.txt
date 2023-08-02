@@ -130,7 +130,6 @@
   law = tax_peasants_law_feudal_1
   law = high_court_law_0
   law = succ_feudal_elective
-  law = demo_elective
   law = cognatic_succession
   law = vassal_wars_law_2
   law = status_of_women_4

@@ -115,10 +115,10 @@ character_event = {
 		NOT = { has_character_modifier = anti_colonial }
 		capital_scope = { region = world_africa }
 		OR = { 
-			top_liege { has_landed_title = e_france }
-			top_liege { has_landed_title = e_italy }
-			top_liege { has_landed_title = e_britannia}
-			}
+			top_liege = { has_landed_title = e_france }
+			top_liege = { has_landed_title = e_italy }
+			top_liege = { has_landed_title = e_britannia}
+		}
 	}
 
 	mean_time_to_happen = {

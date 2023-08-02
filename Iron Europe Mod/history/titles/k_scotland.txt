@@ -300,7 +300,6 @@
   law = army_professionalism_law_0
   law = tax_peasants_law_feudal_0
   law = high_court_law_0
-  law = succ_feudal_elective
 }
 2000.10.27 = {
   holder = 113219179
