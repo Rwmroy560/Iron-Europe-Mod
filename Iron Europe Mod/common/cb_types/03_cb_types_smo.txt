@@ -183,8 +183,8 @@ colony_war = {
 		factor = 1
 		
 		modifier = {
-			factor = 50
-			has_landed_title = e_russia
+			factor = 0.1
+			year < 2020
 		}
 	}
 }
