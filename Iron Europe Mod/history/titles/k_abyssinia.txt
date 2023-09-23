@@ -163,6 +163,8 @@
 }
 1974.9.12 = {
   holder = 111794336
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 1975.3.21 = {
   holder = 113257100

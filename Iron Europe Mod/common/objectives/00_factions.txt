@@ -2911,6 +2911,16 @@ faction_independence = {
 			}
 		}
 		modifier = {
+			factor = 0.1
+			liege = { 
+				has_landed_title = e_india
+			}
+		}
+		modifier = {
+			factor = 0.25
+			liege = { culture = russian }
+		}
+		modifier = {
 			factor = 0.25
 			liege = {
 				has_landed_title = e_russia
@@ -3232,7 +3242,7 @@ faction_independence = {
 		factor = 4
 		
 		modifier = {
-			factor = 0.5
+			factor = 0.25
 			liege = {  
 				culture = russian
 			}
@@ -3241,6 +3251,12 @@ faction_independence = {
 			factor = 0.25
 			liege = {
 				has_landed_title = e_russia
+			}
+		}
+		modifier = {
+			factor = 0.1
+			liege = {
+				has_landed_title = e_india
 			}
 		}
 		modifier = {

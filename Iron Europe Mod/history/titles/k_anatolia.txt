@@ -32,6 +32,8 @@
 }
 1961.10.10 = {
   holder = 117928718
+  law = succ_feudal_elective
+  law = cognatic_succession
 }
 1966.3.28 = {
   holder = 111943601

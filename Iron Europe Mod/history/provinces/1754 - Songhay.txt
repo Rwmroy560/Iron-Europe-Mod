@@ -1,5 +1,6 @@
 title = c_songhay
-max_settlements = 3
+max_settlements = 4
+b_songhay = castle
 b_ansongo = tribal
 culture = songhay
 religion = west_african_pagan

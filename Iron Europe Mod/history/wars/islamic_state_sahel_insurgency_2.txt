@@ -1,0 +1,18 @@
+name = "Islamic State Insurgency"
+
+casus_belli = {
+	actor = 100014496 
+	recipient = 119497914
+	casus_belli=insurgent_war
+	date=2014.1.1
+}
+
+2014.1.1 = {
+	add_attacker = 100014496 
+	add_defender = 119497914
+}
+
+2020.6.1 = {
+	rem_attacker = 100014496 
+	rem_defender = 119497914
+}

@@ -25,6 +25,8 @@
   law = cognatic_succession
   law = crown_authority_1
   law = centralization_2
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 1960.11.28 = {
   holder = 119059898

@@ -1,4 +1,10 @@
 france_help;Recieved French Assistance;;;x
+d_islamic_sahel;Islamic State Sahel;;;x
+title_auth_elector;Potential Successor;;;x
+title_auth_elector;This person is one of few allowed to run for the presidency.;;;x
+poor_army_culture_modifier;Poor Army Culture;;;x
+poor_army_culture_modifier_desc;Be it corruption, low morale, or simply pacifistic nature, armies of this culture don't perform very well;;;x
+SEC_GEN;Secretary-General;;;x
 best_interests;Not My War;;;x
 REPRES;Representative;;;x
 OLIGARCH;Oligarch;;;x
@@ -166,9 +172,9 @@ ca_rail_network_desc;A network of railroads used to hasten the movement of goods
 ca_intl_airport;International Airport;;;x
 ca_intl_airport_desc;An airport to facilitate travel and trade to other countries.;;;x
 
-tribal_government;Developing Country;;;x
+tribal_government;Developing;;;x
 tribal_government_desc;A developing country is a sovereign state with a lesser developed industrial base and a lower Human Development Index relative to other countries.;;;x
-feudal_government;Developed Country;;;x
+feudal_government;Developed;;;x
 feudal_government_desc;A highly-developed industrialized, technologically-advanced, educated, and wealthy country.;;;x
 feudal_governments_desc;A highly-developed industrialized, technologically-advanced, educated, and wealthy country.;;;x
 

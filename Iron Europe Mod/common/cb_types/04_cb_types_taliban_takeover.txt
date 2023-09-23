@@ -81,6 +81,10 @@ taliban_takeover = {
 	}
 
 	on_reverse_demand = {
+		k_taliban = { destroy_landed_title = yes }
+		ROOT = { 
+			set_defacto_liege = FROM
+		}
 		ROOT = {
 			prestige = -1500
 			piety = -200

@@ -8,7 +8,6 @@ on_yearly_pulse = {
 		courtier_draft_events.0
 		roy_draft.2
 		roy_colony_events.2
-		ukr_war.2
 		ukr_war.9
 		trial_events.0
 	}

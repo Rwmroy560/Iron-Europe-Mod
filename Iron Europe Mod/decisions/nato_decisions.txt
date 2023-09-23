@@ -8,6 +8,7 @@ targetted_decisions = {
         only_playable = yes
         
 	from_potential = {
+		year > 1945
 		independent = yes
 		higher_tier_than = count
 		is_tributary = no
@@ -31,6 +32,7 @@ targetted_decisions = {
         }
         
         allow = {
+		FROM = { war = no }
 		FROM = { piety = 100 }
 		ROOT = { is_within_diplo_range = FROM }
 		FROM = {
@@ -214,7 +216,7 @@ targetted_decisions = {
             }
             
             additive_modifier = {
-                value = -50
+                value = -100
                 localisation_key = nato_unfit
                 FROM = {
 			OR = {
@@ -321,7 +323,7 @@ targetted_decisions = {
                 localisation_key = nato_democratic_society
                 FROM = {
                     primary_title = {
-			has_law = imprison_voting_power_1
+			has_law = law = imprison_voting_power_1
 			}
 		}
 	}
@@ -330,7 +332,7 @@ targetted_decisions = {
                 localisation_key = nato_democratic_society
                 FROM = {
                     primary_title = {
-			has_law = war_voting_power_1
+			has_law = law = war_voting_power_1
 			}
 		}
 	}
@@ -469,4 +471,3 @@ targetted_decisions = {
             }
         }
     }
-}

@@ -39,6 +39,12 @@ CB_NAME_FUCK_YOU_DEMOCRACY;Install Democracy!;;;;;;;;;;;;;x
 WAR_NAME_FUCK_YOU_DEMOCRACY;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$ Intervention;;;;;;;;;;;;;x
 fuck_you_democracy_desc;The leader of this state does not act in your interests. Time to change that.;;;;;;;;;;;;;x
 
+insurgent_war;Jihadist Expansion;;;x
+CB_NAME_ISIS_JIHAD;Jihad!;;;;;;;;;;;;;x
+WAR_NAME_ISIS_JIHAD;$ORDER$ $FIRST_ADJ$ Jihad;;;;;;;;;;;;;x
+insurgent_war_desc;Non-believers occupy this land. Inshallah, we will take this land for ourselves!;;;;;;;;;;;;;x
+
+
 CB_NAME_FUCK_YOU_COLONIZE;Special Military Operation;;;x
 WAR_NAME_FUCK_YOU_COLONIZE;$ORDER$ $FIRST_ADJ$ Special Military Operation;;;x
 colony_war_desc;Our great country must be returned to its historical borders. We have exhausted all other means of solving this issue so we must make war!;;;x

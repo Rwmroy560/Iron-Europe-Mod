@@ -139,6 +139,12 @@
 1991.12.26 = {
   holder = 111724716
   liege = 0
+  law = succ_elective_inheritance
+  law = cognatic_succession
+	set_tribute_suzerain = {
+		who = e_russia
+		type = csto
+	}
 }
 2003.11.23 = {
   holder = 117129599

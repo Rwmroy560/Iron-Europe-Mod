@@ -52,7 +52,35 @@ spriteTypes = {
 			additive_modifier = {
 				value = 10000
 				portrait_age > child
-				portrait_is_female = no
+				NOT = {
+					OR = {
+						AND = {
+						portrait_religion = sunni
+						portrait_culture = touareg_arabic
+						}
+						AND = {
+						portrait_religion = sunni
+						portrait_culture = bedouin_arabic
+						}
+						AND = {
+						portrait_religion = sunni
+						portrait_culture = maghreb_arabic
+						}
+					}
+				}
+				OR = {
+					portrait_is_female = no
+					AND = { 
+						portrait_is_female = yes
+						OR = {
+						portrait_religion = catholic
+						portrait_religion = protestant
+						portrait_religion = republican
+						portrait_religion = democrat
+						portrait_religion = orthodox
+						}
+					}
+				}
 				portrait_clothing = yes
 				#portrait_religion = catholic
 				#portrait_has_trait = catholic

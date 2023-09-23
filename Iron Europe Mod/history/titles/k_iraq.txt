@@ -14,6 +14,8 @@
 1920.4.25 = {
   holder = 110406492
   liege = e_britannia
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 1932.10.3 = {
   liege = 0

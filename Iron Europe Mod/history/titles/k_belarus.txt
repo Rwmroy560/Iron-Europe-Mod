@@ -99,6 +99,4 @@
   law = army_professionalism_law_2
   law = tax_peasants_law_feudal_1
   law = high_court_law_2
-  law = agnatic_succession
-  law = succ_feudal_elective
 }

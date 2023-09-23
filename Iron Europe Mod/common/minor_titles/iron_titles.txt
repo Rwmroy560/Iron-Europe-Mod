@@ -27,3 +27,30 @@ title_grand_judge = {
 	}
 	message = yes
 }
+title_auth_elector = {
+	is_high_prio = yes
+	show_as_title = no
+	realm_in_name = yes
+	opinion_effect = 30
+	is_voter = yes
+	revoke_allowed = yes
+	
+	monthly_salary = 5
+	monthly_prestige = 0.5
+	
+	allowed_to_hold = {
+		is_adult = yes
+	}
+	
+	allowed_to_grant = {
+			has_law = succ_elective_inheritance
+		}
+	
+	grant_limit = 3
+	gain_effect = {
+		prestige = 20
+	}
+	lose_effect = {
+	}
+	message = yes
+}

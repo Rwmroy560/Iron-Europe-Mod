@@ -1,0 +1,18 @@
+name = "Tuareg Rebellion for the Independence of Azawad"
+
+casus_belli = {
+	actor = 100014492
+	recipient = 100014497
+	casus_belli=freedom_war
+	date=2014.1.1
+}
+
+2014.1.1 = {
+	add_attacker = 100014492
+	add_defender = 100014497
+}
+
+2020.6.1 = {
+	rem_attacker = 100014492
+	rem_defender = 100014497
+}

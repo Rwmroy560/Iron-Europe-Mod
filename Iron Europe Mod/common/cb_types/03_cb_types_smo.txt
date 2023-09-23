@@ -84,6 +84,7 @@ colony_war = {
 	on_fail = {
 		FROM = {
 			prestige = 300
+			piety = 175
 		}
 
 		any_defender = {
@@ -100,6 +101,11 @@ colony_war = {
 	}
 
 	on_reverse_demand = {
+		d_crimea = { grant_title = FROM }
+		c_lower_don = { grant_title = FROM }
+		c_lukomorie = { grant_title = FROM }
+		c_lower_dniepr = { grant_title = FROM }
+		c_crimea = { grant_title = FROM }
 		ROOT = {
 			prestige = -1500
 			piety = -200

@@ -135,3 +135,10 @@
 1892.1.1 = {
   holder = 0
 }
+2012.6.1 = {
+  holder = 100014492
+  liege = 0
+  name = "Azawad"
+  adjective = "Azawadi"
+  law = army_professionalism_law_2
+}

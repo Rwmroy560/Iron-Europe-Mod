@@ -12,6 +12,8 @@
 }
 1993.5.24 = {
   holder = 118156208
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 2013.3.30 = {
   holder = 118287840

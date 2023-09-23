@@ -1,0 +1,19 @@
+name = "Western Theatre"
+
+casus_belli = {
+	actor = 118977433
+	recipient = 116530280
+	casus_belli=nazi_war
+	landed_title= e_france
+	date=1939.1.1
+}
+
+1939.1.1 = {
+	add_attacker = 118977433 #Hitler
+	add_defender = 116530280 #France
+}
+1945.11.2 = {
+	rem_attacker = 118977433 #Hitler
+	rem_defender = 116530280 #France
+
+}

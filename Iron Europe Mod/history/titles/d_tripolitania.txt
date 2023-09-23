@@ -118,6 +118,8 @@
 }
 1951.12.24 = {
   holder = 111685472
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 1969.9.1 = {
   holder = 118006784

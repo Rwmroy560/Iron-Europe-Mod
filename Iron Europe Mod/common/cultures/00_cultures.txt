@@ -3880,7 +3880,7 @@ latin = {
       Virginia
     }
     from_dynasty_prefix = "di "
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
     pat_grf_name_chance = 30
     mat_grf_name_chance = 10
     father_name_chance = 25
@@ -6013,7 +6013,7 @@ byzantine = {
     mat_grm_name_chance = 50
     mother_name_chance = 0
     disinherit_from_blinding = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   alan = {
     graphical_cultures = {
@@ -6148,7 +6148,7 @@ byzantine = {
     female_patronym = "y chyzg"
     prefix = no
     disinherit_from_blinding = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   georgian = {
     graphical_cultures = {
@@ -6268,7 +6268,7 @@ byzantine = {
     female_patronym = shvili
     prefix = no
     disinherit_from_blinding = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   assyrian = {
     graphical_cultures = {
@@ -10043,7 +10043,7 @@ finno_ugric = {
     }
     from_dynasty_prefix = "of "
     founder_named_dynasties = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   meshchera = {
     graphical_cultures = {
@@ -11074,7 +11074,7 @@ altaic = {
     }
     founder_named_dynasties = yes
     allow_looting = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
     nomadic_in_alt_start = yes
   }
   bolghar = {
@@ -12124,7 +12124,7 @@ altaic = {
     female_patronym = " kyzy"
     prefix = no
     allow_looting = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
     nomadic_in_alt_start = yes
   }
   uyghur = {
@@ -12618,7 +12618,7 @@ altaic = {
     from_dynasty_prefix = "of "
     founder_named_dynasties = yes
     allow_looting = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
     nomadic_in_alt_start = yes
   }
   khitan = {
@@ -13983,7 +13983,7 @@ arabic = {
     female_patronym = "bint "
     prefix = yes
     founder_named_dynasties = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   egyptian_arabic = {
     graphical_cultures = {
@@ -14263,7 +14263,7 @@ arabic = {
     female_patronym = "bint "
     prefix = yes
     founder_named_dynasties = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
     pat_grf_name_chance = 60
     mat_grf_name_chance = 20
     father_name_chance = 10
@@ -14442,7 +14442,7 @@ east_slavic = {
     pat_grm_name_chance = 30
     mat_grm_name_chance = 30
     mother_name_chance = 0
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   ilmenian = {
     graphical_cultures = {
@@ -15509,7 +15509,7 @@ west_slavic = {
       Zivoslava
     }
     from_dynasty_prefix = "of "
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
     pat_grf_name_chance = 40
     mat_grf_name_chance = 10
     father_name_chance = 10
@@ -15804,7 +15804,7 @@ south_slavic = {
     from_dynasty_prefix = "od "
     male_patronym = ic
     prefix = no
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   romanian = {
     graphical_cultures = {
@@ -16067,7 +16067,7 @@ south_slavic = {
     male_patronym = ov
     female_patronym = ova
     prefix = no
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   bosnian = {
     graphical_cultures = {
@@ -16734,7 +16734,7 @@ south_slavic = {
     from_dynasty_prefix = "od "
     male_patronym = ic
     prefix = no
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
 }
 magyar = {
@@ -16930,7 +16930,7 @@ magyar = {
     male_patronym = fi
     prefix = no
     allow_looting = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
     nomadic_in_alt_start = yes
   }
 }
@@ -18434,7 +18434,7 @@ iranian = {
     male_patronym = zai
     female_patronym = lur
     prefix = no
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   baloch = {
     graphical_cultures = {
@@ -18611,7 +18611,7 @@ iranian = {
     male_patronym = ani
     female_patronym = lur
     prefix = no
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   saka = {
     graphical_cultures = {
@@ -19056,7 +19056,7 @@ east_african = {
     }
     founder_named_dynasties = yes
     dukes_called_kings = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
   nubian = {
     graphical_cultures = {
@@ -19355,6 +19355,7 @@ east_african = {
     founder_named_dynasties = yes
     dukes_called_kings = yes
     allow_looting = yes
+    modifier = poor_army_culture_modifier
   }
 }
 central_african = {
@@ -19776,6 +19777,7 @@ central_african = {
       Zubaydah
     }
     dukes_called_kings = yes
+    modifier = poor_army_culture_modifier
   }
   zaghawa = {
     graphical_cultures = {
@@ -20171,6 +20173,7 @@ west_african = {
       Zeinab
     }
     dukes_called_kings = yes
+    modifier = poor_army_culture_modifier
   }
   songhay = {
     color = {
@@ -20349,6 +20352,7 @@ west_african = {
       Zaynab
     }
     dukes_called_kings = yes
+    modifier = poor_army_culture_modifier
   }
 }
 mesoamerican = {
@@ -20549,7 +20553,7 @@ mesoamerican = {
     mat_grm_name_chance = 25
     mother_name_chance = 0
     allow_looting = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
 }
 israelite = {
@@ -23056,7 +23060,7 @@ indo_aryan_group = {
     baron_titles_hidden = yes
     count_titles_hidden = yes
     allow_looting = yes
-    modifier = default_culture_modifier
+    modifier = poor_army_culture_modifier
   }
 }
 dravidian_group = {

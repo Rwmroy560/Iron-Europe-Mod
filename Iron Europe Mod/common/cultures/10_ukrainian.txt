@@ -94,6 +94,7 @@ east_slavic = {
       Zabava
       Zvenislava
     }
+    dukes_called_kings = yes
     from_dynasty_prefix = "of "
     male_patronym = ovich
     female_patronym = ovna

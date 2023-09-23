@@ -3,9 +3,9 @@
 # Several titles can refer to the same type as well now.
 
 wagner_composition = {
-	levy_size = 3
-	wagner_brigade = 300
-	heavy_infantry = 450
+	levy_size = 5
+	wagner_brigade = 1000
+	heavy_infantry = 350
 	light_infantry = 150
 	knights = 225
 	light_cavalry = 200

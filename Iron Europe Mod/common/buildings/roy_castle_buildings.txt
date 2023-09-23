@@ -36,9 +36,9 @@ castle = {
 		add_number_to_name = no
 		military_techpoints = 1.25
 		commander_limit = 1
-		global_supply_limit = 0.35
+		supply_limit = 0.35
 		levy_reinforce_rate = 0.15
-		nazi_soldiers = 2000
+		nazi_soldiers = 12000
 		fort_level = 2
 		ai_creation_factor = 110
 	}
@@ -47,7 +47,7 @@ castle = {
 		trigger = { TECH_CASTLE_CONSTRUCTION = 0 }
 		gold_cost = 200
 		build_time = 730
-		pikemen = 50
+		pikemen = 1000
 		levy_reinforce_rate = 0.1
 		retinuesize = 20
 		ai_creation_factor = 89
@@ -63,21 +63,21 @@ castle = {
 		land_morale = 0.15
 		levy_reinforce_rate = 0.15
 		retinuesize = 30
-		pikemen = 75
+		pikemen = 1500
 		ai_creation_factor = 88
 		
 		extra_tech_building_start = 1.0
 	}
 	ca_artillery_3 = {
 		desc = ca_artillery_1_desc
-		trigger = { TECH_CASTLE_CONSTRUCTION = 6 }
+		trigger = { TECH_CASTLE_CONSTRUCTION = 3 }
 		upgrades_from = ca_artillery_2 
 		gold_cost = 300
 		build_time = 2190
 		land_morale = 0.25
 		levy_reinforce_rate = 0.25
 		retinuesize = 40
-		pikemen = 100
+		pikemen = 2500
 		ai_creation_factor = 88
 		
 		extra_tech_building_start = 1.0
@@ -100,7 +100,7 @@ castle = {
 		add_number_to_name = no
 		global_supply_limit = 0.35
 		levy_reinforce_rate = 0.15
-		pikemen = 1000
+		pikemen = 7000
 		ai_creation_factor = 110
 	}
 }

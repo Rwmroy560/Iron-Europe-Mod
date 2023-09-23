@@ -1,0 +1,18 @@
+name = "Invasion of Russia"
+
+casus_belli = {
+	actor = 118977433
+	recipient = 114033062
+	casus_belli=nazi_war
+	landed_title = e_russia
+	date=1939.1.1
+}
+
+1939.1.1 = {
+	add_attacker = 118977433 #Hitler
+	add_defender = 114033062 #Russia
+}
+1945.11.2 = {
+	rem_attacker = 118977433 #Hitler
+	rem_defender = 114033062 #Russia
+}

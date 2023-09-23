@@ -43,6 +43,8 @@
 }
 1908.6.11 = {
   holder = 114129080
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 1919.6.17 = {
   holder = 110007064

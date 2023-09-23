@@ -88,8 +88,8 @@ nazi_war = {
 			prestige = 300
 			piety = 100
 		}
-		ROOT = { 
-			make_tributary = { who = FROM tributary_type = dependant }
+		FROM = { 
+			set_defacto_liege = ROOT
 			}
 		
 		any_attacker = {

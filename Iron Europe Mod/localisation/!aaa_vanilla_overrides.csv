@@ -26,17 +26,19 @@ american;American;;;x
 black_american;Black American;;;x
 american_group;American;;;x
 latino_american;Latino-American;;;x
-convert_to_feudalism_indep;Abandon Developing Country Status;;;x
+convert_to_feudalism_indep;Abandon Developing Status;;;x
 convert_to_feudalism_indep_desc;Transition to a Developed Country.;;;x
-convert_to_feudalism_vassal;Abandon Developing Country Status;;;x
+convert_to_feudalism_vassal;Abandon Developing Status;;;x
 convert_to_feudalism_vassal_desc;Transition to a Developed Country.;;;x
 
-monothelite;Neo-Nazi;;;x
-monothelite_DESC;Neo-Nazism comprises the post–World War II militant, social, and political movements that seek to revive and reinstate Nazi ideology. Neo-Nazis employ their ideology to promote hatred and racial supremacy (often white supremacy), attack racial and ethnic minorities (often antisemitism and Islamophobia), and in some cases to create a fascist state.;;;x
+monothelite;Nationalist;;;x
+monothelite_DESC;Nationalism is an idea and movement that holds that the nation should be congruent with the state. As a movement, it tends to promote the interests of a particular nation, especially with the aim of gaining and maintaining the nation's sovereignty over its perceived homeland to create a nation-state.;;;x
+
 waldensian;Neo-Nazi;;;x
 waldensian_DESC;Neo-Nazism comprises the post–World War II militant, social, and political movements that seek to revive and reinstate Nazi ideology. Neo-Nazis employ their ideology to promote hatred and racial supremacy (often white supremacy), attack racial and ethnic minorities (often antisemitism and Islamophobia), and in some cases to create a fascist state.;;;x
 NAME_JEWS;the Jews;;;x
 
+touareg_arabic;Tuareg;;;x
 christian;Western;;;x
 
 catholic;Liberal;;;x
@@ -51,19 +53,27 @@ reformed_DESC;Social democracy has been described as the evolutionary form of de
 orthodox;Authoritarian;;;x
 orthodox_DESC;Authoritarianism is a political system characterized by the rejection of political plurality, the use of strong central power to preserve the political status quo, and reductions in the rule of law, separation of powers, and democratic voting.;;;x
 
-miaphysite;Communist;;;x
-miaphysite_DESC;Communism a political theory derived from Karl Marx, advocating class war and leading to a society in which all property is publicly owned and each person works and is paid according to their abilities and needs.;;;x
-CAPITALISM;Capitalism;;;x
-
-finnish_pagan;Anarchist;;;x
-finnish_pagan_DESC;Anarchy is the organization of society on the basis of voluntary cooperation, without political institutions or hierarchical government.;;;x
-
-west_african_pagan;Communist;;;x
-west_african_pagan_DESC;Communism a political theory derived from Karl Marx, advocating class war and leading to a society in which all property is publicly owned and each person works and is paid according to their abilities and needs.;;;x
+miaphysite;Authoritarian;;;x
+miaphysite_DESC;Authoritarianism is a political system characterized by the rejection of political plurality, the use of strong central power to preserve the political status quo, and reductions in the rule of law, separation of powers, and democratic voting.;;;x
 
 
-hindu;Libertarian;;;x
-hindu_DESC;Libertarianism is a political philosophy that advocates only minimal state intervention in the free market and the private lives of citizens..;;;x
+finnish_pagan;Nationalist;;;x
+finnish_pagan_DESC;Nationalism is an idea and movement that holds that the nation should be congruent with the state. As a movement, it tends to promote the interests of a particular nation, especially with the aim of gaining and maintaining the nation's sovereignty over its perceived homeland to create a nation-state.;;;x
+
+west_african_pagan;Nationalist;;;x
+west_african_pagan_DESC;Nationalism is an idea and movement that holds that the nation should be congruent with the state. As a movement, it tends to promote the interests of a particular nation, especially with the aim of gaining and maintaining the nation's sovereignty over its perceived homeland to create a nation-state.;;;x
 
 
+hindu;Hindu Nationalist;;;x
+hindu_DESC;Nationalism is an idea and movement that holds that the nation should be congruent with the state. As a movement, it tends to promote the interests of a particular nation, especially with the aim of gaining and maintaining the nation's sovereignty over its perceived homeland to create a nation-state...;;;x
 
+jewish;Liberal Nationalist;;;x
+jewish_desc;Likud, officially known as Likud – National Liberal Movement, is a major centre-right to right-wing political party in Israel. It was founded in 1973 by Menachem Begin and Ariel Sharon in an alliance with several right-wing parties.;;;x
+jewish_group_desc;Likud, officially known as Likud – National Liberal Movement, is a major centre-right to right-wing political party in Israel. It was founded in 1973 by Menachem Begin and Ariel Sharon in an alliance with several right-wing parties.;;;x
+
+
+samaritan;Zionist;;;x
+samaritan_desc;Zionism is a movement for (originally) the re-establishment and (now) the development and protection of a Jewish nation in what is now Israel.;;;;x
+
+karaite;Ultra-Orthodox;;;x
+karaite_desc;Haredi Judaism consists of groups within Orthodox Judaism that are characterized by their strict adherence to halakha and traditions, in opposition to modern values and practices.;;;x

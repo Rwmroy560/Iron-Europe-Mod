@@ -46,6 +46,10 @@
 }
 1991.12.26 = {
   liege = 0
+	set_tribute_suzerain = {
+		who = e_russia
+		type = csto
+	}
 }
 2005.3.25 = {
   holder = 111477330

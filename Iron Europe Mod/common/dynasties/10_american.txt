@@ -223,7 +223,7 @@
   culture = american
 }
 90000056 = {
-  name = Nguyen
+  name = Ford
   culture = american
 }
 90000057 = {
@@ -500,5 +500,30 @@
 900000122 = {
   name = Mussolini
   culture = italian
+  used_for_random = no
+}
+900000123 = {
+  name = Nixon
+  culture = american
+  used_for_random = no
+}
+900000124 = {
+  name = Kennedy
+  culture = american
+  used_for_random = no
+}
+900000125 = {
+  name = Eisenhower
+  culture = american
+  used_for_random = no
+}
+900000126 = {
+  name = Truman
+  culture = american
+  used_for_random = no
+}
+900000127 = {
+  name = Roosevelt
+  culture = american
   used_for_random = no
 }

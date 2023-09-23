@@ -1,0 +1,20 @@
+name = "Syrian Civil War"
+
+casus_belli = {
+	actor = 116033748
+	recipient = 119892444
+	casus_belli=reclaim_war
+	date=2017.5.14
+}
+
+2017.5.14 = {
+	add_attacker = 116033748 #Assad
+	add_attacker = 100014493 #Hezbollah
+	add_defender = 119892444 #ISIS
+}
+
+2021.6.1 = {
+	rem_attacker = 116033748
+	rem_attacker = 100014493
+	rem_defender = 119892444
+}

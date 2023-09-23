@@ -18,6 +18,8 @@
 }
 1962.4.8 = {
   holder = 115090012
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 1962.9.25 = {
   holder = 114414651

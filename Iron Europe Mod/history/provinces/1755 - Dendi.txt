@@ -1,8 +1,8 @@
 title = c_dendi
 max_settlements = 3
 b_niamey = tribal
-culture = songhay
-religion = west_african_pagan
+culture = touareg_arabic
+religion = sunni
 1300.1.1 = {
   b_niamey = castle
 }

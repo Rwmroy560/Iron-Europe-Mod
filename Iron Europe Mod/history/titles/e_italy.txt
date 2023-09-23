@@ -25,6 +25,9 @@
   law = tax_peasants_law_feudal_2
   law = high_court_law_1
 }
+1922.1.1 = {
+  holder = 100014474
+}
 1946.5.9 = {
   holder = 118054322
 }

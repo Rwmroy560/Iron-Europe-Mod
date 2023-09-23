@@ -165,7 +165,3 @@
   liege = d_sunni
   holder = 119892444
 }
-2016.10.17 = {
-  liege = k_rojava
-  holder = 109988702
-}

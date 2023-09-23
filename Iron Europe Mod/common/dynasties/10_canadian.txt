@@ -31,28 +31,28 @@
   culture = english
 }
 91000008 = {
-  name = Brown
-  culture = canadian
+  name = "Ag Acherif"
+  culture = touareg_arabic
 }
 91000009 = {
-  name = Johnson
-  culture = canadian
+  name = Nasrallah
+  culture = levantine_arabic
 }
 91000010 = {
-  name = Wang
-  culture = canadian
+  name = "Al-Musawi"
+  culture = levantine_arabic
 }
 91000011 = {
-  name = Wilson
-  culture = canadian
+  name = "Al-Tufayli"
+  culture = levantine_arabic
 }
 91000012 = {
-  name = Leung
-  culture = canadian
+  name = "Al-Sahrawi"
+  culture = maghreb_arabic
 }
 91000013 = {
-  name = Anderson
-  culture = canadian
+  name = "Keita"
+  culture = manden
 }
 91000014 = {
   name = Lam

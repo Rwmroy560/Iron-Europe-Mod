@@ -44,6 +44,8 @@
 }
 1960.6.20 = {
   holder = 117311721
+  law = succ_elective_inheritance
+  law = cognatic_succession
 }
 1976.10.29 = {
   holder = 116854339
@@ -56,7 +58,7 @@
 }
 2003.10.8 = {
   holder = 112241247
-  law = army_professionalism_law_1
+  law = army_professionalism_law_0
   law = tax_peasants_law_feudal_1
   law = high_court_law_1
   law = vassal_wars_law_2
@@ -71,4 +73,7 @@
 }
 2009.6.7 = {
   holder = 112344475
+}
+2013.1.1 = {
+  holder = 100014497
 }

@@ -229,3 +229,62 @@ d_azov_batt = {
 	
 	mercenary_type = azov_batt_composition
 }
+d_hezbollah = {
+	color={ 80 160 80 }
+	color2={ 255 255 255 }
+
+	graphical_culture = bektashigfx
+	
+	culture = levantine_arabic
+
+	capital = 728
+	
+	# Hire Trigger
+	allow = {
+		conditional_tooltip = {
+			trigger = {
+				NOT = {
+					is_alternate_start = yes
+				}
+			}
+			religion_group = muslim
+		}
+	}
+	
+	# Parent Religion 
+	religion = shiite
+	
+	holy_order = yes
+
+	title = "SEC_GEN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 1.0
+	monthly_income = 3
+	
+	mercenary_type = knights_hospitaler_composition
+}
+d_islamic_sahel = {
+        color = {
+          155
+          110
+          30
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+  title = CALIPH
+  title_female = CALIPHA
+  foa = CALIPH_FOA
+  short_name = yes
+  culture = hausa
+  religion = sunni
+}

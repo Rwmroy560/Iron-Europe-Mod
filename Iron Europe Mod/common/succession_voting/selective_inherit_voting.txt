@@ -1,4 +1,4 @@
-demo_elective = {
+elective_inherit = {
 	elector_vote_strength = {
 		days = 1
 	}
@@ -3233,7 +3233,8 @@ demo_elective = {
 
 	#ROOT = Current Title holder, FROM = Candidate, FROMFROM = Title, FROMFROMFROM = Null
 	candidate_trigger = {
-		ROOT = { is_adult = yes }
+		FROM = { is_adult = yes }
+		FROM = { has_minor_title = title_auth_elector }
 		ROOT = { 
 			AND = { 
 				religion_group = FROM
@@ -3273,6 +3274,7 @@ demo_elective = {
 			}
 			AND = { 
 				OR = { 
+					FROM = { is_landed = no }
 					FROM = { higher_real_tier_than = COUNT } #Or Duke-tier...
 					AND = { 
 						ROOT = { 

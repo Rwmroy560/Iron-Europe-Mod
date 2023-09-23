@@ -53865,6 +53865,200 @@ e_mali = {
         }
       }
     }
+    d_songhay = {
+      color = {
+        210
+        82
+        89
+      }
+      color2 = {
+        255
+        255
+        255
+      }
+      capital = 914
+      c_songhay = {
+        color = {
+          225
+          92
+          79
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+	b_songhay = {
+	}
+        b_ansongo = {
+        }
+        b_kukiya = {
+        }
+        b_tillaberi = {
+        }
+        b_falakoro = {
+        }
+        b_tiende = {
+        }
+        b_domossela = {
+        }
+        b_boumoundo = {
+        }
+      }
+      c_gao = {
+        color = {
+          195
+          72
+          64
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        holy_site = west_african_pagan
+        holy_site = west_african_pagan_reformed
+	b_menaka_cercle = {
+	}
+        b_gao = {
+        }
+        b_sarnah = {
+        }
+        b_gaosaney = {
+        }
+        b_bourem = {
+        }
+        b_menaka = {
+        }
+        b_gabero = {
+        }
+        b_anchawadi = {
+        }
+      }
+      c_tadmekka = {
+        color = {
+          205
+          92
+          59
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_tadmekka = {
+        }
+        b_essako = {
+        }
+        b_kidal = {
+        }
+        b_kidako = {
+        }
+        b_eskako = {
+        }
+        b_djila = {
+        }
+        b_dongossela = {
+        }
+      }
+      c_kurumba = {
+        color = {
+          187
+          77
+          98
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_kissi = {
+        }
+        b_aribinda = {
+        }
+        b_dori = {
+        }
+        b_douentza = {
+        }
+        b_ouario_ouario = {
+        }
+        b_gourel_bassirou = {
+        }
+        b_seriwala = {
+        }
+      }
+    }
+    d_gurma = {
+      color = {
+        171
+        121
+        124
+      }
+      color2 = {
+        255
+        255
+        255
+      }
+      capital = 928
+      c_gurma = {
+        color = {
+          161
+          101
+          104
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_gurma = {
+        }
+        b_bilanga = {
+        }
+        b_nungu = {
+        }
+        b_tenkudugo = {
+        }
+        b_zorgho = {
+        }
+        b_hounde = {
+        }
+        b_yrgo = {
+        }
+        b_halogo = {
+        }
+        b_wagulo = {
+        }
+        b_zenande = {
+        }
+      }
+      c_dendi = {
+        color = {
+          186
+          106
+          114
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_niamey = {
+        }
+        b_bura = {
+        }
+        b_say = {
+        }
+        b_jidu = {
+        }
+        b_kimtir = {
+        }
+        b_isuachara = {
+        }
+        b_langay = {
+        }
+      }
+    }
     d_yatenga = {
       color = {
         128
@@ -54268,125 +54462,6 @@ e_mali = {
     }
     capital = 914
     culture = manden
-    d_songhay = {
-      color = {
-        210
-        82
-        89
-      }
-      color2 = {
-        255
-        255
-        255
-      }
-      capital = 914
-      c_songhay = {
-        color = {
-          225
-          92
-          79
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        b_ansongo = {
-        }
-        b_kukiya = {
-        }
-        b_tillaberi = {
-        }
-        b_falakoro = {
-        }
-        b_tiende = {
-        }
-        b_domossela = {
-        }
-        b_boumoundo = {
-        }
-      }
-      c_gao = {
-        color = {
-          195
-          72
-          64
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        holy_site = west_african_pagan
-        holy_site = west_african_pagan_reformed
-        b_gao = {
-        }
-        b_sarnah = {
-        }
-        b_gaosaney = {
-        }
-        b_bourem = {
-        }
-        b_menaka = {
-        }
-        b_gabero = {
-        }
-        b_anchawadi = {
-        }
-      }
-      c_tadmekka = {
-        color = {
-          205
-          92
-          59
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        b_tadmekka = {
-        }
-        b_essako = {
-        }
-        b_kidal = {
-        }
-        b_kidako = {
-        }
-        b_eskako = {
-        }
-        b_djila = {
-        }
-        b_dongossela = {
-        }
-      }
-      c_kurumba = {
-        color = {
-          187
-          77
-          98
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        b_kissi = {
-        }
-        b_aribinda = {
-        }
-        b_dori = {
-        }
-        b_douentza = {
-        }
-        b_ouario_ouario = {
-        }
-        b_gourel_bassirou = {
-        }
-        b_seriwala = {
-        }
-      }
-    }
     d_gurma = {
       color = {
         171
@@ -55134,6 +55209,8 @@ e_kanem = {
           255
           255
         }
+	b_abalak = {
+	}
         b_tahoua = {
         }
         b_kurmin_dodo = {

@@ -69,6 +69,79 @@ kingdom_of_american;Republic of;;;;;;;;;x
 empire_of_american;United States of;;;x
 temple_barony_of;Temple of;;;;;x
 
+#arabic
+tribal_duke_arabic;Governer;;;x
+tribal_duke_female_arabic;Governer;;;x
+duke_arabic;Governer;;;x
+duke_female_arabic;Governer;;;x
+duke_title_ruler_consort_arabic;Minister;;;x
+duke_title_ruler_consort_female_arabic;Mistress;;;x
+emperor_arabic;President;;;x
+emperor_female_arabic;President;;;x
+emperor_title_ruler_consort_female_arabic;First Lady;;;x
+emperor_title_ruler_consort_arabic;Mister;;;x
+king_arabic;Prime Minister;;;x
+king_title_ruler_consort_female_arabic;First Lady;;;x
+king_title_ruler_consort_arabic;Mister;;;x
+king_female_arabic;Lady;;;x
+title_prince_arabic;Representative;;;;;;;;;;;;;x
+title_prince_female_arabic;Lady;;;;;;;;;;;;;x
+count_arabic;Mayor;;;;;;;;;;;;;x
+count_female_arabic;Mayor;;;x
+count_title_ruler_consort_arabic;Mister;;;x
+count_title_ruler_consort_female_arabic;Miss;;;x
+
+
+city_count_arabic;Mayor;;;;;;;;;x
+city_count_female_arabic;Lady;;;;
+city_king_arabic;President;;;;;;;;;x
+city_king_female_arabic;President;;;;;;;;;x
+city_duke_female_arabic;Lady;;;;;;;;;x
+city_duke_arabic;Lord;;;;;;;;;x
+
+county_of_arabic;Province of;;;;;;;;;x
+barony_of_arabic;Headquarters of;;;x
+duchy_of_arabic;Region of;;;;;;;;;x
+kingdom_of_arabic;Republic of;;;;;;;;;x
+empire_of_arabic;Federation of;;;x
+
+#sunni
+tribal_duke_sunni;Governer;;;x
+tribal_duke_female_sunni;Governer;;;x
+duke_sunni;Governer;;;x
+duke_female_sunni;Governer;;;x
+duke_title_ruler_consort_sunni;Minister;;;x
+duke_title_ruler_consort_female_sunni;Mistress;;;x
+emperor_sunni;President;;;x
+emperor_female_sunni;President;;;x
+emperor_title_ruler_consort_female_sunni;First Lady;;;x
+emperor_title_ruler_consort_sunni;Mister;;;x
+king_sunni;Prime Minister;;;x
+king_title_ruler_consort_female_sunni;First Lady;;;x
+king_title_ruler_consort_sunni;Mister;;;x
+king_female_sunni;Lady;;;x
+title_prince_sunni;Representative;;;;;;;;;;;;;x
+title_prince_female_sunni;Lady;;;;;;;;;;;;;x
+count_sunni;Mayor;;;;;;;;;;;;;x
+count_female_sunni;Mayor;;;x
+count_title_ruler_consort_sunni;Mister;;;x
+count_title_ruler_consort_female_sunni;Miss;;;x
+
+
+city_count_sunni;Mayor;;;;;;;;;x
+city_count_female_sunni;Lady;;;;
+city_king_sunni;President;;;;;;;;;x
+city_king_female_sunni;President;;;;;;;;;x
+city_duke_female_sunni;Lady;;;;;;;;;x
+city_duke_sunni;Lord;;;;;;;;;x
+
+county_of_sunni;Province of;;;;;;;;;x
+barony_of_sunni;Headquarters of;;;x
+duchy_of_sunni;Region of;;;;;;;;;x
+kingdom_of_sunni;Republic of;;;;;;;;;x
+empire_of_sunni;Federation of;;;x
+
+
 
 #kurdish
 tribal_duke_kurdish;Governer-General;;;x
@@ -115,6 +188,7 @@ duke_russian;Governer-General;;;x
 duke_female_russian;Governer-General;;;x
 duke_title_ruler_consort_russian;Minister;;;x
 duke_title_ruler_consort_female_russian;Mistress;;;x
+emperor_georgian;President;;;x
 emperor_russian;President;;;x
 emperor_female_russian;President;;;x
 emperor_title_ruler_consort_female_russian;First Lady;;;x
@@ -143,6 +217,7 @@ barony_of_russian;Headquarters of;;;x
 duchy_of_russian;Region of;;;;;;;;;x
 kingdom_of_russian;Republic of;;;;;;;;;x
 empire_of_russian;Federation of;;;x
+empire_of_georgian;Federation of;;;x
 temple_barony_of;Temple of;;;;;x
 
 #Kazakh

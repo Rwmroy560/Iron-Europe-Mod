@@ -121,4 +121,10 @@
 }
 1991.12.26 = {
   liege = 0
+  law = succ_elective_inheritance
+  law = cognatic_succession
+	set_tribute_suzerain = {
+		who = e_russia
+		type = csto
+	}
 }

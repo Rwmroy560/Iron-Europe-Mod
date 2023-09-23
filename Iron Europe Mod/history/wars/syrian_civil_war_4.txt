@@ -1,0 +1,20 @@
+name = "Operation Euphrates Shield"
+
+casus_belli = {
+	actor = 110605799
+	recipient = 109988702
+	casus_belli=euphrates_war
+	date=2017.1.1
+}
+
+2017.1.1 = {
+	add_attacker = 110605799 #Erdogan
+	add_defender = 109988702 #Kurdistan
+	add_defender = 116033748 #Assad
+}
+
+2021.6.1 = {
+	rem_attacker = 110605799
+	rem_defender = 109988702
+	rem_defender = 116033748
+}

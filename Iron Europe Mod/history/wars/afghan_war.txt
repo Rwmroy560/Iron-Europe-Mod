@@ -1,0 +1,18 @@
+name = "Taliban Takeover of Afghanistan"
+
+casus_belli = {
+	actor = 109997392
+	recipient = 117294660
+	casus_belli=taliban_takeover
+	date=2001.12.1
+}
+
+2001.12.1 = {
+	add_attacker = 109997392
+	add_defender = 117294660
+}
+
+2021.12.18 = {
+	rem_attacker = 109997392
+	rem_defender = 117294660
+}
