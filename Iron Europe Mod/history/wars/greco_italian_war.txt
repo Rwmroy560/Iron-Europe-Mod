@@ -1,18 +1,18 @@
 name = "Axis Invasion of Greece"
 
 casus_belli = {
-	actor = 113588823
+	actor = 100014474
 	recipient = 119065160
 	casus_belli=landgrab_war
 	date=1939.1.1
 }
 
 1939.1.1 = {
-	add_attacker = 113588823 #Italy
+	add_attacker = 100014474 #Italy
 	add_defender = 119065160 #Greece
 }
 
 1945.11.2 = {
-	rem_attacker = 113588823 #Italy
+	rem_attacker = 100014474 #Italy
 	rem_defender = 119065160 #Greece
 }
