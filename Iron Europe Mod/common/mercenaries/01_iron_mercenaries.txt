@@ -24,5 +24,6 @@ azov_batt_composition = {
 	pikemen = 200
 }
 secret_service_composition = {
+	levy_size = 1
 	nato_soldiers = 300
 }

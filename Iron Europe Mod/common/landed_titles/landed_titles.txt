@@ -14203,7 +14203,7 @@ e_italy = {
       color = {
         210
         233
-        278
+        255
       }
       color2 = {
         255
@@ -28511,7 +28511,7 @@ e_tartaria = {
           170
           170
         }
-        color = {
+        color2 = {
           255
           255
           255
@@ -40345,6 +40345,16 @@ e_france = {
         }
       }
       c_vaud = {
+        color = {
+          69
+          30
+          68
+        }
+        color2 = {
+          255
+          255
+          255
+        }
         b_lausanne = {
           german = Losanen
         }
@@ -53985,77 +53995,6 @@ e_mali = {
         b_gourel_bassirou = {
         }
         b_seriwala = {
-        }
-      }
-    }
-    d_gurma = {
-      color = {
-        171
-        121
-        124
-      }
-      color2 = {
-        255
-        255
-        255
-      }
-      capital = 928
-      c_gurma = {
-        color = {
-          161
-          101
-          104
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        b_gurma = {
-        }
-        b_bilanga = {
-        }
-        b_nungu = {
-        }
-        b_tenkudugo = {
-        }
-        b_zorgho = {
-        }
-        b_hounde = {
-        }
-        b_yrgo = {
-        }
-        b_halogo = {
-        }
-        b_wagulo = {
-        }
-        b_zenande = {
-        }
-      }
-      c_dendi = {
-        color = {
-          186
-          106
-          114
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        b_niamey = {
-        }
-        b_bura = {
-        }
-        b_say = {
-        }
-        b_jidu = {
-        }
-        b_kimtir = {
-        }
-        b_isuachara = {
-        }
-        b_langay = {
         }
       }
     }

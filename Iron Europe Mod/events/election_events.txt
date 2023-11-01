@@ -64,7 +64,7 @@ character_event = {
 			primary_title = {
 			succession = {
     				base_type = feudal_elective
-				voting_rules = demo_elective
+				voting_rules = feudal_elective
 				}
 			}
 		}
@@ -166,7 +166,7 @@ character_event = {
 			primary_title = {
 			succession = {
     				base_type = feudal_elective
-				voting_rules = demo_elective
+				voting_rules = feudal_elective
 				}
 			}
 		}

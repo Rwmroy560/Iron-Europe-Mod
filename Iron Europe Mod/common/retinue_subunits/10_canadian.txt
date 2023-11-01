@@ -6,7 +6,20 @@ RETTYPE_CUL_CANADIAN = {
   special_troops = horse_archers
   potential = {
     is_nomadic = no
-    culture = canadian
+    OR = {
+		culture = turkish
+			culture = pecheneg
+			culture = cuman
+            culture = khazar
+            culture = bolghar
+            culture = avar
+            culture = karluk
+            culture = kirghiz
+            culture = uyghur
+            culture = mongol
+            culture = khitan
+			culture_group = iranian
+		}
   }
   modifier = {
     horse_archers_offensive = 0.2

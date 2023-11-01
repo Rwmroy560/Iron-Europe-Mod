@@ -64,10 +64,6 @@ targetted_decisions = {
 			}
 				hidden_tooltip = {
 					if = {
-						limit = { has_job_title = job_castellan }
-						set_character_flag = job_castellan
-					}
-					if = {
 						limit = { has_job_title = job_chancellor }
 						set_character_flag = job_chancellor
 					}
@@ -84,7 +80,7 @@ targetted_decisions = {
 						set_character_flag = job_spymaster
 					}
 					if = {
-						limit = { has_job_title = job_physician }
+						limit = { has_minor_title = title_court_physician }
 						set_character_flag = job_physician
 					}
 					if = {
@@ -94,14 +90,6 @@ targetted_decisions = {
 					if = {
 						limit = { has_minor_title = title_high_admiral }
 						set_character_flag = title_high_admiral
-					}
-					if = {
-						limit = { has_minor_title = title_high_admiral_B }
-						set_character_flag = title_high_admiral_B
-					}
-					if = {
-						limit = { has_minor_title = title_small_council_advisor }
-						set_character_flag = title_small_council_advisor
 					}
 					if = {
 						limit = { has_minor_title = title_councilmember_king }
@@ -194,11 +182,6 @@ targetted_decisions = {
 						}
 					}
 					if = {
-						limit = { has_character_flag = job_castellan }
-						give_job_title = job_castellan
-						clr_character_flag = job_castellan
-					}
-					if = {
 						limit = { has_character_flag = job_chancellor }
 						give_job_title = job_chancellor
 						clr_character_flag = job_chancellor
@@ -220,7 +203,7 @@ targetted_decisions = {
 					}
 					if = {
 						limit = { has_character_flag = job_physician }
-						give_job_title = job_physician
+						give_minor_title = title_court_physician
 						clr_character_flag = job_physician
 					}
 					if = {
@@ -232,16 +215,6 @@ targetted_decisions = {
 						limit = { has_character_flag = title_high_admiral }
 						give_minor_title = title_high_admiral
 						clr_character_flag = title_high_admiral
-					}
-					if = {
-						limit = { has_character_flag = title_high_admiral_B }
-						give_minor_title = title_high_admiral_B
-						clr_character_flag = title_high_admiral_B
-					}
-					if = {
-						limit = { has_character_flag = title_small_council_advisor }
-						give_minor_title = title_small_council_advisor
-						clr_character_flag = title_small_council_advisor
 					}
 					if = {
 						limit = { has_character_flag = title_councilmember_king }

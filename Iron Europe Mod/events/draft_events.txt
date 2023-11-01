@@ -346,8 +346,6 @@ character_event = {
 		is_primary_war_defender = yes
 		NOT = {
 			trait = cruel
-			trait = tyrant1
-			trait = tyrant2
 		}
 	
 	}

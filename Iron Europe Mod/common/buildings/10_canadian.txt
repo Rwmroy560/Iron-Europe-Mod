@@ -3,7 +3,20 @@ castle = {
     desc = ca_culture_canadian_1_desc
     potential = {
       FROM = {
-        culture = canadian
+		OR = {
+			culture = turkish
+			culture = pecheneg
+			culture = cuman
+            culture = khazar
+            culture = bolghar
+            culture = avar
+            culture = karluk
+            culture = kirghiz
+            culture = uyghur
+            culture = mongol
+            culture = khitan
+			culture_group = iranian
+		}
       }
     }
     is_active_trigger = {
@@ -70,7 +83,20 @@ castle = {
     desc = ca_culture_canadian_1_desc
     potential = {
       FROM = {
-        culture = canadian
+		OR = {
+			culture = turkish
+			culture = pecheneg
+			culture = cuman
+            culture = khazar
+            culture = bolghar
+            culture = avar
+            culture = karluk
+            culture = kirghiz
+            culture = uyghur
+            culture = mongol
+            culture = khitan
+			culture_group = iranian
+		}
       }
     }
     is_active_trigger = {
@@ -135,7 +161,20 @@ castle = {
     desc = ca_culture_canadian_1_desc
     potential = {
       FROM = {
-        culture = canadian
+		OR = {
+			culture = turkish
+			culture = pecheneg
+			culture = cuman
+            culture = khazar
+            culture = bolghar
+            culture = avar
+            culture = karluk
+            culture = kirghiz
+            culture = uyghur
+            culture = mongol
+            culture = khitan
+			culture_group = iranian
+		}
       }
     }
     is_active_trigger = {
@@ -200,7 +239,20 @@ castle = {
     desc = ca_culture_canadian_1_desc
     potential = {
       FROM = {
-        culture = canadian
+		OR = {
+			culture = turkish
+			culture = pecheneg
+			culture = cuman
+            culture = khazar
+            culture = bolghar
+            culture = avar
+            culture = karluk
+            culture = kirghiz
+            culture = uyghur
+            culture = mongol
+            culture = khitan
+			culture_group = iranian
+		}
       }
     }
     is_active_trigger = {

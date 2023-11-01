@@ -131,7 +131,7 @@ fuck_you_democracy = {
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { culture_group = muslim }
+			FROM = { religion_group = muslim }
 		}
 		modifier = {
 			factor = 0 # cowards and cripples need not apply

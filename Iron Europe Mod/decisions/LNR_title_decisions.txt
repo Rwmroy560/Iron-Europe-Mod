@@ -172,7 +172,6 @@ title_decisions = {
 			}
 			location = {
 				create_random_steward = {
-					stewardship = 10
 					random_traits = yes
 					dynasty = random
 					female = no

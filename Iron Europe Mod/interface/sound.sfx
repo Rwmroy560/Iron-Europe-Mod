@@ -1666,3 +1666,9 @@ nuke = {
 	file = "nuke.ogg"
 	volume = 195
 }
+china_angered_emperor =
+{
+	file = "chinese_emperor_angered.wav"
+	volume = 50
+	on_demand = yes
+}

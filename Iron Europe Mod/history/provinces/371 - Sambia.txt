@@ -1,10 +1,9 @@
 title = c_sambia
-terrain = forest
 max_settlements = 4
 b_konigsberg = tribal
 culture = prussian
 religion = baltic_pagan
-terrain = plains
+terrain = forest
 1225.1.1 = {
   b_konigsberg = castle
   b_sambrandenburg = city
@@ -21,19 +20,13 @@ terrain = plains
 }
 1255.1.1 = {
   b_labiau = castle
-}
-1255.1.1 = {
   religion = catholic
 }
 1700.1.1 = {
   culture = german
-}
-1945.5.8 = {
-  culture = russian
-}
-1700.1.1 = {
   religion = protestant
 }
 1945.5.8 = {
+  culture = russian
   religion = catholic
 }
