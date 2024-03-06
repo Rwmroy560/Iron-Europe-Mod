@@ -635,9 +635,9 @@ unjust_conquest = { # New7
 			independent = yes
 			piety = 200
 			OR = {
-				higher_tier_than = COUNT
+				higher_tier_than = DUKE
 				AND = {
-					tier = COUNT
+					tier = DUKE
 					independent = yes
 				}
 			}

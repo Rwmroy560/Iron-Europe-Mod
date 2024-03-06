@@ -40,8 +40,8 @@ immigrant1 = {
 }
 political_instab = {
 	icon = 29
-	local_revolt_risk = 0.08
-	supply_limit = -0.25
+	local_revolt_risk = 0.1
+	supply_limit = -1
 	siege_defence = -0.2
 	local_tax_modifier = -0.10
 }
@@ -169,4 +169,21 @@ anti_colonial_province = {
 	local_tax_modifier = -0.5
 	levy_reinforce_rate = -0.25
 	icon = 36
+}
+settlement_punish = {
+	icon = 106
+	local_revolt_risk = 0.15
+	supply_limit = -3
+	siege_defence = -0.25
+	local_tax_modifier = -2
+	levy_reinforce_rate = -0.25
+	levy_size = -4
+	garrison_size = -3
+}
+demand_justice = {
+	icon = 29
+	global_revolt_risk = -0.05
+}
+provoking_conflict = {
+	icon = 29
 }

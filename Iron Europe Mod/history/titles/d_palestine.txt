@@ -1,0 +1,18 @@
+1969.2.4 = {
+  name = "Palestinian Authority"
+  adjective = "Palestinian"
+  holder = 100014475
+  law = army_professionalism_law_2
+}
+2005.1.1 = {
+	set_tribute_suzerain = {
+		who = k_israel
+		type = occupied
+	}
+}
+2017.5.14 = {
+  holder = 109984004
+  law = tax_peasants_law_feudal_2
+  law = high_court_law_2
+}
+

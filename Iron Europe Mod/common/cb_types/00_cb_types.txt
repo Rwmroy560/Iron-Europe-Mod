@@ -1385,6 +1385,7 @@ claim_all = {
 
 	can_use = {
 		ROOT = {
+			piety = 300
 			total_claims = {
 				who = FROM
 				strong = yes # Count only strong claims
@@ -1409,6 +1410,7 @@ claim_all = {
 
 	on_add = {
 		ROOT = {
+			piety = -300
 			show_scope_change = no
 			any_claim = {
 				show_scope_change = no
@@ -3857,6 +3859,7 @@ muslim_invasion = {
 	}
 
 	can_use = {
+		ROOT = { NOT = { has_landed_title = d_hamas } }
 		ROOT = {
 			OR = {
 				ai = yes
@@ -4509,6 +4512,7 @@ embargo_cb = {
 
 	can_use = {
 		ROOT = {
+			piety = 200
 			independent = yes
 			NOT = { has_embargo = FROM }
 			mercenary = no
@@ -4566,6 +4570,7 @@ embargo_cb = {
 	}
 
 	on_add = {
+		piety = -200
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
@@ -7170,12 +7175,13 @@ muslim_county_conquest = {
 	
 	can_use_gui = {
 		ROOT = {
-			piety = 50
+			piety = 150
+			higher_tier_than = DUKE
 		}
 	}
 	
 	on_add = {
-		ROOT = { piety = -50 }
+		ROOT = { piety = -150 }
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
@@ -7188,6 +7194,7 @@ muslim_county_conquest = {
 	
 	can_use = {
 		ROOT = {
+			NOT = { has_landed_title = d_hamas }
 			NOT = { is_liege_or_above = FROM }
 			mercenary = no
 			is_nomadic = no # Use the 'pagan_county_conquest' CB instead
@@ -7833,6 +7840,7 @@ dejure_barony_claim = {
 	}
 
 	can_use = {
+		ROOT = { piety = 50 }
 		FROM = {
 			NOT = { is_vassal_or_below = ROOT }
 			OR = {
@@ -7994,6 +8002,7 @@ dejure_barony_claim = {
 	}
 
 	on_add = {
+		ROOT = { piety = -50 }
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }
@@ -12201,6 +12210,7 @@ increase_council_power_war = { # Started from faction
 
 	can_use = {
 		ROOT = {
+			piety = 100
 			vassal_of = FROM
 		}
 	}
@@ -12244,6 +12254,7 @@ increase_council_power_war = { # Started from faction
 	}
 
 	on_add = {
+		ROOT = { piety = -100 }
 		hidden_tooltip = { fire_haruspicy_event_effect = yes }
 		if = {
 			limit = { defender = { is_offmap_governor = offmap_china } }

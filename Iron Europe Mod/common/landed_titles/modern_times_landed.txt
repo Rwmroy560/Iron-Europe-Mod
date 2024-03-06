@@ -85,7 +85,7 @@ k_rojava = {
   culture = kurdish
   religion = sunni
 }
-k_palestine = {
+d_palestine = {
         color = {
           155
           110
@@ -98,6 +98,7 @@ k_palestine = {
         }
   culture = levantine_arabic
   religion = sunni
+  short_name = yes
 }
 d_senate = {
   color = {
@@ -286,5 +287,21 @@ d_islamic_sahel = {
   foa = CALIPH_FOA
   short_name = yes
   culture = hausa
+  religion = sunni
+}
+d_hamas = {
+        color = {
+          155
+          110
+          30
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+  title = COMMANDER
+  foa = CAPTAIN_FOA
+  culture = levantine_arabic
   religion = sunni
 }

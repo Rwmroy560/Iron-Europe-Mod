@@ -1,0 +1,64 @@
+namespace = israel_hamas
+########################
+# Secret Society
+########################
+character_event = {
+	id = "israel_hamas.0"
+	desc = "EVTDESCisrael_hamas.0"
+	picture = GFX_roy_spy
+	
+	is_triggered_only = yes
+	
+
+		option = {
+		name = EVTOPTAisrael_hamas.0
+		wealth = -5
+		hidden_tooltip = {
+		random_list = {
+			1 = { 
+			character_event = { id = israel_hamas.1 days = 14 }
+			}
+			9 = { 
+			character_event = { id = israel_hamas.2 days = 14 } 
+				}
+			}
+		}
+	}
+}
+#Target successfully declares war
+character_event = {
+	id = israel_hamas.1
+	desc = "EVTDESCisrael_hamas.1"
+	picture = GFX_roy_battle
+	border = GFX_event_normal_frame_intrigue
+	is_triggered_only = yes
+
+
+		option = {
+		name = EVTOPTAisrael_hamas.1
+		FROMFROM = {
+			unsafe_war = {
+    				target = ROOT
+    				casus_belli = palestine_war
+			}
+		}
+	}
+}
+#Target successfully stirs revolt
+character_event = {
+	id = "israel_hamas.2"
+	desc = "EVTDESCisrael_hamas.2"
+	picture = GFX_roy_riot
+	border = GFX_event_normal_frame_intrigue
+	is_triggered_only = yes
+
+
+		option = {
+		name = EVTOPTAisrael_hamas.2
+			ROOT = {
+				random_demesne_province = {
+					add_province_modifier = { name = demand_justice duration = 90 }
+				}
+			}
+		}
+	}

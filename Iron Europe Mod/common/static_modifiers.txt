@@ -572,14 +572,10 @@ hospital = {
 default_culture_modifier = {
 }
 poor_army_culture_modifier = {
-	heavy_infantry_offensive = -0.1
-	heavy_infantry_defensive = -0.1
-	light_infantry_offensive = -0.1
-	light_infantry_defensive = -0.1
-	light_cavalry_offensive = -0.1
-	light_cavalry_defensive = -0.1
-	knights_offensive = -0.25
-	knights_defensive = -0.25
+	global_movement_speed = -0.75
+	army_reinforce_rate = -0.2
+	siege_speed = -0.2
+	commander_limit = -2
 }
 
 ##########################################################################

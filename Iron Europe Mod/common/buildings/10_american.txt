@@ -24,4 +24,30 @@ castle = {
 		tax_income = 3
 		ai_creation_factor = 110
 	}
+	ca_irregular_base = {
+		desc = ca_irregular_base_desc
+		potential = {	
+			FROM = {
+				has_landed_title = d_hezbollah
+			}	
+		}	
+		trigger = { TECH_CONSTRUCTION = 0  }
+		is_active_trigger = {
+			FROM = {
+				has_landed_title = d_hezbollah
+			}
+		} 
+		gold_cost = 280
+		build_time = 580
+		add_number_to_name = no
+		military_techpoints = 1.25
+		commander_limit = 3
+		global_supply_limit = 0.35
+		levy_reinforce_rate = 0.15
+		pikemen = 1000
+		heavy_infantry = 3000
+		fort_level = 2
+		tax_income = 1.5
+		ai_creation_factor = 110
+	}
 }

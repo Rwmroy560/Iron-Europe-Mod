@@ -26,3 +26,8 @@ sinocide_war_crime = {
 	icon = 29
 	general_opinion = -20
 }
+sinocide_gaza = {
+	icon = 29
+	general_opinion = -25
+	muslim_opinion = -100
+}

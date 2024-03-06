@@ -16,6 +16,7 @@ targetted_decisions = {
 				any_friend = { character = FROM }
 				any_liege = { character = FROM }
 				any_dynasty_member = { character = FROM }
+				ROOT = { religion = FROM }
 			}
 		}
 		allow = {

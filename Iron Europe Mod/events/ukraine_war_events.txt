@@ -38,7 +38,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -52,21 +52,23 @@ character_event = {
 	picture = GFX_roy_europe
 	border = GFX_event_normal_frame_war
 	
-	is_triggered_only = yes
 
 	trigger = {
 		war = yes	
 		has_landed_title =  k_ruthenia
 		any_current_enemy = { has_landed_title = e_russia  }
-		higher_tier_than = BARON
 		capital_scope = { is_occupied = no }
 		is_primary_war_defender = yes
 	
 	}
 
+		mean_time_to_happen = {
+			months = 6
+		}
+
 	option = { 
 		name = "EVTAukr_war.2" 
-		wealth = 800
+		wealth = 200
 		capital_scope = {
 			holder_scope = {
 				IF = {
@@ -80,14 +82,17 @@ character_event = {
 						province = PREV
 						leader = none
 						troops = {
-							heavy_infantry = { 1500 2500 }
+							heavy_infantry = { 500 2500 }
+							light_cavalry = { 500 1500 }
+							pikemen = { 500 1500 }
+							nato_soldiers = { 500 2500 }
 						}
 						attrition = 1.0
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -162,14 +167,14 @@ character_event = {
 						leader = none
 						troops = {
 							heavy_infantry = { 10000 15500 }
-							knights = { 4950 5550 }
+							heavy_cavalry = { 4950 5550 }
 						}
 						attrition = 1.0
 						maintenance_multiplier = 0.1
 						merge = yes
 						disband_on_peace = no
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -223,7 +228,7 @@ character_event = {
 						merge = yes
 						disband_on_peace = yes
 						reinforces = yes
-						reinforce_rate_multiplier = 0.25
+						reinforce_rate_multiplier = .25
 					}
 				}
 			}
@@ -462,6 +467,12 @@ character_event = {
 
 	trigger = {
 	is_primary_war_defender = yes
+	any_enemy = {
+		AND = {
+			is_primary_war_defender = yes
+			rebel = no
+		}	
+	}
 	is_tributary = { type = nato }
 	}
 

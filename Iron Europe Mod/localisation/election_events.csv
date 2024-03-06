@@ -88,7 +88,7 @@ settlement_genocide_desc;The natives of this land have been systematically remov
 change_character;Play as [Root.GetTitledName];;;;;;;;;;;;x
 change_character_desc;Switch your character to this one.;;;;;;;;;;;;x
 political_instab;Political Instability;;;x
-political_instab_desc;The political environment here is full of uncertainty. Revolution could erupt at any moment...;;;x
+political_instab_desc;The political environment here is full of uncertainty. Revolt could erupt at any moment...;;;x
 immigrant1;Influx of Immigrants;;;x
 immigrant1_desc;This province is undergoing an immigration wave due to decolonization.;;;x
 demanding_indep;Demanding Independence;;;x

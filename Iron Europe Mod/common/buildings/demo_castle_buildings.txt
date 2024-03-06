@@ -183,4 +183,22 @@ castle = {
 		extra_tech_building_start = 0.7
 		add_number_to_name = no
 	}
+	ca_intricate_tunnel = {
+		potential = {	
+			FROM = {	
+				has_landed_title = d_hamas	
+			}	
+		}	
+		trigger = { TECH_CONSTRUCTION = 0 }
+		desc = ca_intricate_tunnel_desc
+		gold_cost = 450
+		build_time = 850
+		military_techpoints = 0.03
+		local_tax_modifier = 0.50
+		fort_level = 5
+		garrison_size = 2.5
+		commander_limit = 5
+		ai_creation_factor = 110
+		add_number_to_name = no
+	}
 }

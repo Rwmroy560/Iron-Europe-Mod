@@ -142,8 +142,7 @@
   holder = 110918204
 }
 1993.5.14 = {
-  holder = 114774539
-}
-2008.5.14 = {
-  holder = 118475071
+  holder = 100014498
+  name = "Gaza Strip"
+  liege = d_hamas
 }

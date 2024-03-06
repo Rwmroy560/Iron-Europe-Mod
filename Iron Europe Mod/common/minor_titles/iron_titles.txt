@@ -32,7 +32,6 @@ title_auth_elector = {
 	show_as_title = no
 	realm_in_name = yes
 	opinion_effect = 30
-	is_voter = yes
 	revoke_allowed = yes
 	
 	monthly_salary = 5

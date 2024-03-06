@@ -1,3 +1,27 @@
+title_regent;Vice President;;;x
+title_appointed_regent;Vice President;;;x
+title_appointed_regent_desc;official or executive ranking below and deputizing for a president.;;;x
+title_commander;General;;;x
+title_keeper_of_swans;Economic Advisor;;;x
+title_keeper_of_swans_desc;Economic Advisers is charged with advising the President on economic policy based on data, research, and evidence.;;;x
+title_master_of_the_horse;Interior Minister;;;x
+title_master_of_the_horse_desc;An interior minister is a cabinet official position that is responsible for internal affairs, such as public security, civil registration and identification, emergency management, supervision of regional and local governments, conduct of elections, public administration and immigration matters.;;;x
+title_master_of_the_hunt;Military Advisor;;;x
+title_master_of_the_hunt_desc;Military advisors or combat advisors are military personnel deployed to advise on military matters.;;;x
+
+
+gov_electorial_aristocratic_monarchy;Unitary Parliamentary Republic;;;x
+gov_electorial_aristocratic_monarchy_norse;Unitary Parliamentary Republic;;;x
+gov_elective_muslim_aristocratic_monarchy;Islamic Republic;;;x
+gov_hereditary_aristocratic_monarchy;Constitutional Monarchy;;;x
+gov_electorial_despotic_monarchy;One Party State;;;x
+gov_elective_muslim_despotic_monarchy;One Party State;;;x
+gov_hereditary_despotic_monarchy;Hereditary Autocracy;;;x
+gov_electorial_absolute_monarchy;Presidential Republic;;;x
+gov_african_eldership;Military Dictatorship;;;x
+gov_african_chiefdom;Military Dictatorship;;;x
+
+
 france_help;Recieved French Assistance;;;x
 d_islamic_sahel;Islamic State Sahel;;;x
 title_auth_elector;Potential Successor;;;x
@@ -8,8 +32,12 @@ SEC_GEN;Secretary-General;;;x
 best_interests;Not My War;;;x
 REPRES;Representative;;;x
 OLIGARCH;Oligarch;;;x
+ca_irregular_base;Irregular Force Base;;;x
+ca_irregular_base_desc;A network of bases used by irregular forces to conduct operations.;;;x
 ask_france_help;Ask for French Assistance;;;x
 ask_france_help_desc;You may ask your former colonial master France for assistance in your wars.;;;x
+ca_intricate_tunnel;Intricate Tunnels;;;x
+ca_intricate_tunnel_desc;Deep, intricate web of underground tunnels used to smuggle and transport aid and weapons. Can make sieges difficult.;;;x
 nazi_soldiers;Wehrmacht;;;x
 ca_nazi_base;National Socialist Training Camp;;;x
 ca_nazi_base_desc;A base to train, equip, and indoctrinate a new class of warrior.;;;x
@@ -141,6 +169,44 @@ STAT_PIETY_POLI_WILL;Political Will;;;;x
 STAT_PIETY_MENU_POLI_WILL;Political Will;;;x
 STAT_PIETY_DESC_POLI_WILL;Political will is defined as "the extent of committed support among key decision makers for a particular policy solution to a particular problem." It is also considered by political scientist Linn Hammergren to be "the slipperiest concept in the policy lexicon.";;;x
 
+#Israel
+provoke_hamas;Provoke Hamas;;;x
+provoke_hamas_desc;Try to provoke Hamas into attacking you and give you a reason to go to war.;;;x
+provoking_conflict;Provoking Conflict;;;x
+demand_justice;Citizens Demanding Justice;;;x
+palestine_war;Liberate Palestine;;;x
+CB_NAME_FREE_PALESTINE;Free Palestine!;;;;;;;;;;;;;x
+WAR_NAME_FREE_PALESTINE;$ORDER$ $FIRST_ADJ$ Liberation of Palestine;;;;;;;;;;;;;x
+palestine_war_desc;So-called 'Israelis' occupy the sacred land of Palestine. Inshallah, we will drive them back to the sea and take our land back!;;;;;;;;;;;;;x
+b_darum;Gaza;;;x
+
+israel_war;Invade Gaza Strip;;;x
+CB_NAME_PUNISH_PALESTINE;Anti-Hamas Operation;;;x
+WAR_NAME_PUNISH_PALESTINE;;$ORDER$ $FIRST_ADJ$ Invasion of the Gaza Strip;;;;;;;;;;;;;x
+
+
+EVTDESCisrael_hamas.0;The Gaza Strip has been an obstacle for many years. However, in order to enact your plans you need Hamas to attack you first to justify your next move. Mossad agents have been tasked with starting this provocation...;;;x
+EVTOPTAisrael_hamas.0;And now we wait...;;;x
+
+EVTDESCisrael_hamas.1;In a move totally surprising to everyone, Hamas has launched an attack and declared war on the State of Israel! You must now lead the country to victory.;;;x
+EVTOPTAisrael_hamas.1;Let the games truly begin!;;;x
+
+EVTDESCisrael_hamas.2;Hamas has decided to launch rockets at Israel in retaliation for your provocations. Fortunately, the Iron Dome destroyed most of them. Your people call for restraint rather than revenge.;;;x
+EVTOPTAisrael_hamas.2;They will pay for this in due time...;;;x
+
+EVTDESCconvert;Hamas has been defeated and now it is up to you to decide the fate of the Gaza Strip and its people. What will you do?;;;x
+EVTOPTAconvert;Imprison their leaders and destroy the infrastructure;;;x
+conv1;Arrest the leader of Hamas and leave the Gaza Strip in ruins for the forseeable future.;;;x
+EVTOPTBconvert;Annex the Strip and expel the Palestinians;;;x
+conv2;Annex the Gaza Strip and forcibly remove the Palestinian residents, giving Israeli settlers free reign to take the land.;;;x
+EVTOPTCconvert;Take the land and people;;;x
+conv3;Annex the Gaza Strip and make the residents official Israeli Citizens.;;;x
+EVTOPTDconvert;Give Gaza to the Palestinian Authority;;;x 
+conv4;Place the Gaza Strip under the administration of the Palestinian Authority. The residents may not like it but that will no longer be your problem.;;;x
+EVTOPTEconvert;Remove Hamas and leave the Strip;;;x
+conv5;Dismantle Hamas as a political force and leave the Gaza Strip.;;;x
+settlement_punish;This settlement has been destroyed and left in ruins;;;x
+sinocide_gaza;War Criminal;;;x
 
 EVTDESCiron_century.1;Prosperity cannot reach all corners of your country. Young men, disenfranchised from the state and radicalized by religion, have decided to take up arms against you and all that is good.;;;x
 EVTAiron_century.1;We don't negotiate with terrorists!;;;x

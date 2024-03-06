@@ -78,6 +78,7 @@ spriteTypes = {
 						portrait_religion = republican
 						portrait_religion = democrat
 						portrait_religion = orthodox
+						portrait_religion = jewish
 						}
 					}
 				}

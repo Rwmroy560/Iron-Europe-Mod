@@ -12,53 +12,53 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "westerngfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "southerngfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "mesoamericangfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "easterngfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 
 	pdxmesh = {
 		name = "indiangfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "chinesegfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "valyriangfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "westvalyriangfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "republicsgfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 	pdxmesh = {
 		name = "africangfx_GALLEYS"
-		file = "gfx\models\fighter.mesh"
+		file = "gfx\models\transport.mesh"
 		scale = 1.50f
 	}
 

@@ -696,7 +696,7 @@
 }
 100000174 = {
   name = Bernadotte
-  culture = swedish
+  culture = Swedish
 }
 100000175 = {
   name = Didi
@@ -824,7 +824,7 @@
 }
 100000206 = {
   name = Romanov
-  culture = russian
+  culture = Russan
 }
 100000207 = {
   name = Lenin
@@ -2792,7 +2792,7 @@
 }
 100000698 = {
   name = Yousef
-  culture = kurdish
+  culture = Kurdish
 }
 100000699 = {
   name = Arafat

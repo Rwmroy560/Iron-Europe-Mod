@@ -160,7 +160,7 @@
   liege = k_israel
 }
 1969.2.4 = {
-  name = "Palestine"
+  name = "West Bank"
   adjective = "Palestinian"
   liege = k_palestine
   holder = 100014475

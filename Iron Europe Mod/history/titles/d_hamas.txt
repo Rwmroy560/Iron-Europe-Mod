@@ -1,0 +1,7 @@
+1991.1.1 = {
+  name = "Hamas"
+  adjective = "Palestinian"
+  holder = 100014498
+  law = army_professionalism_law_2
+}
+

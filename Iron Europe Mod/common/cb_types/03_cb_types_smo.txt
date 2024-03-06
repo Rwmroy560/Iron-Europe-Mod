@@ -15,7 +15,6 @@ colony_war = {
 	allowed_to_target_suzerains = no
 
 	can_use_gui = {
-		year >= 2014
 		ROOT = {
 			culture = russian
 		}
@@ -181,10 +180,5 @@ colony_war = {
 	
 	ai_will_do = { 
 		factor = 1
-		
-		modifier = {
-			factor = 0.1
-			year < 2020
-		}
 	}
 }
